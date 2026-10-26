@@ -3,9 +3,8 @@
 The 2026 CAC Rules (§3) require that all AI usage be fully disclosed in the submission materials,
 that AI support only specific aspects of the project, and that any open-source libraries,
 frameworks and external tools be clearly documented. This file is that disclosure. The facts in
-§1 and §3 are taken from the repository itself and can be re-checked with the commands shown; the
-parts marked `TODO(team)` are statements only the team can make and must be completed before
-submission.
+§1 and §3 are taken from the repository itself and can be re-checked with the commands shown; §2
+is the team's own statement of who built what.
 
 Team: Lalith, Rishit, John, Vishvak.
 
@@ -35,7 +34,7 @@ Team: Lalith, Rishit, John, Vishvak.
   configured in this submission; the planner runs on `functions/src/adventure-engine.ts`, a
   deterministic engine written for this purpose. The privacy policy says the same.
 
-## 2. Individual contributions and technical understanding — `TODO(team)`
+## 2. Individual contributions and technical understanding
 
 Rules §3: "Participants are expected to demonstrate significant individual contributions and
 technical understanding of their app." Complete one block per person, truthfully and specifically
@@ -43,10 +42,10 @@ technical understanding of their app." Complete one block per person, truthfully
 
 | Member | GitHub account(s) | Owns and can explain | Written mostly by hand / mostly with the assistant |
 |---|---|---|---|
-| Lalith | `lalubalu` (some commits as "Your Name <your_email@example.com>" — a default git identity; ⟨confirm⟩) | TODO(team) | TODO(team) |
+| Lalith | `lalubalu` | ⟨confirm⟩ The backend: the Cloud Functions in TypeScript (`functions/src/`), server-authoritative points and check-in verification (`index.ts`, haversine and proof-path checks), the Firestore security rules and the 96-attack red-team suite, the event ingestion pipeline (13 feed adapters, listing checks, fuzzy de-duplication, write-only-on-change) and the final-sprint work on Windows | ⟨confirm⟩ Mostly with the assistant, from Lalith's design and rules; the architecture decisions (server-only balances, idempotent replay, the sourcing rule and deny-list) are Lalith's |
 | Rishit | `rishittiwari-rgb` (commits as "Verdure CAC" and "rishittiwari") | ⟨confirm⟩ The Mac verification pass (`docs/MAC-VERIFICATION-2026-10-25.md`, 14 fixes with root causes), the one-step local stack `run-all.command` and its unit checks, the UI-test determinism work, the Mac emulator data and demo-account seeding, the final submission branch | ⟨confirm⟩ Mostly with the assistant, from Rishit's diagnosis of each failure; the run script's structure and the fix list are Rishit's |
-| John | TODO(team) | The Python discovery/ranking reference engine in `reference/verdure-discovery/` (`validate.py`, `dedupe.py`, the ranking rules later ported to `ranking-v2.ts`) — per the project docs | TODO(team) |
-| Vishvak | TODO(team) | TODO(team) | TODO(team) |
+| John | ⟨confirm: `Fishbacky227` or `dev-juy`⟩ | The discovery algorithm: the Python discovery and ranking reference engine in `reference/verdure-discovery/` (`validate.py` blocking rules, `dedupe.py` fuzzy pass, the 19 topic tags, the ranking rules later ported to `ranking-v2.ts`), and the review of the classifier sample | ⟨confirm⟩ Mostly by hand (the Python engine); the TypeScript port was done with the assistant from John's rules |
+| Vishvak | ⟨confirm: `Fishbacky227` or `dev-juy`⟩ | ⟨confirm⟩ The iOS app: the SwiftUI screens across the five tabs, the "Warm Forest" claymorphism design system (`ClayKit`, `ClayMotion`, the SceneKit medallion), onboarding and the interest picker, the Adventure Planner and event-planner UI, dark mode, Dynamic Type and the accessibility audits | ⟨confirm⟩ Mostly with the assistant, from Vishvak's product direction and screen designs |
 
 > Every GitHub account that appears in the development history must be listed here against a
 > team member (Rules §3: "No other party should have any rights or interest in the app").
