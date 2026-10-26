@@ -42,8 +42,8 @@ technical understanding of their app." Complete one block per person, truthfully
 
 | Member | GitHub account(s) | Owns and can explain | Written mostly by hand / mostly with the assistant |
 |---|---|---|---|
-| Lalith | `lalubalu` | TODO(team) | TODO(team) |
-| Rishit | `rishittiwari-rgb` (commits as "Verdure CAC") | TODO(team) — e.g. the Mac verification pass, `run-all.command`, the UI-test determinism work | TODO(team) |
+| Lalith | `lalubalu` (some commits as "Your Name <your_email@example.com>" — a default git identity; ⟨confirm⟩) | TODO(team) | TODO(team) |
+| Rishit | `rishittiwari-rgb` (commits as "Verdure CAC" and "rishittiwari") | ⟨confirm⟩ The Mac verification pass (`docs/MAC-VERIFICATION-2026-10-25.md`, 14 fixes with root causes), the one-step local stack `run-all.command` and its unit checks, the UI-test determinism work, the Mac emulator data and demo-account seeding, the final submission branch | ⟨confirm⟩ Mostly with the assistant, from Rishit's diagnosis of each failure; the run script's structure and the fix list are Rishit's |
 | John | TODO(team) | The Python discovery/ranking reference engine in `reference/verdure-discovery/` (`validate.py`, `dedupe.py`, the ranking rules later ported to `ranking-v2.ts`) — per the project docs | TODO(team) |
 | Vishvak | TODO(team) — **if Vishvak is the `vaiybhav` account that authored the first 92 commits (March–August 2026, "Connectify"), state it here** | TODO(team) | TODO(team) |
 
