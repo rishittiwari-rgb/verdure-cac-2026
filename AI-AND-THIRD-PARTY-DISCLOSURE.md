@@ -46,11 +46,10 @@ technical understanding of their app." Complete one block per person, truthfully
 | Lalith | `lalubalu` (some commits as "Your Name <your_email@example.com>" — a default git identity; ⟨confirm⟩) | TODO(team) | TODO(team) |
 | Rishit | `rishittiwari-rgb` (commits as "Verdure CAC" and "rishittiwari") | ⟨confirm⟩ The Mac verification pass (`docs/MAC-VERIFICATION-2026-10-25.md`, 14 fixes with root causes), the one-step local stack `run-all.command` and its unit checks, the UI-test determinism work, the Mac emulator data and demo-account seeding, the final submission branch | ⟨confirm⟩ Mostly with the assistant, from Rishit's diagnosis of each failure; the run script's structure and the fix list are Rishit's |
 | John | TODO(team) | The Python discovery/ranking reference engine in `reference/verdure-discovery/` (`validate.py`, `dedupe.py`, the ranking rules later ported to `ranking-v2.ts`) — per the project docs | TODO(team) |
-| Vishvak | TODO(team) — **if Vishvak is the `vaiybhav` account that authored the first 92 commits (March–August 2026, "Connectify"), state it here** | TODO(team) | TODO(team) |
+| Vishvak | TODO(team) | TODO(team) | TODO(team) |
 
-> If the `vaiybhav` account is **not** a team member, this table must instead say who that
-> person is, exactly which code of theirs remains, and that they have assigned all rights in it to
-> the team (Rules §3: "No other party should have any rights or interest in the app").
+> Every GitHub account that appears in the development history must be listed here against a
+> team member (Rules §3: "No other party should have any rights or interest in the app").
 
 ## 3. Open-source libraries, frameworks, data and tools
 
