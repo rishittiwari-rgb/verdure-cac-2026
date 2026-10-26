@@ -31,16 +31,23 @@ jobs:
       - name: Install XcodeGen
         run: brew install xcodegen
 
-      # Secrets.xcconfig is gitignored (it holds API keys). CI only needs the
-      # file to exist with the expected keys — providers with empty values
-      # disable themselves, and the tests run on sample/cached data anyway.
-      - name: Create placeholder Secrets.xcconfig
+      # Secrets.xcconfig and GoogleService-Info.plist are gitignored (they hold keys). CI only
+      # needs them to exist: providers with empty keys disable themselves, the tests run on
+      # sample/cached data, and the Firebase SDK accepts placeholders as long as the API key is
+      # 39 characters starting with "A" and the app id is well-formed (the same placeholders
+      # run-all.command writes for a fresh clone).
+      - name: Create placeholder Secrets.xcconfig and GoogleService-Info.plist
         working-directory: Verdure
         run: |
           cat > Secrets.xcconfig <<'EOF'
           NPS_API_KEY =
           RECREATION_GOV_KEY =
           EOF
+          sed -e 's/YOUR_FIREBASE_API_KEY/A_local_emulator_placeholder_key_000000/' -e 's/YOUR_GCM_SENDER_ID/000000000000/' \
+              -e 's/YOUR_PROJECT_ID/connectify-19dd8/' -e 's/YOUR_STORAGE_BUCKET/connectify-19dd8.appspot.com/' \
+              -e 's#YOUR_GOOGLE_APP_ID#1:000000000000:ios:0000000000000000#' \
+              Verdure/GoogleService-Info.plist.template > Verdure/GoogleService-Info.plist
+          plutil -lint Verdure/GoogleService-Info.plist
 
       - name: Generate Xcode project
         working-directory: Verdure
