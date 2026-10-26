@@ -17,6 +17,7 @@ outside into real rewards.
 ## For Congressional App Challenge judges (CA-10, 2026)
 
 - **Team:** Lalith, Rishit, John, Vishvak.
+- **Source code:** this repository, `https://github.com/rishittiwari-rgb/verdure-cac-2026` (public).
 - **Demonstration video (≤ 3 min):** [TEAM: paste the public YouTube/Vimeo link before submitting]
 - **What it is, in one sentence:** Verdure rewards people for going outside and showing up at
   real local parks and community events, verified by location and photo.

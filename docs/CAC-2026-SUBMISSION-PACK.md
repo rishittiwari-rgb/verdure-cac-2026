@@ -135,7 +135,7 @@ We can walk a judge through any file in this repository and explain why it is th
 | Languages | Swift, TypeScript, Python |
 | Tools | Xcode, XcodeGen, SwiftUI, SceneKit, MapKit, Firebase (Auth, Firestore, Functions, Storage, Messaging), Firebase Local Emulator Suite, Node.js |
 | Video URL | [TEAM: public YouTube/Vimeo link] |
-| Source code URL | `https://github.com/lalubalu/appc` branch `cac-submission` (clean history) — or `CAC-handoff` once public |
+| Source code URL | `https://github.com/rishittiwari-rgb/verdure-cac-2026` (public; clean history, passes the secret scan) |
 | AI disclosure | `AI-AND-THIRD-PARTY-DISCLOSURE.md` in the repo root; one sentence in the video at 1:50 |
 | Open-source / third-party | same file, §3 |
 | Team | Lalith, Rishit, John, Vishvak |
