@@ -86,9 +86,6 @@ try {
   writeFileSync(native, 'db.collection("events").whereField("active", isEqualTo: true).whereField("date", isGreaterThanOrEqualTo: now).order(by: "date").getDocuments()');
   test('new Swift file requires documentation', () => assert.throws(() => checkDocument(inventory(root), c, d), /Undocumented/));
   rmSync(native);
-  const web = join(root, 'Verdure-website--main/src/NewQuery.ts'); writeFileSync(web, 'import {where,query} from "firebase/firestore"; query(ref,where("active","==",true));');
-  test('new Web SDK query is rejected before silently bypassing inventory', () => assert.throws(() => inventory(root), /Modular Firestore/));
-  rmSync(web);
   const cli = join(root, 'functions/scripts/new-query.mjs'); writeFileSync(cli, base);
   test('new operational query script requires explicit inventory inclusion', () => assert.throws(() => inventory(root), /Uninventoried operational/));
   rmSync(cli);

@@ -95,7 +95,7 @@ try {
  check("abandoned generation and nested partial records pruned",!(await abandoned.get()).exists&&!(await abandoned.collection("features").doc("partial").get()).exists);
  check("active complete generation survives pruning",(await db.doc(`parkGenerations/${good.runId}`).get()).exists);
  if(origin){
-  const {chromium}=await import("../../Verdure-website--main/node_modules/playwright-core/index.mjs");
+  const {chromium}=await import("playwright-core").catch(()=>{ throw new Error("parks-e2e needs playwright-core: run `npm i --no-save playwright-core` in functions/"); });
   await fetch(`${origin}/admin`); // Compile page before creating a new browser.
   browser=await chromium.launch({executablePath:"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",headless:true});
   context=await browser.newContext({viewport:{width:1280,height:900}});

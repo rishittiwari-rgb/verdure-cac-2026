@@ -5,7 +5,7 @@ import ts from 'typescript';
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-export const SOURCE_ROOTS = ['functions/src', 'Verdure/Verdure', 'Verdure-website--main/src'];
+export const SOURCE_ROOTS = ['functions/src', 'Verdure/Verdure'];
 export const TOOL_SOURCES = ['backfill-classify.mjs', 'list-low-confidence.mjs', 'coverage-check.mjs', 'audit-volunteer-supply-local.mjs', 'baseline.mjs', 'backfill-annotate.mjs', 'demo-investor-local.mjs', 'outdoor-supply.mjs'];
 const builders = new Set(['where', 'orderBy']);
 const passthrough = new Set(['limit', 'limitToLast', 'offset', 'select', 'startAt', 'startAfter', 'endAt', 'endBefore', 'count', 'get']);

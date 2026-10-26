@@ -3,7 +3,7 @@ import XCTest
 
 /// Licence credits that must ship: OpenStreetMap (ODbL) on every surface that lists
 /// `osm-` places, Open-Meteo (CC BY 4.0) wherever the planner shows weather, and the
-/// "Data and acknowledgements" section in Terms, mirrored on the website.
+/// "Data and acknowledgements" section in Terms.
 final class DataCreditTests: XCTestCase {
     private func source(_ relative: String) throws -> String {
         let repo = URL(fileURLWithPath: #filePath)
@@ -19,10 +19,6 @@ final class DataCreditTests: XCTestCase {
         XCTAssertTrue(section.body.contains("© OpenStreetMap contributors"))
         XCTAssertTrue(section.body.contains("openstreetmap.org/copyright"))
         XCTAssertTrue(section.body.contains("Open-Meteo.com"))
-        let web = try source("Verdure-website--main/src/lib/legal.ts")
-        XCTAssertTrue(web.contains("\"title\": \"Data and acknowledgements\""), "website Terms must mirror the app")
-        XCTAssertTrue(web.contains("© OpenStreetMap contributors"))
-        XCTAssertTrue(web.contains("Open-Meteo.com"))
     }
 
     func testOpenStreetMapCreditLinksToCopyrightPage() throws {
