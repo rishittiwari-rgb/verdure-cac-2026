@@ -13,9 +13,7 @@ Verdure is a community-centered iOS app that revives outdoor spaces and strength
 ## Repository Structure
 
 ```
-Verdure Website/           — Marketing website (Next.js, claymorphism, Three.js logo)
 Verdure Logo.png           — Brand logo (compass + leaf)
-PROMPT.md                  — Original website redesign brief
 
 Verdure/                   — Xcode project container (XcodeGen)
   project.yml              — XcodeGen spec (name/target/bundle = Verdure)
@@ -184,7 +182,7 @@ emulator**, not production. Live facts, re-checkable any time with the command b
 | Billing plan | ❌ **Spark** (`billingEnabled: false`) — Functions *cannot* deploy until Blaze |
 
 **The backend stack is Firebase, not Supabase.** Supabase is the *marketing
-website* only (`Verdure-website--main/`). The iOS app has zero Supabase code:
+website* only (kept in a separate repository, not here). The iOS app has zero Supabase code:
 its SwiftPM deps are FirebaseAuth/Firestore/Functions/Storage and it ships a
 `GoogleService-Info.plist`. There is no migration branch, stash, or plan. Do not
 act on a belief that the app moved to Supabase — it did not.

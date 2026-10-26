@@ -22,7 +22,7 @@ named on screen. Keep the app full-frame; put the speaker in a small corner wind
 | 0:00–0:08 | Title card: **Verdure — Step Outside. Connect Within.** Four name cards: Lalith, Rishit, John, Vishvak. | "Hi, we're Lalith, Rishit, John and Vishvak, and this is Verdure." |
 | 0:08–0:16 | App icon → onboarding (`demo-screens/01`). | "Verdure gets people out of the house and into their own neighbourhood by rewarding them for actually showing up at real parks and real community events." *(the one-sentence purpose)* |
 | 0:16–0:22 | Interest picker (`02-onboarding-interests`). | "It's built for students and young adults who want to go outside more but never know what's on nearby — and for parents looking for things to do with their kids." |
-| 0:22–0:35 | Quick architecture card: iPhone app · Cloud Functions · Firestore · civic feeds. | "It's a native iOS app written in **Swift** with SwiftUI, SceneKit and MapKit. The server is **TypeScript** on Firebase Cloud Functions with Firestore. Our event-discovery research engine is in **Python**, and the marketing site is **JavaScript** with Next.js. We'll show you the code in a moment." |
+| 0:22–0:35 | Quick architecture card: iPhone app · Cloud Functions · Firestore · civic feeds. | "It's a native iOS app written in **Swift** with SwiftUI, SceneKit and MapKit. The server is **TypeScript** on Firebase Cloud Functions with Firestore. Our event-discovery research engine is in **Python**. We'll show you the code in a moment." |
 | 0:35–0:55 | Events feed (`04`, `05`): scroll the For You slate; tap a card; show "Why you're seeing this" (`07`). | "Every event you see is real. Verdure ingests public calendars from libraries, universities, the city and open-space districts — nineteen sources, about eight and a half thousand events for the South Bay — and never scrapes a site whose terms forbid it. The feed is ranked to your interests, and every card can tell you why it's there." |
 | 0:55–1:15 | Event detail → **Check in**: location gate, proof photo, points awarded. | "To earn points you have to be there. Check-in needs your GPS within 500 feet **and** a photo, and the server verifies both before a single point is credited. The phone can't mint points — Firestore rules deny it, and we red-teamed that with ninety-six attacks." |
 | 1:15–1:30 | Places tab → place detail with the OpenStreetMap credit (`09`, `10`, `11`) → Map (`12`). | "Places come from OpenStreetMap, the National Park Service and Recreation.gov. Collect one by walking up to it — rarity from a common city park to a legendary overlook. We show nothing we can't source: no made-up ratings, no fake attendee counts." |
@@ -132,8 +132,8 @@ We can walk a judge through any file in this repository and explain why it is th
 |---|---|
 | App name | Verdure |
 | Platform | iOS (iPhone), iOS 17+ |
-| Languages | Swift, TypeScript, Python, JavaScript |
-| Tools | Xcode, XcodeGen, SwiftUI, SceneKit, MapKit, Firebase (Auth, Firestore, Functions, Storage, Messaging), Firebase Local Emulator Suite, Node.js, Next.js |
+| Languages | Swift, TypeScript, Python |
+| Tools | Xcode, XcodeGen, SwiftUI, SceneKit, MapKit, Firebase (Auth, Firestore, Functions, Storage, Messaging), Firebase Local Emulator Suite, Node.js |
 | Video URL | [TEAM: public YouTube/Vimeo link] |
 | Source code URL | `https://github.com/lalubalu/appc` branch `cac-submission` (clean history) — or `CAC-handoff` once public |
 | AI disclosure | `AI-AND-THIRD-PARTY-DISCLOSURE.md` in the repo root; one sentence in the video at 1:50 |

@@ -21,7 +21,7 @@ outside into real rewards.
 - **What it is, in one sentence:** Verdure rewards people for going outside and showing up at
   real local parks and community events, verified by location and photo.
 - **Languages:** Swift (iOS app), TypeScript (Cloud Functions), Python (discovery reference
-  engine), JavaScript/TSX (website).
+  engine).
 - **AI assistance and third-party code:** fully disclosed in
   [`AI-AND-THIRD-PARTY-DISCLOSURE.md`](AI-AND-THIRD-PARTY-DISCLOSURE.md).
 - **Run it yourself (Mac, Xcode 16+, Java 21, Node 20+):** `./run-all.command` starts the
@@ -69,9 +69,9 @@ Two rules shape most of the code:
 
 | | |
 |---|---|
-| **Languages** | Swift (iOS app), TypeScript (Cloud Functions, Node 20), JavaScript/React (website), Python (the discovery reference engine in `reference/`) |
+| **Languages** | Swift (iOS app), TypeScript (Cloud Functions, Node 20), Python (the discovery reference engine in `reference/`) |
 | **Apple frameworks** | SwiftUI, SceneKit, MapKit, CoreLocation, CoreMotion, PhotosUI, StoreKit 2 |
-| **Libraries** | Firebase iOS SDK (Auth, Firestore, Functions, Storage, Messaging, Crashlytics); `firebase-admin`, `firebase-functions`, `@apple/app-store-server-library`, `sharp`; website: Next.js, React, Supabase JS, Lenis, lucide-react, Vercel Analytics |
+| **Libraries** | Firebase iOS SDK (Auth, Firestore, Functions, Storage, Messaging, Crashlytics); `firebase-admin`, `firebase-functions`, `@apple/app-store-server-library`, `sharp` |
 | **Data** | OpenStreetMap (ODbL), Open-Meteo (CC BY 4.0), National Park Service and Recreation.gov APIs, public library, university, city and open-space calendars — credited in the app under Terms → Data and acknowledgements |
 | **Fonts** | Fredoka and Rubik (SIL Open Font License) |
 | **Tools** | Xcode, XcodeGen, Firebase Local Emulator Suite, Node/npm |
@@ -99,7 +99,6 @@ functions/                  Cloud Functions (TypeScript, Node 20) — all point 
   test-fixtures/            Recorded feeds and the 11,603-record corpus (tests never hit the internet)
 docs/                       Surveys, audits, baselines, READ-BUDGET.md, GO-LIVE-CHECKLIST.md, sprint reports
 reference/verdure-discovery/  John's Python engine, staged for porting
-Verdure Website/            Next.js marketing site (also hosts /privacy and /support)
 AppStore/                   Submission pack: listing copy, screenshots
 firestore.rules             Production lockdown (incl. minor protection on /events)
 firestore.indexes.json      Composite indexes — checked against every query shape by npm run check:indexes

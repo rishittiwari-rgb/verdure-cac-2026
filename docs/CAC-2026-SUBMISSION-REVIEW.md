@@ -45,22 +45,22 @@ questions, register everyone, and the entry can score 5/5/5.
 
 | # | Criterion | Finding | Action |
 |---|---|---|---|
-| B1 | **Video content → all three rubric lines.** Judges score from the video and the answers (Rules §7.1). | The script must say the **languages** out loud: Swift, TypeScript, Python, JavaScript/TSX. The 2018 rubric gives **Skill = 5 only for "multiple text-based programming languages"**; a judge who does not hear them cannot award it. | Script §1 names them at 0:22 and shows a code screen at 1:50. |
+| B1 | **Video content → all three rubric lines.** Judges score from the video and the answers (Rules §7.1). | The script must say the **languages** out loud: Swift, TypeScript, Python. The 2018 rubric gives **Skill = 5 only for "multiple text-based programming languages"**; a judge who does not hear them cannot award it. | Script §1 names them at 0:22 and shows a code screen at 1:50. |
 | B2 | **Concept (1–5): "Does the app address a specific problem? How creative is the solution?"** | The README leads with features, not the problem. | Open the video and Q2/Q3 with the problem in one sentence (people, especially teens, do not go outside or meet neighbours; event sites list, they do not get you there), then the three things no listing app does: proof-of-attendance rewards, an honest never-fabricated feed from civic sources, and a planner that works with no AI key. |
 | B3 | **Design (1–5): "Did the student consider the user experience and interface? How intuitive is the UI?"** | Strong material exists but is scattered: claymorphism system, light/dark, Dynamic Type, 15/15 Apple accessibility audits, honest empty states, "Why you're seeing this" reasons, OpenStreetMap/Open-Meteo credits in-app. | Show the onboarding → For You → event detail → check-in path in one continuous take; cut to dark mode and large text for 5 s each; say "15 of 15 accessibility audits pass". |
 | B4 | **Skill (1–5)**: judges reward understanding, not line counts. | Backend numbers (E2E 363/363, red team 96 blocked, 161 iOS unit tests) are credible, but a judge will ask "what was hard". | Q4 draft gives one concrete bug with cause and fix (the interest term that was 0 for every user, or the server-authoritative points with idempotent replay). Whoever presents it must be able to explain it without notes. |
 | B5 | **Open-source documentation** (Rules §3): "they must clearly document any such usage". | README "Built with" table lists frameworks but not licences, and the Python reference engine's requirements are not mentioned. | `AI-AND-THIRD-PARTY-DISCLOSURE.md` §3 lists every dependency with its licence; link it from the submission's "additional information" field. |
 | B6 | **Honesty of claims in the submission.** | README and verification doc are accurate (one UI test is reported as intermittent, 6 of 8). Keep it that way. | Do not say "all tests pass" anywhere; say "every suite green except one intermittent UI test, reported as such". Do not call the planner "AI-powered" (the repo already removed those claims in item 1.3). |
-| B7 | **Repository first impression.** | The root has `PROMPT.md`, `Visual-Revamp-Handoff.md`, `Verdure Subscription Model - Google Docs.pdf`, and `CLAUDE.md` as the largest doc — a judge opening the repo sees AI-process files before the app. | The README now opens with a judges' section (video link, how to run, disclosure, team). Leave the process files in place — removing them would contradict the disclosure. |
+| B7 | **Repository first impression.** | The root has `Visual-Revamp-Handoff.md`, `Verdure Subscription Model - Google Docs.pdf`, and `CLAUDE.md` as the largest doc — a judge opening the repo sees AI-process files before the app. | The README now opens with a judges' section (video link, how to run, disclosure, team). Leave the process files in place — removing them would contradict the disclosure. |
 
 ## C. Already compliant — nothing to change
 
 | Rule / criterion | Evidence |
 |---|---|
-| Topic, platform, language free (§3) | iOS app in Swift; backend in TypeScript; reference engine in Python; website in TSX. |
+| Topic, platform, language free (§3) | iOS app in Swift; backend in TypeScript; reference engine in Python. |
 | Functionality (§3) | Fresh-install walkthrough UI test 6/6 with screenshots (`demo-screens/01`–`20`); backend E2E 363/363 on the emulator; `run-all.command` brings up the whole stack. |
 | Content suitability (§3) | Every stored event carries `adultOnly`; Firestore rules deny minors and signed-out clients any adult-only listing; no scraped source whose terms prohibit it; Google/Meetup/Facebook/Eventbrite/ACTIVE refused in code; attributions for OpenStreetMap (ODbL), Open-Meteo, NPS, Recreation.gov shown in-app. |
-| Privacy rights of third parties (§3) | Privacy policy in-app and on the website; proof photos stored under the user's own path with ownership rules; birth-year age safeguard at sign-up; no fabricated ratings, counts or hours. |
+| Privacy rights of third parties (§3) | Privacy policy in-app (and at verdure-app.com/privacy); proof photos stored under the user's own path with ownership rules; birth-year age safeguard at sign-up; no fabricated ratings, counts or hours. |
 | Created after 2025-10-30 (§1) | First commit 2026-03-22. |
 | Team ≤ 4 (§1) | Four. |
 | Judges' three criteria (§7.2) | Idea, implementation/UX, coding skill — all evidenced; see B1–B4 for how to present them. |
@@ -71,7 +71,7 @@ questions, register everyone, and the entry can score 5/5/5.
 |---|---|---|---|
 | Concept | 4 | **5** | The problem statement and the three differentiators are not said anywhere a judge reads first. |
 | Design | 4 | **5** | The design system, accessibility audits and honest empty states exist; the video has to show them. |
-| Skill | 3–4 | **5** | Four text-based languages and a real server; but with undisclosed AI co-authorship on every commit a judge may discount it to the floor. Full disclosure plus a teammate explaining a hard bug restores it. |
+| Skill | 3–4 | **5** | Three text-based languages and a real server; but with undisclosed AI co-authorship on every commit a judge may discount it to the floor. Full disclosure plus a teammate explaining a hard bug restores it. |
 
 ## E. Timeline for tonight (Pacific)
 

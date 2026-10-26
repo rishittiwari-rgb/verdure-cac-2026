@@ -60,13 +60,6 @@ technical understanding of their app." Complete one block per person, truthfully
 | `@apple/app-store-server-library` | Verdure+ entitlement verification | MIT |
 | `sharp` | proof-photo processing | Apache-2.0 |
 | `firebase` (Local Emulator Suite), `typescript` | development/testing | Apache-2.0 |
-| Next.js, React, React DOM | marketing website | MIT |
-| `@supabase/supabase-js`, `@supabase/ssr` | website account/submission forms (website only; the app does not use Supabase) | MIT |
-| `@vercel/analytics` | website analytics | MIT |
-| `three`, `@react-three/fiber`, `@react-three/drei` | website 3D logo | MIT |
-| `gsap` | website animation | GreenSock standard "no charge" licence |
-| `lenis` | website smooth scroll | MIT |
-| `lucide-react` | website icons | ISC |
 | Python: `requests`, `PyYAML`, `python-dateutil`, `icalendar`, `recurring-ical-events`, `tzdata`, `pytest` | reference discovery engine | Apache-2.0 / MIT / Apache-2.0 / BSD / MIT / Apache-2.0 / MIT |
 | Fredoka, Rubik fonts | app typography | SIL Open Font License 1.1 |
 | Apple frameworks: SwiftUI, SceneKit, MapKit, CoreLocation, CoreMotion, PhotosUI, StoreKit 2 | app | Apple SDK |
