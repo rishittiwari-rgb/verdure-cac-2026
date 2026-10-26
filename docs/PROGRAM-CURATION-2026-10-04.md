@@ -58,7 +58,7 @@ accounts, matching, RSVP, attendance check-in or Program points.
 | Corrected native Program UI | 1 passed: actual sign-in, 50-mile radius, current-supply chip, real poster tap, official-listing control, no attendance controls, accessibility audit |
 | Final offline adjustment | Fresh focused native run: 1 deadline/year-transition unit and 1 actual download/relaunch/stored-event/trail/storage UI journey passed |
 | Website | Fresh production build, typecheck and lint passed; 18 legal/pricing/app parity and production-page checks passed |
-| Freeze | `check-classifier-freeze.mjs` passed; no changes to `ranking.ts` or `CLAUDE.md` |
+| Freeze | `check-classifier-freeze.mjs` passed; no changes to `ranking.ts` or `PROJECT-NOTES.md` |
 
 The failed native attempt is preserved in
 `evidence/program-native-units-and-ui-attempt-2026-10-04.json`. Corrected UI and

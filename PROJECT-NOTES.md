@@ -1,6 +1,6 @@
-# CLAUDE.md
+# Project notes
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+Architecture, design system, backend rules, deploy status and the changelog, kept as one file so that the whole project can be read in one place.
 
 ## Project Overview
 

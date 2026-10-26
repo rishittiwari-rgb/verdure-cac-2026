@@ -3,7 +3,7 @@
 Built locally in `Verdure-website--main/` (the live Next.js 15 site: it has
 `src/app/api`, `src/app/admin` and `supabase/`; `Verdure Website/` is the older
 marketing site and was not touched). **Not deployed.** Nothing in this
-workstream changes Firebase, rules, indexes, env flags or `CLAUDE.md`.
+workstream changes Firebase, rules, indexes, env flags or `PROJECT-NOTES.md`.
 
 ## What it does
 
@@ -78,7 +78,7 @@ body gets a sentence naming the limits).
 
 Not verified here: an end-to-end click-through against the Functions emulator
 (this brief forbids running emulators) and the production Functions URL (not
-deployed; see DEPLOY STATUS in `CLAUDE.md`). To exercise the form locally, run
+deployed; see DEPLOY STATUS in `PROJECT-NOTES.md`). To exercise the form locally, run
 the Functions emulator from the repo root, put
 `NEXT_PUBLIC_VERDURE_FUNCTIONS_URL=http://127.0.0.1:5001/connectify-19dd8/us-central1`
 in `.env.local`, and `npm run dev`.

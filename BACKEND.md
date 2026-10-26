@@ -7,7 +7,7 @@ implemented, and the steps only you can do (deploy + account-level setup).
 > setup notes and several of them are done (steps 2 and 3: the bundle id was
 > re-registered on 2026-07-20 and the rules lockdown + client callables shipped
 > on 2026-07-19). The live deploy state is only ever read from the DEPLOY
-> STATUS table in `CLAUDE.md`, and the ordered paid launch steps are in
+> STATUS table in `PROJECT-NOTES.md`, and the ordered paid launch steps are in
 > `docs/GO-LIVE-CHECKLIST.md`. What exists now beyond the table below:
 >
 > - **Callables / HTTP** exported from `functions/src/index.ts`: points

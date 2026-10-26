@@ -3,7 +3,7 @@
 Written 2026-10-20 against branch `codex/rishit-handoff-2026-09-27`. Nothing on
 this page has been done: **no purchase has been made, nothing is deployed, no
 environment flag has been flipped.** The live project is still on Spark with 0
-functions and no Storage bucket (see the DEPLOY STATUS table in `CLAUDE.md`,
+functions and no Storage bucket (see the DEPLOY STATUS table in `PROJECT-NOTES.md`,
 which is the only authority on live state). Every row names a cost, an owner
 *role*, and the exact command that proves the step landed. Rows marked
 **COSTS MONEY** cannot be run by an engineer alone; they need the account
@@ -87,7 +87,7 @@ npx firebase-tools@13 functions:list           # non-empty; includes ingestCivic
 
 Do not trust the deploy output alone: the `functions:list` and
 `firestore:rules:get` reads are the proof, and the DEPLOY STATUS table in
-`CLAUDE.md` is updated only from those reads.
+`PROJECT-NOTES.md` is updated only from those reads.
 
 ## First-week checks (after step 12)
 

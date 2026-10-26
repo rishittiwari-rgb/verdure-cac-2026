@@ -314,7 +314,7 @@ Captured at Apple's required 6.9" size (1320 × 2868) in `screenshots/6.9-inch/`
       with localized display names, and attach them to the app
 - [ ] Upgrade Firebase to Blaze and deploy Functions + Storage — **without this
       no check-in ever credits points and no proof photo uploads** (see the
-      DEPLOY STATUS table in `CLAUDE.md`)
+      DEPLOY STATUS table in `PROJECT-NOTES.md`)
 - [x] Real gift-card fulfilment — **Tremendous integrated**
       (`functions/src/fulfillment.ts`): a trigger + 30-minute sweeper drain the
       `/fulfillments` queue, orders are idempotent on `external_id`, permanent

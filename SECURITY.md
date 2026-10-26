@@ -197,7 +197,7 @@ rejects missing proof, foreign proof, missing coordinates and out-of-range
 distance; the rate limiter trips exactly at its ceiling and is per-user.
 
 Live rules can be diffed against `firestore.rules` through the Firebase Rules
-REST API — see the DEPLOY STATUS section of `CLAUDE.md`.
+REST API — see the DEPLOY STATUS section of `PROJECT-NOTES.md`.
 
 ## Known gaps
 

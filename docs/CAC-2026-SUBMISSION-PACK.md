@@ -114,7 +114,7 @@ None of this is a rewrite. The hard parts, the server-side points, the real data
 ### Q7. If you used AI, tell us how you used it and what your team contributed directly.
 Yes, we used AI, and a lot of it. We want to be upfront about that rather than make it sound smaller than it was.
 
-The tool was Claude Code, Anthropic's command-line coding assistant, running against our repository. We used several Claude models over the project as new ones came out; every commit it touched carries a co-author line naming the model, so the exact record is in the git history. There is also a file in the repo root, CLAUDE.md, that we wrote and kept updating to tell it how the project works and what rules it must not break. Our full disclosure, including every open-source library we depend on, is in AI-AND-THIRD-PARTY-DISCLOSURE.md.
+The tool was Claude Code, Anthropic's command-line coding assistant, running against our repository. We used several Claude models over the project as new ones came out; every commit it touched carries a co-author line naming the model, so the exact record is in the git history. There is also a file in the repo root, PROJECT-NOTES.md, that we wrote and kept updating to tell it how the project works and what rules it must not break. Our full disclosure, including every open-source library we depend on, is in AI-AND-THIRD-PARTY-DISCLOSURE.md.
 
 What it helped with: typing out code we had already decided on, writing unit and end-to-end tests, porting logic between languages, and explaining errors. A large share of the Swift and TypeScript in the repository was first typed by Claude Code working from our instructions. It would be dishonest to call it a spell checker.
 

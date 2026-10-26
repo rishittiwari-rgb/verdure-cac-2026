@@ -20,7 +20,7 @@ This commit was made at the user's request before the final verification pass fi
 | W6.1 blind judge: both versions ranked, pooled, shuffled, blinded; OpenAI-compatible endpoint by URL, no key; cache; decision rule writes `functions/seed/ranking-config.json` | done; 42/42 unit checks against a local mock judge | `functions/scripts/rank-eval.mjs`, `rank-judge-mock.mjs`, `rank-eval-unit.mjs`, `docs/RANKING-EVAL.md`, `docs/RANKING-RESULT-2026-10-20.md` |
 | W7 acceptance script (discover → decide → ingest → dedupe → rank v2 → reasons → minor safety) | written, syntax-checked and dry-run loaded; **not executed** on the emulator | `functions/scripts/sprint-acceptance.mjs`, `npm run acceptance`, `docs/ACCEPTANCE.md` |
 | W7 go-live checklist (cost, owner, verify command per step) | done | `docs/GO-LIVE-CHECKLIST.md` |
-| W7 CLAUDE.md / README / BACKEND.md / QA.md currency pass (five tabs, SampleData gated, new modules, collections, commands); DEPLOY STATUS untouched; OpenStreetMap credit | done | `CLAUDE.md`, `README.md`, `BACKEND.md`, `QA.md`, `docs/FEED-SURVEY-SAN-JOSE.md` |
+| W7 PROJECT-NOTES.md / README / BACKEND.md / QA.md currency pass (five tabs, SampleData gated, new modules, collections, commands); DEPLOY STATUS untouched; OpenStreetMap credit | done | `PROJECT-NOTES.md`, `README.md`, `BACKEND.md`, `QA.md`, `docs/FEED-SURVEY-SAN-JOSE.md` |
 | W6.2 live self-tuning interleaving | **cut** (first on the cut list; needs real users) | — |
 | Baseline run #3 | **not run** before this commit (see section 4) | `npm run baseline` |
 

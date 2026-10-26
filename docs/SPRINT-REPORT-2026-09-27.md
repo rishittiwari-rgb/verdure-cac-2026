@@ -4,7 +4,7 @@ Date: 2026-09-27. Scope: the supplied 584-line “Verdure — Next Sprint”
 brief, applied to the Verdure iOS app in `Connectify App-iOS` and its Functions
 and website companions. This is a local engineering report, not a release
 certificate. No deploy, billing change, Apple Developer action, or production
-environment flip was performed. `CLAUDE.md` deploy status was left untouched.
+environment flip was performed. `PROJECT-NOTES.md` deploy status was left untouched.
 
 ## Verdict
 

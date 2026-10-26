@@ -65,4 +65,4 @@ There was also avoidable execution overhead. Several broad native runs failed la
 
 ## Delivery boundaries
 
-All work remains on the named branch. `functions/src/ranking.ts` and `CLAUDE.md` are unchanged across this sprint; the D1 classifier remains frozen. No production deploy, production data write, billing change, environment flip or key rotation was performed. GitHub delivery stores the branch and report; it is not a product deployment or physical acceptance result. The owner's untracked root `AGENTS.md` is excluded.
+All work remains on the named branch. `functions/src/ranking.ts` and `PROJECT-NOTES.md` are unchanged across this sprint; the D1 classifier remains frozen. No production deploy, production data write, billing change, environment flip or key rotation was performed. GitHub delivery stores the branch and report; it is not a product deployment or physical acceptance result. The owner's untracked root `AGENTS.md` is excluded.

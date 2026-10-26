@@ -21,14 +21,14 @@ Team: Lalith, Rishit, John, Vishvak.
 - **What the assistant was used for:** writing and refactoring Swift and TypeScript code from the
   team's specifications; writing unit, UI and emulator end-to-end tests; the Firestore rules and
   the red-team suite; diagnosing failing builds and tests; and writing project documentation
-  (`CLAUDE.md`, the sprint reports, `FINAL-REPORT.md`, the verification documents). `CLAUDE.md`
+  (`PROJECT-NOTES.md`, the sprint reports, `FINAL-REPORT.md`, the verification documents). `PROJECT-NOTES.md`
   is the standing instruction file the assistant reads at the start of every session and is kept
   in the repository deliberately so that the process is visible.
 - **What the assistant did not do:** choose the product, its rules or its architecture. The
   decisions that define Verdure — server-authoritative points, proof-of-attendance by GPS plus
   photo, "nothing fabricated", the civic-feed sourcing rule and the absolute deny-list, minor
   protection on adult-only events, the deterministic planner — were set by the team and are
-  recorded as instructions to the assistant in `CLAUDE.md` and the sprint briefs.
+  recorded as instructions to the assistant in `PROJECT-NOTES.md` and the sprint briefs.
 - **AI inside the product (separate from development):** the Adventure Planner can call
   Anthropic's API **only if** an operator configures a key (`ANTHROPIC_API_KEY`). No key is
   configured in this submission; the planner runs on `functions/src/adventure-engine.ts`, a

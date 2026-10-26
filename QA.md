@@ -3,7 +3,7 @@
 > **What is and isn't proven here.** Everything below runs on the simulator and
 > the Firebase Local Emulator Suite. It proves the code is correct; it does NOT
 > prove the product works, because **Cloud Functions and Storage are still not
-> deployed** (billing is Spark — see the DEPLOY STATUS table in `CLAUDE.md`).
+> deployed** (billing is Spark — see the DEPLOY STATUS table in `PROJECT-NOTES.md`).
 > The three things only real hardware and a live backend can settle are scripted
 > in `DEVICE-QA.md`, which is **written but unrun**.
 

@@ -3,7 +3,7 @@
 This is the **Verdure iOS app** in the directory named `Connectify App-iOS`.
 The source is the 584-line “Verdure — Next Sprint” brief supplied for this
 week. No production deployment, billing upgrade, Apple Developer action or
-environment switch has been performed. `CLAUDE.md` deploy status is untouched.
+environment switch has been performed. `PROJECT-NOTES.md` deploy status is untouched.
 
 ## Built locally
 

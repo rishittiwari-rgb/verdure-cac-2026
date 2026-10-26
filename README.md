@@ -76,7 +76,7 @@ Two rules shape most of the code:
 | **Data** | OpenStreetMap (ODbL), Open-Meteo (CC BY 4.0), National Park Service and Recreation.gov APIs, public library, university, city and open-space calendars — credited in the app under Terms → Data and acknowledgements |
 | **Fonts** | Fredoka and Rubik (SIL Open Font License) |
 | **Tools** | Xcode, XcodeGen, Firebase Local Emulator Suite, Node/npm |
-| **AI assistance** | Parts of the code, the tests and the documentation were written with an AI coding assistant (Claude Code); the sessions are recorded in [`CLAUDE.md`](CLAUDE.md), [`FINAL-REPORT.md`](FINAL-REPORT.md) and [`docs/MAC-VERIFICATION-2026-10-25.md`](docs/MAC-VERIFICATION-2026-10-25.md) |
+| **AI assistance** | Parts of the code, the tests and the documentation were written with an AI coding assistant (Claude Code); the sessions are recorded in [`PROJECT-NOTES.md`](PROJECT-NOTES.md), [`FINAL-REPORT.md`](FINAL-REPORT.md) and [`docs/MAC-VERIFICATION-2026-10-25.md`](docs/MAC-VERIFICATION-2026-10-25.md) |
 
 ## Architecture
 
@@ -184,7 +184,7 @@ UI tests inject deterministic state through launch arguments (`-QATab`,
 project is on the Spark plan and Functions require Blaze. Firestore rules *were*
 live as of 2026-08-09, but `firestore.rules` has changed since (minor
 protection, server-owned collections) and has not been redeployed. See the
-verified status table in [`CLAUDE.md`](CLAUDE.md) (DEPLOY STATUS) for the live
+verified status table in [`PROJECT-NOTES.md`](PROJECT-NOTES.md) (DEPLOY STATUS) for the live
 facts and how to re-check them, and
 [`docs/GO-LIVE-CHECKLIST.md`](docs/GO-LIVE-CHECKLIST.md) for the ordered paid
 steps with costs and owners. Nothing on that checklist has been started.
@@ -201,7 +201,7 @@ npx firebase-tools@13 deploy --only storage,functions   # needs Blaze + Storage 
 |---|---|
 | [`FINAL-REPORT.md`](FINAL-REPORT.md) | CAC 2026: every fix with its root cause and test, numbers before → after |
 | [`docs/MAC-VERIFICATION-2026-10-25.md`](docs/MAC-VERIFICATION-2026-10-25.md) | The Mac run: fixes, iOS results, screenshots, open items |
-| [`CLAUDE.md`](CLAUDE.md) | Architecture, design system, deploy status, changelog |
+| [`PROJECT-NOTES.md`](PROJECT-NOTES.md) | Architecture, design system, deploy status, changelog |
 | [`QA.md`](QA.md) | Test strategy, QA harness, known issues |
 | [`AppStore/LISTING.md`](AppStore/LISTING.md) | Listing copy, privacy label, review notes, blockers |
 | [`SECURITY.md`](SECURITY.md) | Threat model and the reasoning behind each control |

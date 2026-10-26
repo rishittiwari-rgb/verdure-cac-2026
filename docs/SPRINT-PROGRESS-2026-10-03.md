@@ -4,7 +4,7 @@ Scope: [the complete attached sprint](SPRINT-SCOPE-2026-10-03.txt). This tracker
 does not replace or narrow its requirements. Work remains on
 `codex/rishit-handoff-2026-09-27`. No deployments, production writes, billing
 changes, environment flips or key rotations. `ranking.ts` weights, signals and
-synonym map remain untouched; `CLAUDE.md` deploy status remains untouched.
+synonym map remain untouched; `PROJECT-NOTES.md` deploy status remains untouched.
 
 ## Requirement ledger
 

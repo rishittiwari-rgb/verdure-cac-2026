@@ -14,7 +14,7 @@ Measured 2026-09-26 23:04 PDT (2026-09-27 06:04 UTC), before the next-sprint sou
 | Breakdown by source | No rows |
 
 The live corpus is empty. Do not report an absent-from-Google percentage or use
-this baseline to choose a supply strategy. The 1,057-event figure in `CLAUDE.md`
+this baseline to choose a supply strategy. The 1,057-event figure in `PROJECT-NOTES.md`
 is from `scripts/ingest-smoke.mjs`, which fetches upstream sources without
 writing the live `events` collection.
 

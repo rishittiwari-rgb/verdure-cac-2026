@@ -41,7 +41,7 @@ the zip's tree on the shared base; merge commit `ada4950`):
 | `a7ca6e1` | 1.7 | `run-all.command` and a planner UI test (the latter later superseded) |
 | `a9030d6` | 1.6 | planner picks follow the ranking, Google Maps intake, acceptance reasons check, E2E planner checks |
 | `6d54d15` `ada4950` | merge | the Mac tree and its three-way merge |
-| `8edea91` `9c463d9` | 1.6 | museum terms fixture (discovery-unit 160/160), CLAUDE.md |
+| `8edea91` `9c463d9` | 1.6 | museum terms fixture (discovery-unit 160/160), PROJECT-NOTES.md |
 | `6f1734a` `3a36929` `0e42149` | 1.6 / 1.1 cause 5 | live discovery recording, five sources, corroboration rule, fresh corpus, www fallback, same-time alternatives |
 | `6d5e431` | — | final suite numbers (Windows) |
 | (Mac pass) | Mac | compile fix, OSM credit above the tab bar, map pill, `run-all.command` fixes, 304 reloads, test fixes, screenshots, Mac numbers (`docs/MAC-VERIFICATION-2026-10-25.md`) |

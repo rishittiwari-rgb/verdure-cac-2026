@@ -35,5 +35,5 @@ Output: a per-step pass/fail table, exit code 1 on any failure, and
 activated/rejected sources, duplicate rate, top-five per feed, reason samples, digest decision).
 
 Not covered here: Firestore rules as read by a minor client (covered by `npm run e2e`), the iOS
-surfaces (need a Mac), and anything live — the deploy status in `CLAUDE.md` is unchanged by this
+surfaces (need a Mac), and anything live — the deploy status in `PROJECT-NOTES.md` is unchanged by this
 script.
