@@ -60,7 +60,7 @@ fabricated: if a source does not publish a rating, an attendance count or openin
 shows nothing rather than a made-up number.
 
 ### Q3. What inspired you to create this app?
-We live in the South Bay, surrounded by parks, trails and free community events, and most people
+We live in the Bay Area, surrounded by parks, trails and free community events, and most people
 we know, including us, never go to any of them. ⟨confirm⟩ The information exists, but it is
 scattered across a dozen library, city, university and open-space calendars that nobody checks,
 and the apps that do list events stop at listing: nothing gets you out the door, and nothing

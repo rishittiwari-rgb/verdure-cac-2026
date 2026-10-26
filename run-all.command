@@ -103,8 +103,34 @@ fi
 
 if [ "$APP" -eq 1 ]; then
   say_step "App: xcodegen + Debug build for the simulator"
+  # A fresh clone has neither gitignored Firebase file. The local emulators accept placeholder
+  # values, so create both from their templates; a real GoogleService-Info.plist is only needed
+  # to run against the live project. Existing files are never touched.
+  if [ ! -f Verdure/Secrets.xcconfig ]; then
+    cp Verdure/Secrets.xcconfig.template Verdure/Secrets.xcconfig
+    echo "  Verdure/Secrets.xcconfig created from the template (placeholders; the emulators do not need keys)"
+  fi
+  if [ ! -f Verdure/Verdure/GoogleService-Info.plist ]; then
+    sed -e 's/YOUR_FIREBASE_API_KEY/local-emulator-placeholder-api-key/' -e 's/YOUR_GCM_SENDER_ID/000000000000/' \
+        -e 's/YOUR_PROJECT_ID/connectify-19dd8/' -e 's/YOUR_STORAGE_BUCKET/connectify-19dd8.appspot.com/' \
+        -e 's#YOUR_GOOGLE_APP_ID#1:000000000000:ios:0000000000000000#' \
+        Verdure/Verdure/GoogleService-Info.plist.template > Verdure/Verdure/GoogleService-Info.plist
+    echo "  Verdure/Verdure/GoogleService-Info.plist created from the template (emulator placeholders)"
+  fi
+  # The default simulator id is the one on the Mac this was verified on. On any other Mac, use
+  # the newest available iPhone (Pro preferred), or set VERDURE_SIMULATOR=<udid>.
+  if ! xcrun simctl list devices available | grep -q "$SIMULATOR"; then
+    PICK="$(xcrun simctl list devices available | grep -E '^ +iPhone [0-9]+ Pro \(' | tail -1)"
+    [ -n "$PICK" ] || PICK="$(xcrun simctl list devices available | grep -E '^ +iPhone' | tail -1)"
+    SIMULATOR="$(printf '%s' "$PICK" | sed -E 's/.*\(([0-9A-F-]{36})\).*/\1/')"
+    [ -n "$SIMULATOR" ] || fail "No iPhone simulator is installed (Xcode → Settings → Components), or set VERDURE_SIMULATOR=<udid>"
+    echo "  simulator: ${PICK# }"
+  fi
   (cd Verdure && xcodegen generate >"$LOG_DIR/xcodegen.log" 2>&1)
   xcrun simctl boot "$SIMULATOR" >/dev/null 2>&1 || true
+  # GPS at the seeded launch area (SJSU). The simulator keeps the last position a UI test set:
+  # after an offline test that is Minneapolis, and Places, the Map and distances showed it.
+  xcrun simctl location "$SIMULATOR" set 37.3352,-121.8811 >/dev/null 2>&1 || true
   open -a Simulator
   xcrun simctl status_bar "$SIMULATOR" override --time "9:41" --batteryState charged --batteryLevel 100 --cellularBars 4 --wifiBars 3 >/dev/null 2>&1 || true
   (cd Verdure && xcodebuild -project Verdure.xcodeproj -scheme Verdure -configuration Debug -destination "id=$SIMULATOR" \

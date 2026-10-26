@@ -24,9 +24,10 @@ outside into real rewards.
   engine), JavaScript/TSX (website).
 - **AI assistance and third-party code:** fully disclosed in
   [`AI-AND-THIRD-PARTY-DISCLOSURE.md`](AI-AND-THIRD-PARTY-DISCLOSURE.md).
-- **Run it yourself (Mac, Xcode 15+, Java 21, Node 20+):** `./run-all.command` starts the
+- **Run it yourself (Mac, Xcode 16+, Java 21, Node 20+):** `./run-all.command` starts the
   Firebase emulators with the saved data, loads the public events and park guides, and launches
-  the app in the simulator. Sign in as `demo-judge@example.test` / `local-demo-walkthrough`.
+  the app in the simulator. A fresh clone needs no keys: the script creates the two gitignored
+  Firebase config files from their templates with placeholder values, which the local emulators accept. Sign in as `demo-judge@example.test` / `local-demo-walkthrough`.
   The backend is not deployed to the cloud (see *Deploy status* below), so the app needs the local
   stack to show data. Screenshots of every screen are in [`demo-screens/`](demo-screens/).
 - **Where to read next:** [`docs/CAC-2026-SUBMISSION-REVIEW.md`](docs/CAC-2026-SUBMISSION-REVIEW.md)
@@ -140,6 +141,9 @@ guides and the demo accounts, then builds and launches the app on the simulator
 (needs Xcode and Java 21; the header lists its flags). Sign in as
 `demo-judge@example.test` / `local-demo-walkthrough`. Screenshots of every screen
 are in [`demo-screens/`](demo-screens/).
+
+With the stack running, ⌘R in Xcode also works: the scheme points the app at the
+local emulators and loads `Verdure.storekit` (local test products for Verdure+).
 
 ## Testing
 

@@ -134,6 +134,12 @@ schemes:
       # Local StoreKit testing for Verdure+ subscriptions (no App Store Connect needed
       # in the simulator). Remove this line to test against real ASC products.
       storeKitConfiguration: Verdure.storekit
+      # The backend is not deployed: a Debug run from Xcode talks to the local emulators that
+      # run-all.command starts (without these flags it would call the live, function-less
+      # project). Untick them in the scheme editor to run against the live project.
+      commandLineArguments:
+        "-QAUseFirestoreEmulator YES": true
+        "-QAEmulatorHost 127.0.0.1": true
     test:
       config: Debug
       targets:

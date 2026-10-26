@@ -44,6 +44,12 @@ check("every inline node module runs from functions/ and its failure is not sile
   assert.doesNotMatch(runAll, /2>\/dev\/null \|\| true/);
 });
 
+check("the simulator's GPS is set to the seeded launch area before the app launches", () => {
+  const set = runAll.indexOf('simctl location "$SIMULATOR" set 37.3352,-121.8811');
+  assert.ok(set > 0, "run-all.command must set the simulated location (a UI test may have left Minneapolis)");
+  assert.ok(set < runAll.indexOf('simctl launch "$SIMULATOR"'), "the location is set before the launch");
+});
+
 const bash = spawnSync("bash", ["--version"], { encoding: "utf8" });
 if (bash.status !== 0) {
   console.log("SKIP java21_bin checks: no bash on PATH (run from Git Bash on Windows)");
