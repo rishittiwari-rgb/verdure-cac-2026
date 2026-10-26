@@ -22,6 +22,7 @@ import XCTest
     // Actual server mutations, SDK status listeners and clock boundaries. No
     // client-side imitation of the server's status hash or eligibility policy.
     func testStaffChangesStockExpiryAndAccountClearCachedRewards() async throws {
+        try LocalStack.require()
         guard Firestore.firestore().settings.host == "127.0.0.1:8899", !Firestore.firestore().settings.isSSLEnabled else {
             throw XCTSkip("Requires the explicitly local Firebase test host.")
         }

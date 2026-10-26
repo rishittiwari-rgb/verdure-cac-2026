@@ -22,6 +22,7 @@ final class CoreLogicTests: XCTestCase {
     }
 
     func testVolunteerSupplyReadsCompletePublicCorpusBeyondFirstDiscoveryPage() async throws {
+        try LocalStack.require()
         try? Auth.auth().signOut()
         // Signed out = not a verified adult: rules (W2) only allow the adultOnly == false
         // shape, which is also exactly what EventsAPIService queries for this viewer.
@@ -86,6 +87,7 @@ final class CoreLogicTests: XCTestCase {
     }
 
     func testProgramActualSDKEligibilityFullSupplyAccountChangeAndDeepLinks() async throws {
+        try LocalStack.require()
         let auth = Auth.auth()
         try await auth.signIn(withEmail: "program-native-adult@example.test", password: "local-program-native-only")
         defer { try? auth.signOut() }
@@ -131,6 +133,7 @@ final class CoreLogicTests: XCTestCase {
     }
 
     func testOfflinePackActualSDKDownloadPersistenceIsolationAndDeletion() async throws {
+        try LocalStack.require()
         let auth = Auth.auth()
         try await auth.signIn(withEmail: "offline-native-plus@example.test", password: "local-offline-native-only")
         defer { NetworkStatus.shared.forceOfflineForTesting = false; NetworkStatus.shared.forceWiFiForTesting = false; try? auth.signOut() }
@@ -181,6 +184,7 @@ final class CoreLogicTests: XCTestCase {
     }
 
     func testOfflinePackWiFiRefreshReplacesOnlyACompleteDownloadAndKeepsPlaces() async throws {
+        try LocalStack.require()
         let auth = Auth.auth()
         try await auth.signIn(withEmail: "offline-native-plus@example.test", password: "local-offline-native-only")
         defer { NetworkStatus.shared.forceOfflineForTesting = false; NetworkStatus.shared.forceWiFiForTesting = false; try? auth.signOut() }
@@ -216,6 +220,7 @@ final class CoreLogicTests: XCTestCase {
     }
 
     func testOfflinePackFreeAccountRefusedByActualSDKAndActionsDoNotMutate() async throws {
+        try LocalStack.require()
         let auth = Auth.auth()
         try await auth.signIn(withEmail: "offline-native-free@example.test", password: "local-offline-native-only")
         defer { NetworkStatus.shared.forceOfflineForTesting = false; try? auth.signOut() }
@@ -275,6 +280,7 @@ final class CoreLogicTests: XCTestCase {
     }
 
     func testParkGuideLoadsRealCatalogThroughLocalCallableSDK() async throws {
+        try LocalStack.require()
         let service = ParkGuideService()
         await service.load(around: .init(latitude: 37.335, longitude: -121.89), radiusMiles: 2, force: true)
         XCTAssertNil(service.lastError)
@@ -290,7 +296,8 @@ final class CoreLogicTests: XCTestCase {
         XCTAssertNotNil(guide.park.geometry)
     }
 
-    func testParkCatalogRequestSurvivesCallerNavigationCancellation() async {
+    func testParkCatalogRequestSurvivesCallerNavigationCancellation() async throws {
+        try LocalStack.require()
         let service = ParkGuideService()
         let task = Task { await service.load(around: .init(latitude: 37.335, longitude: -121.89), radiusMiles: 2, force: true) }
         await Task.yield()
@@ -360,6 +367,7 @@ final class CoreLogicTests: XCTestCase {
     /// The auth listener (and with it the first For You fetch) fires at createUser, before the
     /// profile exists. The refetch signal must come only once the picks are actually stored.
     func testSignupSignalsProfileSavedOnlyAfterInterestsAreStored() async throws {
+        try LocalStack.require()
         guard Firestore.firestore().settings.host == "127.0.0.1:8899", !Firestore.firestore().settings.isSSLEnabled else {
             throw XCTSkip("Requires the explicitly local Firebase test host.")
         }

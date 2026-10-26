@@ -7,6 +7,7 @@ import XCTest
 /// friends' RSVPs. Runs against the seeded demo account (scripts/demo-investor-local.mjs).
 @MainActor final class FriendsUpcomingTests: XCTestCase {
     func testGoingSoonListsTheEventsFriendsRSVPdTo() async throws {
+        try LocalStack.require()
         guard Firestore.firestore().settings.host == "127.0.0.1:8899" else {
             throw XCTSkip("Requires the explicitly local Firebase test host.")
         }

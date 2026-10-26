@@ -11,6 +11,7 @@
 		03080FC7C56A209231878BF2 /* FriendsUpcomingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A379F0B66DD009F5AA8188 /* FriendsUpcomingTests.swift */; };
 		0315B14A9E2039CF66DA1330 /* OrganizerVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3F67EDF9828ADE46D44C8E /* OrganizerVerificationView.swift */; };
 		031B1A9A522396A3D027E259 /* AdventurePlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A0F79585FF85230ACA757 /* AdventurePlannerView.swift */; };
+		036DA1D29E1F613CDB305934 /* LocalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61ACA5F6FD6CDC21C159074 /* LocalStack.swift */; };
 		07526A4C6F0E4742B5C51163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E052E70BACF86711D3588EC5 /* Assets.xcassets */; };
 		081EBB67A58FCE16DD4B1E8E /* OpenStreetMapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6F0EF79B9C922C63CB4BC /* OpenStreetMapData.swift */; };
 		0C2D6D46C303E4085FB98D68 /* NotificationPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3839B31C15EF3A824DD5F394 /* NotificationPreferences.swift */; };
@@ -33,6 +34,7 @@
 		303F0CA473AA2ADD463B4C32 /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6765B53003FF95283C4E70 /* FirestoreService.swift */; };
 		33D33531905F5270B96D2943 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8F363A9957A893687367F5 /* AuthService.swift */; };
 		39578ECFE7FFB1588E325F16 /* ClayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A77B898877DEEFE5C437CB /* ClayKit.swift */; };
+		39DEC4925FD0C5304DA6A249 /* LocalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877C73E4231F05AF35016D71 /* LocalStack.swift */; };
 		3C085C148D129B61009A4F66 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66DC58FCDC00DEBEB66622 /* ProfileView.swift */; };
 		3D4864F708A7EA16207E57BD /* SafetyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3677973E4FBE986890AE081 /* SafetyView.swift */; };
 		3EE6EEE3597774ABB9E1BA9F /* PartnerDiscoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786043F375E5F42DE705BBF5 /* PartnerDiscoveryTests.swift */; };
@@ -228,6 +230,7 @@
 		81F40A37A550632C633DC63A /* Legal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legal.swift; sourceTree = "<group>"; };
 		84511E9E4D1E47B0C6EE8166 /* CloudMergeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudMergeTests.swift; sourceTree = "<group>"; };
 		8628F2F6B8B8168D599B7772 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		877C73E4231F05AF35016D71 /* LocalStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStack.swift; sourceTree = "<group>"; };
 		87F07F03961C7624432B9C95 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		89F3F94B1DC77849E053033C /* GamificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamificationTests.swift; sourceTree = "<group>"; };
 		8A48355233BE096B7859FF1C /* osm-snapshot-san-jose.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "osm-snapshot-san-jose.json"; sourceTree = "<group>"; };
@@ -266,6 +269,7 @@
 		CD9F31EA3280E44A96A10CE8 /* NotificationPreferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPreferencesTests.swift; sourceTree = "<group>"; };
 		CDA2284A6B35E4A2E91E27B0 /* PartnerSurfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnerSurfaceTests.swift; sourceTree = "<group>"; };
 		D5EB68A5D8435A5909D0E134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D61ACA5F6FD6CDC21C159074 /* LocalStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStack.swift; sourceTree = "<group>"; };
 		D8B65E6B23E210EBB4EC195C /* DiscoveryFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryFilters.swift; sourceTree = "<group>"; };
 		D8E8418A5C7A73270C491DFB /* ProfileDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailViews.swift; sourceTree = "<group>"; };
 		DEA9F386EB5E937576F7F17A /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
@@ -378,6 +382,7 @@
 				7E8AA3B18E6C9848485231B0 /* ExploreBetaUITests.swift */,
 				03A7624DC05E120CBE8C96D2 /* JourneyTests.swift */,
 				3BC8C787DD648D8977CF0634 /* LivePartnerConsentUITests.swift */,
+				D61ACA5F6FD6CDC21C159074 /* LocalStack.swift */,
 				5A9E3135B56C45C07DD19D1B /* OnboardingRegressionUITests.swift */,
 				CDA2284A6B35E4A2E91E27B0 /* PartnerSurfaceTests.swift */,
 				26DCA78C93F07DD3E9A76580 /* PlaceStoryUITests.swift */,
@@ -427,6 +432,7 @@
 				F78B4B0C2A812A0AB3F50868 /* GameStateManagerTests.swift */,
 				89F3F94B1DC77849E053033C /* GamificationTests.swift */,
 				0756CECF5FCD5688FB7BA774 /* LimitedTimeRewardTests.swift */,
+				877C73E4231F05AF35016D71 /* LocalStack.swift */,
 				21A4E010F8A488E3FFFBEB0C /* NearbyPlacesTests.swift */,
 				CD9F31EA3280E44A96A10CE8 /* NotificationPreferencesTests.swift */,
 				786043F375E5F42DE705BBF5 /* PartnerDiscoveryTests.swift */,
@@ -799,6 +805,7 @@
 				101D21BC8455BA306CF3A299 /* ExploreBetaUITests.swift in Sources */,
 				0CC32ACF6D62DA1CD17B34BC /* JourneyTests.swift in Sources */,
 				A476DC34FD6E733BCC32786C /* LivePartnerConsentUITests.swift in Sources */,
+				036DA1D29E1F613CDB305934 /* LocalStack.swift in Sources */,
 				CF2CBA4076B4CADFA9B7EC87 /* OnboardingRegressionUITests.swift in Sources */,
 				F6D334329D99AA7CA85E8310 /* PartnerSurfaceTests.swift in Sources */,
 				504F9C0284DFFA0EDD58EB3E /* PlaceStoryUITests.swift in Sources */,
@@ -822,6 +829,7 @@
 				EF3E1857F9BBB36768778D30 /* GameStateManagerTests.swift in Sources */,
 				287495546C45A38C8332E713 /* GamificationTests.swift in Sources */,
 				AB5104D5D8BFCE915694098B /* LimitedTimeRewardTests.swift in Sources */,
+				39DEC4925FD0C5304DA6A249 /* LocalStack.swift in Sources */,
 				8C92798B82342980495E31E2 /* NearbyPlacesTests.swift in Sources */,
 				69CDB2CAB52E000AE9E39E26 /* NotificationPreferencesTests.swift in Sources */,
 				3EE6EEE3597774ABB9E1BA9F /* PartnerDiscoveryTests.swift in Sources */,

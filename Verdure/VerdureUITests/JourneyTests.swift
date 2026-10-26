@@ -8,6 +8,7 @@ import XCTest
 @MainActor
 final class JourneyTests: XCTestCase {
     func testCuratedProgramActualSignInChipAndOfficialListingDetail() throws {
+        try LocalStack.require()
         var app = QA.launch(tab: "profile", extraArguments: ["-QAOfflineData", "NO", "-QAUseFirestoreEmulator", "YES", "-QAResetAuth", "YES"])
         let signIn = app.buttons["profileSignIn"]
         QA.reveal(signIn, in: app)
@@ -91,6 +92,7 @@ final class JourneyTests: XCTestCase {
     }
 
     func testOfflinePackSignInSizeDownloadRelaunchAndStoredTrailView() throws {
+        try LocalStack.require()
         var app = QA.launch(tab: "profile", extraArguments: ["-QAOfflineData", "NO", "-QAUseFirestoreEmulator", "YES", "-QAResetAuth", "YES"])
         let signIn = app.buttons["profileSignIn"]
         QA.reveal(signIn, in: app)
@@ -157,6 +159,7 @@ final class JourneyTests: XCTestCase {
     }
 
     func testParkTrailMapShowsOfficialNoticeWithoutRouteGuidance() throws {
+        try LocalStack.require()
         let app = QA.launch(tab: "explore", extraArguments: ["-QAOfflineData", "NO", "-QAUseFirestoreEmulator", "YES"])
         let directory = app.buttons["parkDirectory"]
         QA.reveal(directory, in: app, maxSwipes: 4)
@@ -183,6 +186,7 @@ final class JourneyTests: XCTestCase {
     }
 
     func testSourceBackedParkGuideRespectsClosedStatusAndAttribution() throws {
+        try LocalStack.require()
         let app = QA.launch(tab: "explore", extraArguments: ["-QAOfflineData", "NO", "-QAUseFirestoreEmulator", "YES"])
         let directory = app.buttons["parkDirectory"]
         QA.reveal(directory, in: app, maxSwipes: 4)

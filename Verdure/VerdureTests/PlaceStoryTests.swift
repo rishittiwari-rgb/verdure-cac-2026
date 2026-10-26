@@ -6,6 +6,7 @@ import XCTest
 
 @MainActor final class PlaceStoryTests: XCTestCase {
     func testConnectedOwnerEditingGuestReadAndLiveWithdrawal() async throws {
+        try LocalStack.require()
         guard Firestore.firestore().settings.host == "127.0.0.1:8899", !Firestore.firestore().settings.isSSLEnabled else {
             throw XCTSkip("Requires local Firebase native story fixture.")
         }

@@ -18,7 +18,7 @@ outside into real rewards.
 
 - **Team:** Lalith, Rishit, John, Vishvak.
 - **Source code:** this repository, `https://github.com/rishittiwari-rgb/verdure-cac-2026` (public).
-- **Demonstration video (≤ 3 min):** [TEAM: paste the public YouTube/Vimeo link before submitting]
+- **Demonstration video (≤ 3 min):** https://www.youtube.com/watch?v=yDhVs7lKrbY
 - **What it is, in one sentence:** Verdure rewards people for going outside and showing up at
   real local parks and community events, verified by location and photo.
 - **Languages:** Swift (iOS app), TypeScript (Cloud Functions), Python (discovery reference
