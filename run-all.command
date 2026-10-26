@@ -105,13 +105,15 @@ if [ "$APP" -eq 1 ]; then
   say_step "App: xcodegen + Debug build for the simulator"
   # A fresh clone has neither gitignored Firebase file. The local emulators accept placeholder
   # values, so create both from their templates; a real GoogleService-Info.plist is only needed
-  # to run against the live project. Existing files are never touched.
+  # to run against the live project. Existing files are never touched. The Firebase SDK aborts
+  # at launch unless the API key is 39 characters starting with "A" and the app id is well-formed,
+  # so the placeholders keep those shapes (they are not keys and open nothing).
   if [ ! -f Verdure/Secrets.xcconfig ]; then
     cp Verdure/Secrets.xcconfig.template Verdure/Secrets.xcconfig
     echo "  Verdure/Secrets.xcconfig created from the template (placeholders; the emulators do not need keys)"
   fi
   if [ ! -f Verdure/Verdure/GoogleService-Info.plist ]; then
-    sed -e 's/YOUR_FIREBASE_API_KEY/local-emulator-placeholder-api-key/' -e 's/YOUR_GCM_SENDER_ID/000000000000/' \
+    sed -e 's/YOUR_FIREBASE_API_KEY/A_local_emulator_placeholder_key_000000/' -e 's/YOUR_GCM_SENDER_ID/000000000000/' \
         -e 's/YOUR_PROJECT_ID/connectify-19dd8/' -e 's/YOUR_STORAGE_BUCKET/connectify-19dd8.appspot.com/' \
         -e 's#YOUR_GOOGLE_APP_ID#1:000000000000:ios:0000000000000000#' \
         Verdure/Verdure/GoogleService-Info.plist.template > Verdure/Verdure/GoogleService-Info.plist
