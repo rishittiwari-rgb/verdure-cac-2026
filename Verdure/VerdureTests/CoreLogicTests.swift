@@ -515,6 +515,7 @@ final class CoreLogicTests: XCTestCase {
 
 final class LivePartnerWakeTests: XCTestCase {
     @MainActor func testAuthRestorationConnectsWithoutForegroundViewAndSignOutClearsEligibility() async throws {
+        try LocalStack.require()
         XCTAssertEqual(Firestore.firestore().settings.host, "127.0.0.1:8899")
         try Auth.auth().signOut()
         let service = LivePartnerAlerts()
