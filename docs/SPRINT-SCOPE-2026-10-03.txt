@@ -356,7 +356,7 @@ App tested on two physical iPhones; every item recorded as passed, fixed or unte
 Every compound query mapped to an index in docs/FIRESTORE-INDEXES.md; missing indexes added; a check fails on undocumented compound queries
 Crashlytics reporting readable crashes from a physical device; privacy copy updated in the same change
 iOS, backend unit, end-to-end and red-team suites all green
-CLAUDE.md DEPLOY STATUS untouched; nothing deployed
+PROJECT-NOTES.md DEPLOY STATUS untouched; nothing deployed
 
 Ground rules
 No paid membership is assumed. Anything requiring it is out of scope and recorded as untested.
