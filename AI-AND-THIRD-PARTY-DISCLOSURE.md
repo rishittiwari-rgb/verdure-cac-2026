@@ -14,10 +14,11 @@ Team: Lalith, Rishit, John, Vishvak.
 - **Tool:** Claude Code (Anthropic's command-line coding assistant), used interactively by team
   members on their own machines. Models recorded in commit trailers: Claude Opus 4.6, 4.8, 5 and
   5.5, Claude Sonnet 4.6, Claude Fable 5 and 5.1.
-- **Extent, by the history:** in the submitted history every commit carries a
-  `Co-Authored-By: Claude …` trailer (30 of 30 as of 2026-10-25); in the original development
-  repository 88 of 130 commits do (`git log --format=%B | grep -c Co-Authored-By`).
-  The remaining 42 commits there (March–August 2026) were made without the assistant.
+- **Extent, by the history:** this submission repository is a squashed export of the
+  development tree made on 2026-10-25, so its own commits are not a record of who typed what.
+  In the development repository, 88 of 130 commits carry a `Co-Authored-By: Claude …` trailer
+  (`git log --format=%B | grep -c Co-Authored-By`); the remaining 42 (March–August 2026) were
+  made without the assistant. The development repository is available to the judges on request.
 - **What the assistant was used for:** writing and refactoring Swift and TypeScript code from the
   team's specifications; writing unit, UI and emulator end-to-end tests; the Firestore rules and
   the red-team suite; diagnosing failing builds and tests; and writing project documentation
@@ -72,6 +73,6 @@ technical understanding of their app." Complete one block per person, truthfully
 No code was copied from another app or template. Re-check at any time:
 
 ```bash
-git log --format=%B | grep -c "Co-Authored-By: Claude"     # AI co-authored commits
+git log --format=%B | grep -c "Co-Authored-By: Claude"     # AI co-authored commits (in the development repository)
 node functions/scripts/check-no-secrets.mjs --history       # no key material in history
 ```
