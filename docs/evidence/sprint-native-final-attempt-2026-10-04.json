@@ -1,0 +1,90 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName" : "iPhone 16 Plus",
+        "modelName" : "iPhone 16 Plus",
+        "osBuildNumber" : "22E238",
+        "osVersion" : "18.4",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 5,
+      "passedTests" : 170,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "Verdure · Built with macOS 15.6.1",
+  "expectedFailures" : 0,
+  "failedTests" : 5,
+  "finishTime" : 1791137710.894,
+  "passedTests" : 170,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1791136718.66,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertEqual failed: (\"Optional(\"Fictional native UI story written by its verified organizer.Fictional edited text; no local history claim.\")\") is not equal to (\"Optional(\"Fictional native UI story written by its verified organizer.\")\")",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 165,
+      "testIdentifierString" : "PlaceStoryUITests/testApprovedOwnerEditsVerifiedPlace()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/PlaceStoryUITests/testApprovedOwnerEditsVerifiedPlace",
+      "testName" : "testApprovedOwnerEditsVerifiedPlace()"
+    },
+    {
+      "failureText" : "Failed to application com.verdure-app.verdure is not running",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 147,
+      "testIdentifierString" : "JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail",
+      "testName" : "testCuratedProgramActualSignInChipAndOfficialListingDetail()"
+    },
+    {
+      "failureText" : "XCTAssertTrue failed - expected gem splash title to appear",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 149,
+      "testIdentifierString" : "JourneyTests/testDailyGemRevealFromExplore()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testDailyGemRevealFromExplore",
+      "testName" : "testDailyGemRevealFromExplore()"
+    },
+    {
+      "failureText" : "XCTAssertTrue failed - expected first timeline event row to appear",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 151,
+      "testIdentifierString" : "JourneyTests/testEventDetailShowsProofRequirement()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testEventDetailShowsProofRequirement",
+      "testName" : "testEventDetailShowsProofRequirement()"
+    },
+    {
+      "failureText" : "XCTAssertTrue failed - expected verified sample plan stop to appear",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 157,
+      "testIdentifierString" : "JourneyTests/testPlanRendersVerifiedOfflineFixtureAsCard()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testPlanRendersVerifiedOfflineFixtureAsCard",
+      "testName" : "testPlanRendersVerifiedOfflineFixtureAsCard()"
+    }
+  ],
+  "title" : "Test - Verdure",
+  "topInsights" : [
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "16% of duration",
+      "text" : "1 longest test run with outlier durations exceeding 84.38s (three standard deviations)"
+    },
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "60% of duration",
+      "text" : "2 longest test runs with outlier durations exceeding 5.62s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 175
+}

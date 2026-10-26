@@ -1,0 +1,12 @@
+{
+  "status": "unsigned-device-target-build-passed",
+  "sourceCommit": "706e1eef57bdf18bd97358464607a5c3547c88dd",
+  "architecture": "arm64",
+  "binaryUUID": "UUID: 7D3F243B-CFA3-355D-A25D-790F5A1A3100 (arm64) /tmp/verdure-physical-build-20261004/Build/Products/Debug-iphoneos/Verdure.app/Verdure",
+  "dSYMUUID": "UUID: 7D3F243B-CFA3-355D-A25D-790F5A1A3100 (arm64) /tmp/verdure-physical-build-20261004/Build/Products/Debug-iphoneos/Verdure.app.dSYM/Contents/Resources/DWARF/Verdure",
+  "codeSigningEnabled": false,
+  "crashSymbolUploadEnabled": false,
+  "physicalInstallation": "UNTESTED",
+  "physicalCrashDelivery": "UNTESTED",
+  "command": "xcodebuild -quiet -project Verdure.xcodeproj -scheme Verdure -configuration Debug -destination 'generic/platform=iOS' -derivedDataPath /tmp/verdure-physical-build-20261004 -clonedSourcePackagesDirPath /Users/<developer>/Library/Developer/Xcode/DerivedData/Verdure-ckiamburgvzsnwebbwligimtlijt/SourcePackages CODE_SIGNING_ALLOWED=NO VERDURE_UPLOAD_CRASH_SYMBOLS=NO build"
+}

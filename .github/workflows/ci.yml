@@ -1,0 +1,219 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ── iOS: build + unit/UI/accessibility tests ──────────────────────────────
+  ios:
+    name: iOS tests
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      # Pick the newest Xcode the runner image actually has, rather than pinning
+      # a path that silently disappears when the image is updated.
+      - name: Select newest Xcode
+        run: |
+          latest=$(ls -d /Applications/Xcode*.app | sort -V | tail -1)
+          echo "Using $latest"
+          sudo xcode-select -switch "$latest"
+          xcodebuild -version
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      # Secrets.xcconfig is gitignored (it holds API keys). CI only needs the
+      # file to exist with the expected keys — providers with empty values
+      # disable themselves, and the tests run on sample/cached data anyway.
+      - name: Create placeholder Secrets.xcconfig
+        working-directory: Verdure
+        run: |
+          cat > Secrets.xcconfig <<'EOF'
+          NPS_API_KEY =
+          RECREATION_GOV_KEY =
+          EOF
+
+      - name: Generate Xcode project
+        working-directory: Verdure
+        run: xcodegen generate
+
+      - name: Cache SwiftPM
+        uses: actions/cache@v4
+        with:
+          path: ~/Library/Developer/Xcode/DerivedData/**/SourcePackages
+          key: ${{ runner.os }}-spm-${{ hashFiles('Verdure/project.yml') }}
+          restore-keys: ${{ runner.os }}-spm-
+
+      # Unit + UI + accessibility audits. UI tests inject deterministic state
+      # via launch arguments (see QA.md), so no network or real data is needed.
+      - name: Resolve simulator destination
+        id: sim
+        run: |
+          DEST='platform=iOS Simulator,name=iPhone 16 Pro'
+          if ! xcrun simctl list devices available | grep -q "iPhone 16 Pro ("; then
+            NAME=$(xcrun simctl list devices available \
+              | grep -oE 'iPhone [0-9]+[^(]*' | tail -1 | sed 's/ *$//')
+            echo "iPhone 16 Pro unavailable; using '$NAME'"
+            DEST="platform=iOS Simulator,name=$NAME"
+          fi
+          echo "dest=$DEST" >> "$GITHUB_OUTPUT"
+
+      # Blocking gate: unit tests + user-journey UI tests.
+      - name: Unit + journey tests
+        working-directory: Verdure
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project Verdure.xcodeproj \
+            -scheme Verdure \
+            -destination "${{ steps.sim.outputs.dest }}" \
+            -only-testing:VerdureTests \
+            -only-testing:VerdureUITests/JourneyTests \
+            -resultBundlePath TestResults.xcresult
+
+      # Accessibility audits — currently reported, not gating.
+      #
+      # These failed on CI with "com.apple.accessibilityAudit" -902 (Invalid
+      # target app) until we learned the audit service only inspects the
+      # FRONTMOST app; QA.audit now calls app.activate() first and all 8 pass
+      # here. Kept continue-on-error for a short shakedown; once it's been green
+      # across several runs, delete that line to make it blocking (see QA.md).
+      - name: Accessibility audits (non-blocking)
+        continue-on-error: true
+        working-directory: Verdure
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project Verdure.xcodeproj \
+            -scheme Verdure \
+            -destination "${{ steps.sim.outputs.dest }}" \
+            -only-testing:VerdureUITests/AccessibilityAuditTests \
+            -resultBundlePath A11yResults.xcresult
+
+      - name: Upload test results
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcresult
+          path: Verdure/TestResults.xcresult
+
+  # ── Backend: TypeScript build + full emulator E2E ─────────────────────────
+  backend:
+    name: Functions build + emulator E2E
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: functions/package-lock.json
+
+      # The Firestore + Storage emulators are Java processes.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - name: Install dependencies
+        working-directory: functions
+        run: npm ci
+
+      - name: Compile TypeScript
+        working-directory: functions
+        run: npm run build
+
+      # The emulator ignores missing composite indexes. Source/configuration
+      # coverage and negative regressions are a separate blocking gate.
+      - name: Validate Firestore query indexes
+        working-directory: functions
+        run: npm run check:indexes
+
+      # Proves the whole server contract without touching production: storage
+      # ownership rules, check-in proof/GPS validation, point clamps and
+      # idempotency, the Firestore lockdown, Verdure+ entitlement gating,
+      # limited-time drop windows, and redemption fulfilment records.
+      - name: Backend E2E on emulators
+        run: npx firebase-tools@13 emulators:exec
+             --only auth,functions,firestore,storage
+             --project connectify-19dd8
+             "node functions/scripts/e2e-backend.mjs"
+
+      # Adversarial suite: ~44 attacks that must all fail, plus positive
+      # controls asserting real usage still works. Blocking — a regression here
+      # means the app is exploitable, and one of these caught a live path that
+      # minted a $50 gift card per hour.
+      - name: Red team (attacks must fail)
+        run: npx firebase-tools@13 emulators:exec
+             --only auth,functions,firestore,storage
+             --project connectify-19dd8
+             "node functions/scripts/redteam.mjs"
+
+      # W1 — the ingest write path against a disposable Firestore: John's blocking
+      # listing checks, the fuzzy second pass, write-only-what-changed (real SDK
+      # writes are metered, not just the counter) and staleness on schedule.
+      - name: Ingest write-path E2E
+        run: npx firebase-tools@13 emulators:exec
+             --only firestore
+             --project connectify-19dd8
+             "node functions/scripts/ingest-write-path-e2e.mjs"
+
+      # W4.1 — sources are data: the migration is idempotent, per-feed event
+      # counts are identical through /sources and through the seeds, a paused or
+      # deny-listed source is never read, a newly active one is picked up.
+      - name: Sources registry E2E
+        run: npx firebase-tools@13 emulators:exec
+             --only firestore
+             --project connectify-19dd8
+             "node functions/scripts/sources-e2e.mjs"
+
+  # ── Firestore rules must always compile ───────────────────────────────────
+  rules:
+    name: Firestore rules compile
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 17 }
+      # Booting the Firestore emulator loads and parses firestore.rules, so a
+      # syntax error or an over-limit function fails here instead of at deploy.
+      - name: Validate rules
+        run: npx firebase-tools@13 emulators:exec
+             --only firestore
+             --project connectify-19dd8
+             "echo 'firestore.rules compiled and loaded'"
+
+  # ── Marketing site must build (it hosts /privacy and /support) ────────────
+  website:
+    name: Website build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: "Verdure Website/package-lock.json"
+      - name: Install
+        working-directory: "Verdure Website"
+        run: npm ci
+      # /privacy and /support are linked from the App Store listing — if they
+      # stop building, the submission URLs break.
+      - name: Build
+        working-directory: "Verdure Website"
+        run: npx next build

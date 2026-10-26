@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//uConnectLabs//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:358f609f73456bcbd63c83710ba298f4@uconnectlabs.com
+DTSTAMP:20261021T021218Z
+DTSTART:20261021T193000Z
+DTEND:20261021T210000Z
+LOCATION:Student Union, Meeting Room 2B, 211 S 9th St, San Jose, CA 95112, United States
+URL:https://careercenter.sjsu.edu/events/2026/10/21/lawrence-livermore-national-laboratory-info-session-masters-students/
+SUMMARY:Lawrence Livermore National Laboratory: Info Session (Masters Students)
+DESCRIPTION:Innovative Internships With A Purpose. Make Your Mark On The World. You Can Make A Difference.Meet with representatives from Lawrence Livermore National Laboratory and learn more about internships in data science and computing.Current Internship Opportunities Include:👉Computing Graduate Student Intern - Spring 2027👉Computing Graduate Student Intern - Summer 2027👉Data Science Institute Graduate Student Intern - Summer 2027Masters students in computer science, mathematics, statistics, data science, machine learning, cyber-security, physics, chemistry, engineering and related STEM fields are highly encouraged to attend. Light refreshments will be provided!Learn more about career opportunities with LLNL here. * Please note that LLNL is able to support OPT/CPT work authorization and/or provide visa sponsorship.Registration in Handshake is required to attend. Please arrive 15 minutes before the event. Space is limited and on a first-come, first-served basis. Registering for this event does NOT guarantee entry. Students must present their Tower ID for entry to the events.**DISCLAIMER: Student information collected through registration or attendance may be shared with employers via Handshake.All Career Center in-person events are wheelchair accessible. Individuals requiring additional accommodations should contact the Career Center at 408-924-6031 or email careerhelp@sjsu.edu at least 48 hours before the start of the event. 
+END:VEVENT
+END:VCALENDAR

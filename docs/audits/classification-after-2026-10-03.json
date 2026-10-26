@@ -1,0 +1,3009 @@
+{
+  "capturedAt": "2026-10-04T06:21:20.578Z",
+  "sourceSnapshotSHA256": "1e7e4fe27c90068ee280fafeaee73cef467f92c5aadd6a161769f3666243ac2b",
+  "missingSources": [
+    "ticketmaster (private API key)",
+    "serpapi (private API key/quota)"
+  ],
+  "overall": {
+    "total": 12165,
+    "low": 1421,
+    "share": 0.1168105219893136,
+    "reasons": {
+      "unmapped-activity-metadata": 1378,
+      "missing-activity-metadata": 43
+    },
+    "unmappedTags": [
+      [
+        "Health & Fitness",
+        230
+      ],
+      [
+        "Subject Varies: Other Great Events",
+        157
+      ],
+      [
+        "Entertainment & Recreation",
+        117
+      ],
+      [
+        "Career & Business",
+        96
+      ],
+      [
+        "Citizenship & Immigration",
+        94
+      ],
+      [
+        "Health & Wellness",
+        83
+      ],
+      [
+        "Arts & Culture",
+        79
+      ],
+      [
+        "Scheduled Closure/Holiday",
+        64
+      ],
+      [
+        "Learn a Language",
+        51
+      ],
+      [
+        "Special Events",
+        49
+      ],
+      [
+        "55+ Friendly",
+        37
+      ],
+      [
+        "Health & Science",
+        31
+      ],
+      [
+        "Open to the Public",
+        30
+      ],
+      [
+        "Writing & Adult Literacy",
+        28
+      ],
+      [
+        "Art & Creativity",
+        27
+      ],
+      [
+        "Parenting & Early Education",
+        26
+      ],
+      [
+        "library",
+        23
+      ],
+      [
+        "Self-Improvement & Parenting",
+        20
+      ],
+      [
+        "Adults",
+        20
+      ],
+      [
+        "Celebrations & Festivities",
+        18
+      ],
+      [
+        "Undergraduate Academic Calendar",
+        18
+      ],
+      [
+        "Books & Authors",
+        16
+      ],
+      [
+        "Literacy & ESL",
+        14
+      ],
+      [
+        "Cultural Event",
+        13
+      ],
+      [
+        "Leavey School of Business",
+        13
+      ]
+    ],
+    "examples": [
+      {
+        "title": "NorCal Bats",
+        "tags": [
+          "library",
+          "Nature & Gardening",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12"
+        ]
+      },
+      {
+        "title": "Meditation for Adults",
+        "tags": [
+          "library",
+          "Health & Wellness",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Meditation for Adults",
+        "tags": [
+          "library",
+          "Health & Wellness",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Meditation for Adults",
+        "tags": [
+          "library",
+          "Health & Wellness",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Meditation for Adults",
+        "tags": [
+          "library",
+          "Health & Wellness",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Meditation for Adults",
+        "tags": [
+          "library",
+          "Health & Wellness",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "1K Books Stuffed Animal Sleepover",
+        "tags": [
+          "library",
+          "Parenting & Early Education",
+          "Young Children, ages 0-5"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Asistencia para Búsqueda de Trabajo",
+        "tags": [
+          "library",
+          "Career & Business",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Reading to Furry Friends",
+        "tags": [
+          "library",
+          "Books & Authors",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "Reading to Furry Friends",
+        "tags": [
+          "library",
+          "Books & Authors",
+          "Kids, ages 5-10"
+        ]
+      }
+    ]
+  },
+  "bySource": {
+    "bibliocommons": {
+      "total": 11451,
+      "low": 1226,
+      "share": 0.10706488516286787,
+      "reasons": {
+        "unmapped-activity-metadata": 1226
+      },
+      "unmappedTags": [
+        [
+          "Health & Fitness",
+          230
+        ],
+        [
+          "Subject Varies: Other Great Events",
+          157
+        ],
+        [
+          "Entertainment & Recreation",
+          117
+        ],
+        [
+          "Career & Business",
+          96
+        ],
+        [
+          "Citizenship & Immigration",
+          94
+        ],
+        [
+          "Health & Wellness",
+          83
+        ],
+        [
+          "Arts & Culture",
+          79
+        ],
+        [
+          "Scheduled Closure/Holiday",
+          64
+        ],
+        [
+          "Learn a Language",
+          51
+        ],
+        [
+          "Special Events",
+          49
+        ],
+        [
+          "55+ Friendly",
+          37
+        ],
+        [
+          "Health & Science",
+          31
+        ],
+        [
+          "Writing & Adult Literacy",
+          28
+        ],
+        [
+          "Art & Creativity",
+          27
+        ],
+        [
+          "Parenting & Early Education",
+          26
+        ],
+        [
+          "Self-Improvement & Parenting",
+          20
+        ],
+        [
+          "Celebrations & Festivities",
+          18
+        ],
+        [
+          "Books & Authors",
+          16
+        ],
+        [
+          "Literacy & ESL",
+          14
+        ],
+        [
+          "Cultural Event",
+          13
+        ],
+        [
+          "Citizenship",
+          12
+        ],
+        [
+          "Culture & Traditions",
+          11
+        ],
+        [
+          "Home & Garden",
+          8
+        ],
+        [
+          "History & Genealogy",
+          8
+        ],
+        [
+          "Law & Government",
+          8
+        ]
+      ],
+      "examples": [
+        {
+          "title": "NorCal Bats",
+          "tags": [
+            "library",
+            "Nature & Gardening",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "1K Books Stuffed Animal Sleepover",
+          "tags": [
+            "library",
+            "Parenting & Early Education",
+            "Young Children, ages 0-5"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Reading to Furry Friends",
+          "tags": [
+            "library",
+            "Books & Authors",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "Reading to Furry Friends",
+          "tags": [
+            "library",
+            "Books & Authors",
+            "Kids, ages 5-10"
+          ]
+        }
+      ]
+    },
+    "libcal": {
+      "total": 64,
+      "low": 23,
+      "share": 0.359375,
+      "reasons": {
+        "unmapped-activity-metadata": 23
+      },
+      "unmappedTags": [
+        [
+          "library",
+          23
+        ],
+        [
+          "Adults",
+          20
+        ],
+        [
+          "Seniors",
+          8
+        ],
+        [
+          "Preschoolers",
+          2
+        ],
+        [
+          "Parents",
+          1
+        ],
+        [
+          "Families",
+          1
+        ],
+        [
+          "Toddlers",
+          1
+        ],
+        [
+          "All Ages",
+          1
+        ],
+        [
+          "Babies",
+          1
+        ],
+        [
+          "Tweens",
+          1
+        ],
+        [
+          "Children",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Pasta with a Twist: A Fresh Take on Italian Classics with Food Network Star Joe Sasto",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Art in Flight: Reinventing Postmodernism with Smithsonian Curator Carolyn Russo",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Planning Your Cool Vegetable Garden in Our Mediterranean Climate",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Create a DIY Award Ribbon",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Cricut Basics - Paper Flowers",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Am I Being Tracked?: A Guide to Digital Privacy",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Afghan Cassette Archive: Stories, Sounds, and Music from Afghanistan",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Smart Start Babytime",
+          "tags": [
+            "library",
+            "Preschoolers",
+            "Parents",
+            "Families",
+            "Toddlers"
+          ]
+        },
+        {
+          "title": "Liberated Love: Rewiring Your Heart for Authentic Connection with Mark Groves",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Demons, Creatures and Monsters - Oh My!",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors",
+            "All Ages"
+          ]
+        }
+      ]
+    },
+    "localist": {
+      "total": 185,
+      "low": 20,
+      "share": 0.10810810810810811,
+      "reasons": {
+        "unmapped-activity-metadata": 17,
+        "missing-activity-metadata": 3
+      },
+      "unmappedTags": [
+        [
+          "Other",
+          4
+        ],
+        [
+          "Social Event/Reception",
+          3
+        ],
+        [
+          "Tour",
+          2
+        ],
+        [
+          "Meeting",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "AI and Election Security Day: AI and Election Security Panel Discussion",
+          "tags": [
+            "SJSU Employees",
+            "Faculty",
+            "Staff",
+            "Students",
+            "Science and Technology",
+            "Artificial Intelligence",
+            "Humanities",
+            "Politics and Society"
+          ]
+        },
+        {
+          "title": "Careers in the Automotive Industry: a talk with Dr. Julian Merten",
+          "tags": []
+        },
+        {
+          "title": "LGBTQ+ Drop-In Group",
+          "tags": [
+            "Students",
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Sober Hobby Hours",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "AMA: Building a Career in Tech",
+          "tags": []
+        },
+        {
+          "title": "Chat with the Chair",
+          "tags": [
+            "Pacific Time (UTC-08:00)"
+          ]
+        },
+        {
+          "title": "LGBTQ+ Drop-In Group",
+          "tags": [
+            "Students",
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Public Tour | A Closer Look",
+          "tags": [
+            "Tour",
+            "Everyone",
+            "Arts/Media",
+            "Education"
+          ]
+        },
+        {
+          "title": "[Cancelled] Public Tour | A Closer Look",
+          "tags": [
+            "Tour",
+            "Everyone",
+            "Arts/Media",
+            "Education"
+          ]
+        },
+        {
+          "title": "it's kinda chic to get vaccinated: flu & COVID shots at Vaden Health Center",
+          "tags": [
+            "Other",
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs",
+            "Health/Wellness"
+          ]
+        },
+        {
+          "title": "Multifaith Dinner",
+          "tags": [
+            "Meeting",
+            "Students",
+            "Religion/Spirituality"
+          ]
+        },
+        {
+          "title": "Global Surgery Grand Rounds",
+          "tags": []
+        },
+        {
+          "title": "Financial Counseling with Fidelity (Main Campus, Huang Bldg, Room B019) (By Appointment Only)",
+          "tags": [
+            "Other",
+            "Faculty",
+            "Staff",
+            "Staff - Academic",
+            "Staff - Managers",
+            "Working at Stanford"
+          ]
+        },
+        {
+          "title": "Wellness Fair (Stanford campus)",
+          "tags": [
+            "Other",
+            "Faculty",
+            "Staff",
+            "Health/Wellness"
+          ]
+        },
+        {
+          "title": "Ethics in Society Open House",
+          "tags": [
+            "Social Event/Reception",
+            "Students",
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs"
+          ]
+        },
+        {
+          "title": "ME310 Paper Bike Challenge 2026",
+          "tags": [
+            "Students - Graduates",
+            "General Public",
+            "Alumni",
+            "Engineering/Technology"
+          ]
+        },
+        {
+          "title": "Celebrating Human and Planetary Health | How is the Stanford community building a healthier future for people and the pl",
+          "tags": [
+            "Social Event/Reception",
+            "Students",
+            "Postdocs",
+            "Faculty",
+            "Staff",
+            "Everyone",
+            "Health/Wellness",
+            "Education"
+          ]
+        },
+        {
+          "title": "Living with OCD",
+          "tags": [
+            "Students",
+            "Students - Undergraduates",
+            "Students - Graduates"
+          ]
+        },
+        {
+          "title": "Financial Counseling with Fidelity (SLAC Campus, Bldg 53, Room 4006) (By Appointment Only)",
+          "tags": [
+            "Other",
+            "Faculty",
+            "Staff",
+            "Staff - Academic",
+            "Staff - Managers",
+            "Working at Stanford"
+          ]
+        },
+        {
+          "title": "Building 360 Open House",
+          "tags": [
+            "Social Event/Reception",
+            "Everyone"
+          ]
+        }
+      ]
+    },
+    "livewhale": {
+      "total": 398,
+      "low": 152,
+      "share": 0.38190954773869346,
+      "reasons": {
+        "unmapped-activity-metadata": 112,
+        "missing-activity-metadata": 40
+      },
+      "unmappedTags": [
+        [
+          "Open to the Public",
+          30
+        ],
+        [
+          "Undergraduate Academic Calendar",
+          18
+        ],
+        [
+          "Leavey School of Business",
+          13
+        ],
+        [
+          "Sustainability",
+          7
+        ],
+        [
+          "College of Arts & Sciences",
+          7
+        ],
+        [
+          "School of Law",
+          6
+        ],
+        [
+          "Career & Employer Events",
+          4
+        ],
+        [
+          "Grand Reunion",
+          3
+        ],
+        [
+          "Retreats",
+          3
+        ],
+        [
+          "Jesuit School of Theology",
+          2
+        ],
+        [
+          "Student Organizations",
+          1
+        ],
+        [
+          "AI",
+          1
+        ],
+        [
+          "School of Education & Counseling Psychology",
+          1
+        ],
+        [
+          "School of Engineering",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "10AM Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "5PM Student Mass",
+          "tags": []
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "8pm Student Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Week 3",
+          "tags": [
+            "Undergraduate Academic Calendar"
+          ]
+        },
+        {
+          "title": "Bucky’s Closet Thrift Store",
+          "tags": [
+            "Sustainability",
+            "Buckys Closet",
+            "Center for Sustainability",
+            "Sustainability"
+          ]
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Weekday Noon Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Nourish Nights",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Ongoing",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "Noon Day Zen",
+          "tags": []
+        },
+        {
+          "title": "Global Health, Safety, and Risk Program Updates",
+          "tags": [
+            "Global Engagement"
+          ]
+        },
+        {
+          "title": "Job Search Series 1: Explore and Plan",
+          "tags": [
+            "Leavey School of Business",
+            "Career",
+            "Graduate Career Management",
+            "Graduates"
+          ]
+        },
+        {
+          "title": "Finance Career Fair",
+          "tags": [
+            "Career & Employer Events",
+            "Leavey School of Business"
+          ]
+        },
+        {
+          "title": "Glean Team",
+          "tags": [
+            "Sustainability",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "Sustainability Tabling",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Ongoing",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "SCUAA + UWorld CPA Prep Meeting",
+          "tags": [
+            "Accounting",
+            "ACTG",
+            "Leavey School of Business"
+          ]
+        },
+        {
+          "title": "Pay Day",
+          "tags": [
+            "hr-payroll"
+          ]
+        },
+        {
+          "title": "Spark60: Beyond Belief: Reprogram the Hidden Beliefs Holding You Back with Nir Eyal",
+          "tags": [
+            "Open to the Public",
+            "All Communities",
+            "Alumni Association",
+            "Spark60"
+          ]
+        },
+        {
+          "title": "Coffee and Donuts",
+          "tags": []
+        },
+        {
+          "title": "Tree Trackers",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Sustainability"
+          ]
+        }
+      ]
+    },
+    "midpen": {
+      "total": 53,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    },
+    "legistar": {
+      "total": 14,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    }
+  },
+  "byFeed": {
+    "San José Public Library": {
+      "total": 6100,
+      "low": 395,
+      "share": 0.06475409836065574,
+      "reasons": {
+        "unmapped-activity-metadata": 395
+      },
+      "unmappedTags": [
+        [
+          "Career & Business",
+          96
+        ],
+        [
+          "Citizenship & Immigration",
+          94
+        ],
+        [
+          "Health & Wellness",
+          54
+        ],
+        [
+          "Learn a Language",
+          51
+        ],
+        [
+          "Writing & Adult Literacy",
+          28
+        ],
+        [
+          "Parenting & Early Education",
+          26
+        ],
+        [
+          "Celebrations & Festivities",
+          18
+        ],
+        [
+          "Books & Authors",
+          16
+        ],
+        [
+          "Culture & Traditions",
+          11
+        ],
+        [
+          "Nature & Gardening",
+          7
+        ],
+        [
+          "Graphic Novels",
+          3
+        ],
+        [
+          "Artificial Intelligence (AI)",
+          2
+        ],
+        [
+          "Immigration",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "NorCal Bats",
+          "tags": [
+            "library",
+            "Nature & Gardening",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Meditation for Adults",
+          "tags": [
+            "library",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "1K Books Stuffed Animal Sleepover",
+          "tags": [
+            "library",
+            "Parenting & Early Education",
+            "Young Children, ages 0-5"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Asistencia para Búsqueda de Trabajo",
+          "tags": [
+            "library",
+            "Career & Business",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Reading to Furry Friends",
+          "tags": [
+            "library",
+            "Books & Authors",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "Reading to Furry Friends",
+          "tags": [
+            "library",
+            "Books & Authors",
+            "Kids, ages 5-10"
+          ]
+        }
+      ]
+    },
+    "Santa Clara County Library District": {
+      "total": 1811,
+      "low": 613,
+      "share": 0.338487023743788,
+      "reasons": {
+        "unmapped-activity-metadata": 613
+      },
+      "unmappedTags": [
+        [
+          "Health & Fitness",
+          205
+        ],
+        [
+          "Subject Varies: Other Great Events",
+          157
+        ],
+        [
+          "Entertainment & Recreation",
+          117
+        ],
+        [
+          "Arts & Culture",
+          79
+        ],
+        [
+          "Scheduled Closure/Holiday",
+          64
+        ],
+        [
+          "Self-Improvement & Parenting",
+          20
+        ],
+        [
+          "Home & Garden",
+          8
+        ],
+        [
+          "History & Genealogy",
+          8
+        ],
+        [
+          "Government, Law, & Politics",
+          4
+        ],
+        [
+          "Financial & Business",
+          3
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Saratoga Library closed for Indigenous Peoples' Day",
+          "tags": [
+            "library",
+            "Scheduled Closure/Holiday",
+            "Adults",
+            "Kids: Family Events",
+            "Older Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Itty Bitty Jamboree",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Babies"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Cult Movie: Sunday Matinee Movies: SPY kids",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Adults",
+            "Kids: Family Events",
+            "Kids: Grades K-8",
+            "Older Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Baby Wearing Dance",
+          "tags": [
+            "library",
+            "Self-Improvement & Parenting",
+            "Kids: Family Events"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Level Up Readers",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Grades K-8"
+          ]
+        },
+        {
+          "title": "Level Up Readers",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Grades K-8"
+          ]
+        },
+        {
+          "title": "Flowers & Herbs for Late Fall and Winter",
+          "tags": [
+            "library",
+            "Home & Garden",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Maracas & Movement",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Kids: Preschoolers",
+            "Kids: Toddlers"
+          ]
+        },
+        {
+          "title": "Maracas & Movement",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Kids: Preschoolers",
+            "Kids: Toddlers"
+          ]
+        },
+        {
+          "title": "Gilroy Library Closed for Christmas Day",
+          "tags": [
+            "library",
+            "Scheduled Closure/Holiday",
+            "Adults",
+            "Kids: Babies",
+            "Kids: Family Events",
+            "Kids: Grades 5-8",
+            "Kids: Grades K-8",
+            "Kids: Preschoolers"
+          ]
+        },
+        {
+          "title": "Henna Art for Diwali",
+          "tags": [
+            "library",
+            "Arts & Culture",
+            "Adults",
+            "Kids: Family Events"
+          ]
+        },
+        {
+          "title": "Evening Itty Bitty Jamboree",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Babies"
+          ]
+        },
+        {
+          "title": "Evening Itty Bitty Jamboree",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Babies"
+          ]
+        },
+        {
+          "title": "Free Snacks for Kids! / Meriendas Gratis Para Niños!",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Kids: Babies",
+            "Kids: Grades 5-8",
+            "Kids: Grades K-8",
+            "Kids: Preschoolers",
+            "Kids: Toddlers",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Gilroy Library Closes at 5pm for Christmas Eve",
+          "tags": [
+            "library",
+            "Scheduled Closure/Holiday",
+            "Adults",
+            "Kids: Babies",
+            "Kids: Family Events",
+            "Kids: Grades 5-8",
+            "Kids: Grades K-8",
+            "Kids: Preschoolers"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        }
+      ]
+    },
+    "Palo Alto City Library": {
+      "total": 478,
+      "low": 48,
+      "share": 0.100418410041841,
+      "reasons": {
+        "unmapped-activity-metadata": 48
+      },
+      "unmappedTags": [
+        [
+          "Health & Science",
+          31
+        ],
+        [
+          "Author Events",
+          6
+        ],
+        [
+          "Writing & Poetry",
+          4
+        ],
+        [
+          "Celebrations",
+          3
+        ],
+        [
+          "Movies & Documentaries",
+          2
+        ],
+        [
+          "Continuing Education & College",
+          2
+        ],
+        [
+          "Book Sales",
+          1
+        ],
+        [
+          "Computers & Technology",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Noon Year's Eve Celebration!",
+          "tags": [
+            "library",
+            "Celebrations",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "LOCATION CHANGE: Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "LOCATION CHANGE: Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Rinconada Book Fair",
+          "tags": [
+            "library",
+            "Author Events",
+            "Book Sales",
+            "Writing & Poetry",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Documentary: UNAFF presents The Spies Among Us",
+          "tags": [
+            "library",
+            "Movies & Documentaries",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Documentary: UNAFF presents The Panama Deception",
+          "tags": [
+            "library",
+            "Movies & Documentaries",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Successfully Navigating College Admissions this Fall",
+          "tags": [
+            "library",
+            "Continuing Education & College",
+            "Adults",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Teen Halloween Roller Derby!",
+          "tags": [
+            "library",
+            "Celebrations",
+            "Teens (14-18)",
+            "Tweens (11-13)"
+          ]
+        },
+        {
+          "title": "Successfully Navigating College Admissions this Fall",
+          "tags": [
+            "library",
+            "Continuing Education & College",
+            "Adults",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Animal Friends: Reptile Rescuer John Hale",
+          "tags": [
+            "library",
+            "Author Events",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)",
+            "Tweens (11-13)"
+          ]
+        },
+        {
+          "title": "Author Event with Dr. Carol Peyser",
+          "tags": [
+            "library",
+            "Author Events",
+            "Adults",
+            "Seniors"
+          ]
+        }
+      ]
+    },
+    "Alameda County Library": {
+      "total": 1104,
+      "low": 95,
+      "share": 0.08605072463768115,
+      "reasons": {
+        "unmapped-activity-metadata": 95
+      },
+      "unmappedTags": [
+        [
+          "Special Events",
+          49
+        ],
+        [
+          "Health & Fitness",
+          25
+        ],
+        [
+          "Citizenship",
+          12
+        ],
+        [
+          "Law & Government",
+          8
+        ],
+        [
+          "Jobs & Personal Finance",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "RCOZ South Asian Women’s Support Group",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Adult Tai Chi",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Adult Tai Chi",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Adult Tai Chi",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Teens Talk",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Candidate forum - State Senate District 10",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Medicare Open Enrollment: Changes for 2027",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Paws to Read: 1st session",
+          "tags": [
+            "library",
+            "Special Events",
+            "Kids"
+          ]
+        },
+        {
+          "title": "Remember, Create & Celebrate: Día de los Muertos",
+          "tags": [
+            "library",
+            "Special Events",
+            "Everyone"
+          ]
+        }
+      ]
+    },
+    "San Mateo County Libraries": {
+      "total": 1958,
+      "low": 75,
+      "share": 0.03830439223697651,
+      "reasons": {
+        "unmapped-activity-metadata": 75
+      },
+      "unmappedTags": [
+        [
+          "55+ Friendly",
+          37
+        ],
+        [
+          "Health & Wellness",
+          29
+        ],
+        [
+          "Art & Creativity",
+          27
+        ],
+        [
+          "Literacy & ESL",
+          14
+        ],
+        [
+          "Cultural Event",
+          13
+        ],
+        [
+          "Bilingual",
+          1
+        ],
+        [
+          "Social Support",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Painting Pumpkins",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Diwali Special Henna Art",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Cultural Event",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Diwali Special Henna Art",
+          "tags": [
+            "library",
+            "Cultural Event",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Diwali Special Henna Art",
+          "tags": [
+            "library",
+            "Cultural Event",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Creepy Crawler Bookmarks",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Scrapbook Hour",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Art & Creativity",
+            "Adults (19+)"
+          ]
+        },
+        {
+          "title": "Scrapbook Hour",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Art & Creativity",
+            "Adults (19+)"
+          ]
+        },
+        {
+          "title": "DIY Calavera Masks",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Cultural Event",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Book Ban Survival Kit",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Library Card Lanyard",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Seasonal Tai Chi: Winter Session",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Health & Wellness",
+            "Adults (19+)",
+            "Adults (55+)"
+          ]
+        },
+        {
+          "title": "Art Nook Mondays: Magic Potions",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Papel Picado",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Cultural Event",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Cheyenne and Mexica Shields",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Cultural Event",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Crafternoon: Watercolor Monsters",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)",
+            "Preschoolers (0-5)"
+          ]
+        },
+        {
+          "title": "Diwali Special Henna Art",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Cultural Event",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Diwali Special Henna Art",
+          "tags": [
+            "library",
+            "Cultural Event",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Step Into Wellness: Walking Club",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Health & Wellness",
+            "Adults (19+)"
+          ]
+        },
+        {
+          "title": "Step Into Wellness: Walking Club",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Health & Wellness",
+            "Adults (19+)"
+          ]
+        },
+        {
+          "title": "Step Into Wellness: Walking Club",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Health & Wellness",
+            "Adults (19+)"
+          ]
+        }
+      ]
+    },
+    "Mountain View Public Library": {
+      "total": 64,
+      "low": 23,
+      "share": 0.359375,
+      "reasons": {
+        "unmapped-activity-metadata": 23
+      },
+      "unmappedTags": [
+        [
+          "library",
+          23
+        ],
+        [
+          "Adults",
+          20
+        ],
+        [
+          "Seniors",
+          8
+        ],
+        [
+          "Preschoolers",
+          2
+        ],
+        [
+          "Parents",
+          1
+        ],
+        [
+          "Families",
+          1
+        ],
+        [
+          "Toddlers",
+          1
+        ],
+        [
+          "All Ages",
+          1
+        ],
+        [
+          "Babies",
+          1
+        ],
+        [
+          "Tweens",
+          1
+        ],
+        [
+          "Children",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Pasta with a Twist: A Fresh Take on Italian Classics with Food Network Star Joe Sasto",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Art in Flight: Reinventing Postmodernism with Smithsonian Curator Carolyn Russo",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Planning Your Cool Vegetable Garden in Our Mediterranean Climate",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Create a DIY Award Ribbon",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Cricut Basics - Paper Flowers",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Am I Being Tracked?: A Guide to Digital Privacy",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Afghan Cassette Archive: Stories, Sounds, and Music from Afghanistan",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Smart Start Babytime",
+          "tags": [
+            "library",
+            "Preschoolers",
+            "Parents",
+            "Families",
+            "Toddlers"
+          ]
+        },
+        {
+          "title": "Liberated Love: Rewiring Your Heart for Authentic Connection with Mark Groves",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - IN PERSON",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club - ONLINE",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Demons, Creatures and Monsters - Oh My!",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors",
+            "All Ages"
+          ]
+        }
+      ]
+    },
+    "San José State University": {
+      "total": 100,
+      "low": 7,
+      "share": 0.07,
+      "reasons": {
+        "unmapped-activity-metadata": 5,
+        "missing-activity-metadata": 2
+      },
+      "unmappedTags": [],
+      "examples": [
+        {
+          "title": "AI and Election Security Day: AI and Election Security Panel Discussion",
+          "tags": [
+            "SJSU Employees",
+            "Faculty",
+            "Staff",
+            "Students",
+            "Science and Technology",
+            "Artificial Intelligence",
+            "Humanities",
+            "Politics and Society"
+          ]
+        },
+        {
+          "title": "Careers in the Automotive Industry: a talk with Dr. Julian Merten",
+          "tags": []
+        },
+        {
+          "title": "LGBTQ+ Drop-In Group",
+          "tags": [
+            "Students",
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Sober Hobby Hours",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "AMA: Building a Career in Tech",
+          "tags": []
+        },
+        {
+          "title": "Chat with the Chair",
+          "tags": [
+            "Pacific Time (UTC-08:00)"
+          ]
+        },
+        {
+          "title": "LGBTQ+ Drop-In Group",
+          "tags": [
+            "Students",
+            "Well-being @ SJSU"
+          ]
+        }
+      ]
+    },
+    "Stanford University": {
+      "total": 85,
+      "low": 13,
+      "share": 0.15294117647058825,
+      "reasons": {
+        "unmapped-activity-metadata": 12,
+        "missing-activity-metadata": 1
+      },
+      "unmappedTags": [
+        [
+          "Other",
+          4
+        ],
+        [
+          "Social Event/Reception",
+          3
+        ],
+        [
+          "Tour",
+          2
+        ],
+        [
+          "Meeting",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Public Tour | A Closer Look",
+          "tags": [
+            "Tour",
+            "Everyone",
+            "Arts/Media",
+            "Education"
+          ]
+        },
+        {
+          "title": "[Cancelled] Public Tour | A Closer Look",
+          "tags": [
+            "Tour",
+            "Everyone",
+            "Arts/Media",
+            "Education"
+          ]
+        },
+        {
+          "title": "it's kinda chic to get vaccinated: flu & COVID shots at Vaden Health Center",
+          "tags": [
+            "Other",
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs",
+            "Health/Wellness"
+          ]
+        },
+        {
+          "title": "Multifaith Dinner",
+          "tags": [
+            "Meeting",
+            "Students",
+            "Religion/Spirituality"
+          ]
+        },
+        {
+          "title": "Global Surgery Grand Rounds",
+          "tags": []
+        },
+        {
+          "title": "Financial Counseling with Fidelity (Main Campus, Huang Bldg, Room B019) (By Appointment Only)",
+          "tags": [
+            "Other",
+            "Faculty",
+            "Staff",
+            "Staff - Academic",
+            "Staff - Managers",
+            "Working at Stanford"
+          ]
+        },
+        {
+          "title": "Wellness Fair (Stanford campus)",
+          "tags": [
+            "Other",
+            "Faculty",
+            "Staff",
+            "Health/Wellness"
+          ]
+        },
+        {
+          "title": "Ethics in Society Open House",
+          "tags": [
+            "Social Event/Reception",
+            "Students",
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs"
+          ]
+        },
+        {
+          "title": "ME310 Paper Bike Challenge 2026",
+          "tags": [
+            "Students - Graduates",
+            "General Public",
+            "Alumni",
+            "Engineering/Technology"
+          ]
+        },
+        {
+          "title": "Celebrating Human and Planetary Health | How is the Stanford community building a healthier future for people and the pl",
+          "tags": [
+            "Social Event/Reception",
+            "Students",
+            "Postdocs",
+            "Faculty",
+            "Staff",
+            "Everyone",
+            "Health/Wellness",
+            "Education"
+          ]
+        },
+        {
+          "title": "Living with OCD",
+          "tags": [
+            "Students",
+            "Students - Undergraduates",
+            "Students - Graduates"
+          ]
+        },
+        {
+          "title": "Financial Counseling with Fidelity (SLAC Campus, Bldg 53, Room 4006) (By Appointment Only)",
+          "tags": [
+            "Other",
+            "Faculty",
+            "Staff",
+            "Staff - Academic",
+            "Staff - Managers",
+            "Working at Stanford"
+          ]
+        },
+        {
+          "title": "Building 360 Open House",
+          "tags": [
+            "Social Event/Reception",
+            "Everyone"
+          ]
+        }
+      ]
+    },
+    "Santa Clara University": {
+      "total": 398,
+      "low": 152,
+      "share": 0.38190954773869346,
+      "reasons": {
+        "unmapped-activity-metadata": 112,
+        "missing-activity-metadata": 40
+      },
+      "unmappedTags": [
+        [
+          "Open to the Public",
+          30
+        ],
+        [
+          "Undergraduate Academic Calendar",
+          18
+        ],
+        [
+          "Leavey School of Business",
+          13
+        ],
+        [
+          "Sustainability",
+          7
+        ],
+        [
+          "College of Arts & Sciences",
+          7
+        ],
+        [
+          "School of Law",
+          6
+        ],
+        [
+          "Career & Employer Events",
+          4
+        ],
+        [
+          "Grand Reunion",
+          3
+        ],
+        [
+          "Retreats",
+          3
+        ],
+        [
+          "Jesuit School of Theology",
+          2
+        ],
+        [
+          "Student Organizations",
+          1
+        ],
+        [
+          "AI",
+          1
+        ],
+        [
+          "School of Education & Counseling Psychology",
+          1
+        ],
+        [
+          "School of Engineering",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "10AM Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "5PM Student Mass",
+          "tags": []
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "8pm Student Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Week 3",
+          "tags": [
+            "Undergraduate Academic Calendar"
+          ]
+        },
+        {
+          "title": "Bucky’s Closet Thrift Store",
+          "tags": [
+            "Sustainability",
+            "Buckys Closet",
+            "Center for Sustainability",
+            "Sustainability"
+          ]
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Weekday Noon Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Nourish Nights",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Ongoing",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "Noon Day Zen",
+          "tags": []
+        },
+        {
+          "title": "Global Health, Safety, and Risk Program Updates",
+          "tags": [
+            "Global Engagement"
+          ]
+        },
+        {
+          "title": "Job Search Series 1: Explore and Plan",
+          "tags": [
+            "Leavey School of Business",
+            "Career",
+            "Graduate Career Management",
+            "Graduates"
+          ]
+        },
+        {
+          "title": "Finance Career Fair",
+          "tags": [
+            "Career & Employer Events",
+            "Leavey School of Business"
+          ]
+        },
+        {
+          "title": "Glean Team",
+          "tags": [
+            "Sustainability",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "Sustainability Tabling",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Ongoing",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "SCUAA + UWorld CPA Prep Meeting",
+          "tags": [
+            "Accounting",
+            "ACTG",
+            "Leavey School of Business"
+          ]
+        },
+        {
+          "title": "Pay Day",
+          "tags": [
+            "hr-payroll"
+          ]
+        },
+        {
+          "title": "Spark60: Beyond Belief: Reprogram the Hidden Beliefs Holding You Back with Nir Eyal",
+          "tags": [
+            "Open to the Public",
+            "All Communities",
+            "Alumni Association",
+            "Spark60"
+          ]
+        },
+        {
+          "title": "Coffee and Donuts",
+          "tags": []
+        },
+        {
+          "title": "Tree Trackers",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Sustainability"
+          ]
+        }
+      ]
+    },
+    "Midpeninsula Regional Open Space District": {
+      "total": 53,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    },
+    "City of San José": {
+      "total": 14,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    }
+  }
+}

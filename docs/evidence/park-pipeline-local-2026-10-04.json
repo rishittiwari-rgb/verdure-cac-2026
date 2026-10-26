@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-10-04T10:41:06.885Z",
+  "scope": "Read-back from loopback Firestore, every stored geometry checksum verified; not deployed or native/device proof",
+  "capture": {
+    "capturedAtMs": 1791109839961,
+    "complete": true,
+    "rawCounts": {
+      "city-parks": 614,
+      "city-amenities": 2260,
+      "county-boundaries": 37,
+      "county-trails": 1747,
+      "county-poi": 852
+    },
+    "uncompressedBytes": 12767387,
+    "sha256": "94ec773a361b47b946ca478da75732fbd0ab69928ad08a896d5f3a3ad14850fc"
+  },
+  "catalog": {
+    "generation": "47b99513-5106-41ea-a414-08880efeda3f",
+    "publishedAtMs": 1791110037609,
+    "count": 5507,
+    "counts": {
+      "city-parks": 614,
+      "county-boundaries": 37,
+      "county-trails": 1744,
+      "city-amenities": 2260,
+      "county-poi": 852
+    },
+    "latestRunAtMs": 1791110035007,
+    "latestOutcome": "success",
+    "latestError": null
+  },
+  "counts": {
+    "city-amenities": 2260,
+    "city-parks": 614,
+    "county-boundaries": 37,
+    "county-poi": 852,
+    "county-trails": 1744
+  },
+  "statuses": {
+    "city-amenities:open": 2196,
+    "city-amenities:closed": 55,
+    "city-amenities:construction": 1,
+    "city-amenities:unknown": 8,
+    "city-parks:open": 529,
+    "city-parks:closed": 36,
+    "city-parks:future": 41,
+    "city-parks:permit": 1,
+    "city-parks:unknown": 5,
+    "city-parks:seasonal": 1,
+    "city-parks:construction": 1,
+    "county-boundaries:open": 28,
+    "county-boundaries:closed": 9,
+    "county-poi:unknown": 852,
+    "county-trails:open": 1525,
+    "county-trails:restricted": 219
+  },
+  "joins": {
+    "amenity": {
+      "total": 3112,
+      "joined": 3001
+    },
+    "park": {
+      "total": 651,
+      "joined": 651
+    },
+    "trail": {
+      "total": 1744,
+      "joined": 1723
+    }
+  },
+  "geometryNormalizationFeatures": [
+    {
+      "id": "city-amenities_1636",
+      "notes": [
+        "Omitted a closed a-b-a polygon component with zero area; all non-empty components are retained."
+      ]
+    }
+  ],
+  "missingGeometries": 3
+}

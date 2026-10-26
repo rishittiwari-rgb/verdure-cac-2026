@@ -1,0 +1,373 @@
+Verdure — Sprint: Completing the Product
+Engineering scope for two developers. Audited against the tree delivered with SPRINT-STATUS-2026-09-27.md.
+
+START HERE
+Where the product stands
+Last sprint built most of the brief locally, with strong evidence: 103/103 iOS unit tests, 337/337 backend end-to-end tests, all accessibility audits passing, 49 security attacks blocked, a 9,813-event local corpus at a 0.12% duplicate rate, and different user profiles receiving genuinely different recommendations. The report's honesty — stating plainly that the sprint was not complete, and refusing to publish an unmeasurable coverage figure — is the standard to keep.
+This sprint builds the planned features that do not exist yet, and the tools that let the features that do exist work with real partners, real organizers and real reports.
+The finished product, and where each piece stands
+Area
+Feature
+Status
+Discovery
+Events, places, map, search, filters, For You, Everything
+Built
+Discovery
+Personalized ranking, proactive alerts
+Built
+Verdure+
+Interest profiles, saved filters, ranking controls, advanced stats
+Built
+Parks
+Park guide and trail overview
+This sprint — Section C
+Verdure+
+Offline park and place packs
+This sprint — Section C
+Planner
+Conversational planner, refine in place, friends going, quota
+Built
+Social
+Friends, requests, invites, RSVP, group planning, community
+Built
+Gamification
+Points, badges, streaks, streak freeze, leaderboard
+Built
+Rewards
+Perks, early access, cash gift cards
+Built
+Rewards
+Loading real partners and perks
+This sprint — Section B
+Partners
+Location-based partner surfaces
+This sprint — Section A
+Opportunities
+Student Mode, volunteering, workshops
+Built; supply and accuracy need work — Section D
+Opportunities
+Internships and programs
+This sprint — Section D
+Organizers
+Organizer accounts, event attributes
+Built
+Organizers
+Approving organizers; place story text
+This sprint — Sections B and F
+Trust and safety
+Report, block, delete account
+Built
+Trust and safety
+Reviewing and acting on reports
+This sprint — Section B
+Trust and safety
+Under-13 signup handling
+This sprint — Section E
+Exploration
+AR explore view (optional, free)
+This sprint — Section F
+Website
+Terms, support, partner sign-up, corrected privacy policy
+This sprint — Section E
+
+Constraints for this sprint
+There is no paid Apple Developer membership. Everything here is buildable and testable without one. A free Apple Account in Xcode can install the app on your own iPhones with short-lived provisioning. What a free account cannot do, and is therefore out of scope:
+Push notification delivery on a device
+Real App Store purchases (Xcode StoreKit configuration testing still works)
+TestFlight or App Store submission
+Universal links. Use the existing verdure:// URL scheme for invite and deep-link testing.
+Nothing is deployed. No billing change, production deploy, environment flip or key rotation.
+Do not modify ranking. Weights, signals and the interest synonym map in ranking.ts are being tuned against a golden set this sprint. Changing them independently would invalidate that measurement.
+
+ORDER OF WORK
+Order
+Section
+Suggested owner
+0
+D1. Classifier accuracy — first, before anything else on the server side
+Dev B
+1
+A. Location-based partners
+Dev A (iOS) with Dev B (server)
+1
+B. Staff console
+Dev B
+2
+C. Park guide, trail overview and offline packs
+Dev A with Dev B (data)
+2
+D. Opportunities completion
+Dev B
+3
+E. Age gate and website
+Dev B
+4
+F. Place stories and AR explore
+Dev A
+5
+G. Real-device testing
+Both
+Alongside
+H. Production readiness checks
+Dev B (H1), Dev A (H2)
+
+D1 goes first. It changes the event categories that ranking depends on, and ranking is being tuned against a golden set this sprint. Landing D1 late would change ranking inputs underneath that work. Finish it, record the commit, and do not change the classifier again.
+A and B start once D1 is in. G runs last because it tests everything built before it — but any device-only defect found earlier should be logged immediately.
+
+A. Location-based partners
+Partner offers leave the organic events feed and appear in their own location-based surfaces. Commercial content inside a discovery feed, however well labelled, erodes trust in every recommendation around it.
+A1 — Remove partners from the organic feed
+functions/src/partners.ts lines 38 and 47–48 still include "events_feed" in SurfaceId and ALLOWED_SURFACES. Remove it. Keep planner, rewards and event_detail; add map and near_you.
+Add a test that fails if any partner content appears in For You or Everything.
+A2 — Partner map layer
+Partners appear on the map as their own pin type — a distinct glyph, in a colour other than the event accent.
+Toggleable, on by default, persisted per user
+Tapping a pin shows the partner, perk, point cost and walking distance
+Existing dismissal and trust rules apply
+A3 — "Near you" card
+When the app opens and a partner with a live perk is within walking distance, show one card at the top of Discover:
+Joe's Café · 2 min away · 15% off
+Uses the existing When-In-Use location. No new permission.
+One card maximum; dismissible; dismissal remembered via dismissPerk
+Silence when nothing is within walking distance — never fall back to something further
+Time-appropriate: food at meal times, coffee in the morning, activities at weekends
+A4 — Rewards sorted by distance
+Add a Nearby sort to perks in Rewards: closest first, the default when location is available, existing order otherwise.
+A5 — RSVP-triggered partner notification
+When a user RSVPs to an event and a partner with a live perk is within a short walk of the venue, send one notification before the event:
+Going to the farmers market Saturday? Joe's Café is 2 minutes away — 15% off with your code.
+No background location — the user has already said where and when they will be
+Through the existing notifier; counts toward MAX_PUSH_PER_WEEK, never in addition
+One per RSVP; respects quiet hours; its own preference toggle
+Server logic tested in the emulator. Device delivery needs the paid membership — record it as untested, not passed.
+A6 — Opt-in live location alerts (build last in A; cuttable)
+A notification as someone walks near a partner. Off by default.
+A dedicated toggle — "Tell me about deals near me" — with plain consent language stating what will be sent and why location is needed. App Store Review Guideline 4.5.4 requires explicit opt-in for promotional notifications, plus an in-app opt-out.
+Request Always location only from inside this toggle's flow, never at launch and never as a condition of anything else
+Excluded entirely for minor accounts
+iOS caps region monitoring at 20 regions: monitor the nearest 20 eligible partners and swap using significant-location-change, never continuous GPS
+Counts toward the shared weekly push cap
+If it ships, update the App Privacy answers and privacy policy in the same change
+Done when: events_feed is removed and a test proves no partner content reaches organic results; partner pins are a distinct toggleable layer; the Near you card appears only within walking distance with no new permission; Rewards has a Nearby sort; the RSVP notification fires once per RSVP within the weekly cap; A6, if built, is off by default, consent-gated, excluded for minors and capped at 20 regions.
+
+B. Staff console
+Several built features cannot be used with real data, because the actions they depend on have no interface:
+Real partner perks cannot be loaded. seed-partners.mjs is placeholder-only and correctly refuses to run outside the emulator. There is no other path.
+Reports cannot be reviewed. moderateContent exists, but no one can see the queue.
+Organizers cannot be approved. approveOrganizer and listOrganizerApplications exist with no interface.
+Build an authenticated console under /admin on the existing website. Its users are not engineers, so a command-line tool is not a substitute.
+B0 — Access and accountability
+Access via a Firebase Auth admin custom claim, granted only through a CLI script. No self-service path to admin.
+Every authorization check is server-side, using the existing isAdmin() in common.ts. The interface hides controls for convenience only; it is never the gate.
+Every admin action writes an audit record: actor, action, target, time, before and after. Admin-readable only and immutable.
+A red-team case for every admin path proving a non-admin is refused.
+B1 — Moderation queue
+Pending reports from moderationQueue, oldest first, with hours since first report shown prominently and highlighted past 20 hours
+The reported content in context, reasons and report count
+Actions through moderateContent — remove, restore, warn, suspend — each requiring a reason
+Filters by status and content type; history of resolved items
+B2 — Organizer approvals
+Pending applications through listOrganizerApplications
+Approve or reject through approveOrganizer, with a reason
+The 50-approval cap displayed: used and remaining
+B3 — Partners and perks
+Create a partner: business name, category, address — geocoded on save and stored with coordinates for Section A — and contact details
+Agreement on file is required to activate. A partner cannot go live without a recorded confirmation: who agreed, when, and a reference to the written confirmation. This is the production equivalent of seed-partners.mjs refusing to run — it makes it impossible to put a business's name on an offer it never agreed to.
+Create a perk: title, terms, point cost (500–2,000, enforced server-side), optional earlyAccessUntil, expiry date
+Load codes by CSV: validate format, reject duplicates against existing codes, report how many loaded
+Low-stock warning below 10 unused codes
+Deactivate a partner or perk immediately, with a reason
+B4 — Submissions inbox
+Read and resolve entries from the website forms built in Section E: support requests, organizer interest and merchant interest. Mark each handled, with a note.
+B5 — Operations overview
+Ingestion health per source: last successful run, events returned, last error. A source that throws must appear here, not only in logs.
+Active events by source and the current duplicate rate
+Pending reports with the oldest report's age; pending organizer applications
+Month-to-date reward spend against the $200 treasury cap; planner and SerpApi spend
+Done when: admin access is grantable only through the CLI and enforced server-side; every action is audited; a report can be resolved end to end; an organizer can be approved with the cap shown; a partner with a recorded agreement can be created, given a perk and loaded with CSV codes, and appears on the map from Section A; a partner without one cannot be activated; the overview surfaces ingestion failures. Every admin path has a red-team case.
+
+C. Park guide, trail overview and offline packs
+Parks are central to Verdure's identity and to its largest segment. Parents want to know before they drive whether a park has a playground for their child's age, restrooms and water — and what is happening there this weekend. Official, openly licensed data answers all of it.
+Park and trail information is free online — safety and discovery are never paywalled. Downloading it for offline use is Verdure+.
+C1 — Data sources
+A separate place-data pipeline, distinct from event ingestion, refreshed weekly, following the same rules: published data only, terms checked first, and fail loudly with failures shown in the staff console.
+City of San José open data — "Park." Parks and trails across San José, Santa Clara County and parts of San Mateo County, including land managed by Midpen, the County and the State. Available as GeoJSON. Licensed Creative Commons Attribution — attribution is required. Includes open, closed, future, seasonal and under-construction sites.
+City of San José open data — "Park Amenities and Sports Fields." Amenities per city park, including playgrounds by age type, sports fields and courts.
+Santa Clara County Parks GIS Hub (gisdata-sccparks.hub.arcgis.com). Trails, points of interest and park boundaries, with trail attributes such as width, recreation type and whether dogs are allowed. Record the license terms before ingesting. The County states its GIS data is provided as is and that official sources should be consulted for verification — the trail disclaimer in C3 reflects this. Note this is a different host from sccgov.org, which refused automated requests.
+Join parks to Verdure's existing places by geometry, not name, so a park and its events connect.
+C2 — Park guide (free)
+A park detail page combining what no other app puts together:
+Amenities: playgrounds with their age range, restrooms, drinking water, picnic areas, sports fields and courts, dog areas — shown only where the data confirms them
+"Good for ages X–Y" derived from playground age-type data
+Trails in this park (C3)
+Events happening at this park this week — the combination that makes this Verdure's, not a directory
+Hours, accessibility and entrance details where the data provides them
+The organizer's place story from F1, where one exists
+Status respected: a closed, future or under-construction site is never shown as open
+Filters in Discover and Map: playground for toddlers, dog-friendly, restrooms, water
+Attribution on every park page — for example, "Park data: City of San José, CC BY" — as each license requires
+C3 — Trail overview (free)
+Trails listed per park: name, length, type, width, dogs allowed and elevation where the data provides them
+Trail lines drawn on the map as Verdure's own overlays, with the user's location
+No turn-by-turn navigation, route-following or voice guidance. Wrong guidance in an open space preserve is a safety risk, the source data carries no accuracy guarantee, and dedicated navigation apps already serve this.
+A visible notice on every trail view: "Trail information comes from official sources and may be out of date. Follow posted signs and check the park's official site for closures." with a link to that site
+C4 — Offline packs (Verdure+)
+A member downloads a park, a set of parks, or an area for the next seven days:
+The park guide and amenities
+Trail lines and park boundaries, drawn from stored data
+Events at those parks and in the area, with details and compressed thumbnails
+Places, the member's saved events and plans, and partner perks (view only)
+Offline, the trail view still works. Trail lines and boundaries render from stored data, and the location dot works without cellular service because GPS does not need it.
+Background map imagery is not included. MapKit provides no way to download its base map, and Apple's map imagery must not be cached. Offline, draw Verdure's overlays over whatever the system has cached, and say so plainly. A fully offline base map would need a different map engine and is out of scope.
+Rules:
+Entitlement checked server-side when a pack is generated; free accounts are refused by the server, not only the interface
+Download size shown before downloading, with a hard cap — target 50 MB
+Storage screen: packs, size, age, delete
+Freshness: "downloaded X ago"; refresh on Wi-Fi when the app opens; packs expire after seven days
+Online-only actions — RSVP, perk redemption, plan generation — say "available when you're back online"
+No offline check-ins. Points are server-authoritative; a queued check-in replayed later would be a fraud path
+C5 — Copy
+Add "Offline park and place packs" to PaywallView.features, LISTING.md and the website pricing source in the same change that ships it — never before. Never describe it as "offline maps", because the base map is not included.
+Done when: park and trail data ingest weekly with failures visible in the console; park pages show amenities, age suitability, trails and this week's events, with attribution and correct status; trail overviews show the safety notice and include no navigation; a member can download a park, use trail lines and location with no signal, see freshness and delete the pack; free accounts are refused server-side; offline check-in is impossible; copy says "offline park and place packs" and ships with the feature.
+
+D. Opportunities completion
+D1 — Classifier accuracy (first — see Order of Work)
+This changes event categories, which are a ranking input. Do it before any other server-side work in this sprint, record the finishing commit in CLASSIFICATION-AUDIT.md so ranking can be re-measured against a post-D1 snapshot, and do not change the classifier again afterward.
+3,349 of the 9,813 local events — about a third — fall below the 0.65 confidence threshold. Categories such as Workshop and Volunteer cannot be relied on until that falls.
+Fix a confirmed bug first: functions/src/ingest/classify.ts line 30 maps the word internship to the Volunteer category. Internships are not volunteering. Move it to the Program category introduced in D3.
+Then:
+Run list-low-confidence.mjs and group results by source and by reason
+Map any structured source fields not yet used — BiblioCommons audience and program type, Localist event types, LiveWhale categories — rather than inferring from text
+Refine the lexicon where the low-confidence output shows consistent misses
+Report the low-confidence share before and after, overall and per source
+Regenerate the 200-row classification sample when finished, and do not change the classifier again this sprint once it is regenerated
+D2 — Volunteer supply to 30 or more listings
+The Volunteer chip stays hidden below 30 listings in radius.
+Fingerprint the remaining San Jose volunteer organizations: Our City Forest, Guadalupe River Park Conservancy, Grassroots Ecology, Save the Bay, Keep Coyote Creek Beautiful, San José Parks Foundation, HandsOn Bay Area, United Way Bay Area and JustServe
+Ingest those whose terms permit it; record the rest in VOLUNTEER-SUPPLY-2026-09-27.md with the reason
+Check the existing corpus first. Library teen-service and volunteer programs are likely already ingesting under other labels; D1 may recover more volunteer supply than new sources
+Report the in-radius count after deduplication
+D3 — Internships and programs
+The third Opportunities sub-type. There is no structured public source for free, accessible local programs, so these are curated by staff.
+A Program category in the classifier and app, separate from Volunteer and Workshop
+Curation in the staff console: title, organization, link to the official listing, deadline, age eligibility (required), cost, in-person or virtual, location
+Hidden until at least 10 current listings exist in radius, the same principle as the Volunteer threshold
+Link out to the organization. No applications, résumés, employer accounts or matching inside Verdure.
+Expired deadlines remove listings automatically
+Age eligibility respected in ranking and filters, so a 15-year-old is not shown an 18-plus program
+Done when: "internship" no longer classifies as Volunteer; low-confidence share reported before and after; the sample is regenerated; the in-radius volunteer count is reported; staff can curate programs with required age eligibility; the Program sub-type stays hidden below 10 listings; expired programs disappear automatically.
+
+E. Age gate and website
+E1 — Under-13 signup handling
+The privacy copy references under-13 users; the app's behaviour must match it. People under 13 cannot create an account.
+A neutral age screen at signup — one that asks for a birth year or age without hinting at an acceptable answer
+An under-13 response ends signup without storing personal data
+The existing age band continues to drive minor protections for users 13–17
+E2 — Website pages
+On the existing website, built and tested locally, not deployed:
+/terms — Terms of Service page. Restore the in-app Terms link, removed last sprint because it pointed nowhere.
+/support — a form writing to the existing Supabase setup and appearing in the staff console's submissions inbox. This removes the dependency on an email inbox, which does not exist yet.
+Correct the privacy policy. The legacy website policy still lists phone, billing and shipping data Verdure does not collect. Remove what is not collected; describe exactly what is.
+E3 — Partner interest forms
+On /partnerships, two forms writing to Supabase and appearing in the staff console:
+Organizers: organization, type, contact, events per month, and whether they publish a public calendar, with its URL — a submitted calendar URL is a candidate source for the fingerprinter
+Merchants: business, category, address, contact and the offer they would consider
+Done when: an under-13 response ends signup without storing data; /terms and /support exist and the in-app Terms link resolves; the privacy policy lists only what is collected; both partner forms write to Supabase and appear in the console.
+
+F. Place stories and AR explore
+Two smaller planned features. Build after A–E. Both are cuttable if time runs short, F2 first.
+F1 — Place stories
+A short "About this place" text on place detail, written by the organizer that owns the place.
+Organizer-written only — up to about 400 characters. No AI-generated place history; local history is exactly where generated text invents things.
+Only approved organizers can write it; it follows the existing report and moderation flow
+Instrument it: how often the story is shown, and how often it is expanded or read through. Whether anyone reads these decides whether richer stories are worth building later.
+F2 — AR explore view (optional, free)
+A camera view showing nearby places and events as labels positioned by GPS and compass heading.
+No ARKit geo-anchoring. Labels drift a few metres and move as the phone moves — label the view "Explore view (beta)" so expectations match
+Strictly optional — never the only path to any function; a standard list or map always works
+Camera permission requested only when the view is opened
+No camera frames are stored or transmitted
+Add the camera usage description, and update the App Privacy answers and privacy policy in the same change
+Free for everyone and never on the pricing page
+Done when: organizers can write moderated place stories and engagement is recorded; if built, the AR view is optional, labelled beta, requests camera access only on open, transmits nothing and appears on no pricing surface.
+
+G. Real-device testing
+The app has never run on a physical iPhone. Using free Apple Accounts in Xcode, test everything built so far — including Sections A–F.
+G1 — Setup
+Install on at least two physical iPhones through free personal teams
+Connect to the local emulator over Wi-Fi with the populated 9,813-event corpus, using the existing DEBUG-only opt-in. Production data is never touched.
+Free provisioning expires after about seven days; reinstall as needed
+G2 — Run DEVICE-QA.md completely, plus:
+Location: permission prompt, denial and re-enable; map centring; check-in at a real venue outdoors; the Near you card at a real partner location; Nearby sort
+Offline packs: download a park on Wi-Fi, switch to airplane mode, browse, and confirm online-only actions explain themselves and check-in is refused. At a real park or preserve with the pack downloaded and airplane mode on, confirm trail lines draw and the location dot tracks you along a trail.
+Park guide: amenities, age suitability and this week's events on real San Jose parks; attribution visible; a closed site not shown as open
+Accessibility: full VoiceOver reading order on every tab; largest Dynamic Type; dark mode on every screen
+Conditions: slow network through Network Link Conditioner, Low Power Mode, scroll performance across the full corpus in Everything
+Two-phone flows: friend request and acceptance; invite through a verdure:// link; group plan with shortlist and RSVPs; blocking; the minor-account search exclusion
+Paywall through the Xcode StoreKit configuration
+G3 — Record honestly
+Results in docs/DEVICE-QA-RESULTS-[date].md: device model, iOS version, and each item marked passed, failed and fixed, or untested with the reason. Push delivery, real purchases, universal links and cellular behaviour against a local emulator are untested — never passed.
+Every device-only defect gets a fix and, where possible, a regression test.
+Done when: every DEVICE-QA.md item and every G2 addition is resolved and recorded; the two-phone flows pass; results are committed.
+
+H. Production readiness checks
+Two items that cannot wait for deployment, because the problems they prevent are invisible until then.
+H1 — Composite indexes (not cuttable)
+The live project has zero composite indexes. The Firestore emulator does not enforce composite indexes — it executes any valid query — so a query missing its index passes every local test and fails only in production. On the live project, that would break the feed, the planner or the console the first time it is used.
+List every compound query in the app, functions and staff console: multiple equality filters, range filters combined with ordering, and array-contains with other filters
+For each, confirm a matching entry exists in firestore.indexes.json; add any that are missing
+Commit docs/FIRESTORE-INDEXES.md mapping every query to its index, with the file and line of the query
+Add a script that fails if a compound query is added without a corresponding documented index
+H2 — Crash reporting
+When real people use Verdure, crashes must be visible. Integrate Firebase Crashlytics — free, and it needs no paid membership — with symbol upload configured so reports are readable.
+Update the privacy policy and App Privacy answers in the same change. Crash data is collected data, and the existing statement that Verdure uses no analytics SDKs must stay true or be corrected.
+Done when: every compound query is mapped to an index in docs/FIRESTORE-INDEXES.md, missing indexes are added, and a check fails on undocumented compound queries; Crashlytics reports a test crash with readable symbols from a physical device; privacy copy updated in the same change.
+
+Cut line
+Never cut: A1–A5, B (all), C2, C4, D1, D3, E (all), G, H1.
+Cut in this order if needed: F2 → A6 → C3 → F1 → D2 beyond reaching 30 listings.
+C2 and C4 are not cuttable. C3 can be cut on its own; the park guide and offline packs still work without trail overlays.
+Flag slippage at the midpoint. A known cut made early is a decision; an unknown one discovered late is a surprise.
+
+Completion criteria
+A test proves no partner content can reach For You or Everything
+Partner map pins, Near you card and Nearby sort working
+RSVP-triggered partner notification fires once per RSVP within the weekly cap
+A6 shipped to specification or explicitly cut, with privacy copy matching what shipped
+Admin access grantable only through the CLI; every admin action authorized server-side and audited; a red-team case for every admin path
+A report can be reviewed and resolved end to end, with hours-since-report visible
+An organizer can be approved with the 50-cap shown
+A partner with a recorded agreement can be created, given a perk, loaded with CSV codes and shown on the map; a partner without one cannot be activated
+Submissions inbox and operations overview working, including ingestion failures per source
+Park and trail data ingesting weekly from licensed open data, failures visible in the console
+Park pages show amenities, age suitability, trails and this week's events, with attribution; closed and future sites never shown as open
+Trail overview with the safety notice and no navigation
+Offline packs: download, trail lines and location with no signal, freshness, deletion, size cap and expiry; free accounts refused server-side; offline check-in impossible
+Paywall, listing and website pricing list "offline park and place packs" — never "offline maps" — in the same change as the feature
+"Internship" no longer classifies as Volunteer; low-confidence share reported before and after; classification sample regenerated
+In-radius volunteer count reported after deduplication
+Programs curatable with required age eligibility, hidden below 10 listings, expiring automatically
+An under-13 response ends signup without storing personal data
+/terms and /support exist; in-app Terms link resolves; privacy policy lists only what is collected
+Organizer and merchant interest forms write to Supabase and appear in the console
+Place stories written by approved organizers, moderated and instrumented
+AR explore view shipped to specification or explicitly cut
+App tested on two physical iPhones; every item recorded as passed, fixed or untested
+Every compound query mapped to an index in docs/FIRESTORE-INDEXES.md; missing indexes added; a check fails on undocumented compound queries
+Crashlytics reporting readable crashes from a physical device; privacy copy updated in the same change
+iOS, backend unit, end-to-end and red-team suites all green
+CLAUDE.md DEPLOY STATUS untouched; nothing deployed
+
+Ground rules
+No paid membership is assumed. Anything requiring it is out of scope and recorded as untested.
+Nothing is deployed. No billing change, deploy, environment flip or key rotation.
+Do not modify ranking. Weights, signals and the synonym map are under evaluation.
+Server-side authorization, always. The console interface is a convenience; the server is the gate.
+No business's name on an offer it did not agree to. The agreement-on-file requirement is the rule, including in testing.
+Honest copy, in both directions. Offline packs, park data, AR and live location alerts each change what Verdure offers or collects. Update the paywall, listing, website, privacy policy and App Privacy answers in the same change — never before the feature works, never after it ships.
+Untested is not passed. Push delivery, real purchases, universal links and cellular behaviour stay untested until the membership and deployment exist.
+Credit open data as its license requires. City of San José data is CC BY; attribution is not optional. Check and record every dataset's license before ingesting it.
+A scraper must fail loudly — and its failures must now be visible in the console.
+The emulator is not production. It ignores composite indexes and accepts any valid query. A passing local test is not proof a query will run live.
+Build before you test. Any green result not produced by a fresh build is suspect.
+Document with evidence. Every status claim needs a re-runnable command behind it.

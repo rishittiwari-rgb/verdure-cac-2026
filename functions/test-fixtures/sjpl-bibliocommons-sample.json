@@ -1,0 +1,1276 @@
+{
+ "events": {
+  "items": [
+   "6a6555573edb05633e904b3f",
+   "6a1770ca703c3363002a7316",
+   "6aa1ac78f9ed2e00384f529a",
+   "6a55537617f387c203a4ffff"
+  ],
+  "pagination": {
+   "count": 4,
+   "pages": 1,
+   "page": 1,
+   "limit": 6
+  }
+ },
+ "entities": {
+  "events": {
+   "6a6555573edb05633e904b3f": {
+    "id": "6a6555573edb05633e904b3f",
+    "key": "2026-09-20T15:30:00",
+    "seriesId": "6a63dba59e0a050e3e542f7b",
+    "definition": {
+     "start": "2026-09-20T15:30",
+     "end": "2026-09-20T16:30",
+     "title": "OneInMath: Math Support for Grades K\u20133 at Joyce Ellington Branch",
+     "description": "<p>Build confidence and strengthen math skills in this free program for students in kindergarten through third grade.&nbsp;Students will receive individualized support from trained volunteers while working through engaging math activities, games, and lessons designed to reinforce foundational math concepts. Student can progress at their own pace in a welcoming and supportive learning environment.<br></p>\n<h4>Registration is required.</h4>\n<p>Visit the <a href=\"https://oneinmath.com/register/\" target=\"_blank\" rel=\"noreferrer noopener\">One in Math website to register.</a>&nbsp;</p>\n<p>You may be asked to provide personal information to sign-up. Please review <a href=\"https://oneinmath.com/privacy-policy/\" target=\"_blank\" rel=\"noreferrer noopener\">One in Math\u2019s Privacy Policy</a> before registering.</p>\n<hr>\n<p><a href=\"https://www.sjpl.org/ada-event-accommodation/\">Request an ADA accommodations for this event</a>.<br></p>",
+     "partnerId": null,
+     "bibIds": [],
+     "featuredImageId": "6a63925ce9de6536001df6c9",
+     "branchLocationId": "17",
+     "nonBranchLocationId": null,
+     "locationDetails": "Community Room",
+     "audienceIds": [
+      "5d5f0926be771f2300369397"
+     ],
+     "languageIds": [
+      "5d52fbb909c424450063680d"
+     ],
+     "programId": null,
+     "typeIds": [
+      "5d65e9ae2f3a81f8aeaabb9c",
+      "5d65e9ae2f3a81f8aeaabbae"
+     ],
+     "registrationInfo": {
+      "provider": "EXTERNAL",
+      "registrationStart": {
+       "unit": "days",
+       "date": null,
+       "time": null,
+       "ordinal": 0,
+       "windowType": null
+      },
+      "registrationEnd": {
+       "unit": "days",
+       "date": null,
+       "time": null,
+       "ordinal": 0,
+       "windowType": null
+      },
+      "enabledMethods": [],
+      "cap": null,
+      "maxSeats": null,
+      "scope": null,
+      "isFull": false,
+      "instructions": "<p>Please visit: oneinmath.com to register, or email&nbsp;<a href=\"mailto:je.sjpl@sjlibrary.org\" data-key=\"hours-info-email\">je.sjpl@sjlibrary.org</a>&nbsp;for more information.</p>",
+      "onlineInstructions": null,
+      "instructionsToAttend": null,
+      "loginToRegister": false,
+      "waitlistEnabled": false,
+      "waitlistAutoPromote": false
+     },
+     "contact": {
+      "name": "Joyce Ellington Branch",
+      "phone": {
+       "contactType": "phone",
+       "rawValue": "(408) 808-3043",
+       "value": "(408) 808-3043",
+       "globalValue": "+1-408-808-3043"
+      },
+      "email": {
+       "contactType": "email",
+       "globalValue": null,
+       "value": null
+      }
+     },
+     "isCancelled": false,
+     "isFeatured": null
+    },
+    "indexStart": "2026-09-20T22:30:00Z",
+    "indexEnd": "2026-09-20T23:30:00Z",
+    "isRecurring": true,
+    "numberRegistered": null,
+    "numberWaitlistRegistered": null,
+    "isFull": false,
+    "registrationClosed": false
+   },
+   "6a1770ca703c3363002a7316": {
+    "id": "6a1770ca703c3363002a7316",
+    "key": "2026-10-07T10:30:00",
+    "seriesId": "6a161e00a99bdd027d42f13b",
+    "definition": {
+     "start": "2026-10-07T10:30",
+     "end": "2026-10-07T11:30",
+     "title": "First Wednesday",
+     "description": "<p>Would you like to connect with other members in your community? Join us in-person. We will provide a welcoming and respectful gathering space for members of the community to talk, and build positive community member relationships.</p>\n<p>This program is intended to create a gathering space for our senior community, but all adults are welcome.<br></p>\n<p>Light refreshments will be provided.</p><p><strong>Registration is not required.&nbsp;</strong></p>\n<p><br><a href=\"https://www.sjpl.org/ada-event-accommodation/\">ADA Accommodation Requests</a><br></p>",
+     "partnerId": null,
+     "bibIds": [],
+     "featuredImageId": "5d759347ca22562500d92d37",
+     "branchLocationId": "12",
+     "nonBranchLocationId": null,
+     "audienceIds": [
+      "5d65e368eb2cac50006a08ab"
+     ],
+     "languageIds": [
+      "5d52fbb909c424450063680d"
+     ],
+     "programId": null,
+     "typeIds": [
+      "5d65e9ae2f3a81f8aeaabba5"
+     ],
+     "isFeatured": null,
+     "registrationInfo": {
+      "provider": null,
+      "registrationStart": {
+       "unit": "days",
+       "date": null,
+       "time": null,
+       "ordinal": 0,
+       "windowType": null
+      },
+      "registrationEnd": {
+       "unit": "days",
+       "date": null,
+       "time": null,
+       "ordinal": 0,
+       "windowType": "EVENT_START"
+      },
+      "enabledMethods": [],
+      "cap": 15,
+      "maxSeats": 1,
+      "scope": null,
+      "isFull": false,
+      "instructions": null,
+      "onlineInstructions": null,
+      "instructionsToAttend": null,
+      "loginToRegister": false,
+      "waitlistEnabled": false
+     },
+     "contact": {
+      "email": {
+       "globalValue": "en.sjpl@sjlibrary.org",
+       "value": "en.sjpl@sjlibrary.org",
+       "rawValue": "en.sjpl@sjlibrary.org",
+       "contactType": "email"
+      },
+      "phone": {
+       "globalValue": "+1-408-808-3036",
+       "value": "(408) 808-3036",
+       "rawValue": "408-808-3036",
+       "contactType": "phone"
+      },
+      "name": "Edenvale Branch Library"
+     },
+     "isCancelled": false
+    },
+    "indexStart": "2026-10-07T17:30:00Z",
+    "indexEnd": "2026-10-07T18:30:00Z",
+    "isRecurring": true,
+    "numberRegistered": null,
+    "numberWaitlistRegistered": null,
+    "isFull": false,
+    "registrationClosed": false
+   },
+   "6aa1ac78f9ed2e00384f529a": {
+    "id": "6aa1ac78f9ed2e00384f529a",
+    "key": "2026-10-15T15:30:00",
+    "seriesId": "6a95ae1c57c264087ad52147",
+    "definition": {
+     "start": "2026-10-15T15:30",
+     "end": "2026-10-15T17:00",
+     "title": "Homework Coaching with Lejla",
+     "description": "<p>Need homework help? Students in Kindergarten through 5th grade can meet with volunteer Homework Coach Lejla in&nbsp;the Children's Room to get homework support.\u202f<strong>Students must have assigned homework to work on to participate in a session.&nbsp;Homework Coaches can help look up and&nbsp;explain concepts covered on assigned homework, support students as they work through their assignments, check work, provide a set&nbsp;time to work on homework, and redirect focus as needed.<br></strong></p>\n<p><strong>Free, with limited capacity. Homework Coach can work with up to 2 students at a time but can take new students if others finish their work early. If you're looking for 1:1 reading skill support, please visit with a Reading Buddy, <a href=\"https://sjpl.bibliocommons.com/v2/events?_gl=1*xmcc1e*_ga*MTM2MjQ5NDU3Ni4xNjYzMDkzNjk2*_ga_G99DMMNG39*czE3ODgxOTI3NDUkbzc3JGcxJHQxNzg4MTkzOTE2JGo1NyRsMCRoMA..*_ga_F5QPDQX1BM*czE3ODgxOTI3NDUkbzc3JGcxJHQxNzg4MTkzOTE2JGo1NyRsMCRoMA..&q=Reading%20Buddies&locations=00\">click here for their schedule at the Children's Room</a>.</strong><br></p>\n<p><a href=\"https://www.sjpl.org/ada-event-accommodation/\" target=\"_blank\">ADA Accommodation Requests</a></p>",
+     "partnerId": null,
+     "bibIds": [],
+     "featuredImageId": "5d75924edcb8184600360e58",
+     "branchLocationId": "00",
+     "nonBranchLocationId": null,
+     "locationDetails": "Children's Room near Storytelling Area, 1st Floor",
+     "audienceIds": [
+      "5d5f0926be771f2300369397",
+      "5d714d6c4464033900bac7c2"
+     ],
+     "languageIds": [
+      "5d52fbb909c424450063680d"
+     ],
+     "programId": null,
+     "typeIds": [
+      "5d65e9ae2f3a81f8aeaabb9c"
+     ],
+     "isFeatured": null,
+     "registrationInfo": {
+      "provider": null,
+      "enabledMethods": [],
+      "cap": 3,
+      "instructions": null,
+      "maxSeats": 1,
+      "scope": null,
+      "waitlistEnabled": true,
+      "waitlistAutoPromote": true,
+      "onlineInstructions": "<p>Hello, and thanks for registering for Homework Coaching, Thursdays at 4pm in the <a href=\"https://maps.app.goo.gl/CWXwuEcsPabtMgsh7\" target=\"_blank\">Dr. Martin Luther King Jr. Library</a> Children's Room. Please note that students must bring homework to participate in a&nbsp;session, and will be released from the session once their homework is finished or the session ends (5:30pm), whichever comes first.&nbsp;Students may have up to two other students working on their homework with them, so 1:1 help from a coach&nbsp;is not guaranteed.</p>\n<p>If you can no longer participate in this session, please cancel your registration using the links in this email OR by logging into your account on SJPL.org, clicking your username, and selecting \"My Events\" from the dropdown to manage registration for all of the events you've signed up for with our library.&nbsp;</p>\n<p>Thanks, and see you at the library!</p>",
+      "instructionsToAttend": "<p>You've signed up for a Homework Coaching session tomorrow at 4:00pm at the <a href=\"https://www.google.com/maps/place/Dr.+Martin+Luther+King,+Jr.+Library/@37.3354867,-121.8875744,17z/data=!3m2!4b1!5s0x808fccbbfc65591d:0x74bd30e7ed5abda0!4m6!3m5!1s0x808fccbc0b22b081:0xe370813fc863d57f!8m2!3d37.3354825!4d-121.8849995!16zL20vMDUyd205?entry=tts&g_ep=EgoyMDI1MTIwOS4wIPu8ASoASAFQAw%3D%3D&skid=72a7bf4f-ef38-45e7-afb4-28cf8c931919\" target=\"_blank\">Dr. Martin Luther King, Jr. Library</a>, in the Children's Room.</p>\n<p>- If you will arrive late to or can no&nbsp;longer attend&nbsp;the session, please call 408-808-2177 and let librarian Marsha know; please leave a message if no one answers.<br></p>\n<p>- Remember to bring your homework to the session! Having an assignment to work through is a prerequisite for participation.&nbsp;</p>\n<p>- Please reach out to Marsha at marsha.malcolm@sjlibrary.org if you will need special equipment for your assignment (a computer, a tablet, etc.). We will do our best to provide, but it may not be possible.</p>\n<p>See you at the library!</p>",
+      "loginToRegister": false,
+      "registrationStart": {
+       "windowType": "RELATIVE",
+       "date": null,
+       "time": null,
+       "unit": "days",
+       "ordinal": 7
+      },
+      "registrationEnd": {
+       "windowType": "RELATIVE",
+       "date": null,
+       "time": null,
+       "unit": "hours",
+       "ordinal": 4
+      }
+     },
+     "contact": {
+      "name": "Marsha Malcolm",
+      "phone": {
+       "contactType": "phone",
+       "rawValue": "408-808-2183",
+       "value": "(408) 808-2183",
+       "globalValue": "+1-408-808-2183"
+      },
+      "email": {
+       "contactType": "email",
+       "rawValue": "marsha.malcolm@sjlibrary.org",
+       "value": "marsha.malcolm@sjlibrary.org",
+       "globalValue": "marsha.malcolm@sjlibrary.org"
+      }
+     },
+     "isCancelled": false
+    },
+    "indexStart": "2026-10-15T22:30:00Z",
+    "indexEnd": "2026-10-16T00:00:00Z",
+    "isRecurring": true,
+    "numberRegistered": null,
+    "numberWaitlistRegistered": null,
+    "isFull": false,
+    "registrationClosed": false
+   },
+   "6a55537617f387c203a4ffff": {
+    "id": "6a55537617f387c203a4ffff",
+    "key": "2026-11-17T14:00:00",
+    "seriesId": "6a52c8f5dee4ff5300c90c07",
+    "definition": {
+     "start": "2026-11-17T14:00",
+     "end": "2026-11-17T15:00",
+     "title": "*Virtual* Digital Skills: Tr\u1ee3 Gi\u00fap K\u1ef9 N\u0103ng M\u00e1y T\u00ednh B\u1eb1ng Ti\u1ebfng Vi\u1ec7t Qua Zoom (Computer Help)",
+     "description": "<p><strong>Computer Help in Vietnamese via Zoom</strong></p>\n<p>Free. Available In Vietnamese </p>\n<p>Contact Rebecca Quan at <strong>rebecca.quan@sjlibrary.org</strong> to get the zoom link.</p>\n<p>Would you like to find out more about computers?</p>\n<p>Our staff can help you with basic computer skills: Learning the basics of Microsoft Word, Excel and PowerPoint; Setting up an email account with strong password; Using social media such as Facebook and Zalo.</p>\n<p>And more\u2026<strong><br><br><a href=\"https://www.sjpl.org/ada-event-accommodation/\">ADA Accommodation Requests</a></strong></p>\n<p></p>\n<hr>\n<p><strong><br><br>Tr\u1ee3 gi\u00fap k\u1ef9 n\u0103ng m\u00e1y t\u00ednh b\u1eb1ng ti\u1ebfng Vi\u1ec7t.&nbsp;</strong>Ho\u00e0n to\u00e0n mi\u1ec5n ph\u00ed qua Zoom.</p>\n<p>Xin vui l\u00f2ng g\u1eedi email cho ch\u1ecb Rebecca t\u1ea1i \u0111\u00e2y&nbsp;<strong>rebecca.quan@sjlibrary.org</strong> \u0111\u1ec3 nh\u1eadn \u0111\u01b0\u1ee3c \u0111\u01b0\u1eddng link t\u1edbi ph\u00f2ng h\u1ecdc tr\u00ean Zoom.<br></p>\n<p>Ch\u00fang t\u00f4i s\u1ebd h\u1ed7 tr\u1ee3 v\u00e0 h\u01b0\u1edbng d\u1eabn qu\u00fd v\u1ecb nh\u1eefng k\u1ef9 n\u0103ng sau: C\u00e1c k\u1ef9 n\u0103ng c\u01a1 b\u1ea3n khi s\u1eed d\u1ee5ng Microsoft Word, Excel and PowerPoint; T\u1ea1o m\u1ed9t tr\u01b0\u01a1ng m\u1ee5c email v\u1edbi m\u1eadt kh\u1ea9u m\u1ea1nh.&nbsp;S\u1eed d\u1ee5ng m\u1ea1ng x\u00e3 h\u1ed9i nh\u01b0 Facebook v\u00e0 Zalo. M\u1ecdi th\u00e0nh vi\u00ean \u0111\u1ec1u \u0111\u01b0\u1ee3c \u0111\u00f3n ch\u00e0o!<br><br>Hosted by Evergreen Branch.</p>\n\n<p>&nbsp;#dsbDigitalSkills</p><p><br><a href=\"https://www.sjpl.org/ada-event-accommodation/\">ADA Y\u00eau c\u1ea7u Ph\u01b0\u01a1ng ti\u1ec7n \u0111\u1ec3 tham gia ch\u01b0\u01a1ng tr\u00ecnh</a><br></p>",
+     "partnerId": null,
+     "bibIds": [],
+     "featuredImageId": "61d63d08bd571d4100c6d362",
+     "branchLocationId": null,
+     "nonBranchLocationId": null,
+     "locationDetails": null,
+     "audienceIds": [
+      "5d52fbae4d791b3a003e92e3",
+      "5d65e368eb2cac50006a08ab"
+     ],
+     "languageIds": [
+      "5d65e5fbe6fec218adacff58"
+     ],
+     "programId": null,
+     "typeIds": [
+      "5d65e9ae2f3a81f8aeaabba3"
+     ],
+     "isVirtual": true,
+     "isFeatured": null,
+     "registrationInfo": {
+      "registrationEnd": {
+       "ordinal": 0,
+       "unit": "days",
+       "time": null,
+       "date": null,
+       "windowType": null
+      },
+      "registrationStart": {
+       "ordinal": 0,
+       "unit": "days",
+       "time": null,
+       "date": null,
+       "windowType": null
+      },
+      "instructionsToAttend": null,
+      "onlineInstructions": null,
+      "waitlistEnabled": false,
+      "scope": null,
+      "maxSeats": null,
+      "instructions": null,
+      "cap": null,
+      "enabledMethods": [],
+      "provider": "EXTERNAL"
+     },
+     "contact": {
+      "email": {
+       "globalValue": "rebecca.quan@sjlibrary.org",
+       "value": "rebecca.quan@sjlibrary.org",
+       "rawValue": "Rebecca.quan@sjlibrary.org",
+       "contactType": "email"
+      },
+      "phone": {
+       "globalValue": "+1-408-808-3060",
+       "value": "(408) 808-3060",
+       "rawValue": "408-808-3060",
+       "contactType": "phone"
+      },
+      "name": "Rebecca Quan"
+     },
+     "isCancelled": false
+    },
+    "indexStart": "2026-11-17T22:00:00Z",
+    "indexEnd": "2026-11-17T23:00:00Z",
+    "isRecurring": true,
+    "numberRegistered": null,
+    "numberWaitlistRegistered": null,
+    "isFull": false,
+    "registrationClosed": false
+   }
+  },
+  "locations": {
+   "12": {
+    "id": "12",
+    "name": "Edenvale",
+    "coreAbsent": false,
+    "isHidden": false,
+    "imageId": "64e3d1dcbe89f74100a3cb8e",
+    "customUrl": "https://www.sjpl.org/locations/edenvale/",
+    "hours": [
+     {
+      "timeRef": "tuesday",
+      "openTime": "T10:00",
+      "closeTime": "T19:00",
+      "id": "68a516ed709d27410037fb83"
+     },
+     {
+      "timeRef": "wednesday",
+      "openTime": "T10:00",
+      "closeTime": "T19:00",
+      "id": "68a516ed709d27410037fb82"
+     },
+     {
+      "timeRef": "thursday",
+      "openTime": "T10:00",
+      "closeTime": "T19:00",
+      "id": "68a516ed709d27410037fb81"
+     },
+     {
+      "timeRef": "friday",
+      "openTime": "T12:00",
+      "closeTime": "T18:00",
+      "id": "68a516ed709d27410037fb80"
+     },
+     {
+      "timeRef": "saturday",
+      "openTime": "T10:00",
+      "closeTime": "T18:00",
+      "id": "68a516ed709d27410037fb7f"
+     },
+     {
+      "timeRef": "monday",
+      "openTime": "T13:00",
+      "closeTime": "T19:00",
+      "id": "68a516ed709d27410037fb7e"
+     },
+     {
+      "timeRef": "sunday",
+      "openTime": "T12:00",
+      "closeTime": "T17:00",
+      "id": "68a516ed709d27410037fb7d"
+     }
+    ],
+    "sortedHours": [
+     {
+      "day": "monday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "monday",
+        "openTime": "T13:00",
+        "closeTime": "T19:00",
+        "id": "68a516ed709d27410037fb7e"
+       }
+      ]
+     },
+     {
+      "day": "tuesday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "tuesday",
+        "openTime": "T10:00",
+        "closeTime": "T19:00",
+        "id": "68a516ed709d27410037fb83"
+       }
+      ]
+     },
+     {
+      "day": "wednesday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "wednesday",
+        "openTime": "T10:00",
+        "closeTime": "T19:00",
+        "id": "68a516ed709d27410037fb82"
+       }
+      ]
+     },
+     {
+      "day": "thursday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "thursday",
+        "openTime": "T10:00",
+        "closeTime": "T19:00",
+        "id": "68a516ed709d27410037fb81"
+       }
+      ]
+     },
+     {
+      "day": "friday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "friday",
+        "openTime": "T12:00",
+        "closeTime": "T18:00",
+        "id": "68a516ed709d27410037fb80"
+       }
+      ]
+     },
+     {
+      "day": "saturday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "saturday",
+        "openTime": "T10:00",
+        "closeTime": "T18:00",
+        "id": "68a516ed709d27410037fb7f"
+       }
+      ]
+     },
+     {
+      "day": "sunday",
+      "isToday": true,
+      "hours": [
+       {
+        "timeRef": "sunday",
+        "openTime": "T12:00",
+        "closeTime": "T17:00",
+        "id": "68a516ed709d27410037fb7d"
+       }
+      ]
+     }
+    ],
+    "hoursNote": "",
+    "address": {
+     "country": "US",
+     "zip": "95111",
+     "state": "CA",
+     "city": "San Jose",
+     "street": "Branham Lane East",
+     "number": "101"
+    },
+    "branchContacts": [
+     {
+      "contactType": "phone",
+      "rawValue": "408-808-3036",
+      "label": null,
+      "value": "(408) 808-3036",
+      "globalValue": "+1-408-808-3036",
+      "id": "68a516ed709d27410037fb85"
+     },
+     {
+      "contactType": "email",
+      "rawValue": "en.sjpl@sjlibrary.org",
+      "label": null,
+      "globalValue": "en.sjpl@sjlibrary.org",
+      "value": "en.sjpl@sjlibrary.org",
+      "id": "68a516ed709d27410037fb84"
+     }
+    ],
+    "mapLocation": {
+     "centrePoint": {
+      "lng": -121.8211192,
+      "lat": 37.2677138
+     },
+     "utcOffsetNow": "-0700",
+     "timeZone": "America/Los_Angeles",
+     "isGeocoded": true
+    },
+    "facilities": [
+     {
+      "typeId": "651f1befa7d41a3500013138",
+      "id": "68a516ed709d27410037fb7c",
+      "url": null
+     },
+     {
+      "typeId": "651f24ca9690c63c00ffca19",
+      "id": "68a516ed709d27410037fb7b",
+      "url": null
+     },
+     {
+      "typeId": "6531af2acb391ed4418f7d30",
+      "id": "68a516ed709d27410037fb7a",
+      "url": null
+     },
+     {
+      "typeId": "6531b4c38fffe94c00c78b2c",
+      "id": "68a516ed709d27410037fb79",
+      "url": null
+     },
+     {
+      "typeId": "6531b6318fffe94c00c78b5a",
+      "id": "68a516ed709d27410037fb78",
+      "url": null
+     },
+     {
+      "typeId": "6531b6548fffe94c00c78b5e",
+      "id": "68a516ed709d27410037fb77",
+      "url": null
+     },
+     {
+      "typeId": "6531b6748fffe94c00c78b60",
+      "id": "68a516ed709d27410037fb76",
+      "url": null
+     },
+     {
+      "typeId": "65c27fb2de4b6141009fece8",
+      "id": "68a516ed709d27410037fb75",
+      "url": null
+     }
+    ],
+    "highlights": [],
+    "specialHoursIds": [
+     "691f949b9be7c6685c2922b8",
+     "691f94a806078d360078fad9",
+     "691f94b6a6fedec9530a2d65",
+     "691f94d09be7c6685c2922be",
+     "691f94db9be7c6685c2922bf"
+    ],
+    "webUrl": "https://www.sjpl.org/locations/edenvale/"
+   },
+   "17": {
+    "id": "17",
+    "name": "Joyce Ellington",
+    "coreAbsent": false,
+    "isHidden": false,
+    "description": "",
+    "imageId": "64e3d202d0f9343a00e86739",
+    "customUrl": "https://www.sjpl.org/locations/joyce-ellington/",
+    "hours": [
+     {
+      "timeRef": "tuesday",
+      "openTime": "T10:00",
+      "closeTime": "T19:00",
+      "id": "68bf09091fc2d0151013fee5"
+     },
+     {
+      "timeRef": "wednesday",
+      "openTime": "T10:00",
+      "closeTime": "T19:00",
+      "id": "68bf09091fc2d0151013fee4"
+     },
+     {
+      "timeRef": "thursday",
+      "openTime": "T10:00",
+      "closeTime": "T19:00",
+      "id": "68bf09091fc2d0151013fee3"
+     },
+     {
+      "timeRef": "friday",
+      "openTime": "T12:00",
+      "closeTime": "T18:00",
+      "id": "68bf09091fc2d0151013fee2"
+     },
+     {
+      "timeRef": "saturday",
+      "openTime": "T10:00",
+      "closeTime": "T18:00",
+      "id": "68bf09091fc2d0151013fee1"
+     },
+     {
+      "timeRef": "monday",
+      "openTime": "T13:00",
+      "closeTime": "T19:00",
+      "id": "68bf09091fc2d0151013fee0"
+     },
+     {
+      "timeRef": "sunday",
+      "openTime": "T12:00",
+      "closeTime": "T17:00",
+      "id": "68bf09091fc2d0151013fedf"
+     }
+    ],
+    "sortedHours": [
+     {
+      "day": "monday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "monday",
+        "openTime": "T13:00",
+        "closeTime": "T19:00",
+        "id": "68bf09091fc2d0151013fee0"
+       }
+      ]
+     },
+     {
+      "day": "tuesday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "tuesday",
+        "openTime": "T10:00",
+        "closeTime": "T19:00",
+        "id": "68bf09091fc2d0151013fee5"
+       }
+      ]
+     },
+     {
+      "day": "wednesday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "wednesday",
+        "openTime": "T10:00",
+        "closeTime": "T19:00",
+        "id": "68bf09091fc2d0151013fee4"
+       }
+      ]
+     },
+     {
+      "day": "thursday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "thursday",
+        "openTime": "T10:00",
+        "closeTime": "T19:00",
+        "id": "68bf09091fc2d0151013fee3"
+       }
+      ]
+     },
+     {
+      "day": "friday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "friday",
+        "openTime": "T12:00",
+        "closeTime": "T18:00",
+        "id": "68bf09091fc2d0151013fee2"
+       }
+      ]
+     },
+     {
+      "day": "saturday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "saturday",
+        "openTime": "T10:00",
+        "closeTime": "T18:00",
+        "id": "68bf09091fc2d0151013fee1"
+       }
+      ]
+     },
+     {
+      "day": "sunday",
+      "isToday": true,
+      "hours": [
+       {
+        "timeRef": "sunday",
+        "openTime": "T12:00",
+        "closeTime": "T17:00",
+        "id": "68bf09091fc2d0151013fedf"
+       }
+      ]
+     }
+    ],
+    "hoursNote": "",
+    "address": {
+     "country": "US",
+     "zip": "95112",
+     "state": "CA",
+     "city": "San Jose",
+     "street": "E. Empire St",
+     "number": "491"
+    },
+    "branchContacts": [
+     {
+      "contactType": "phone",
+      "rawValue": "408-808-3043",
+      "label": null,
+      "value": "(408) 808-3043",
+      "globalValue": "+1-408-808-3043",
+      "id": "68bf09091fc2d0151013fee7"
+     },
+     {
+      "contactType": "email",
+      "rawValue": "je.sjpl@sjlibrary.org",
+      "label": null,
+      "globalValue": "je.sjpl@sjlibrary.org",
+      "value": "je.sjpl@sjlibrary.org",
+      "id": "68bf09091fc2d0151013fee6"
+     }
+    ],
+    "mapLocation": {
+     "centrePoint": {
+      "lng": -121.88694550000002,
+      "lat": 37.3498412
+     },
+     "utcOffsetNow": "-0700",
+     "timeZone": "America/Los_Angeles",
+     "isGeocoded": true
+    },
+    "facilities": [
+     {
+      "typeId": "651f1befa7d41a3500013138",
+      "id": "68bf09091fc2d0151013fede",
+      "url": null
+     },
+     {
+      "typeId": "6531af2acb391ed4418f7d30",
+      "id": "68bf09091fc2d0151013fedd",
+      "url": null
+     },
+     {
+      "typeId": "6531b4c38fffe94c00c78b2c",
+      "id": "68bf09091fc2d0151013fedc",
+      "url": null
+     },
+     {
+      "typeId": "6531b6318fffe94c00c78b5a",
+      "id": "68bf09091fc2d0151013fedb",
+      "url": null
+     },
+     {
+      "typeId": "6531b6548fffe94c00c78b5e",
+      "id": "68bf09091fc2d0151013feda",
+      "url": null
+     },
+     {
+      "typeId": "6531b6748fffe94c00c78b60",
+      "id": "68bf09091fc2d0151013fed9",
+      "url": null
+     },
+     {
+      "url": null,
+      "typeId": "66760129d8f18e57580de6d1",
+      "id": "68bf09091fc2d0151013fed8"
+     },
+     {
+      "typeId": "66b520a814460a1fe3407388",
+      "id": "68bf09091fc2d0151013fed7",
+      "url": null
+     }
+    ],
+    "highlights": [],
+    "specialHoursIds": [
+     "691f949b9be7c6685c2922b8",
+     "691f94a806078d360078fad9",
+     "691f94b6a6fedec9530a2d65",
+     "691f94d09be7c6685c2922be",
+     "691f94db9be7c6685c2922bf"
+    ],
+    "webUrl": "https://www.sjpl.org/locations/joyce-ellington/"
+   },
+   "00": {
+    "id": "00",
+    "name": "King Library",
+    "coreAbsent": false,
+    "isHidden": false,
+    "description": "",
+    "imageId": "64e3d23f698898330012d527",
+    "customUrl": "https://www.sjpl.org/locations/king/",
+    "transitUrl": "",
+    "hours": [
+     {
+      "timeRef": "tuesday",
+      "openTime": "T08:00",
+      "closeTime": "T20:00",
+      "id": "6744e2b2ea8663456a20769d"
+     },
+     {
+      "timeRef": "wednesday",
+      "openTime": "T08:00",
+      "closeTime": "T20:00",
+      "id": "6744e2b2ea8663456a20769c"
+     },
+     {
+      "timeRef": "thursday",
+      "openTime": "T08:00",
+      "closeTime": "T20:00",
+      "id": "6744e2b2ea8663456a20769b"
+     },
+     {
+      "timeRef": "friday",
+      "openTime": "T08:00",
+      "closeTime": "T18:00",
+      "id": "6744e2b2ea8663456a20769a"
+     },
+     {
+      "timeRef": "saturday",
+      "openTime": "T08:00",
+      "closeTime": "T18:00",
+      "id": "6744e2b2ea8663456a207699"
+     },
+     {
+      "timeRef": "monday",
+      "openTime": "T08:00",
+      "closeTime": "T20:00",
+      "id": "6744e2b2ea8663456a207698"
+     },
+     {
+      "timeRef": "sunday",
+      "openTime": "T13:00",
+      "closeTime": "T18:00",
+      "id": "6744e2b2ea8663456a207697"
+     }
+    ],
+    "sortedHours": [
+     {
+      "day": "monday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "monday",
+        "openTime": "T08:00",
+        "closeTime": "T20:00",
+        "id": "6744e2b2ea8663456a207698"
+       }
+      ]
+     },
+     {
+      "day": "tuesday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "tuesday",
+        "openTime": "T08:00",
+        "closeTime": "T20:00",
+        "id": "6744e2b2ea8663456a20769d"
+       }
+      ]
+     },
+     {
+      "day": "wednesday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "wednesday",
+        "openTime": "T08:00",
+        "closeTime": "T20:00",
+        "id": "6744e2b2ea8663456a20769c"
+       }
+      ]
+     },
+     {
+      "day": "thursday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "thursday",
+        "openTime": "T08:00",
+        "closeTime": "T20:00",
+        "id": "6744e2b2ea8663456a20769b"
+       }
+      ]
+     },
+     {
+      "day": "friday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "friday",
+        "openTime": "T08:00",
+        "closeTime": "T18:00",
+        "id": "6744e2b2ea8663456a20769a"
+       }
+      ]
+     },
+     {
+      "day": "saturday",
+      "isToday": false,
+      "hours": [
+       {
+        "timeRef": "saturday",
+        "openTime": "T08:00",
+        "closeTime": "T18:00",
+        "id": "6744e2b2ea8663456a207699"
+       }
+      ]
+     },
+     {
+      "day": "sunday",
+      "isToday": true,
+      "hours": [
+       {
+        "timeRef": "sunday",
+        "openTime": "T13:00",
+        "closeTime": "T18:00",
+        "id": "6744e2b2ea8663456a207697"
+       }
+      ]
+     }
+    ],
+    "hoursNote": "",
+    "address": {
+     "country": "US",
+     "zip": "95112",
+     "state": "California",
+     "city": "San Jose",
+     "street": "E San Fernando St",
+     "number": "150 "
+    },
+    "branchContacts": [
+     {
+      "contactType": "phone",
+      "rawValue": "408-808-2000",
+      "label": null,
+      "value": "(408) 808-2000",
+      "globalValue": "+1-408-808-2000",
+      "id": "6744e2b2ea8663456a20769e"
+     }
+    ],
+    "mapLocation": {
+     "centrePoint": {
+      "lng": -121.88525579999998,
+      "lat": 37.3356906
+     },
+     "utcOffsetNow": "-0700",
+     "timeZone": "America/Los_Angeles",
+     "isGeocoded": true
+    },
+    "facilities": [
+     {
+      "typeId": "651f1befa7d41a3500013138",
+      "id": "6744e2b2ea8663456a207692",
+      "url": null
+     },
+     {
+      "url": "https://www.sjpl.org/weeexplore/",
+      "typeId": "6531b4e8cb391ed4418f7e06",
+      "id": "6744e2b2ea8663456a207691"
+     },
+     {
+      "typeId": "6531b6548fffe94c00c78b5e",
+      "id": "6744e2b2ea8663456a207690",
+      "url": null
+     },
+     {
+      "typeId": "6531b6748fffe94c00c78b60",
+      "id": "6744e2b2ea8663456a20768f",
+      "url": null
+     },
+     {
+      "typeId": "65c27fb2de4b6141009fece8",
+      "id": "6744e2b2ea8663456a20768e",
+      "url": null
+     },
+     {
+      "typeId": "6531af61a9308cd2411c90e6",
+      "id": "6744e2b2ea8663456a20768d",
+      "url": null
+     }
+    ],
+    "highlights": [
+     {
+      "label": "Computers",
+      "url": "https://www.sjpl.org/computers",
+      "id": "6744e2b2ea8663456a207696"
+     },
+     {
+      "label": "Group Study Rooms",
+      "url": "https://www.sjpl.org/rooms",
+      "id": "6744e2b2ea8663456a207695"
+     },
+     {
+      "label": "Wi-Fi Hotspot Checkout",
+      "url": "https://www.sjpl.org/hotspot-members",
+      "id": "6744e2b2ea8663456a207694"
+     },
+     {
+      "label": "Wireless Internet Access",
+      "url": "https://www.sjpl.org/wireless",
+      "id": "6744e2b2ea8663456a207693"
+     }
+    ],
+    "specialHoursIds": [
+     "691f94a806078d360078fad9",
+     "691f94b6a6fedec9530a2d65",
+     "691f94d09be7c6685c2922be",
+     "691f94db9be7c6685c2922bf"
+    ],
+    "webUrl": "https://www.sjpl.org/locations/king/"
+   }
+  },
+  "eventTypes": {
+   "5d65e9ae2f3a81f8aeaabb9c": {
+    "id": "5d65e9ae2f3a81f8aeaabb9c",
+    "name": "Academic Support & Homework Help",
+    "description": "Academic Support & Homework Help",
+    "imageId": "5d75924edcb8184600360e58"
+   },
+   "5d65e9ae2f3a81f8aeaabba3": {
+    "id": "5d65e9ae2f3a81f8aeaabba3",
+    "name": "Computer Help",
+    "description": "Computer Help",
+    "imageId": "669076ffb9c88bd23753c0ba"
+   },
+   "5d65e9ae2f3a81f8aeaabba5": {
+    "id": "5d65e9ae2f3a81f8aeaabba5",
+    "name": "Community Resources & Support Groups",
+    "description": "Community Resources & Support Groups",
+    "imageId": "5d759347ca22562500d92d37"
+   },
+   "5d65e9ae2f3a81f8aeaabbae": {
+    "id": "5d65e9ae2f3a81f8aeaabbae",
+    "name": "STEAM",
+    "description": "STEAM",
+    "imageId": "5df18819e1818724000e237e"
+   },
+   "5d65e9ae2f3a81f8aeaabbaf": {
+    "id": "5d65e9ae2f3a81f8aeaabbaf",
+    "name": "Storytime",
+    "description": "Storytime",
+    "imageId": "5d7593d0ca22562500d92d41"
+   }
+  },
+  "eventAudiences": {
+   "5d52fbae4d791b3a003e92e3": {
+    "id": "5d52fbae4d791b3a003e92e3",
+    "name": "Adults, ages 18+",
+    "imageId": null
+   },
+   "5d5f0926be771f2300369397": {
+    "id": "5d5f0926be771f2300369397",
+    "name": "Kids, ages 5-10",
+    "imageId": null
+   },
+   "5d5f09306bb98139001cffcc": {
+    "id": "5d5f09306bb98139001cffcc",
+    "name": "Young Children, ages 0-5",
+    "imageId": null
+   },
+   "5d65e368eb2cac50006a08ab": {
+    "id": "5d65e368eb2cac50006a08ab",
+    "name": "Seniors, ages 65+",
+    "imageId": null
+   },
+   "5d714d6c4464033900bac7c2": {
+    "id": "5d714d6c4464033900bac7c2",
+    "name": "Pre-Teens, ages 10-12",
+    "imageId": null
+   }
+  },
+  "images": {
+   "5d75924edcb8184600360e58": {
+    "id": "5d75924edcb8184600360e58",
+    "title": "school-supplies",
+    "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/806581755577c566d1d9afcb11a4297b/school-supplies.jpg",
+    "alt": "",
+    "tag": "Event",
+    "caption": "",
+    "description": "",
+    "name": "school-supplies",
+    "sizes": [
+     {
+      "key": "thumbnail",
+      "width": 150,
+      "height": 150,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/thumbnail/806581755577c566d1d9afcb11a4297b/school-supplies.jpg",
+      "id": "5d75924edcb8184600360e59"
+     },
+     {
+      "key": "medium",
+      "width": 150,
+      "height": 300,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/medium/806581755577c566d1d9afcb11a4297b/school-supplies.jpg",
+      "id": "5d75924edcb8184600360e5a"
+     },
+     {
+      "key": "large",
+      "width": 576,
+      "height": 1024,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/large/806581755577c566d1d9afcb11a4297b/school-supplies.jpg",
+      "id": "5d75924edcb8184600360e5b"
+     },
+     {
+      "key": "full",
+      "width": 1400,
+      "height": 970,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/806581755577c566d1d9afcb11a4297b/school-supplies.jpg",
+      "id": "5d75924edcb8184600360e5c"
+     }
+    ]
+   },
+   "5d759347ca22562500d92d37": {
+    "id": "5d759347ca22562500d92d37",
+    "title": "socialwork-crossroads",
+    "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/f042a00af62e3655b093cfc64e7d8ca2/socialwork-crossroads.jpg",
+    "alt": "",
+    "tag": "EventType",
+    "caption": "",
+    "description": "",
+    "name": "socialwork-crossroads",
+    "sizes": [
+     {
+      "key": "thumbnail",
+      "width": 150,
+      "height": 150,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/thumbnail/f042a00af62e3655b093cfc64e7d8ca2/socialwork-crossroads.jpg",
+      "id": "5d759347ca22562500d92d38"
+     },
+     {
+      "key": "medium",
+      "width": 150,
+      "height": 300,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/medium/f042a00af62e3655b093cfc64e7d8ca2/socialwork-crossroads.jpg",
+      "id": "5d759347ca22562500d92d39"
+     },
+     {
+      "key": "large",
+      "width": 576,
+      "height": 1024,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/large/f042a00af62e3655b093cfc64e7d8ca2/socialwork-crossroads.jpg",
+      "id": "5d759347ca22562500d92d3a"
+     },
+     {
+      "key": "full",
+      "width": 1400,
+      "height": 950,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/f042a00af62e3655b093cfc64e7d8ca2/socialwork-crossroads.jpg",
+      "id": "5d759347ca22562500d92d3b"
+     }
+    ]
+   },
+   "61d63d08bd571d4100c6d362": {
+    "id": "61d63d08bd571d4100c6d362",
+    "title": "76696651-16_9",
+    "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/13cdbbeb17c485f2b77066df8f9a80cc/76696651-16_9.jpg",
+    "alt": "A user is typing on keyboard",
+    "tag": "Event",
+    "caption": "",
+    "description": "",
+    "name": "76696651-16_9",
+    "sizes": [
+     {
+      "key": "thumbnail",
+      "width": 150,
+      "height": 150,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/thumbnail/13cdbbeb17c485f2b77066df8f9a80cc/76696651-16_9.jpg",
+      "id": "61d63d08bd571d4100c6d363"
+     },
+     {
+      "key": "medium",
+      "width": 150,
+      "height": 300,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/medium/13cdbbeb17c485f2b77066df8f9a80cc/76696651-16_9.jpg",
+      "id": "61d63d08bd571d4100c6d364"
+     },
+     {
+      "key": "large",
+      "width": 576,
+      "height": 1024,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/large/13cdbbeb17c485f2b77066df8f9a80cc/76696651-16_9.jpg",
+      "id": "61d63d08bd571d4100c6d365"
+     },
+     {
+      "key": "full",
+      "width": 505,
+      "height": 285,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/13cdbbeb17c485f2b77066df8f9a80cc/76696651-16_9.jpg",
+      "id": "61d63d08bd571d4100c6d366"
+     }
+    ]
+   },
+   "636421de31df7e370005d96f": {
+    "id": "636421de31df7e370005d96f",
+    "title": "early-ed-1400.jpg",
+    "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/2bb06680eaae74127a896706d8207a52/early-ed-1400.jpg.jpg",
+    "alt": "Adult reading to children.",
+    "tag": "Event",
+    "caption": "",
+    "description": "",
+    "name": "early-ed-1400.jpg",
+    "sizes": [
+     {
+      "key": "thumbnail",
+      "width": 150,
+      "height": 150,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/thumbnail/2bb06680eaae74127a896706d8207a52/early-ed-1400.jpg.jpg",
+      "id": "636421de31df7e370005d970"
+     },
+     {
+      "key": "medium",
+      "width": 150,
+      "height": 300,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/medium/2bb06680eaae74127a896706d8207a52/early-ed-1400.jpg.jpg",
+      "id": "636421df31df7e370005d971"
+     },
+     {
+      "key": "large",
+      "width": 576,
+      "height": 1024,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/large/2bb06680eaae74127a896706d8207a52/early-ed-1400.jpg.jpg",
+      "id": "636421df31df7e370005d972"
+     },
+     {
+      "key": "full",
+      "width": 1200,
+      "height": 628,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/2bb06680eaae74127a896706d8207a52/early-ed-1400.jpg.jpg",
+      "id": "636421df31df7e370005d973"
+     }
+    ]
+   },
+   "6a63925ce9de6536001df6c9": {
+    "id": "6a63925ce9de6536001df6c9",
+    "title": "sjplbe_oneinmath26v2",
+    "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/de93dece189cf5504d0f2924861698aa/sjplbe_oneinmath26v2.png",
+    "alt": "A composite of a volunteer tutor assists an elementary student with homework, next to math and school supplies.",
+    "tag": "Event",
+    "caption": "",
+    "description": "",
+    "name": "sjplbe_oneinmath26v2",
+    "sizes": [
+     {
+      "key": "thumbnail",
+      "width": 150,
+      "height": 150,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/thumbnail/de93dece189cf5504d0f2924861698aa/sjplbe_oneinmath26v2.png",
+      "id": "6a63925ce9de6536001df6ca"
+     },
+     {
+      "key": "medium",
+      "width": 150,
+      "height": 300,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/medium/de93dece189cf5504d0f2924861698aa/sjplbe_oneinmath26v2.png",
+      "id": "6a63925ce9de6536001df6cb"
+     },
+     {
+      "key": "large",
+      "width": 576,
+      "height": 1024,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/large/de93dece189cf5504d0f2924861698aa/sjplbe_oneinmath26v2.png",
+      "id": "6a63925ce9de6536001df6cc"
+     },
+     {
+      "key": "full",
+      "width": 1780,
+      "height": 445,
+      "url": "https://sjpl.bibliocommons.com/events/uploads/images/full/de93dece189cf5504d0f2924861698aa/sjplbe_oneinmath26v2.png",
+      "id": "6a63925ce9de6536001df6cd"
+     }
+    ]
+   }
+  }
+ }
+}

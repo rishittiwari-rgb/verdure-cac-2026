@@ -1,0 +1,94 @@
+# Runs the checks that already existed but nothing ever triggered.
+#
+# scripts/security-regression.mjs and ip-normalise.test.mjs were written because
+# every control in lib/security has been wrong at least once in a way reading it
+# did not reveal. They were then wired to nothing, so they ran when a human
+# remembered — and one of them spent three revisions asserting a property that
+# was false, because the case that mattered was never exercised and nobody was
+# watching the case that was. Tests nobody runs are documentation with a
+# misleading name.
+#
+# Deliberately not a deploy pipeline. Vercel builds and deploys this repo on its
+# own; duplicating that here would mean two build configs to keep in step. This
+# job answers one question — would this commit break a security control — and
+# leaves shipping alone.
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  # Advisories land against code that has not changed, so a green build in
+  # March says nothing about April. Weekly re-runs on an untouched tree are what
+  # surface a newly-published advisory in a dependency nobody has touched.
+  schedule:
+    - cron: "0 6 * * 1"
+
+# A second push to the same branch makes the first run's answer irrelevant.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+# Least privilege: this workflow reads code and writes nothing back.
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # 20.x matches the @types/node the project builds against. Pinning the
+      # major keeps a Node release from failing CI on a day nobody changed
+      # anything.
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+          cache: "npm"
+
+      # ci, not install: it installs from package-lock.json exactly and fails if
+      # the lockfile and package.json disagree. That is the property worth
+      # having here — a resolution that drifts silently is how a caret range
+      # becomes a supply-chain event.
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      # The two suites this workflow exists for.
+      - name: IP normalisation tests
+        run: npm run test:ip
+
+      - name: Security regression tests
+        run: npm run test:security
+
+      # Placeholder values: the build only needs these to be present and
+      # syntactically valid, and nothing here talks to Supabase. Real secrets
+      # would buy nothing and would put live credentials in a log-producing
+      # environment for no reason.
+      - name: Build
+        run: npm run build
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: "https://placeholder.supabase.co"
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: "placeholder-anon-key"
+          NEXT_PUBLIC_SITE_URL: "https://verdure-app.com"
+
+      # Advisory, not blocking, and the distinction is the point: every current
+      # advisory is in the ESLint toolchain, reachable only on a developer's
+      # machine, and fixing them needs a major-version bump of eslint itself.
+      # Failing the build on those trains everyone to ignore a red X, which is
+      # how a real one gets waved through. --omit=dev IS blocking, immediately
+      # below, because that set ships to users.
+      - name: Audit (dev tree, advisory only)
+        run: npm audit || true
+        continue-on-error: true
+
+      - name: Audit (production tree, blocking)
+        run: npm audit --omit=dev --audit-level=high

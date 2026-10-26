@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-04",
+  "scope": "C1 compact index and online C2/C3; F1/C4/C5 and device gates pending",
+  "backendUnitChecks": 366,
+  "parkUnitChecks": 80,
+  "parkGuideCallableChecks": 29,
+  "pipelineRegressionChecks": 28,
+  "nativeFocused": {
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0,
+    "resultBundle": "/Users/<developer>/Library/Developer/Xcode/DerivedData/Verdure-dzrhqiewgrllfeejhxyfaiymfgbg/Logs/Test/Test-Verdure-2026.10.04_04-44-25--0700.xcresult"
+  },
+  "existingDiscoveryFilterRegressionChecks": 12,
+  "realLocalCatalog": {
+    "generation": "8738ac5f-5451-43c0-b101-e1aa3c296558",
+    "usableFeatures": 5507,
+    "parks": 651
+  },
+  "screenshots": [
+    "park-guide-closed-2026-10-04.png",
+    "park-guide-trails-2026-10-04.png"
+  ],
+  "physicalDeviceEvidence": false,
+  "deployment": false,
+  "rankingModified": false,
+  "classifierFreeze": "d4b71507ac6f3e78fe048293e0095555e7b19bd3",
+  "limitations": [
+    "F1 story not implemented",
+    "C4 offline packs not implemented",
+    "No full new iOS suite claimed",
+    "No physical/outdoor GPS or airplane-mode pack evidence",
+    "No production index proof"
+  ],
+  "finalTrailAttributionUI": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "resultBundle": "/Users/<developer>/Library/Developer/Xcode/DerivedData/Verdure-dzrhqiewgrllfeejhxyfaiymfgbg/Logs/Test/Test-Verdure-2026.10.04_04-54-32--0700.xcresult"
+  }
+}

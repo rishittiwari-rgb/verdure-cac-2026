@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>painted terrain capture</title></head>
+<body style="background:#0C120D">
+<div id="pct" style="color:#CCE58F;font-family:monospace"></div>
+<script>
+/* Verdure painted-terrain bake — the EverSwap handoff generator
+   (design_handoff_painted_landscape/landscape-hero.html) re-themed to the
+   owner's nebula palette (#013025 #01465F #117D56 #A1CD3F #CCE58F) and
+   graded dark so the art sits behind a dark UI. Runs once under Playwright;
+   the site ships only the exported webp stills. */
+(function () {
+  const PALETTE = {
+    deep:  [3, 34, 46],       // deep water  — #01465F darkened
+    light: [88, 148, 158],    // shallow water — the luminous element
+    foam:  [204, 229, 165],   // rapids / foam — sage #CCE58F
+    g1:    [20, 54, 36],      // dark grass — #013025 family
+    g2:    [92, 132, 50],     // bright grass — muted #A1CD3F
+    forest:[6, 34, 23],       // forest base
+    earth: [84, 78, 52],      // dry earth, desaturated
+    treeHi:[122, 160, 62]     // canopy highlight — lime family
+  };
+  const W = 720, H = 1440, S = 2.5;
+
+  function makeNoise(seed) {
+    let s = seed;
+    const rand = () => (s = (s * 16807) % 2147483647) / 2147483647;
+    const p = [...Array(256).keys()];
+    for (let i = 255; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [p[i], p[j]] = [p[j], p[i]]; }
+    const perm = new Uint8Array(512);
+    for (let i = 0; i < 512; i++) perm[i] = p[i & 255];
+    const g = new Float32Array(256);
+    for (let i = 0; i < 256; i++) g[i] = rand();
+    return (x, y) => {
+      const xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi;
+      const u = xf * xf * (3 - 2 * xf), v = yf * yf * (3 - 2 * yf);
+      const aa = g[perm[(perm[xi & 255] + yi) & 255]], ba = g[perm[(perm[(xi + 1) & 255] + yi) & 255]];
+      const ab = g[perm[(perm[xi & 255] + yi + 1) & 255]], bb = g[perm[(perm[(xi + 1) & 255] + yi + 1) & 255]];
+      return aa + (ba - aa) * u + (ab - aa) * v + (aa - ba - ab + bb) * u * v;
+    };
+  }
+  const fbm = (n, x, y, o) => { let a = .5, f = 1, s = 0, t = 0; for (let i = 0; i < o; i++) { s += a * n(x * f, y * f); t += a; a *= .5; f *= 2; } return s / t; };
+
+  window.__art = null;
+  window.__done = false;
+  function build(done) {
+    const n1 = makeNoise(11), n2 = makeNoise(29), n3 = makeNoise(53), n4 = makeNoise(97);
+    const P = PALETTE;
+    const img = new ImageData(W, H), dat = img.data;
+    const fMask = new Uint8Array(W * H);
+    const mix = (a, b, t) => a + (b - a) * t;
+    const cl = v => v < 0 ? 0 : v > 1 ? 1 : v;
+    let y = 0;
+    const pct = document.getElementById('pct');
+    (function step() {
+      const yEnd = Math.min(H, y + 36);
+      for (; y < yEnd; y++) for (let x = 0; x < W; x++) {
+        const j = (n4(x * .06, y * .06) - .5) * 10;
+        const jx = x + j, jy = y + j * .6;
+        const e  = fbm(n1, jx * .008, jy * .008, 4);
+        const rv = fbm(n2, jx * .0045 + 31, jy * .0045, 3);
+        const m  = fbm(n3, jx * .011 + 7, jy * .011, 2);
+        const d  = Math.abs(rv - .5);
+        const rw = .03 + m * .028;
+        const lake = e < .34;
+        let r, g, b;
+        if (d < rw || lake) {
+          let depth = lake ? cl((.34 - e) * 5) : 0;
+          if (d < rw) depth = Math.max(depth, Math.pow(cl((rw - d) / rw), .7));
+          r = mix(P.light[0], P.deep[0], depth); g = mix(P.light[1], P.deep[1], depth); b = mix(P.light[2], P.deep[2], depth);
+          const fl = fbm(n4, x * .05, y * .012, 3);
+          const st = cl((fl - .55) * 3.2) * (1 - depth * .55);
+          r = mix(r, P.foam[0], st); g = mix(g, P.foam[1], st); b = mix(b, P.foam[2], st);
+        } else {
+          const gt = cl((m - .25) * 1.8);
+          r = mix(P.g1[0], P.g2[0], gt); g = mix(P.g1[1], P.g2[1], gt); b = mix(P.g1[2], P.g2[2], gt);
+          const ft = fbm(n3, jx * .013 + 99, jy * .013, 3);
+          const fA = cl((ft - .52) * 3) * cl((e - .34) * 4);
+          if (fA > .45) fMask[y * W + x] = 1;
+          r = mix(r, P.forest[0], fA * .85); g = mix(g, P.forest[1], fA * .85); b = mix(b, P.forest[2], fA * .85);
+          const dt = cl((.38 - m) * 2.5) * cl((e - .55) * 3);
+          r = mix(r, P.earth[0], dt * .7); g = mix(g, P.earth[1], dt * .7); b = mix(b, P.earth[2], dt * .7);
+          if (d < rw * 1.5) { const dk = 1 - (1 - cl((d - rw) / (rw * .5))) * .25; r *= dk; g *= dk; b *= dk; }
+        }
+        const lt = .88 + .26 * fbm(n4, x * .02, y * .02, 2);
+        const i = (y * W + x) * 4;
+        dat[i] = Math.min(255, r * lt); dat[i+1] = Math.min(255, g * lt); dat[i+2] = Math.min(255, b * lt); dat[i+3] = 255;
+      }
+      pct.textContent = Math.round(y / H * 82) + '%';
+      if (y < H) { setTimeout(step, 0); return; }
+      const src = document.createElement('canvas'); src.width = W; src.height = H;
+      src.getContext('2d').putImageData(img, 0, 0);
+      const a2 = document.createElement('canvas'); a2.width = W * S; a2.height = H * S;
+      const c = a2.getContext('2d');
+      c.imageSmoothingEnabled = true; c.imageSmoothingQuality = 'high';
+      c.drawImage(src, 0, 0, W * S, H * S);
+      const c255 = v => Math.max(0, Math.min(255, v)) | 0;
+      for (let k = 0; k < 42000; k++) {
+        const x = Math.random() * W * S, yy = Math.random() * H * S;
+        const i = (((yy / S) | 0) * W + ((x / S) | 0)) * 4;
+        const jt = (Math.random() - .5) * 26;
+        c.fillStyle = `rgba(${c255(dat[i]+jt)},${c255(dat[i+1]+jt)},${c255(dat[i+2]+jt)},0.28)`;
+        c.save(); c.translate(x, yy); c.rotate((Math.random() - .5) * .9);
+        c.beginPath(); c.ellipse(0, 0, 2.5 + Math.random() * 5, 1.2 + Math.random() * 2, 0, 0, 6.29); c.fill(); c.restore();
+      }
+      const dot = (x, yy, rr) => { c.beginPath(); c.arc(x, yy, rr, 0, 6.29); c.fill(); };
+      for (let k = 0; k < 32000; k++) {
+        const x = (Math.random() * W) | 0, yy = (Math.random() * H) | 0;
+        if (!fMask[yy * W + x]) continue;
+        const X = x * S + Math.random() * S, Y = yy * S + Math.random() * S, s = 2.8 + Math.random() * 4.2;
+        c.fillStyle = 'rgba(6,20,12,0.5)'; dot(X + s * .45, Y + s * .55, s);
+        const jt = Math.random() * 26 - 8;
+        c.fillStyle = `rgba(${c255(P.forest[0]*1.35+jt)},${c255(P.forest[1]*1.4+jt)},${c255(P.forest[2]*1.2+jt)},0.85)`; dot(X, Y, s * .9);
+        c.fillStyle = `rgba(${P.treeHi[0]},${P.treeHi[1]},${P.treeHi[2]},0.5)`; dot(X - s * .35, Y - s * .4, s * .42);
+      }
+      // ---- dark grade: night wash + faint teal nebula cast ----
+      c.fillStyle = 'rgba(3, 10, 6, 0.30)';
+      c.fillRect(0, 0, W * S, H * S);
+      c.fillStyle = 'rgba(1, 70, 95, 0.05)';
+      c.fillRect(0, 0, W * S, H * S);
+      window.__art = a2;
+      pct.textContent = '100%';
+      done();
+    })();
+  }
+
+  window.__export = function (targetW, quality) {
+    const art = window.__art;
+    if (!art) return null;
+    if (targetW >= art.width) return art.toDataURL('image/webp', quality);
+    const c2 = document.createElement('canvas');
+    c2.width = targetW; c2.height = Math.round(art.height * targetW / art.width);
+    const cx = c2.getContext('2d');
+    cx.imageSmoothingEnabled = true; cx.imageSmoothingQuality = 'high';
+    cx.drawImage(art, 0, 0, c2.width, c2.height);
+    return c2.toDataURL('image/webp', quality);
+  };
+
+  build(function () { window.__done = true; });
+})();
+</script>
+</body>
+</html>

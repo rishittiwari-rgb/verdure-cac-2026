@@ -1,0 +1,737 @@
+{
+  "checkedAt": "2026-10-04T14:37:31.398Z",
+  "sourceReport": "volunteer-supply-2026-10-04.json",
+  "basis": "Conservative invitation-evidence subset: reviewed public descriptions invite attendees to perform library service, garden work or official Midpen volunteer projects. Teen-service councils and orientations are left out of this lower bound. This is not a human accuracy benchmark or a classifier change.",
+  "confirmedIds": [
+    "livewhale-events-scu-edu-517355-2026-10-06T14-30-00-07-00",
+    "localist-events-stanford-edu-51888083181057-2026-10-07T09-00-00-07-00",
+    "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cb",
+    "bibliocommons-sjpl-6a3da568c52cdc3600ece7e9",
+    "bibliocommons-sjpl-6946e842c967cb41207dc53d",
+    "midpen-habitat-restoration-french-broom-removal-153",
+    "midpen-trail-maintenance-new-trails",
+    "bibliocommons-sjpl-6a56e11efa641fe01af37c84",
+    "bibliocommons-sjpl-68c3468915946f2800d28999",
+    "localist-events-sjsu-edu-53950463556720-2026-10-10T09-00-00-07-00",
+    "midpen-trail-maintenance-south-leaf-trail-pt-5",
+    "bibliocommons-sjpl-693c85ea8b29ea2800c3f86a",
+    "bibliocommons-sjpl-6984cee5d34a4e759284bb69",
+    "bibliocommons-sjpl-6aa4267388820d0031703bb5",
+    "bibliocommons-sjpl-69f11341defec6489cc0d926",
+    "midpen-habitat-restoration-french-broom-removal-154",
+    "midpen-pulgas-ridge-preserve-bench-maintenance-blue-oak-trail",
+    "bibliocommons-sjpl-691e381d06078d360078c462",
+    "bibliocommons-sjpl-6985134b707481383708fcd7",
+    "midpen-volunteer-program-showcase-french-broom-removal-and-interpretive-hike",
+    "bibliocommons-sjpl-69a39b59db89981d9df83ae3",
+    "bibliocommons-sjpl-69556c831e64afd01e51af59",
+    "bibliocommons-sjpl-690cebe99b879341009479c2",
+    "bibliocommons-sjpl-69a5ee398d5e2d093362a015",
+    "midpen-siding-maintenance-deer-hollow-farm",
+    "bibliocommons-sjpl-694989a66f926136000c337a",
+    "bibliocommons-sjpl-69c48c77b2f5bfe57aba4566",
+    "midpen-habitat-restoration-french-broom-removal-155",
+    "bibliocommons-sjpl-696572bd2c65973d00176eac",
+    "bibliocommons-sjpl-682fbb0e2b0fb15d9fb65717",
+    "midpen-siding-maintenance-deer-hollow-farm-pt-2",
+    "bibliocommons-sjpl-67fef6890453817cac29c85f",
+    "midpen-habitat-restoration-french-broom-removal-156",
+    "midpen-trail-maintenance-virginia-mill-trail",
+    "midpen-habitat-restoration-french-broom-removal-157",
+    "bibliocommons-sjpl-693df98794297d36009fd506",
+    "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cc",
+    "bibliocommons-sjpl-6a3da568c52cdc3600ece7ea",
+    "bibliocommons-sjpl-68a62c34ee7045528b83e42f",
+    "bibliocommons-sjpl-6a7f958360ccaf01c01e54bb",
+    "bibliocommons-sjpl-6984cee5d34a4e759284bb6a",
+    "bibliocommons-sjpl-6a56e11efa641fe01af37c85",
+    "bibliocommons-sjpl-69851348d34a4e759284c818",
+    "bibliocommons-sjpl-68c3468915946f2800d2899a",
+    "bibliocommons-sjpl-693c85ea8b29ea2800c3f86b",
+    "bibliocommons-sjpl-69f11341defec6489cc0d927",
+    "bibliocommons-sjpl-694989a66f926136000c337b",
+    "bibliocommons-sjpl-6946e842c967cb41207dc53e",
+    "bibliocommons-sjpl-69c48c77b2f5bfe57aba4567",
+    "bibliocommons-sjpl-691e381d06078d360078c463",
+    "bibliocommons-sjpl-69a39b59db89981d9df83ae4",
+    "bibliocommons-sjpl-69556c831e64afd01e51af5a",
+    "bibliocommons-sjpl-690cebe99b879341009479c3",
+    "bibliocommons-sjpl-693df98794297d36009fd507",
+    "bibliocommons-sjpl-6984cee8cbf6405d35666d14",
+    "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cd",
+    "bibliocommons-sjpl-6a3da568c52cdc3600ece7eb",
+    "bibliocommons-sjpl-6946e842c967cb41207dc53f",
+    "bibliocommons-sjpl-68a62c34ee7045528b83e430",
+    "bibliocommons-sjpl-6a7f958360ccaf01c01e54bc",
+    "bibliocommons-sjpl-6984cee5d34a4e759284bb6b",
+    "bibliocommons-sjpl-69f11341defec6489cc0d928",
+    "bibliocommons-sjpl-6a56e11efa641fe01af37c86",
+    "bibliocommons-sjpl-69851339cbf1533ca53634b4",
+    "bibliocommons-sjpl-68c3468915946f2800d2899b",
+    "bibliocommons-sjpl-693c85ea8b29ea2800c3f86c",
+    "bibliocommons-sjpl-69b49a5db6c4ac1fedc59feb",
+    "bibliocommons-sjpl-694989a66f926136000c337c",
+    "bibliocommons-sjpl-69c48c77b2f5bfe57aba4568",
+    "bibliocommons-sjpl-6aa33c4888820d0031702abb",
+    "bibliocommons-sjpl-691e381d06078d360078c464",
+    "bibliocommons-sjpl-69a39b59db89981d9df83ae5",
+    "bibliocommons-sjpl-69556c831e64afd01e51af5b",
+    "bibliocommons-sjpl-693df98794297d36009fd508",
+    "bibliocommons-sjpl-67fef6890453817cac29c861",
+    "bibliocommons-sjpl-6a7f958360ccaf01c01e54bd",
+    "bibliocommons-sjpl-68c3468915946f2800d2899c",
+    "bibliocommons-sjpl-693c85ea8b29ea2800c3f86d",
+    "bibliocommons-sjpl-6984cee5d34a4e759284bb6c",
+    "bibliocommons-sjpl-6a56e11efa641fe01af37c87"
+  ],
+  "confirmedCount": 80,
+  "confirmedBySource": {
+    "livewhale": 1,
+    "localist": 2,
+    "bibliocommons": 65,
+    "midpen": 12
+  },
+  "suspectedFalsePositives": [
+    {
+      "id": "bibliocommons-sjpl-6a88dfedb20478002994967c",
+      "title": "Talk about College Admissions and Requirements with UC Scout",
+      "website": "https://sjpl.bibliocommons.com/events/6a88dfedb20478002994967c",
+      "reason": "The described activity is a class, admissions talk or awards event, rather than an invitation for attendees to serve."
+    },
+    {
+      "id": "localist-events-sjsu-edu-54003959259112-2026-10-16T17-30-00-07-00",
+      "title": "The City of San Jose Office of Cultural Affairs and the Arts Commission presents the Cornerstone of the Arts Award",
+      "website": "https://events.sjsu.edu/event/the-city-of-san-jose-office-of-cultural-affairs-and-the-arts-commission-presents-the-cornerstone-of-the-arts-award",
+      "reason": "The described activity is a class, admissions talk or awards event, rather than an invitation for attendees to serve."
+    },
+    {
+      "id": "bibliocommons-sjpl-6a73821c74e3b8b75db7ccb3",
+      "title": "Mindfulness Meditation",
+      "website": "https://sjpl.bibliocommons.com/events/6a73821c74e3b8b75db7ccb3",
+      "reason": "The described activity is a class, admissions talk or awards event, rather than an invitation for attendees to serve."
+    },
+    {
+      "id": "bibliocommons-sjpl-6a73821c74e3b8b75db7ccb4",
+      "title": "Mindfulness Meditation",
+      "website": "https://sjpl.bibliocommons.com/events/6a73821c74e3b8b75db7ccb4",
+      "reason": "The described activity is a class, admissions talk or awards event, rather than an invitation for attendees to serve."
+    }
+  ],
+  "otherUncountedIds": [
+    "bibliocommons-sjpl-6a83768e57c264087ad1c869",
+    "bibliocommons-sjpl-698fb6994a9fd98b7f7df314",
+    "bibliocommons-sjpl-6a6265aae9de6536001dc48d",
+    "bibliocommons-sjpl-68c345b1ce3cf62f00efa39d",
+    "bibliocommons-sjpl-69c48bc55a2d780f42c4c4e9",
+    "bibliocommons-sjpl-69c48b8e23b45fff20f32399",
+    "bibliocommons-sjpl-6887e9ef639e1e9694a38291",
+    "bibliocommons-sjpl-690e61a19b8793410094ae65",
+    "bibliocommons-sjpl-6aad756e129d8e0031f34f97",
+    "bibliocommons-sjpl-6a83703f69166f088b92df1b",
+    "bibliocommons-sjpl-68f2e0b2831f063d00527964",
+    "bibliocommons-sjpl-69d9863bad384e40edba35c3",
+    "bibliocommons-sjpl-6a3d7bfbed35742f00fe48cf",
+    "bibliocommons-sjpl-6a02132143b41b3d0065b3d9",
+    "bibliocommons-sjpl-6a6bd1c1c7e02e3d006cd3e8",
+    "bibliocommons-sjpl-6a83768e57c264087ad1c86a",
+    "bibliocommons-sjpl-69c48bc55a2d780f42c4c4ea",
+    "bibliocommons-sjpl-6a6265aae9de6536001dc48e",
+    "bibliocommons-sjpl-69c48b8e23b45fff20f3239a",
+    "bibliocommons-sjpl-69c48cb6274a65e67a90bd31",
+    "bibliocommons-sjpl-68c345b1ce3cf62f00efa39e",
+    "bibliocommons-sjpl-68f2e0b2831f063d00527965",
+    "bibliocommons-sjpl-698fb6994a9fd98b7f7df315",
+    "bibliocommons-sjpl-6a83703f69166f088b92df1c",
+    "bibliocommons-sjpl-6a021224e8af4a2f0071b56f",
+    "bibliocommons-sjpl-69d9863bad384e40edba35c4",
+    "bibliocommons-sjpl-6887e9ef639e1e9694a38292",
+    "bibliocommons-sjpl-690e61a19b8793410094ae66",
+    "bibliocommons-sjpl-6a3d7bfbed35742f00fe48d0",
+    "bibliocommons-sjpl-6a83768e57c264087ad1c86b",
+    "bibliocommons-sjpl-6a6265aae9de6536001dc48f",
+    "bibliocommons-sjpl-69c48cb6274a65e67a90bd32",
+    "bibliocommons-sjpl-6aa33e794ea230006f339cd8",
+    "bibliocommons-sjpl-68c345b1ce3cf62f00efa39f",
+    "bibliocommons-sjpl-69c48bc55a2d780f42c4c4eb",
+    "bibliocommons-sjpl-69c48b8e23b45fff20f3239b",
+    "bibliocommons-sjpl-690e61a19b8793410094ae67",
+    "bibliocommons-sjpl-698fb6994a9fd98b7f7df316",
+    "bibliocommons-sjpl-6a83703f69166f088b92df1d",
+    "bibliocommons-sjpl-68f2e0b2831f063d00527966",
+    "bibliocommons-sjpl-69d9863bad384e40edba35c5",
+    "bibliocommons-sjpl-6a3d7bfbed35742f00fe48d1",
+    "bibliocommons-sjpl-6a83768e57c264087ad1c86c",
+    "bibliocommons-sjpl-6a6265aae9de6536001dc490",
+    "bibliocommons-sjpl-6ac02387e06996003a80e776",
+    "bibliocommons-sjpl-698fb6994a9fd98b7f7df317",
+    "bibliocommons-sjpl-68c345b1ce3cf62f00efa3a0",
+    "bibliocommons-sjpl-6a8c92523b6c71003e5b05d3",
+    "bibliocommons-sjpl-6a8c92252dac6e0037215557",
+    "bibliocommons-sjpl-68f2e0b2831f063d00527967",
+    "bibliocommons-sjpl-69d9863bad384e40edba35c6",
+    "bibliocommons-sjpl-6ac026e4e06996003a80e836",
+    "bibliocommons-sjpl-6a6bd1c1c7e02e3d006cd3e9"
+  ],
+  "confirmedRows": [
+    {
+      "id": "livewhale-events-scu-edu-517355-2026-10-06T14-30-00-07-00",
+      "title": "Forge Volunteer Hours",
+      "start": "2026-10-06T21:30:00.000Z",
+      "website": "https://events.scu.edu/sustainability/event/517355-forge-volunteer-hours",
+      "descriptionSHA256": "2b226ccef23aca30d0a1e53a19f07986821090a155649d8b619fb70c13ae3d07"
+    },
+    {
+      "id": "localist-events-stanford-edu-51888083181057-2026-10-07T09-00-00-07-00",
+      "title": "Volunteering at Stanford Educational Farm - Weekday",
+      "start": "2026-10-07T16:00:00.000Z",
+      "website": "https://events.stanford.edu/event/volunteering-at-stanford-educational-farm-weekday",
+      "descriptionSHA256": "f290a439aadd0bccd1059340a201e7962a6ecf36a84d1397ce8a93b4e8159ec4"
+    },
+    {
+      "id": "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cb",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-07T22:30:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69fb8a1af56bd86e00adf8cb",
+      "descriptionSHA256": "db52496eb0dc73819372ac982330d571bd7c7dd74203a64d662ab3f79861b448"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3da568c52cdc3600ece7e9",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-07T23:45:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a3da568c52cdc3600ece7e9",
+      "descriptionSHA256": "36eabf0bd2b75c41a0e0293c72dd3974d2128e1933287680c59d6b8790f2d0a9"
+    },
+    {
+      "id": "bibliocommons-sjpl-6946e842c967cb41207dc53d",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-10-08T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6946e842c967cb41207dc53d",
+      "descriptionSHA256": "2e3f077bc02ac6e3518b5e683c4a936093882c1bfe653d0f4a1dae3bc3e5c3b0"
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-153",
+      "title": "Habitat Restoration: French broom Removal",
+      "start": "2026-10-08T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-153",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "midpen-trail-maintenance-new-trails",
+      "title": "Trail Maintenance: New Trails",
+      "start": "2026-10-08T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/trail-maintenance-new-trails",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c84",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-08T23:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c84",
+      "descriptionSHA256": "1a0d82867e927209094c95d27453bcfb699032de1604750dc0dbc9d7d11d571f"
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d28999",
+      "title": "Drop-in Teens Reach Volunteering",
+      "start": "2026-10-09T23:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d28999",
+      "descriptionSHA256": "bec04685d7c491daeb86cf7d964ce06fcff2b49f07ec6f087a15af8beacd9dfc"
+    },
+    {
+      "id": "localist-events-sjsu-edu-53950463556720-2026-10-10T09-00-00-07-00",
+      "title": "Alumni Garden Volunteer Day",
+      "start": "2026-10-10T16:00:00.000Z",
+      "website": "https://events.sjsu.edu/event/alumni-garden-volunteer-day-3113",
+      "descriptionSHA256": "1db2ace2ebc0b09610a3dd66d150df6decf79fcd0ad094be19ed2aea18179bd5"
+    },
+    {
+      "id": "midpen-trail-maintenance-south-leaf-trail-pt-5",
+      "title": "Trail Maintenance: South Leaf Trail (Pt. 5)",
+      "start": "2026-10-10T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/trail-maintenance-south-leaf-trail-pt-5",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86a",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-10-10T18:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86a",
+      "descriptionSHA256": "440e43051b309c5a7a41c9972a57591f964dff8a007c01904796710993f74330"
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb69",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-14T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb69",
+      "descriptionSHA256": "696c5c20fd89e8380782bb7e6583bb238c904ba82e64f198fd6abfc75430fe9d"
+    },
+    {
+      "id": "bibliocommons-sjpl-6aa4267388820d0031703bb5",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-10-15T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6aa4267388820d0031703bb5",
+      "descriptionSHA256": "617bc3ded373512519e5c6a6fb1ebbbc4a91cfc33f12833ec17ad90ba473d488"
+    },
+    {
+      "id": "bibliocommons-sjpl-69f11341defec6489cc0d926",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-15T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69f11341defec6489cc0d926",
+      "descriptionSHA256": "da554b1b078425295e2ccfb0a9137341c510d536ddcc283f190cfbad9be65af5"
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-154",
+      "title": "Habitat Restoration: French Broom Removal",
+      "start": "2026-10-15T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-154",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "midpen-pulgas-ridge-preserve-bench-maintenance-blue-oak-trail",
+      "title": "Pulgas Ridge Preserve - Bench Maintenance: Blue Oak Trail",
+      "start": "2026-10-15T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/pulgas-ridge-preserve-bench-maintenance-blue-oak-trail",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-691e381d06078d360078c462",
+      "title": "Volunteer Away Your Fines - Vineland",
+      "start": "2026-10-16T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/691e381d06078d360078c462",
+      "descriptionSHA256": "ab492e332dd44bfb8d3b8187af05d8fb86e2569420c0c3d2420b9015e06bbb51"
+    },
+    {
+      "id": "bibliocommons-sjpl-6985134b707481383708fcd7",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-10-16T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6985134b707481383708fcd7",
+      "descriptionSHA256": "52335f5cd6ed1496946c0daf0fde8463afb3e896e3df2968b4cacd1b75e43c0e"
+    },
+    {
+      "id": "midpen-volunteer-program-showcase-french-broom-removal-and-interpretive-hike",
+      "title": "Volunteer Program Showcase: French Broom Removal and Interpretive Hike!",
+      "start": "2026-10-17T16:00:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/volunteer-program-showcase-french-broom-removal-and-interpretive-hike",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-69a39b59db89981d9df83ae3",
+      "title": "Branch Buddy Volunteering for Families",
+      "start": "2026-10-17T18:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69a39b59db89981d9df83ae3",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-69556c831e64afd01e51af59",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-17T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69556c831e64afd01e51af59",
+      "descriptionSHA256": "6335b49ab5a11019040dbe79b35f288207b97772a0ddf485fd48a6ec847be723"
+    },
+    {
+      "id": "bibliocommons-sjpl-690cebe99b879341009479c2",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-10-17T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/690cebe99b879341009479c2",
+      "descriptionSHA256": "8b071739dbd4b3b9fa700b7a8982478d0e7f373ccb9ba0157bdb1285ebe792ee"
+    },
+    {
+      "id": "bibliocommons-sjpl-69a5ee398d5e2d093362a015",
+      "title": "Volunteer Away Your Fines as a Branch Buddy!",
+      "start": "2026-10-17T22:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69a5ee398d5e2d093362a015",
+      "descriptionSHA256": "efdff569c16c6286a0c593d2192cefb80c730e65ba0581e2d18090688a1e524f"
+    },
+    {
+      "id": "midpen-siding-maintenance-deer-hollow-farm",
+      "title": "Siding Maintenance: Deer Hollow Farm",
+      "start": "2026-10-19T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/siding-maintenance-deer-hollow-farm",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-694989a66f926136000c337a",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-21T23:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/694989a66f926136000c337a",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48c77b2f5bfe57aba4566",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-22T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69c48c77b2f5bfe57aba4566",
+      "descriptionSHA256": "9f77f048af27beea7d3ad98c9b3d0dead2e0ec33859f4ae87e31f35811773e2a"
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-155",
+      "title": "Habitat Restoration: French Broom Removal",
+      "start": "2026-10-22T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-155",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-696572bd2c65973d00176eac",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-23T22:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/696572bd2c65973d00176eac",
+      "descriptionSHA256": "9d6ab6e0e12436fdd9f77f13f03b9f0b69ce787fd36a1654b60095714f2410aa"
+    },
+    {
+      "id": "bibliocommons-sjpl-682fbb0e2b0fb15d9fb65717",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-24T22:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/682fbb0e2b0fb15d9fb65717",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "midpen-siding-maintenance-deer-hollow-farm-pt-2",
+      "title": "Siding Maintenance: Deer Hollow Farm (Pt. 2)",
+      "start": "2026-10-26T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/siding-maintenance-deer-hollow-farm-pt-2",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-67fef6890453817cac29c85f",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-10-28T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/67fef6890453817cac29c85f",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-156",
+      "title": "Habitat Restoration: French Broom Removal",
+      "start": "2026-10-29T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-156",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "midpen-trail-maintenance-virginia-mill-trail",
+      "title": "Trail Maintenance: Virginia Mill Trail",
+      "start": "2026-10-29T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/trail-maintenance-virginia-mill-trail",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-157",
+      "title": "Habitat Restoration: French Broom Removal",
+      "start": "2026-10-31T16:30:00.000Z",
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-157",
+      "descriptionSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bibliocommons-sjpl-693df98794297d36009fd506",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-10-31T18:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693df98794297d36009fd506",
+      "descriptionSHA256": "efdff569c16c6286a0c593d2192cefb80c730e65ba0581e2d18090688a1e524f"
+    },
+    {
+      "id": "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cc",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-04T23:30:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69fb8a1af56bd86e00adf8cc",
+      "descriptionSHA256": "db52496eb0dc73819372ac982330d571bd7c7dd74203a64d662ab3f79861b448"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3da568c52cdc3600ece7ea",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-05T00:45:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a3da568c52cdc3600ece7ea",
+      "descriptionSHA256": "36eabf0bd2b75c41a0e0293c72dd3974d2128e1933287680c59d6b8790f2d0a9"
+    },
+    {
+      "id": "bibliocommons-sjpl-68a62c34ee7045528b83e42f",
+      "title": "Volunteer Away Your Fines as a Drop-in Do Gooder",
+      "start": "2026-11-07T18:30:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/68a62c34ee7045528b83e42f",
+      "descriptionSHA256": "d3a231693099e7d8dc22bff50859b383a3d5c73c0eb4c7cd548a8abfcca96ee2"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a7f958360ccaf01c01e54bb",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-07T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a7f958360ccaf01c01e54bb",
+      "descriptionSHA256": "2e3f077bc02ac6e3518b5e683c4a936093882c1bfe653d0f4a1dae3bc3e5c3b0"
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb6a",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-11T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb6a",
+      "descriptionSHA256": "696c5c20fd89e8380782bb7e6583bb238c904ba82e64f198fd6abfc75430fe9d"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c85",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-13T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c85",
+      "descriptionSHA256": "1a0d82867e927209094c95d27453bcfb699032de1604750dc0dbc9d7d11d571f"
+    },
+    {
+      "id": "bibliocommons-sjpl-69851348d34a4e759284c818",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-11-13T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69851348d34a4e759284c818",
+      "descriptionSHA256": "52335f5cd6ed1496946c0daf0fde8463afb3e896e3df2968b4cacd1b75e43c0e"
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d2899a",
+      "title": "Drop-in Teens Reach Volunteering",
+      "start": "2026-11-14T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d2899a",
+      "descriptionSHA256": "bec04685d7c491daeb86cf7d964ce06fcff2b49f07ec6f087a15af8beacd9dfc"
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86b",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-11-14T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86b",
+      "descriptionSHA256": "440e43051b309c5a7a41c9972a57591f964dff8a007c01904796710993f74330"
+    },
+    {
+      "id": "bibliocommons-sjpl-69f11341defec6489cc0d927",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-14T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69f11341defec6489cc0d927",
+      "descriptionSHA256": "da554b1b078425295e2ccfb0a9137341c510d536ddcc283f190cfbad9be65af5"
+    },
+    {
+      "id": "bibliocommons-sjpl-694989a66f926136000c337b",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-19T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/694989a66f926136000c337b",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-6946e842c967cb41207dc53e",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-11-19T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6946e842c967cb41207dc53e",
+      "descriptionSHA256": "2e3f077bc02ac6e3518b5e683c4a936093882c1bfe653d0f4a1dae3bc3e5c3b0"
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48c77b2f5bfe57aba4567",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-19T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69c48c77b2f5bfe57aba4567",
+      "descriptionSHA256": "9f77f048af27beea7d3ad98c9b3d0dead2e0ec33859f4ae87e31f35811773e2a"
+    },
+    {
+      "id": "bibliocommons-sjpl-691e381d06078d360078c463",
+      "title": "Volunteer Away Your Fines - Vineland",
+      "start": "2026-11-20T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/691e381d06078d360078c463",
+      "descriptionSHA256": "ab492e332dd44bfb8d3b8187af05d8fb86e2569420c0c3d2420b9015e06bbb51"
+    },
+    {
+      "id": "bibliocommons-sjpl-69a39b59db89981d9df83ae4",
+      "title": "Branch Buddy Volunteering for Families",
+      "start": "2026-11-21T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69a39b59db89981d9df83ae4",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-69556c831e64afd01e51af5a",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-21T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69556c831e64afd01e51af5a",
+      "descriptionSHA256": "6335b49ab5a11019040dbe79b35f288207b97772a0ddf485fd48a6ec847be723"
+    },
+    {
+      "id": "bibliocommons-sjpl-690cebe99b879341009479c3",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-11-21T21:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/690cebe99b879341009479c3",
+      "descriptionSHA256": "8b071739dbd4b3b9fa700b7a8982478d0e7f373ccb9ba0157bdb1285ebe792ee"
+    },
+    {
+      "id": "bibliocommons-sjpl-693df98794297d36009fd507",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-11-28T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693df98794297d36009fd507",
+      "descriptionSHA256": "efdff569c16c6286a0c593d2192cefb80c730e65ba0581e2d18090688a1e524f"
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee8cbf6405d35666d14",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-11-28T23:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6984cee8cbf6405d35666d14",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cd",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-02T23:30:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69fb8a1af56bd86e00adf8cd",
+      "descriptionSHA256": "db52496eb0dc73819372ac982330d571bd7c7dd74203a64d662ab3f79861b448"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3da568c52cdc3600ece7eb",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-03T00:45:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a3da568c52cdc3600ece7eb",
+      "descriptionSHA256": "36eabf0bd2b75c41a0e0293c72dd3974d2128e1933287680c59d6b8790f2d0a9"
+    },
+    {
+      "id": "bibliocommons-sjpl-6946e842c967cb41207dc53f",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-12-03T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6946e842c967cb41207dc53f",
+      "descriptionSHA256": "2e3f077bc02ac6e3518b5e683c4a936093882c1bfe653d0f4a1dae3bc3e5c3b0"
+    },
+    {
+      "id": "bibliocommons-sjpl-68a62c34ee7045528b83e430",
+      "title": "Volunteer Away Your Fines as a Drop-in Do Gooder",
+      "start": "2026-12-05T18:30:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/68a62c34ee7045528b83e430",
+      "descriptionSHA256": "d3a231693099e7d8dc22bff50859b383a3d5c73c0eb4c7cd548a8abfcca96ee2"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a7f958360ccaf01c01e54bc",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-05T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a7f958360ccaf01c01e54bc",
+      "descriptionSHA256": "2e3f077bc02ac6e3518b5e683c4a936093882c1bfe653d0f4a1dae3bc3e5c3b0"
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb6b",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-09T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb6b",
+      "descriptionSHA256": "696c5c20fd89e8380782bb7e6583bb238c904ba82e64f198fd6abfc75430fe9d"
+    },
+    {
+      "id": "bibliocommons-sjpl-69f11341defec6489cc0d928",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-10T02:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69f11341defec6489cc0d928",
+      "descriptionSHA256": "da554b1b078425295e2ccfb0a9137341c510d536ddcc283f190cfbad9be65af5"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c86",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-11T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c86",
+      "descriptionSHA256": "1a0d82867e927209094c95d27453bcfb699032de1604750dc0dbc9d7d11d571f"
+    },
+    {
+      "id": "bibliocommons-sjpl-69851339cbf1533ca53634b4",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-12-11T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69851339cbf1533ca53634b4",
+      "descriptionSHA256": "52335f5cd6ed1496946c0daf0fde8463afb3e896e3df2968b4cacd1b75e43c0e"
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d2899b",
+      "title": "Drop-in Teens Reach Volunteering",
+      "start": "2026-12-12T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d2899b",
+      "descriptionSHA256": "bec04685d7c491daeb86cf7d964ce06fcff2b49f07ec6f087a15af8beacd9dfc"
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86c",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-12-12T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86c",
+      "descriptionSHA256": "440e43051b309c5a7a41c9972a57591f964dff8a007c01904796710993f74330"
+    },
+    {
+      "id": "bibliocommons-sjpl-69b49a5db6c4ac1fedc59feb",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-12-12T21:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69b49a5db6c4ac1fedc59feb",
+      "descriptionSHA256": "8b071739dbd4b3b9fa700b7a8982478d0e7f373ccb9ba0157bdb1285ebe792ee"
+    },
+    {
+      "id": "bibliocommons-sjpl-694989a66f926136000c337c",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-17T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/694989a66f926136000c337c",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48c77b2f5bfe57aba4568",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-17T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69c48c77b2f5bfe57aba4568",
+      "descriptionSHA256": "9f77f048af27beea7d3ad98c9b3d0dead2e0ec33859f4ae87e31f35811773e2a"
+    },
+    {
+      "id": "bibliocommons-sjpl-6aa33c4888820d0031702abb",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-12-17T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6aa33c4888820d0031702abb",
+      "descriptionSHA256": "617bc3ded373512519e5c6a6fb1ebbbc4a91cfc33f12833ec17ad90ba473d488"
+    },
+    {
+      "id": "bibliocommons-sjpl-691e381d06078d360078c464",
+      "title": "Volunteer Away Your Fines - Vineland",
+      "start": "2026-12-18T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/691e381d06078d360078c464",
+      "descriptionSHA256": "ab492e332dd44bfb8d3b8187af05d8fb86e2569420c0c3d2420b9015e06bbb51"
+    },
+    {
+      "id": "bibliocommons-sjpl-69a39b59db89981d9df83ae5",
+      "title": "Branch Buddy Volunteering for Families",
+      "start": "2026-12-19T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69a39b59db89981d9df83ae5",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-69556c831e64afd01e51af5b",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-19T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/69556c831e64afd01e51af5b",
+      "descriptionSHA256": "6335b49ab5a11019040dbe79b35f288207b97772a0ddf485fd48a6ec847be723"
+    },
+    {
+      "id": "bibliocommons-sjpl-693df98794297d36009fd508",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2026-12-26T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693df98794297d36009fd508",
+      "descriptionSHA256": "efdff569c16c6286a0c593d2192cefb80c730e65ba0581e2d18090688a1e524f"
+    },
+    {
+      "id": "bibliocommons-sjpl-67fef6890453817cac29c861",
+      "title": "Volunteer Away Your Fines",
+      "start": "2026-12-30T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/67fef6890453817cac29c861",
+      "descriptionSHA256": "afba8d844d2698f5f2947cbcb91f4ecc6cae9b94ebc3f77bdc6ae0cbd2e01d43"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a7f958360ccaf01c01e54bd",
+      "title": "Volunteer Away Your Fines",
+      "start": "2027-01-02T20:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a7f958360ccaf01c01e54bd",
+      "descriptionSHA256": "2e3f077bc02ac6e3518b5e683c4a936093882c1bfe653d0f4a1dae3bc3e5c3b0"
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d2899c",
+      "title": "Drop-in Teens Reach Volunteering",
+      "start": "2027-01-09T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d2899c",
+      "descriptionSHA256": "bec04685d7c491daeb86cf7d964ce06fcff2b49f07ec6f087a15af8beacd9dfc"
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86d",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "start": "2027-01-09T19:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86d",
+      "descriptionSHA256": "440e43051b309c5a7a41c9972a57591f964dff8a007c01904796710993f74330"
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb6c",
+      "title": "Volunteer Away Your Fines",
+      "start": "2027-01-13T01:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb6c",
+      "descriptionSHA256": "696c5c20fd89e8380782bb7e6583bb238c904ba82e64f198fd6abfc75430fe9d"
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c87",
+      "title": "Volunteer Away Your Fines",
+      "start": "2027-01-15T00:00:00.000Z",
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c87",
+      "descriptionSHA256": "1a0d82867e927209094c95d27453bcfb699032de1604750dc0dbc9d7d11d571f"
+    }
+  ]
+}

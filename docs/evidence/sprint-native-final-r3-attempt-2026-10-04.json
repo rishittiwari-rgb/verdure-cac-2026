@@ -1,0 +1,64 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName": "iPhone 16 Plus",
+        "modelName": "iPhone 16 Plus",
+        "osBuildNumber": "22E238",
+        "osVersion": "18.4",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 2,
+      "passedTests": 174,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "Verdure \u00b7 Built with macOS 15.6.1",
+  "expectedFailures": 0,
+  "failedTests": 2,
+  "finishTime": 1791141690.847,
+  "passedTests": 174,
+  "result": "Failed",
+  "skippedTests": 0,
+  "startTime": 1791140665.954,
+  "statistics": [],
+  "testFailures": [
+    {
+      "failureText": "XCTAssertTrue failed - Actual partner service did not receive partner withdrawal.",
+      "targetName": "VerdureTests",
+      "testIdentifier": 101,
+      "testIdentifierString": "PartnerDiscoveryTests/testLiveStationaryOfferInvalidationAndExpiry()",
+      "testIdentifierURL": "test://com.apple.xcode/Verdure/VerdureTests/PartnerDiscoveryTests/testLiveStationaryOfferInvalidationAndExpiry",
+      "testName": "testLiveStationaryOfferInvalidationAndExpiry()"
+    },
+    {
+      "failureText": "Failed to unable to perform Swipe left on \"eventCategories\" ScrollView: visible frame is empty, which may happen if the element is offscreen.",
+      "targetName": "VerdureUITests",
+      "testIdentifier": 148,
+      "testIdentifierString": "JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail()",
+      "testIdentifierURL": "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail",
+      "testName": "testCuratedProgramActualSignInChipAndOfficialListingDetail()"
+    }
+  ],
+  "title": "Test - Verdure",
+  "topInsights": [
+    {
+      "category": "Longest Test Runs",
+      "impact": "27% of duration",
+      "text": "2 longest test runs with outlier durations exceeding 94.11s (three standard deviations)"
+    },
+    {
+      "category": "Longest Test Runs",
+      "impact": "61% of duration",
+      "text": "2 longest test runs with outlier durations exceeding 6.56s (three standard deviations)"
+    }
+  ],
+  "totalTestCount": 176
+}

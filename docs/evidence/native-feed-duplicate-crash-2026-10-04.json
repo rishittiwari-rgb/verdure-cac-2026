@@ -1,0 +1,39 @@
+{
+  "scope": "Simulator app crash during fresh full native suite; not Crashlytics dashboard proof",
+  "exception": {
+    "codes": "0x0000000000000001, 0x0000000195712d2c",
+    "rawCodes": [
+      1,
+      6802189612
+    ],
+    "type": "EXC_BREAKPOINT",
+    "signal": "SIGTRAP"
+  },
+  "frames": [
+    {
+      "symbol": "_assertionFailure(_:_:file:line:flags:)"
+    },
+    {
+      "symbol": "specialized _NativeDictionary.merge<A>(_:isUnique:uniquingKeysWith:)"
+    },
+    {
+      "symbol": "Dictionary.init<A>(uniqueKeysWithValues:)"
+    },
+    {
+      "sourceLine": 54,
+      "sourceFile": "EventsView.swift",
+      "symbol": "EventsView.forYouEvents.getter"
+    },
+    {
+      "sourceLine": 300,
+      "sourceFile": "EventsView.swift",
+      "symbol": "EventsView.forYouSection.getter"
+    },
+    {
+      "sourceLine": 119,
+      "sourceFile": "EventsView.swift",
+      "symbol": "closure #1 in closure #1 in closure #1 in closure #1 in EventsView.body.getter"
+    }
+  ],
+  "fix": "Deduplicate event arrays by document ID and construct view dictionaries defensively while preserving first order; added overlap regression."
+}

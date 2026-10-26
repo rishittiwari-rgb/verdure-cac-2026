@@ -1,0 +1,147 @@
+name: Verdure
+options:
+  bundleIdPrefix: com.verdure
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.3"
+configFiles:
+  Debug: Secrets.xcconfig
+  Release: Secrets.xcconfig
+settings:
+  SWIFT_VERSION: "6.0"
+  MARKETING_VERSION: "1.0.0"
+  CURRENT_PROJECT_VERSION: "1"
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: "11.0.0"
+targets:
+  Verdure:
+    type: application
+    platform: iOS
+    sources:
+      - Verdure
+    info:
+      path: Verdure/Info.plist
+      properties:
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations~iphone:
+          - UIInterfaceOrientationPortrait
+        UIRequiresFullScreen: true
+        # Lets a silent/background push wake the app to refresh.
+        UIBackgroundModes:
+          - remote-notification
+        CFBundleDisplayName: Verdure
+        FirebaseCrashlyticsCollectionEnabled: false
+        CFBundleURLTypes:
+          - CFBundleURLSchemes:
+              - verdure
+        NSCameraUsageDescription: "Verdure uses the camera only when you open Explore view (beta), to display nearby labels over a live preview. No preview frames are stored or transmitted."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "Only if you enable nearby deal alerts, Verdure uses background region monitoring to notify you as you walk near a participating partner. This is optional and can be switched off in Notifications."
+        NSLocationWhenInUseUsageDescription: "Verdure uses your location to find nearby events and outdoor places you can check in to."
+        # CMMotionManager drives the decorative parallax tilt on clay cards.
+        # Device-motion isn't permission-prompted the way motion *activity* is,
+        # but the string costs nothing and removes a crash/review-question class
+        # we cannot otherwise rule out without real-device testing.
+        NSMotionUsageDescription: "Verdure uses motion to gently tilt cards as you move your phone. This is purely decorative and no motion data ever leaves your device."
+        UIAppFonts:
+          - Rubik-Light.ttf
+          - Rubik-Regular.ttf
+          - Rubik-Medium.ttf
+          - Rubik-SemiBold.ttf
+          - Rubik-Bold.ttf
+        # PLACES keys only. Every EVENT provider key (SerpApi, Ticketmaster,
+        # SeatGeek, Eventbrite, Localist, Google PSE, Neighborhood Commons) was
+        # removed from the bundle: events are ingested server-side and the app
+        # reads Firestore only. A key that reaches the device is public — the
+        # removed keys are considered compromised and must be rotated.
+        NpsApiKey: $(NPS_API_KEY)
+        RecreationGovKey: $(RECREATION_GOV_KEY)
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.verdure-app.verdure
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      SWIFT_STRICT_CONCURRENCY: minimal
+      DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+      ENABLE_DEBUG_DYLIB: NO
+      OTHER_LDFLAGS: $(inherited) -ObjC
+      VERDURE_UPLOAD_CRASH_SYMBOLS: NO
+      # iPhone only (1). The UI is phone-first — portrait-locked, floating clay
+      # tab bar, single-column layouts. Advertising iPad support would force
+      # iPad screenshots at submission and put reviewers in front of a stretched
+      # phone layout. Revisit if/when a real iPad layout is designed.
+      TARGETED_DEVICE_FAMILY: "1"
+    dependencies:
+      - package: Firebase
+        product: FirebaseAuth
+      - package: Firebase
+        product: FirebaseFirestore
+      - package: Firebase
+        product: FirebaseFunctions
+      - package: Firebase
+        product: FirebaseStorage
+      # Remote push. Needs an APNs .p8 uploaded to Firebase and the Push
+      # Notifications capability on the App ID before it can deliver anything —
+      # see PushService.swift.
+      - package: Firebase
+        product: FirebaseMessaging
+      - package: Firebase
+        product: FirebaseCrashlytics
+    postBuildScripts:
+      - name: Crashlytics symbols (explicit physical QA or release upload)
+        basedOnDependencyAnalysis: false
+        script: |
+          if [ "$PLATFORM_NAME" != "iphoneos" ] || [ "$VERDURE_UPLOAD_CRASH_SYMBOLS" != "YES" ]; then
+            echo "Crashlytics symbol upload disabled for this local build."
+            exit 0
+          fi
+          "${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run"
+        inputFiles:
+          - $(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)
+          - $(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)/Contents/Resources/DWARF/$(PRODUCT_NAME)
+          - $(DWARF_DSYM_FOLDER_PATH)/$(DWARF_DSYM_FILE_NAME)/Contents/Info.plist
+          - $(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist
+          - $(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)
+  VerdureTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - VerdureTests
+    dependencies:
+      - target: Verdure
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      PRODUCT_BUNDLE_IDENTIFIER: com.verdure-app.verdure.tests
+  VerdureUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - VerdureUITests
+    dependencies:
+      - target: Verdure
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      PRODUCT_BUNDLE_IDENTIFIER: com.verdure-app.verdure.uitests
+      TEST_TARGET_NAME: Verdure
+schemes:
+  Verdure:
+    build:
+      targets:
+        Verdure: all
+    run:
+      config: Debug
+      # Local StoreKit testing for Verdure+ subscriptions (no App Store Connect needed
+      # in the simulator). Remove this line to test against real ASC products.
+      storeKitConfiguration: Verdure.storekit
+    test:
+      config: Debug
+      targets:
+        - VerdureTests
+        - VerdureUITests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

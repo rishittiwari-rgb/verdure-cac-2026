@@ -1,0 +1,60 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+.claude/
+
+# design-loop working artifacts (screenshots, playwright output, dev logs)
+.playwright-mcp/
+*.jpeg
+dev-out.log
+dev-err.log
+
+# QA harness output (npx playwright test)
+/qa-shots/
+/test-results/
+/playwright-report/
+
+# reference study corpus (1.5GB of recordings/frames — local study material,
+# never shipped; see DESIGN_NOTES.md; scripts stay tracked)
+/reference/everswap/
+/reference/verdure/
+
+# Widened from `.env*.local` by `vercel link`, which is the right instinct: a
+# bare `.env` holds real values just as readily as `.env.local` does. The
+# negation is the part vercel omitted — without it this also swallows the
+# committed *.example templates, which exist precisely to be read.
+.env*
+!.env*.example

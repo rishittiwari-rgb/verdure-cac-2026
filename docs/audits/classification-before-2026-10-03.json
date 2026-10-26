@@ -1,0 +1,3965 @@
+{
+  "capturedAt": "2026-10-04T06:21:20.578Z",
+  "sourceSnapshotSHA256": "1e7e4fe27c90068ee280fafeaee73cef467f92c5aadd6a161769f3666243ac2b",
+  "missingSources": [
+    "ticketmaster (private API key)",
+    "serpapi (private API key/quota)"
+  ],
+  "overall": {
+    "total": 12165,
+    "low": 3986,
+    "share": 0.32766132346896837,
+    "reasons": {
+      "unmapped-activity-metadata": 3936,
+      "missing-activity-metadata": 50
+    },
+    "unmappedTags": [
+      [
+        "library",
+        3650
+      ],
+      [
+        "Adults, ages 18+",
+        1378
+      ],
+      [
+        "Seniors, ages 65+",
+        940
+      ],
+      [
+        "Pre-Teens, ages 10-12",
+        888
+      ],
+      [
+        "Kids, ages 5-10",
+        849
+      ],
+      [
+        "Teens, ages 12-18",
+        796
+      ],
+      [
+        "Crafts & Hobbies",
+        687
+      ],
+      [
+        "Learn English",
+        475
+      ],
+      [
+        "Adults",
+        407
+      ],
+      [
+        "Games & Family Entertainment",
+        406
+      ],
+      [
+        "Teens",
+        360
+      ],
+      [
+        "55+ Friendly",
+        355
+      ],
+      [
+        "Kids: Grades K-8",
+        333
+      ],
+      [
+        "Adults (19+)",
+        328
+      ],
+      [
+        "Children (6-11)",
+        314
+      ],
+      [
+        "Kids: Family Events",
+        301
+      ],
+      [
+        "Kids: Preschoolers",
+        300
+      ],
+      [
+        "Community Resources",
+        276
+      ],
+      [
+        "Kids: Grades 5-8",
+        273
+      ],
+      [
+        "Health & Fitness",
+        246
+      ],
+      [
+        "All Ages",
+        241
+      ],
+      [
+        "Young Children, ages 0-5",
+        227
+      ],
+      [
+        "Food & Gardening",
+        225
+      ],
+      [
+        "Adults (55+)",
+        225
+      ],
+      [
+        "STEAM",
+        209
+      ]
+    ],
+    "examples": [
+      {
+        "title": "First Wednesday",
+        "tags": [
+          "library",
+          "Community Resources & Support Groups",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "Health Insurance Counseling & Advocacy Program (HICAP)",
+        "tags": [
+          "library",
+          "Community Resources & Support Groups",
+          "Health & Wellness",
+          "Adults, ages 18+",
+          "Seniors, ages 65+"
+        ]
+      },
+      {
+        "title": "STEM Club: Flying Cup Rockets",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Ocean Zones",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Skate Park Build Challenge",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Matheroni's Pizzeria",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "Freedom to Read: Scavenger Hunt",
+        "tags": [
+          "library",
+          "Self-Directed Activities",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "LEGO® Engineering Club",
+        "tags": [
+          "library",
+          "Games & Family Entertainment",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12"
+        ]
+      },
+      {
+        "title": "STEM Club: Magnet Mazes",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Straw Airplane Challenge",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Soil Layers and Worm Study",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Robot Hand DIY",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club: Pumpkin Catapult Challenge",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10"
+        ]
+      },
+      {
+        "title": "STEM Club",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12"
+        ]
+      },
+      {
+        "title": "1st Tuesday STEM with Lynbrook WiSTEM",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12"
+        ]
+      },
+      {
+        "title": "1st Tuesday STEM with Lynbrook WiSTEM",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12"
+        ]
+      },
+      {
+        "title": "Knitting/Crocheting/Tatting/Bobbin Lace Club",
+        "tags": [
+          "library",
+          "Crafts & Hobbies",
+          "Adults, ages 18+",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12",
+          "Seniors, ages 65+",
+          "Teens, ages 12-18"
+        ]
+      },
+      {
+        "title": "STEM Club",
+        "tags": [
+          "library",
+          "STEAM",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12"
+        ]
+      },
+      {
+        "title": "Spooky Season Scavenger Hunt",
+        "tags": [
+          "library",
+          "Self-Directed Activities",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12",
+          "Teens, ages 12-18"
+        ]
+      },
+      {
+        "title": "Spooky Season Scavenger Hunt",
+        "tags": [
+          "library",
+          "Self-Directed Activities",
+          "Kids, ages 5-10",
+          "Pre-Teens, ages 10-12",
+          "Teens, ages 12-18"
+        ]
+      }
+    ]
+  },
+  "bySource": {
+    "bibliocommons": {
+      "total": 11451,
+      "low": 3626,
+      "share": 0.31665356737402844,
+      "reasons": {
+        "unmapped-activity-metadata": 3626
+      },
+      "unmappedTags": [
+        [
+          "library",
+          3626
+        ],
+        [
+          "Adults, ages 18+",
+          1378
+        ],
+        [
+          "Seniors, ages 65+",
+          940
+        ],
+        [
+          "Pre-Teens, ages 10-12",
+          888
+        ],
+        [
+          "Kids, ages 5-10",
+          849
+        ],
+        [
+          "Teens, ages 12-18",
+          796
+        ],
+        [
+          "Crafts & Hobbies",
+          687
+        ],
+        [
+          "Learn English",
+          475
+        ],
+        [
+          "Games & Family Entertainment",
+          406
+        ],
+        [
+          "Adults",
+          392
+        ],
+        [
+          "Teens",
+          358
+        ],
+        [
+          "55+ Friendly",
+          355
+        ],
+        [
+          "Kids: Grades K-8",
+          333
+        ],
+        [
+          "Adults (19+)",
+          328
+        ],
+        [
+          "Children (6-11)",
+          314
+        ],
+        [
+          "Kids: Family Events",
+          301
+        ],
+        [
+          "Kids: Preschoolers",
+          300
+        ],
+        [
+          "Community Resources",
+          276
+        ],
+        [
+          "Kids: Grades 5-8",
+          273
+        ],
+        [
+          "Health & Fitness",
+          246
+        ],
+        [
+          "All Ages",
+          240
+        ],
+        [
+          "Young Children, ages 0-5",
+          227
+        ],
+        [
+          "Food & Gardening",
+          225
+        ],
+        [
+          "Adults (55+)",
+          225
+        ],
+        [
+          "STEAM",
+          209
+        ]
+      ],
+      "examples": [
+        {
+          "title": "First Wednesday",
+          "tags": [
+            "library",
+            "Community Resources & Support Groups",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Health Insurance Counseling & Advocacy Program (HICAP)",
+          "tags": [
+            "library",
+            "Community Resources & Support Groups",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "STEM Club: Flying Cup Rockets",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Ocean Zones",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Skate Park Build Challenge",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Matheroni's Pizzeria",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "Freedom to Read: Scavenger Hunt",
+          "tags": [
+            "library",
+            "Self-Directed Activities",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "LEGO® Engineering Club",
+          "tags": [
+            "library",
+            "Games & Family Entertainment",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "STEM Club: Magnet Mazes",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Straw Airplane Challenge",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Soil Layers and Worm Study",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Robot Hand DIY",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Pumpkin Catapult Challenge",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "1st Tuesday STEM with Lynbrook WiSTEM",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "1st Tuesday STEM with Lynbrook WiSTEM",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "Knitting/Crocheting/Tatting/Bobbin Lace Club",
+          "tags": [
+            "library",
+            "Crafts & Hobbies",
+            "Adults, ages 18+",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12",
+            "Seniors, ages 65+",
+            "Teens, ages 12-18"
+          ]
+        },
+        {
+          "title": "STEM Club",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "Spooky Season Scavenger Hunt",
+          "tags": [
+            "library",
+            "Self-Directed Activities",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12",
+            "Teens, ages 12-18"
+          ]
+        },
+        {
+          "title": "Spooky Season Scavenger Hunt",
+          "tags": [
+            "library",
+            "Self-Directed Activities",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12",
+            "Teens, ages 12-18"
+          ]
+        }
+      ]
+    },
+    "libcal": {
+      "total": 64,
+      "low": 24,
+      "share": 0.375,
+      "reasons": {
+        "unmapped-activity-metadata": 24
+      },
+      "unmappedTags": [
+        [
+          "library",
+          24
+        ],
+        [
+          "Adults",
+          15
+        ],
+        [
+          "Seniors",
+          11
+        ],
+        [
+          "Children",
+          6
+        ],
+        [
+          "Tweens",
+          5
+        ],
+        [
+          "Preschoolers",
+          3
+        ],
+        [
+          "Teens",
+          2
+        ],
+        [
+          "Families",
+          2
+        ],
+        [
+          "Parents",
+          1
+        ],
+        [
+          "Toddlers",
+          1
+        ],
+        [
+          "All Ages",
+          1
+        ],
+        [
+          "Babies",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Banned Book Week Trivia",
+          "tags": [
+            "library",
+            "Adults",
+            "Teens",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Pasta with a Twist: A Fresh Take on Italian Classics with Food Network Star Joe Sasto",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Art in Flight: Reinventing Postmodernism with Smithsonian Curator Carolyn Russo",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Let's Create",
+          "tags": [
+            "library",
+            "Tweens",
+            "Children"
+          ]
+        },
+        {
+          "title": "Amplify: Back to Bach",
+          "tags": [
+            "library",
+            "Children",
+            "Families"
+          ]
+        },
+        {
+          "title": "Planning Your Cool Vegetable Garden in Our Mediterranean Climate",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Cricut Basics - Paper Flowers",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Ukulele Jam Sing and Play Along",
+          "tags": [
+            "library",
+            "Adults",
+            "Teens",
+            "Seniors",
+            "Tweens"
+          ]
+        },
+        {
+          "title": "Reading Buddies",
+          "tags": [
+            "library",
+            "Children"
+          ]
+        },
+        {
+          "title": "Am I Being Tracked?: A Guide to Digital Privacy",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Spirit of '76: A Look Back at Mountain View's Bicentennial",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Friends of the Library Board Meeting",
+          "tags": [
+            "library"
+          ]
+        },
+        {
+          "title": "CANCELED -- Let's Create",
+          "tags": [
+            "library",
+            "Tweens",
+            "Children"
+          ]
+        },
+        {
+          "title": "Needle Crafts Circle",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Afghan Cassette Archive: Stories, Sounds, and Music from Afghanistan",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Smart Start Babytime",
+          "tags": [
+            "library",
+            "Preschoolers",
+            "Parents",
+            "Families",
+            "Toddlers"
+          ]
+        },
+        {
+          "title": "Liberated Love: Rewiring Your Heart for Authentic Connection with Mark Groves",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Demons, Creatures and Monsters - Oh My!",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors",
+            "All Ages"
+          ]
+        }
+      ]
+    },
+    "localist": {
+      "total": 185,
+      "low": 68,
+      "share": 0.3675675675675676,
+      "reasons": {
+        "unmapped-activity-metadata": 64,
+        "missing-activity-metadata": 4
+      },
+      "unmappedTags": [
+        [
+          "Students",
+          41
+        ],
+        [
+          "Faculty",
+          37
+        ],
+        [
+          "Staff",
+          35
+        ],
+        [
+          "Alumni",
+          30
+        ],
+        [
+          "General Public",
+          29
+        ],
+        [
+          "SJSU Employees",
+          28
+        ],
+        [
+          "Current Students",
+          28
+        ],
+        [
+          "Prospective Students",
+          23
+        ],
+        [
+          "Everyone",
+          14
+        ],
+        [
+          "Postdocs",
+          9
+        ],
+        [
+          "Students - Graduates",
+          8
+        ],
+        [
+          "Arts/Media",
+          7
+        ],
+        [
+          "Engineering/Technology",
+          7
+        ],
+        [
+          "Well-being @ SJSU",
+          6
+        ],
+        [
+          "Humanities",
+          6
+        ],
+        [
+          "Environment/Sustainability",
+          5
+        ],
+        [
+          "Diversity/Identity",
+          5
+        ],
+        [
+          "Education",
+          5
+        ],
+        [
+          "Affiliates",
+          5
+        ],
+        [
+          "Students - Undergraduates",
+          5
+        ],
+        [
+          "Health/Wellness",
+          5
+        ],
+        [
+          "Pacific Time (UTC-08:00)",
+          4
+        ],
+        [
+          "International Affairs",
+          4
+        ],
+        [
+          "Law/Public Policy/Politics",
+          4
+        ],
+        [
+          "Other",
+          4
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Bans off My Books",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "All Recovery Meeting",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Reading for Our Lives: Queer and Trans Life Writing in a Time of Erasure",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "AI and Election Security Day: AI and Election Security Panel Discussion",
+          "tags": [
+            "SJSU Employees",
+            "Faculty",
+            "Staff",
+            "Students",
+            "Science and Technology",
+            "Artificial Intelligence",
+            "Humanities",
+            "Politics and Society"
+          ]
+        },
+        {
+          "title": "Careers in the Automotive Industry: a talk with Dr. Julian Merten",
+          "tags": []
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Listening Hour: Voice Studio",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "LGBTQ+ Drop-In Group",
+          "tags": [
+            "Students",
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Sober Hobby Hours",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit Reception",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Screenings of “The Librarians” & “Banned Together”",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "AMA: Building a Career in Tech",
+          "tags": []
+        },
+        {
+          "title": "All Recovery Meeting",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        }
+      ]
+    },
+    "livewhale": {
+      "total": 398,
+      "low": 268,
+      "share": 0.6733668341708543,
+      "reasons": {
+        "unmapped-activity-metadata": 222,
+        "missing-activity-metadata": 46
+      },
+      "unmappedTags": [
+        [
+          "Open to the Public",
+          46
+        ],
+        [
+          "Workshops",
+          45
+        ],
+        [
+          "Leavey School of Business",
+          30
+        ],
+        [
+          "Governance meeting",
+          23
+        ],
+        [
+          "Undergraduate Academic Calendar",
+          22
+        ],
+        [
+          "College of Arts & Sciences",
+          20
+        ],
+        [
+          "Career & Employer Events",
+          18
+        ],
+        [
+          "hr-workshops",
+          18
+        ],
+        [
+          "Sustainability",
+          16
+        ],
+        [
+          "health n wellness",
+          15
+        ],
+        [
+          "hr-benefits",
+          15
+        ],
+        [
+          "TERMINALFOUR",
+          14
+        ],
+        [
+          "Accounting",
+          13
+        ],
+        [
+          "ACTG",
+          13
+        ],
+        [
+          "Graduate Academic Calendar",
+          13
+        ],
+        [
+          "hr-payroll",
+          12
+        ],
+        [
+          "Alumni Association",
+          12
+        ],
+        [
+          "Career & Professional Development",
+          10
+        ],
+        [
+          "Career Center",
+          9
+        ],
+        [
+          "School of Engineering",
+          8
+        ],
+        [
+          "benefits",
+          8
+        ],
+        [
+          "faculty development",
+          8
+        ],
+        [
+          "career advising",
+          7
+        ],
+        [
+          "All Communities",
+          7
+        ],
+        [
+          "Center for Sustainability",
+          6
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Dorm Life: 175 Years of Student Housing",
+          "tags": [
+            "Open to the Public",
+            "Exhibits"
+          ]
+        },
+        {
+          "title": "10AM Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "5PM Student Mass",
+          "tags": []
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "8pm Student Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Week 3",
+          "tags": [
+            "Undergraduate Academic Calendar"
+          ]
+        },
+        {
+          "title": "Benefits Committee Meeting",
+          "tags": [
+            "Governance meeting"
+          ]
+        },
+        {
+          "title": "Bucky’s Closet Thrift Store",
+          "tags": [
+            "Sustainability",
+            "Buckys Closet",
+            "Center for Sustainability",
+            "Sustainability"
+          ]
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Drop In Resume Refresh Week 3",
+          "tags": [
+            "Career & Employer Events",
+            "College of Arts & Sciences",
+            "Leavey School of Business",
+            "School of Education & Counseling Psychol",
+            "School of Engineering"
+          ]
+        },
+        {
+          "title": "Weekday Noon Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Week 3: Drop-In CAS Career Advice Support Hour (CASH)",
+          "tags": [
+            "Career & Employer Events",
+            "College of Arts & Sciences",
+            "Workshops",
+            "Career & Professional Development",
+            "career advising",
+            "Career Center",
+            "Job Search"
+          ]
+        },
+        {
+          "title": "FAC Meeting",
+          "tags": [
+            "Governance meeting"
+          ]
+        },
+        {
+          "title": "Staff Affairs Committee Meeting",
+          "tags": [
+            "Governance meeting"
+          ]
+        },
+        {
+          "title": "Career Advice Support Hour",
+          "tags": [
+            "Accounting",
+            "ACTG"
+          ]
+        },
+        {
+          "title": "Week 3: Leavey School of Business Career Advice Support Hour (CASH)",
+          "tags": [
+            "Career & Employer Events",
+            "Leavey School of Business",
+            "Workshops",
+            "Career & Professional Development",
+            "career advising",
+            "Career Center",
+            "Job Search"
+          ]
+        },
+        {
+          "title": "Nourish Nights",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Ongoing",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "Misa en Español",
+          "tags": []
+        },
+        {
+          "title": "LiveWhale: Calendaring",
+          "tags": [
+            "Workshops",
+            "LiveWhale",
+            "TERMINALFOUR"
+          ]
+        },
+        {
+          "title": "Ethical Culture Under Pressure: Board Oversight Part II",
+          "tags": [
+            "Open to the Public",
+            "business ethics",
+            "corporate culture",
+            "corporate ethics",
+            "Ethics",
+            "leadership ethics",
+            "Markkula",
+            "Markkula Center for Applied Ethics"
+          ]
+        }
+      ]
+    },
+    "midpen": {
+      "total": 53,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    },
+    "legistar": {
+      "total": 14,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    }
+  },
+  "byFeed": {
+    "San José Public Library": {
+      "total": 6100,
+      "low": 2211,
+      "share": 0.36245901639344263,
+      "reasons": {
+        "unmapped-activity-metadata": 2211
+      },
+      "unmappedTags": [
+        [
+          "library",
+          2211
+        ],
+        [
+          "Adults, ages 18+",
+          1378
+        ],
+        [
+          "Seniors, ages 65+",
+          940
+        ],
+        [
+          "Pre-Teens, ages 10-12",
+          888
+        ],
+        [
+          "Kids, ages 5-10",
+          849
+        ],
+        [
+          "Teens, ages 12-18",
+          796
+        ],
+        [
+          "Crafts & Hobbies",
+          687
+        ],
+        [
+          "Learn English",
+          475
+        ],
+        [
+          "Games & Family Entertainment",
+          406
+        ],
+        [
+          "Young Children, ages 0-5",
+          227
+        ],
+        [
+          "Self-Directed Activities",
+          170
+        ],
+        [
+          "STEAM",
+          149
+        ],
+        [
+          "Career & Business",
+          119
+        ],
+        [
+          "Citizenship & Immigration",
+          102
+        ],
+        [
+          "Health & Wellness",
+          83
+        ],
+        [
+          "Learn a Language",
+          67
+        ],
+        [
+          "Writing & Adult Literacy",
+          56
+        ],
+        [
+          "Community Resources & Support Groups",
+          55
+        ],
+        [
+          "Parenting & Early Education",
+          38
+        ],
+        [
+          "Books & Authors",
+          31
+        ],
+        [
+          "Celebrations & Festivities",
+          25
+        ],
+        [
+          "Culture & Traditions",
+          24
+        ],
+        [
+          "Nature & Gardening",
+          7
+        ],
+        [
+          "Winter Holidays",
+          3
+        ],
+        [
+          "Graphic Novels",
+          3
+        ]
+      ],
+      "examples": [
+        {
+          "title": "First Wednesday",
+          "tags": [
+            "library",
+            "Community Resources & Support Groups",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "Health Insurance Counseling & Advocacy Program (HICAP)",
+          "tags": [
+            "library",
+            "Community Resources & Support Groups",
+            "Health & Wellness",
+            "Adults, ages 18+",
+            "Seniors, ages 65+"
+          ]
+        },
+        {
+          "title": "STEM Club: Flying Cup Rockets",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Ocean Zones",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Skate Park Build Challenge",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Matheroni's Pizzeria",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "Freedom to Read: Scavenger Hunt",
+          "tags": [
+            "library",
+            "Self-Directed Activities",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "LEGO® Engineering Club",
+          "tags": [
+            "library",
+            "Games & Family Entertainment",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "STEM Club: Magnet Mazes",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Straw Airplane Challenge",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Soil Layers and Worm Study",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Robot Hand DIY",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club: Pumpkin Catapult Challenge",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10"
+          ]
+        },
+        {
+          "title": "STEM Club",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "1st Tuesday STEM with Lynbrook WiSTEM",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "1st Tuesday STEM with Lynbrook WiSTEM",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "Knitting/Crocheting/Tatting/Bobbin Lace Club",
+          "tags": [
+            "library",
+            "Crafts & Hobbies",
+            "Adults, ages 18+",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12",
+            "Seniors, ages 65+",
+            "Teens, ages 12-18"
+          ]
+        },
+        {
+          "title": "STEM Club",
+          "tags": [
+            "library",
+            "STEAM",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12"
+          ]
+        },
+        {
+          "title": "Spooky Season Scavenger Hunt",
+          "tags": [
+            "library",
+            "Self-Directed Activities",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12",
+            "Teens, ages 12-18"
+          ]
+        },
+        {
+          "title": "Spooky Season Scavenger Hunt",
+          "tags": [
+            "library",
+            "Self-Directed Activities",
+            "Kids, ages 5-10",
+            "Pre-Teens, ages 10-12",
+            "Teens, ages 12-18"
+          ]
+        }
+      ]
+    },
+    "Santa Clara County Library District": {
+      "total": 1811,
+      "low": 683,
+      "share": 0.3771397018221977,
+      "reasons": {
+        "unmapped-activity-metadata": 683
+      },
+      "unmappedTags": [
+        [
+          "library",
+          683
+        ],
+        [
+          "Kids: Grades K-8",
+          333
+        ],
+        [
+          "Teens",
+          309
+        ],
+        [
+          "Kids: Family Events",
+          301
+        ],
+        [
+          "Kids: Preschoolers",
+          300
+        ],
+        [
+          "Adults",
+          282
+        ],
+        [
+          "Kids: Grades 5-8",
+          273
+        ],
+        [
+          "Health & Fitness",
+          219
+        ],
+        [
+          "Kids: Toddlers",
+          208
+        ],
+        [
+          "Subject Varies: Other Great Events",
+          172
+        ],
+        [
+          "Older Adults",
+          167
+        ],
+        [
+          "Entertainment & Recreation",
+          127
+        ],
+        [
+          "Kids: Babies",
+          124
+        ],
+        [
+          "Arts & Culture",
+          90
+        ],
+        [
+          "Scheduled Closure/Holiday",
+          64
+        ],
+        [
+          "Self-Improvement & Parenting",
+          19
+        ],
+        [
+          "STEM, Technology, & Science",
+          11
+        ],
+        [
+          "Home & Garden",
+          8
+        ],
+        [
+          "History & Genealogy",
+          8
+        ],
+        [
+          "Financial & Business",
+          7
+        ],
+        [
+          "Government, Law, & Politics",
+          5
+        ],
+        [
+          "Jobs & Career",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Saratoga Library closed for Indigenous Peoples' Day",
+          "tags": [
+            "library",
+            "Scheduled Closure/Holiday",
+            "Adults",
+            "Kids: Family Events",
+            "Older Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Itty Bitty Jamboree",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Babies"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Bay Area Games Day",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Adults",
+            "Kids: Family Events",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Cult Movie: Sunday Matinee Movies: SPY kids",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Adults",
+            "Kids: Family Events",
+            "Kids: Grades K-8",
+            "Older Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Baby Wearing Dance",
+          "tags": [
+            "library",
+            "Self-Improvement & Parenting",
+            "Kids: Family Events"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "ESL Conversation Club at the Cupertino Library",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Board Game Night for Adults",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Level Up Readers",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Grades K-8"
+          ]
+        },
+        {
+          "title": "Level Up Readers",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Grades K-8"
+          ]
+        },
+        {
+          "title": "Flowers & Herbs for Late Fall and Winter",
+          "tags": [
+            "library",
+            "Home & Garden",
+            "Adults",
+            "Older Adults"
+          ]
+        },
+        {
+          "title": "Maracas & Movement",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Kids: Preschoolers",
+            "Kids: Toddlers"
+          ]
+        },
+        {
+          "title": "Maracas & Movement",
+          "tags": [
+            "library",
+            "Entertainment & Recreation",
+            "Kids: Preschoolers",
+            "Kids: Toddlers"
+          ]
+        },
+        {
+          "title": "Gilroy Library Closed for Christmas Day",
+          "tags": [
+            "library",
+            "Scheduled Closure/Holiday",
+            "Adults",
+            "Kids: Babies",
+            "Kids: Family Events",
+            "Kids: Grades 5-8",
+            "Kids: Grades K-8",
+            "Kids: Preschoolers"
+          ]
+        },
+        {
+          "title": "STEM: Build with Candy",
+          "tags": [
+            "library",
+            "STEM, Technology, & Science",
+            "Kids: Grades K-8"
+          ]
+        },
+        {
+          "title": "Henna Art for Diwali",
+          "tags": [
+            "library",
+            "Arts & Culture",
+            "Adults",
+            "Kids: Family Events"
+          ]
+        },
+        {
+          "title": "Evening Itty Bitty Jamboree",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Babies"
+          ]
+        },
+        {
+          "title": "Evening Itty Bitty Jamboree",
+          "tags": [
+            "library",
+            "Subject Varies: Other Great Events",
+            "Kids: Babies"
+          ]
+        }
+      ]
+    },
+    "Palo Alto City Library": {
+      "total": 478,
+      "low": 86,
+      "share": 0.1799163179916318,
+      "reasons": {
+        "unmapped-activity-metadata": 86
+      },
+      "unmappedTags": [
+        [
+          "library",
+          86
+        ],
+        [
+          "Adults",
+          47
+        ],
+        [
+          "Kids (6-11)",
+          41
+        ],
+        [
+          "Seniors",
+          36
+        ],
+        [
+          "Pre-schoolers (3-5)",
+          35
+        ],
+        [
+          "Toddlers (18 mos. to 3 yrs)",
+          33
+        ],
+        [
+          "Teens (14-18)",
+          29
+        ],
+        [
+          "Games & Gaming",
+          23
+        ],
+        [
+          "Health & Science",
+          19
+        ],
+        [
+          "Tweens (11-13)",
+          18
+        ],
+        [
+          "Celebrations",
+          11
+        ],
+        [
+          "Arts & Crafts",
+          11
+        ],
+        [
+          "ESL/Learn English",
+          10
+        ],
+        [
+          "Author Events",
+          6
+        ],
+        [
+          "Community Conversations",
+          5
+        ],
+        [
+          "Exhibit",
+          5
+        ],
+        [
+          "Writing & Poetry",
+          4
+        ],
+        [
+          "Movies & Documentaries",
+          2
+        ],
+        [
+          "Continuing Education & College",
+          2
+        ],
+        [
+          "Babies (under 2)",
+          1
+        ],
+        [
+          "Book Sales",
+          1
+        ],
+        [
+          "AI",
+          1
+        ],
+        [
+          "Workshops",
+          1
+        ],
+        [
+          "Computers & Technology",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Practice Your Vote!",
+          "tags": [
+            "library",
+            "Celebrations",
+            "Community Conversations",
+            "Exhibit",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "Practice Your Vote!",
+          "tags": [
+            "library",
+            "Celebrations",
+            "Community Conversations",
+            "Exhibit",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "Jack O'Lantern Jamboree!",
+          "tags": [
+            "library",
+            "Arts & Crafts",
+            "Celebrations",
+            "Babies (under 2)",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "Practice Your Vote!",
+          "tags": [
+            "library",
+            "Celebrations",
+            "Community Conversations",
+            "Exhibit",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "Button Making Pop-up for Teens!",
+          "tags": [
+            "library",
+            "Arts & Crafts",
+            "Teens (14-18)",
+            "Tweens (11-13)"
+          ]
+        },
+        {
+          "title": "LEGO Tuesdays!",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)",
+            "Tweens (11-13)"
+          ]
+        },
+        {
+          "title": "Open Sewing Studio",
+          "tags": [
+            "library",
+            "Arts & Crafts",
+            "Adults",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "LEGO Fridays!",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "LEGO Fridays!",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)"
+          ]
+        },
+        {
+          "title": "Family Craft: Pom Pom Photo Frames",
+          "tags": [
+            "library",
+            "Arts & Crafts",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)"
+          ]
+        },
+        {
+          "title": "LEGO Tuesdays!",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)",
+            "Tweens (11-13)"
+          ]
+        },
+        {
+          "title": "LEGO Tuesdays!",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "Kids (6-11)",
+            "Pre-schoolers (3-5)",
+            "Toddlers (18 mos. to 3 yrs)",
+            "Tweens (11-13)"
+          ]
+        },
+        {
+          "title": "Day of the Dead Makeup Tutorial",
+          "tags": [
+            "library",
+            "Arts & Crafts",
+            "Celebrations",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        },
+        {
+          "title": "Meditation with Sara",
+          "tags": [
+            "library",
+            "Health & Science",
+            "Adults",
+            "Seniors",
+            "Teens (14-18)"
+          ]
+        }
+      ]
+    },
+    "Alameda County Library": {
+      "total": 1104,
+      "low": 129,
+      "share": 0.11684782608695653,
+      "reasons": {
+        "unmapped-activity-metadata": 129
+      },
+      "unmappedTags": [
+        [
+          "library",
+          129
+        ],
+        [
+          "Adults",
+          63
+        ],
+        [
+          "Special Events",
+          51
+        ],
+        [
+          "Teens",
+          49
+        ],
+        [
+          "Gaming",
+          30
+        ],
+        [
+          "Health & Fitness",
+          27
+        ],
+        [
+          "Seniors",
+          19
+        ],
+        [
+          "Kids",
+          18
+        ],
+        [
+          "Everyone",
+          16
+        ],
+        [
+          "Babies & Toddlers",
+          14
+        ],
+        [
+          "Citizenship",
+          12
+        ],
+        [
+          "Law & Government",
+          8
+        ],
+        [
+          "Preschoolers",
+          4
+        ],
+        [
+          "Jobs & Personal Finance",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Teen Gamers Club",
+          "tags": [
+            "library",
+            "Gaming",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Teen Gamers Club",
+          "tags": [
+            "library",
+            "Gaming",
+            "Teens"
+          ]
+        },
+        {
+          "title": "RCOZ South Asian Women’s Support Group",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Teen Gamers Club",
+          "tags": [
+            "library",
+            "Gaming",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Teen Gamers Club",
+          "tags": [
+            "library",
+            "Gaming",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Project Eden Youth Prevention Services Tabling",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Adults",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Teen Gamers Club",
+          "tags": [
+            "library",
+            "Gaming",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Teens Talk",
+          "tags": [
+            "library",
+            "Health & Fitness",
+            "Teens"
+          ]
+        },
+        {
+          "title": "Election - Vote Center",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Candidate forum - State Senate District 10",
+          "tags": [
+            "library",
+            "Citizenship",
+            "Adults"
+          ]
+        }
+      ]
+    },
+    "San Mateo County Libraries": {
+      "total": 1958,
+      "low": 517,
+      "share": 0.2640449438202247,
+      "reasons": {
+        "unmapped-activity-metadata": 517
+      },
+      "unmappedTags": [
+        [
+          "library",
+          517
+        ],
+        [
+          "55+ Friendly",
+          355
+        ],
+        [
+          "Adults (19+)",
+          328
+        ],
+        [
+          "Children (6-11)",
+          314
+        ],
+        [
+          "Community Resources",
+          276
+        ],
+        [
+          "All Ages",
+          240
+        ],
+        [
+          "Food & Gardening",
+          225
+        ],
+        [
+          "Adults (55+)",
+          225
+        ],
+        [
+          "Teens (12-18)",
+          133
+        ],
+        [
+          "Art & Creativity",
+          124
+        ],
+        [
+          "Games & Gaming",
+          101
+        ],
+        [
+          "STEAM",
+          60
+        ],
+        [
+          "Literacy & ESL",
+          47
+        ],
+        [
+          "Preschoolers (0-5)",
+          27
+        ],
+        [
+          "Cultural Event",
+          15
+        ],
+        [
+          "Health & Wellness",
+          13
+        ],
+        [
+          "Social Support",
+          8
+        ],
+        [
+          "Sustainability",
+          3
+        ],
+        [
+          "Gardening",
+          1
+        ],
+        [
+          "Bilingual",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Free Meals at the Library / Comida Gratis en la Biblioteca",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Community Resources",
+            "Food & Gardening",
+            "Adults (19+)",
+            "Adults (55+)",
+            "All Ages",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Mahjong",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Games & Gaming",
+            "Adults (19+)",
+            "Adults (55+)"
+          ]
+        },
+        {
+          "title": "Mahjong",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Games & Gaming",
+            "Adults (19+)",
+            "Adults (55+)"
+          ]
+        },
+        {
+          "title": "Mahjong",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Games & Gaming",
+            "Adults (19+)",
+            "Adults (55+)"
+          ]
+        },
+        {
+          "title": "Reading Buddies",
+          "tags": [
+            "library",
+            "Literacy & ESL",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Reading Buddies",
+          "tags": [
+            "library",
+            "Literacy & ESL",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Reading Buddies",
+          "tags": [
+            "library",
+            "Literacy & ESL",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Mahjong",
+          "tags": [
+            "library",
+            "55+ Friendly",
+            "Games & Gaming",
+            "Adults (19+)",
+            "Adults (55+)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Painting Pumpkins",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "STEAM Team: Felt Sugar Skulls",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Reading Buddies",
+          "tags": [
+            "library",
+            "Literacy & ESL",
+            "Children (6-11)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Diwali Special Henna Art",
+          "tags": [
+            "library",
+            "Art & Creativity",
+            "Cultural Event",
+            "Children (6-11)",
+            "Preschoolers (0-5)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        },
+        {
+          "title": "Lego Club",
+          "tags": [
+            "library",
+            "Games & Gaming",
+            "STEAM",
+            "Children (6-11)",
+            "Teens (12-18)"
+          ]
+        }
+      ]
+    },
+    "Mountain View Public Library": {
+      "total": 64,
+      "low": 24,
+      "share": 0.375,
+      "reasons": {
+        "unmapped-activity-metadata": 24
+      },
+      "unmappedTags": [
+        [
+          "library",
+          24
+        ],
+        [
+          "Adults",
+          15
+        ],
+        [
+          "Seniors",
+          11
+        ],
+        [
+          "Children",
+          6
+        ],
+        [
+          "Tweens",
+          5
+        ],
+        [
+          "Preschoolers",
+          3
+        ],
+        [
+          "Teens",
+          2
+        ],
+        [
+          "Families",
+          2
+        ],
+        [
+          "Parents",
+          1
+        ],
+        [
+          "Toddlers",
+          1
+        ],
+        [
+          "All Ages",
+          1
+        ],
+        [
+          "Babies",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Banned Book Week Trivia",
+          "tags": [
+            "library",
+            "Adults",
+            "Teens",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Pasta with a Twist: A Fresh Take on Italian Classics with Food Network Star Joe Sasto",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Art in Flight: Reinventing Postmodernism with Smithsonian Curator Carolyn Russo",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "The Financial Side of Estate Planning: Beyond Wills and Trusts",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Let's Create",
+          "tags": [
+            "library",
+            "Tweens",
+            "Children"
+          ]
+        },
+        {
+          "title": "Amplify: Back to Bach",
+          "tags": [
+            "library",
+            "Children",
+            "Families"
+          ]
+        },
+        {
+          "title": "Planning Your Cool Vegetable Garden in Our Mediterranean Climate",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Cricut Basics - Paper Flowers",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Ukulele Jam Sing and Play Along",
+          "tags": [
+            "library",
+            "Adults",
+            "Teens",
+            "Seniors",
+            "Tweens"
+          ]
+        },
+        {
+          "title": "Reading Buddies",
+          "tags": [
+            "library",
+            "Children"
+          ]
+        },
+        {
+          "title": "Am I Being Tracked?: A Guide to Digital Privacy",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Spirit of '76: A Look Back at Mountain View's Bicentennial",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Friends of the Library Board Meeting",
+          "tags": [
+            "library"
+          ]
+        },
+        {
+          "title": "CANCELED -- Let's Create",
+          "tags": [
+            "library",
+            "Tweens",
+            "Children"
+          ]
+        },
+        {
+          "title": "Needle Crafts Circle",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors"
+          ]
+        },
+        {
+          "title": "Afghan Cassette Archive: Stories, Sounds, and Music from Afghanistan",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Smart Start Babytime",
+          "tags": [
+            "library",
+            "Preschoolers",
+            "Parents",
+            "Families",
+            "Toddlers"
+          ]
+        },
+        {
+          "title": "Liberated Love: Rewiring Your Heart for Authentic Connection with Mark Groves",
+          "tags": [
+            "library",
+            "Adults"
+          ]
+        },
+        {
+          "title": "Demons, Creatures and Monsters - Oh My!",
+          "tags": [
+            "library",
+            "Adults",
+            "Seniors",
+            "All Ages"
+          ]
+        }
+      ]
+    },
+    "San José State University": {
+      "total": 100,
+      "low": 39,
+      "share": 0.39,
+      "reasons": {
+        "unmapped-activity-metadata": 37,
+        "missing-activity-metadata": 2
+      },
+      "unmappedTags": [
+        [
+          "Students",
+          32
+        ],
+        [
+          "SJSU Employees",
+          28
+        ],
+        [
+          "Current Students",
+          28
+        ],
+        [
+          "Faculty",
+          27
+        ],
+        [
+          "Staff",
+          27
+        ],
+        [
+          "Alumni",
+          26
+        ],
+        [
+          "General Public",
+          25
+        ],
+        [
+          "Prospective Students",
+          23
+        ],
+        [
+          "Well-being @ SJSU",
+          6
+        ],
+        [
+          "Pacific Time (UTC-08:00)",
+          4
+        ],
+        [
+          "Graduate Students",
+          3
+        ],
+        [
+          "Donors",
+          2
+        ],
+        [
+          "Community",
+          2
+        ],
+        [
+          "Info Sessions, Fairs and Events",
+          2
+        ],
+        [
+          "Undergraduate Students",
+          2
+        ],
+        [
+          "Science and Technology",
+          1
+        ],
+        [
+          "Artificial Intelligence",
+          1
+        ],
+        [
+          "Humanities",
+          1
+        ],
+        [
+          "Politics and Society",
+          1
+        ],
+        [
+          "Student Success",
+          1
+        ],
+        [
+          "Festivals and Fairs",
+          1
+        ],
+        [
+          "Business",
+          1
+        ],
+        [
+          "City of San José Events",
+          1
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Bans off My Books",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "All Recovery Meeting",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Reading for Our Lives: Queer and Trans Life Writing in a Time of Erasure",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "AI and Election Security Day: AI and Election Security Panel Discussion",
+          "tags": [
+            "SJSU Employees",
+            "Faculty",
+            "Staff",
+            "Students",
+            "Science and Technology",
+            "Artificial Intelligence",
+            "Humanities",
+            "Politics and Society"
+          ]
+        },
+        {
+          "title": "Careers in the Automotive Industry: a talk with Dr. Julian Merten",
+          "tags": []
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Listening Hour: Voice Studio",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "LGBTQ+ Drop-In Group",
+          "tags": [
+            "Students",
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Sober Hobby Hours",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit Reception",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Screenings of “The Librarians” & “Banned Together”",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "Art of Remembrance Ofrenda Exhibit",
+          "tags": [
+            "Alumni",
+            "SJSU Employees",
+            "General Public",
+            "Students",
+            "Prospective Students",
+            "Current Students",
+            "Faculty",
+            "Staff"
+          ]
+        },
+        {
+          "title": "AMA: Building a Career in Tech",
+          "tags": []
+        },
+        {
+          "title": "All Recovery Meeting",
+          "tags": [
+            "Well-being @ SJSU"
+          ]
+        }
+      ]
+    },
+    "Stanford University": {
+      "total": 85,
+      "low": 29,
+      "share": 0.3411764705882353,
+      "reasons": {
+        "unmapped-activity-metadata": 27,
+        "missing-activity-metadata": 2
+      },
+      "unmappedTags": [
+        [
+          "Everyone",
+          14
+        ],
+        [
+          "Faculty",
+          10
+        ],
+        [
+          "Students",
+          9
+        ],
+        [
+          "Postdocs",
+          9
+        ],
+        [
+          "Staff",
+          8
+        ],
+        [
+          "Students - Graduates",
+          8
+        ],
+        [
+          "Arts/Media",
+          7
+        ],
+        [
+          "Engineering/Technology",
+          7
+        ],
+        [
+          "Environment/Sustainability",
+          5
+        ],
+        [
+          "Humanities",
+          5
+        ],
+        [
+          "Diversity/Identity",
+          5
+        ],
+        [
+          "Education",
+          5
+        ],
+        [
+          "Affiliates",
+          5
+        ],
+        [
+          "Students - Undergraduates",
+          5
+        ],
+        [
+          "Health/Wellness",
+          5
+        ],
+        [
+          "International Affairs",
+          4
+        ],
+        [
+          "Law/Public Policy/Politics",
+          4
+        ],
+        [
+          "General Public",
+          4
+        ],
+        [
+          "Alumni",
+          4
+        ],
+        [
+          "Other",
+          4
+        ],
+        [
+          "Staff - Academic",
+          4
+        ],
+        [
+          "Religion/Spirituality",
+          3
+        ],
+        [
+          "Tour",
+          3
+        ],
+        [
+          "Staff - Managers",
+          3
+        ],
+        [
+          "Religious/Spiritual",
+          2
+        ]
+      ],
+      "examples": [
+        {
+          "title": "A Vision of Paris: The Roxane Debuisson Collection at Stanford",
+          "tags": [
+            "Everyone",
+            "Arts/Media",
+            "Engineering/Technology",
+            "Environment/Sustainability",
+            "Humanities",
+            "Diversity/Identity",
+            "International Affairs",
+            "Law/Public Policy/Politics"
+          ]
+        },
+        {
+          "title": "University Public Worship Fr. Bartholomew Hutcherson, OP Preaching",
+          "tags": [
+            "Everyone",
+            "Religion/Spirituality",
+            "Religious/Spiritual"
+          ]
+        },
+        {
+          "title": "Public Tour | A Closer Look",
+          "tags": [
+            "Everyone",
+            "Arts/Media",
+            "Education",
+            "Tour"
+          ]
+        },
+        {
+          "title": "Gallery Conversations | JANE!",
+          "tags": [
+            "General Public",
+            "Arts/Media",
+            "Tour"
+          ]
+        },
+        {
+          "title": "[Cancelled] Public Tour | A Closer Look",
+          "tags": [
+            "Everyone",
+            "Arts/Media",
+            "Education",
+            "Tour"
+          ]
+        },
+        {
+          "title": "Branner Library Book & Map Exhibit - Water in the West",
+          "tags": [
+            "Students",
+            "Postdocs",
+            "Faculty",
+            "Staff",
+            "Affiliates",
+            "Everyone",
+            "Alumni",
+            "Education"
+          ]
+        },
+        {
+          "title": "Stanford Center for AI Safety (SAFE) Annual Meeting 2026",
+          "tags": [
+            "Everyone",
+            "Engineering/Technology",
+            "Conference/Symposium"
+          ]
+        },
+        {
+          "title": "A Vision of Paris: The Roxane Debuisson Collection at Stanford",
+          "tags": [
+            "Everyone",
+            "Arts/Media",
+            "Engineering/Technology",
+            "Environment/Sustainability",
+            "Humanities",
+            "Diversity/Identity",
+            "International Affairs",
+            "Law/Public Policy/Politics"
+          ]
+        },
+        {
+          "title": "it's kinda chic to get vaccinated: flu & COVID shots at Vaden Health Center",
+          "tags": [
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs",
+            "Health/Wellness",
+            "Other"
+          ]
+        },
+        {
+          "title": "Book Talk: How to Survive Authoritarianism",
+          "tags": [
+            "Students",
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs",
+            "Faculty",
+            "Staff",
+            "Affiliates",
+            "Humanities"
+          ]
+        },
+        {
+          "title": "Dean’s Lecture Series: Frontiers in Climate Science Featuring Scientists Isla Simpson and Tapio Schneider",
+          "tags": [
+            "Students",
+            "Postdocs",
+            "Faculty",
+            "Staff",
+            "Affiliates",
+            "Staff - Academic",
+            "Staff - Managers",
+            "Alumni"
+          ]
+        },
+        {
+          "title": "Andrew Shen | Unlocking LLM Creativity in Science through Analogical Reasoning",
+          "tags": [
+            "Students",
+            "Students - Graduates",
+            "Postdocs",
+            "Faculty",
+            "Affiliates",
+            "Health/Wellness",
+            "Engineering/Technology",
+            "Medicine"
+          ]
+        },
+        {
+          "title": "Multifaith Dinner",
+          "tags": [
+            "Students",
+            "Religion/Spirituality",
+            "Meeting"
+          ]
+        },
+        {
+          "title": "BCAS Weekly Meditation",
+          "tags": [
+            "Everyone",
+            "Religion/Spirituality",
+            "Religious/Spiritual"
+          ]
+        },
+        {
+          "title": "Global Surgery Grand Rounds",
+          "tags": []
+        },
+        {
+          "title": "Financial Counseling with Fidelity (Main Campus, Huang Bldg, Room B019) (By Appointment Only)",
+          "tags": [
+            "Faculty",
+            "Staff",
+            "Staff - Academic",
+            "Staff - Managers",
+            "Working at Stanford",
+            "Other"
+          ]
+        },
+        {
+          "title": "Pediatric Grand Rounds (CME): Brain in a Dish, Cure in a Pipeline: Organoid-Based Drug Discovery for Neuropsychiatric Di",
+          "tags": [
+            "Students",
+            "Postdocs",
+            "Staff",
+            "General Public",
+            "Alumni",
+            "Faculty",
+            "Everyone",
+            "Education"
+          ]
+        },
+        {
+          "title": "A Vision of Paris: The Roxane Debuisson Collection at Stanford",
+          "tags": [
+            "Everyone",
+            "Arts/Media",
+            "Engineering/Technology",
+            "Environment/Sustainability",
+            "Humanities",
+            "Diversity/Identity",
+            "International Affairs",
+            "Law/Public Policy/Politics"
+          ]
+        },
+        {
+          "title": "Wellness Fair (Stanford campus)",
+          "tags": [
+            "Faculty",
+            "Staff",
+            "Health/Wellness",
+            "Other"
+          ]
+        },
+        {
+          "title": "Ethics in Society Open House",
+          "tags": [
+            "Students",
+            "Students - Undergraduates",
+            "Students - Graduates",
+            "Postdocs",
+            "Social Event/Reception"
+          ]
+        }
+      ]
+    },
+    "Santa Clara University": {
+      "total": 398,
+      "low": 268,
+      "share": 0.6733668341708543,
+      "reasons": {
+        "unmapped-activity-metadata": 222,
+        "missing-activity-metadata": 46
+      },
+      "unmappedTags": [
+        [
+          "Open to the Public",
+          46
+        ],
+        [
+          "Workshops",
+          45
+        ],
+        [
+          "Leavey School of Business",
+          30
+        ],
+        [
+          "Governance meeting",
+          23
+        ],
+        [
+          "Undergraduate Academic Calendar",
+          22
+        ],
+        [
+          "College of Arts & Sciences",
+          20
+        ],
+        [
+          "Career & Employer Events",
+          18
+        ],
+        [
+          "hr-workshops",
+          18
+        ],
+        [
+          "Sustainability",
+          16
+        ],
+        [
+          "health n wellness",
+          15
+        ],
+        [
+          "hr-benefits",
+          15
+        ],
+        [
+          "TERMINALFOUR",
+          14
+        ],
+        [
+          "Accounting",
+          13
+        ],
+        [
+          "ACTG",
+          13
+        ],
+        [
+          "Graduate Academic Calendar",
+          13
+        ],
+        [
+          "hr-payroll",
+          12
+        ],
+        [
+          "Alumni Association",
+          12
+        ],
+        [
+          "Career & Professional Development",
+          10
+        ],
+        [
+          "Career Center",
+          9
+        ],
+        [
+          "School of Engineering",
+          8
+        ],
+        [
+          "benefits",
+          8
+        ],
+        [
+          "faculty development",
+          8
+        ],
+        [
+          "career advising",
+          7
+        ],
+        [
+          "All Communities",
+          7
+        ],
+        [
+          "Center for Sustainability",
+          6
+        ]
+      ],
+      "examples": [
+        {
+          "title": "Dorm Life: 175 Years of Student Housing",
+          "tags": [
+            "Open to the Public",
+            "Exhibits"
+          ]
+        },
+        {
+          "title": "10AM Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "5PM Student Mass",
+          "tags": []
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "8pm Student Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Week 3",
+          "tags": [
+            "Undergraduate Academic Calendar"
+          ]
+        },
+        {
+          "title": "Benefits Committee Meeting",
+          "tags": [
+            "Governance meeting"
+          ]
+        },
+        {
+          "title": "Bucky’s Closet Thrift Store",
+          "tags": [
+            "Sustainability",
+            "Buckys Closet",
+            "Center for Sustainability",
+            "Sustainability"
+          ]
+        },
+        {
+          "title": "Sacrament of Reconciliation",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Drop In Resume Refresh Week 3",
+          "tags": [
+            "Career & Employer Events",
+            "College of Arts & Sciences",
+            "Leavey School of Business",
+            "School of Education & Counseling Psychol",
+            "School of Engineering"
+          ]
+        },
+        {
+          "title": "Weekday Noon Mass",
+          "tags": [
+            "mass",
+            "religious"
+          ]
+        },
+        {
+          "title": "Week 3: Drop-In CAS Career Advice Support Hour (CASH)",
+          "tags": [
+            "Career & Employer Events",
+            "College of Arts & Sciences",
+            "Workshops",
+            "Career & Professional Development",
+            "career advising",
+            "Career Center",
+            "Job Search"
+          ]
+        },
+        {
+          "title": "FAC Meeting",
+          "tags": [
+            "Governance meeting"
+          ]
+        },
+        {
+          "title": "Staff Affairs Committee Meeting",
+          "tags": [
+            "Governance meeting"
+          ]
+        },
+        {
+          "title": "Career Advice Support Hour",
+          "tags": [
+            "Accounting",
+            "ACTG"
+          ]
+        },
+        {
+          "title": "Week 3: Leavey School of Business Career Advice Support Hour (CASH)",
+          "tags": [
+            "Career & Employer Events",
+            "Leavey School of Business",
+            "Workshops",
+            "Career & Professional Development",
+            "career advising",
+            "Career Center",
+            "Job Search"
+          ]
+        },
+        {
+          "title": "Nourish Nights",
+          "tags": [
+            "Sustainability",
+            "Center for Sustainability",
+            "Ongoing",
+            "Sustainability",
+            "The Forge Garden"
+          ]
+        },
+        {
+          "title": "Misa en Español",
+          "tags": []
+        },
+        {
+          "title": "LiveWhale: Calendaring",
+          "tags": [
+            "Workshops",
+            "LiveWhale",
+            "TERMINALFOUR"
+          ]
+        },
+        {
+          "title": "Ethical Culture Under Pressure: Board Oversight Part II",
+          "tags": [
+            "Open to the Public",
+            "business ethics",
+            "corporate culture",
+            "corporate ethics",
+            "Ethics",
+            "leadership ethics",
+            "Markkula",
+            "Markkula Center for Applied Ethics"
+          ]
+        }
+      ]
+    },
+    "Midpeninsula Regional Open Space District": {
+      "total": 53,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    },
+    "City of San José": {
+      "total": 14,
+      "low": 0,
+      "share": 0,
+      "reasons": {},
+      "unmappedTags": [],
+      "examples": []
+    }
+  }
+}

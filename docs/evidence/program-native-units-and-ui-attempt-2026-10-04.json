@@ -1,0 +1,53 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName" : "iPhone 16 Plus",
+        "modelName" : "iPhone 16 Plus",
+        "osBuildNumber" : "22E238",
+        "osVersion" : "18.4",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 123,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "Verdure · Built with macOS 15.6.1",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1791123523.677,
+  "passedTests" : 123,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1791123393.591,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertTrue failed - expected official listing link to appear",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 124,
+      "testIdentifierString" : "JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail",
+      "testName" : "testCuratedProgramActualSignInChipAndOfficialListingDetail()"
+    }
+  ],
+  "title" : "Test - Verdure",
+  "topInsights" : [
+    {
+      "category" : "Longest Test Runs",
+      "impact" : "61% of duration",
+      "text" : "2 longest test runs with outlier durations exceeding 1.78s (three standard deviations)"
+    }
+  ],
+  "totalTestCount" : 124
+}

@@ -1,0 +1,1787 @@
+{
+  "label": "live-2026-10-25",
+  "mode": "record",
+  "recordedAt": "2026-10-25T00:50:04.282Z",
+  "now": "2026-10-25T00:50:04.282Z",
+  "requestsRecorded": 2345,
+  "hostsRequested": 149,
+  "sourcesBefore": 14,
+  "sourcesAfter": 19,
+  "eventsBefore": 7461,
+  "eventsAfter": 7618,
+  "discovery": {
+    "areaId": "san-jose-ca",
+    "startedAt": "2026-10-25T00:50:04.282Z",
+    "finishedAt": "2026-10-25T01:18:50.974Z",
+    "origins": {
+      "corpus-link": 10,
+      "osm": 1119,
+      "organizer": 0,
+      "model-url": 28
+    },
+    "queued": {
+      "added": 1134,
+      "known": 19,
+      "skipped": 4
+    },
+    "inspected": 111,
+    "activated": [
+      "san-jose-ca_rss-ics_careercenter.sjsu.edu",
+      "san-jose-ca_wordpress-tec_savesfbay.org",
+      "san-jose-ca_ics_abilitypath.org",
+      "san-jose-ca_wordpress-tec_allcove.org",
+      "san-jose-ca_wordpress-tec_bayvp.org"
+    ],
+    "rejected": [
+      {
+        "host": "scvas.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "scvas.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://scvbirdalliance.org/legal-notices",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "valleywater.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "valleywater.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://www.valleywater.org/learning-center/glossary-water-terms",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "sanjoseparks.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "sanjoseparks.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "ourcityforest.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "ourcityforest.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "keepcoyotecreekbeautiful.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "keepcoyotecreekbeautiful.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "abodeservices.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "abodeservices.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "sanjose.legistar.com",
+        "failed": [
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "sanjose.legistar.com is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "legistar via legistar adapter (public Web API); feed https://webapi.legistar.com/v1/sanjose/events",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "9 upcoming but none inside the radius (0 with coordinates)",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "yosemite.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "yosemite.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "a3c.stanford.edu",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "a3c.stanford.edu is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "aaci.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "aaci.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "happyhollow.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "happyhollow.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "acecharter.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "acecharter.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://acecharter.org/ace-documents/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "ab.mpesd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "ab.mpesd.org is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "acgov.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "acgov.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://acgov.org/government/legal.htm",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "adventgm.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "adventgm.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://www.adventgm.org/blank-2",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "adjoin.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "adjoin.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://adjoin.org/privacy-policy-terms-of-service/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "achievekids.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "achievekids.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "adulteducation.esuhsd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "adulteducation.esuhsd.org is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "adelanteselby.rcsdk8.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "adelanteselby.rcsdk8.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "adultschool.mhusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "adultschool.mhusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alcf.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alcf.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alhilaal.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alhilaal.org is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "aikidomv.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "aikidomv.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "actiondayschools.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "actiondayschools.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "albaschoolhouse.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "albaschoolhouse.com is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "almadencountrydayschool.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "almadencountrydayschool.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alisal.pleasantonusd.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alisal.pleasantonusd.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "allen.sjusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "allen.sjusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "almaden.sjusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "almaden.sjusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alphapublicschools.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alphapublicschools.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://www.alphapublicschools.org/terms-and-conditions/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "almadenhillsumc.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "almadenhillsumc.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alpinehills.us",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alpinehills.us is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "apple.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "apple.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://www.apple.com/legal/privacy/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "altavista.unionsd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "altavista.unionsd.org is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "aofund.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "aofund.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://aofund.org/terms-of-use/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alumrock.cc",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alumrock.cc is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "amador.pleasantonusd.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "amador.pleasantonusd.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "americanswimacademy.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "americanswimacademy.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "alumrockcc.org",
+        "failed": [
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "alumrockcc.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "wordpress-tec via wordpress-tec adapter (tribe/events REST route); feed https://alumrockcc.org/wp-json/tribe/events/v1/events",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no upcoming event in 0 sampled; re-inspected monthly",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "anderson.moreland.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "anderson.moreland.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "apostles-lutheran.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "apostles-lutheran.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "anderson.ogsd.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "anderson.ogsd.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "anderson.stanford.edu",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "anderson.stanford.edu is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "animalassistedhappiness.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "animalassistedhappiness.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "appleseedalmaden.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "appleseedalmaden.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "apps.dmv.ca.gov",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "apps.dmv.ca.gov is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "aptoshistory.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "aptoshistory.org is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "artgallerymenlopark.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "artgallerymenlopark.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://artgallerymenlopark.com/terms-and-conditions/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "arts4all.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "arts4all.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://arts4all.org/about/terms-of-use/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "aptosjr.pvusd.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "aptosjr.pvusd.net is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "ardenwoodforge.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "ardenwoodforge.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "arkbaptistchurch.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "arkbaptistchurch.org is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "atriaseniorliving.com",
+        "failed": [
+          "machineReadable",
+          "termsAllow",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "atriaseniorliving.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "restrictive clause on https://www.atriaseniorliving.com/terms-of-use: \"You may not, however, distribute, modify, transmit, reuse, report, or develop derivative works from the Materials, or otherwise use the Materials for public or commercial purposes.\" (may not / commercial)",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "art.stanford.edu",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "art.stanford.edu is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "arthub.academy",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "arthub.academy is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "artschoolsfbay.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "artschoolsfbay.com is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "artobjectgallery.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "artobjectgallery.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "ashtalakshmikrupa.org",
+        "failed": [
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "ashtalakshmikrupa.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "wordpress-tec via wordpress-tec adapter (tribe/events REST route); feed https://www.ashtalakshmikrupa.org/wp-json/tribe/events/v1/events",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no upcoming event in 0 sampled; re-inspected monthly",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "arttimestudios.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "arttimestudios.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "arusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "arusd.org is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "asrc.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "asrc.org is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "athenaacademy.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "athenaacademy.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "aviationmaintenance.edu",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "aviationmaintenance.edu is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://aviationmaintenance.edu/terms-of-use/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "avcounseling.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "avcounseling.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "avhs.mvla.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "avhs.mvla.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "axe-men.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "axe-men.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "awakeningchurch.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "awakeningchurch.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "axeventures-axethrowing.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "axeventures-axethrowing.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "ayso108.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "ayso108.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bachrodt.sjusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bachrodt.sjusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "balajitemple.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "balajitemple.net is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bamboogiant.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bamboogiant.com is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "baldwin.ogsd.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "baldwin.ogsd.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bayaerials.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bayaerials.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "baptistesv.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "baptistesv.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "barrett.mhusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "barrett.mhusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "barronparkdonkeys.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "barronparkdonkeys.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bayclubs.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bayclubs.com is not on the deny-list",
+          "robotsAllow": "robots.txt has no user-agent groups",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://bayclubs.com/privacy-policy",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bayarea.northeastern.edu",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bayarea.northeastern.edu is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bayareacollege.edu",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bayareacollege.edu is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "belmontvillage.com",
+        "failed": [
+          "machineReadable",
+          "termsAllow",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "belmontvillage.com is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "restrictive clause on https://www.belmontvillage.com/terms-of-use/: \"These Terms of Use permit you to use the Website for your personal, non-commercial use only.\" (non-commercial use only / commercial)",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bayareacs.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bayareacs.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "berthataylorschool.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "berthataylorschool.com is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://www.taylorpta.com/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "baymonte.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "baymonte.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bbcenglish.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bbcenglish.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bcca.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bcca.org is not on the deny-list",
+          "robotsAllow": "robots.txt has no user-agent groups",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bgclub.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bgclub.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no restrictive clause on https://bgclub.org/terms-and-conditions/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bcp.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bcp.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "belmont.gov",
+        "failed": [
+          "robotsAllow",
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "belmont.gov is not on the deny-list",
+          "robotsAllow": "robots.txt returned 403; a 403 is not a licence to try harder",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bethemek.org",
+        "failed": [
+          "robotsAllow",
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bethemek.org is not on the deny-list",
+          "robotsAllow": "Disallow: / (group: *)",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bernal.ogsd.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bernal.ogsd.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "beyondpotentiallearning.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "beyondpotentiallearning.com is not on the deny-list",
+          "robotsAllow": "robots.txt has no user-agent groups",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bgcofmarion.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bgcofmarion.com is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bh.lgusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bh.lgusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bhsd.sccgov.org",
+        "failed": [
+          "robotsAllow",
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bhsd.sccgov.org is not on the deny-list",
+          "robotsAllow": "robots.txt returned 403; a 403 is not a licence to try harder",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "birthrightsanjose.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "birthrightsanjose.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no restrictive clause on https://birthrightsanjose.org/es/terms-of-use-privacy-policy/",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bhuarchers.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bhuarchers.org is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bigfootdiscoveryproject.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bigfootdiscoveryproject.com is not on the deny-list",
+          "robotsAllow": "no robots.txt (404)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "blachschool.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "blachschool.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bikesiliconvalley.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bikesiliconvalley.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "biblewaycc.org",
+        "failed": [
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "biblewaycc.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "jsonld via jsonld adapter (schema.org Event on a sitemap-listed event page); feed https://www.biblewaycc.org/sitemap.xml",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no upcoming event in 0 sampled; re-inspected monthly",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "blackford.campbellusd.org",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "blackford.campbellusd.org is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "blackmountainbowmen.net",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "blackmountainbowmen.net is not on the deny-list",
+          "robotsAllow": "no matching rule",
+          "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "bjwrr.org",
+        "failed": [
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "bjwrr.org is not on the deny-list",
+          "robotsAllow": "Allow: / (group: *)",
+          "machineReadable": "jsonld via jsonld adapter (schema.org Event on a sitemap-listed event page); feed https://www.bjwrr.org/sitemap.xml",
+          "termsAllow": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes",
+          "realEvents": "no upcoming event in 0 sampled; re-inspected monthly",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      },
+      {
+        "host": "blancovenue.com",
+        "failed": [
+          "machineReadable",
+          "realEvents"
+        ],
+        "evidence": {
+          "notDenied": "blancovenue.com is not on the deny-list",
+          "robotsAllow": "robots.txt unavailable (network error)",
+          "machineReadable": "no feed, API or schema.org Event data found",
+          "termsAllow": "terms page could not be fetched; re-inspect later",
+          "realEvents": "no adapter, so no events could be sampled",
+          "notAdultContent": "no sexual or adult-entertainment signal in the home page or sampled titles"
+        }
+      }
+    ],
+    "unknown": [
+      "evols.org"
+    ],
+    "skipped": [
+      "openspace.org: already a source (san-jose-ca_midpen, active)",
+      "paloalto.bibliocommons.com: already a source (san-jose-ca_bibliocommons_paloalto, active)",
+      "events.scu.edu: already a source (san-jose-ca_livewhale_events.scu.edu, active)",
+      "events.sjsu.edu: already a source (san-jose-ca_localist_events.sjsu.edu, active)",
+      "aclibrary.bibliocommons.com: already a source (san-jose-ca_bibliocommons_aclibrary, active)",
+      "mountainview.libcal.com: already a source (san-jose-ca_libcal_mountainview-8800, active)",
+      "sjpl.bibliocommons.com: already a source (san-jose-ca_bibliocommons_sjpl, active)",
+      "smcl.bibliocommons.com: already a source (san-jose-ca_bibliocommons_smcl, active)",
+      "sccl.bibliocommons.com: already a source (san-jose-ca_bibliocommons_sccl, active)"
+    ],
+    "budget": {
+      "perDay": 300,
+      "usedToday": 111
+    },
+    "osm": {
+      "count": 1520,
+      "cached": false,
+      "fetchedAt": "2026-10-25T00:50:04.282Z"
+    }
+  },
+  "recheck": {
+    "areaId": "san-jose-ca",
+    "checked": 19,
+    "paused": [],
+    "resumed": [],
+    "stillPaused": [],
+    "errors": []
+  },
+  "audit": [
+    {
+      "id": "san-jose-ca_localist_events.stanford.edu",
+      "failing": [
+        "realEvents"
+      ]
+    }
+  ],
+  "evidenceHosts": {
+    "www.cdm.org": {
+      "platform": "unknown",
+      "adapter": null,
+      "verdict": "rejected",
+      "failed": [
+        "machineReadable",
+        "realEvents"
+      ],
+      "terms": {
+        "pass": true,
+        "evidence": "no terms page found by link text or common paths; a site that publishes a feed and has no terms page passes"
+      },
+      "robots": {
+        "pass": true,
+        "evidence": "no matching rule"
+      },
+      "sample": null
+    },
+    "developer.active.com": {
+      "platform": "unknown",
+      "adapter": null,
+      "verdict": "rejected",
+      "failed": [
+        "notDenied",
+        "machineReadable",
+        "termsAllow",
+        "realEvents"
+      ],
+      "terms": {
+        "pass": false,
+        "evidence": "restrictive clause on https://developer.active.com/API_Terms_of_Use: \"You represent and warrant to Active that, excluding Active Property, you have the right to use, reproduce, transmit, copy, publicly display, publicly perform, and distribute your Application, and that use by Active and its users of your Application shall not violate the rights of any third party (e.\" (shall not / reproduce)"
+      },
+      "robots": {
+        "pass": true,
+        "evidence": "no matching rule"
+      },
+      "sample": null
+    },
+    "events.sjsu.edu": {
+      "platform": "localist",
+      "adapter": "localist",
+      "verdict": "active",
+      "failed": [],
+      "terms": {
+        "pass": true,
+        "evidence": "public institution (events.sjsu.edu): its calendar is public information; the platform clause is recorded, not applied: \"Users may not access the Service through automated methods.\""
+      },
+      "robots": {
+        "pass": true,
+        "evidence": "Allow: / (group: *)"
+      },
+      "sample": {
+        "count": 25,
+        "upcoming": 22,
+        "inRadius": 25
+      }
+    },
+    "sjpl.bibliocommons.com": {
+      "platform": "bibliocommons",
+      "adapter": "bibliocommons",
+      "verdict": "active",
+      "failed": [],
+      "terms": {
+        "pass": true,
+        "evidence": "no restrictive clause on https://sjpl.bibliocommons.com/info/terms"
+      },
+      "robots": {
+        "pass": true,
+        "evidence": "Allow: /* (group: *)"
+      },
+      "sample": {
+        "count": 25,
+        "upcoming": 25,
+        "inRadius": 23
+      }
+    },
+    "careercenter.sjsu.edu": {
+      "platform": "rss",
+      "adapter": "rss-ics",
+      "verdict": "active",
+      "failed": [],
+      "terms": {
+        "pass": true,
+        "evidence": "public institution (careercenter.sjsu.edu): its calendar is public information; the platform clause is recorded, not applied: \"These providers process your data solely to provide the Service and are prohibited from using it for model training or any other commercial purpose.\""
+      },
+      "robots": {
+        "pass": true,
+        "evidence": "no matching rule"
+      },
+      "sample": {
+        "count": 4,
+        "upcoming": 4,
+        "inRadius": 0
+      }
+    },
+    "www.openspace.org": {
+      "platform": "unknown",
+      "adapter": null,
+      "verdict": "rejected",
+      "failed": [
+        "machineReadable",
+        "realEvents"
+      ],
+      "terms": {
+        "pass": true,
+        "evidence": "no restrictive clause on https://www.openspace.org/terms-use-privacy"
+      },
+      "robots": {
+        "pass": true,
+        "evidence": "no matching rule"
+      },
+      "sample": null
+    },
+    "www.sccgov.org": {
+      "platform": "unknown",
+      "adapter": null,
+      "verdict": "rejected",
+      "failed": [
+        "machineReadable",
+        "realEvents"
+      ],
+      "terms": {
+        "pass": null,
+        "evidence": "terms page could not be fetched; re-inspect later"
+      },
+      "robots": {
+        "pass": null,
+        "evidence": "robots.txt unavailable (network error)"
+      },
+      "sample": null
+    }
+  },
+  "passed": 50,
+  "failed": 6
+}

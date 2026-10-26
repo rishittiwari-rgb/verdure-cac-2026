@@ -1,0 +1,793 @@
+{
+ "_embedded": {
+  "events": [
+   {
+    "name": "I Know This Song! Music Trivia Brunch",
+    "type": "event",
+    "id": "rZ7HnEZ1Af1fOf",
+    "test": false,
+    "url": "https://www.ticketweb.com/event/i-know-this-song-music-the-winchester-tickets/14294814",
+    "locale": "en-us",
+    "images": [
+     {
+      "ratio": "1_1",
+      "url": "https://i.ticketweb.com/i/00/13/01/11/14_Edp.jpg?v=2",
+      "width": 427,
+      "height": 427,
+      "fallback": false
+     }
+    ],
+    "distance": 4.38,
+    "units": "MILES",
+    "dates": {
+     "access": {
+      "startDateTime": "2026-09-06T15:00:00Z",
+      "startApproximate": false,
+      "endApproximate": false
+     },
+     "start": {
+      "localDate": "2026-09-06",
+      "localTime": "11:30:00",
+      "dateTime": "2026-09-06T15:30:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+     },
+     "end": {
+      "approximate": false,
+      "noSpecificTime": false
+     },
+     "timezone": "America/New_York",
+     "status": {
+      "code": "offsale"
+     },
+     "spanMultipleDays": false
+    },
+    "classifications": [
+     {
+      "primary": true,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7n1",
+       "name": "Miscellaneous"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     }
+    ],
+    "info": "I Know This Song! Music Trivia BrunchSunday, September 6thGame 1: 11:30am-12:30pmGame 2: 1pm-2pmFREE to play, prizes for winners!",
+    "priceRanges": [
+     {
+      "type": "standard",
+      "currency": "USD",
+      "min": 0.0,
+      "max": 0.0
+     }
+    ],
+    "nameOrigin": "custom",
+    "_embedded": {
+     "venues": [
+      {
+       "name": "The Winchester",
+       "type": "venue",
+       "id": "rZ7HnEZ173A8A",
+       "test": false,
+       "url": "https://www.ticketweb.com/venue/the-winchester-lakewood-oh/485405",
+       "locale": "en-us",
+       "distance": 4.38,
+       "units": "MILES",
+       "postalCode": "44107",
+       "timezone": "America/New_York",
+       "city": {
+        "name": "Lakewood"
+       },
+       "state": {
+        "name": "Ohio",
+        "stateCode": "OH"
+       },
+       "country": {
+        "name": "United States Of America",
+        "countryCode": "US"
+       },
+       "address": {
+        "line1": "12112 Madison Ave"
+       },
+       "location": {
+        "longitude": "-81.7735853",
+        "latitude": "41.477055"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "Brooklyn Area Pride Flea Market & Cookout",
+    "type": "event",
+    "id": "rZ7HnEZ1Af1kP7",
+    "test": false,
+    "url": "https://www.ticketweb.com/event/brooklyn-area-pride-flea-market-the-foundry-tickets/14286944",
+    "locale": "en-us",
+    "images": [
+     {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg",
+      "width": 1024,
+      "height": 576,
+      "fallback": true
+     }
+    ],
+    "distance": 4.15,
+    "units": "MILES",
+    "dates": {
+     "access": {
+      "startDateTime": "2026-09-06T16:00:00Z",
+      "startApproximate": false,
+      "endDateTime": "2026-09-06T21:00:00Z",
+      "endApproximate": false
+     },
+     "start": {
+      "localDate": "2026-09-06",
+      "localTime": "12:00:00",
+      "dateTime": "2026-09-06T16:00:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+     },
+     "end": {
+      "localDate": "2026-09-06",
+      "localTime": "17:00:00",
+      "dateTime": "2026-09-06T21:00:00Z",
+      "approximate": false,
+      "noSpecificTime": false
+     },
+     "timezone": "America/New_York",
+     "status": {
+      "code": "offsale"
+     },
+     "spanMultipleDays": false
+    },
+    "classifications": [
+     {
+      "primary": true,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7n1",
+       "name": "Miscellaneous"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     }
+    ],
+    "nameOrigin": "custom",
+    "_embedded": {
+     "venues": [
+      {
+       "name": "The Foundry",
+       "type": "venue",
+       "id": "rZ7HnEZ17QvqS",
+       "test": false,
+       "url": "https://www.ticketweb.com/venue/the-foundry-cleveland-oh/681773",
+       "locale": "en-us",
+       "distance": 4.15,
+       "units": "MILES",
+       "postalCode": "44109",
+       "timezone": "America/New_York",
+       "city": {
+        "name": "Cleveland"
+       },
+       "state": {
+        "name": "Ohio",
+        "stateCode": "OH"
+       },
+       "country": {
+        "name": "United States Of America",
+        "countryCode": "US"
+       },
+       "address": {
+        "line1": "4256 Pearl Road"
+       },
+       "location": {
+        "longitude": "-81.70669730304604",
+        "latitude": "41.4399668003972"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "THRIFTY FIFTY FAMILY DOLLA BALLA PARTY",
+    "type": "event",
+    "id": "rZ7HnEZ1Af16v0",
+    "test": false,
+    "url": "https://www.ticketweb.com/event/thrifty-fifty-family-dolla-balla-the-foundry-tickets/14287064",
+    "locale": "en-us",
+    "images": [
+     {
+      "url": "https://i.ticketweb.com/i/00/13/00/23/84_Edp.jpg?v=2",
+      "width": 286,
+      "height": 427,
+      "fallback": false
+     }
+    ],
+    "distance": 4.15,
+    "units": "MILES",
+    "dates": {
+     "access": {
+      "startDateTime": "2026-09-06T22:00:00Z",
+      "startApproximate": false,
+      "endApproximate": false
+     },
+     "start": {
+      "localDate": "2026-09-06",
+      "localTime": "18:30:00",
+      "dateTime": "2026-09-06T22:30:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+     },
+     "end": {
+      "approximate": false,
+      "noSpecificTime": false
+     },
+     "timezone": "America/New_York",
+     "status": {
+      "code": "offsale"
+     },
+     "spanMultipleDays": false
+    },
+    "classifications": [
+     {
+      "primary": true,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkev",
+       "name": "Alternative Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkev",
+       "name": "Alternative Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkev",
+       "name": "Alternative Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkev",
+       "name": "Alternative Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkdA",
+       "name": "Urban"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkev",
+       "name": "Alternative Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkev",
+       "name": "Alternative Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     }
+    ],
+    "nameOrigin": "custom",
+    "_embedded": {
+     "venues": [
+      {
+       "name": "The Foundry",
+       "type": "venue",
+       "id": "rZ7HnEZ17QvqS",
+       "test": false,
+       "url": "https://www.ticketweb.com/venue/the-foundry-cleveland-oh/681773",
+       "locale": "en-us",
+       "distance": 4.15,
+       "units": "MILES",
+       "postalCode": "44109",
+       "timezone": "America/New_York",
+       "city": {
+        "name": "Cleveland"
+       },
+       "state": {
+        "name": "Ohio",
+        "stateCode": "OH"
+       },
+       "country": {
+        "name": "United States Of America",
+        "countryCode": "US"
+       },
+       "address": {
+        "line1": "4256 Pearl Road"
+       },
+       "location": {
+        "longitude": "-81.70669730304604",
+        "latitude": "41.4399668003972"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "THE SAMMY DELEON AND JACKIE WARREN QUARTET, WITH KIP REED & CHRIS BURGE",
+    "type": "event",
+    "id": "rZ7HnEZ1AfFYf0",
+    "test": false,
+    "url": "https://www.ticketweb.com/event/the-sammy-deleon-and-jackie-b-side-lounge-tickets/14230524",
+    "locale": "en-us",
+    "images": [
+     {
+      "ratio": "3_2",
+      "url": "https://i.ticketweb.com/i/00/12/94/76/34_Edp.jpg?v=4",
+      "width": 640,
+      "height": 427,
+      "fallback": false
+     }
+    ],
+    "distance": 5.93,
+    "units": "MILES",
+    "dates": {
+     "access": {
+      "startDateTime": "2026-09-06T22:30:00Z",
+      "startApproximate": false,
+      "endApproximate": false
+     },
+     "start": {
+      "localDate": "2026-09-06",
+      "localTime": "19:00:00",
+      "dateTime": "2026-09-06T23:00:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+     },
+     "end": {
+      "approximate": false,
+      "noSpecificTime": false
+     },
+     "timezone": "America/New_York",
+     "status": {
+      "code": "onsale"
+     },
+     "spanMultipleDays": false
+    },
+    "classifications": [
+     {
+      "primary": true,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAvE",
+       "name": "Jazz"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkAI",
+       "name": "Latin Jazz"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAvE",
+       "name": "Jazz"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkAI",
+       "name": "Latin Jazz"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     }
+    ],
+    "info": "The Sammy Deleon and Jackie Warren Quartet, featuring: Kip Reed and Chris Burge Live at the B Side LoungeDoors 6:30 PM | Show 7:00 PM$10 ADV/$12 DOORSSAMMY DELEONSammy DeLeon is one of the most recognized timbales players in Northeast Ohio and a fixture in the regional Latin Jazz scene. One of 13 children, Sammy was born in Lorain, Ohio, to parents who were not musicians. Introduced to the timbales by an older brother, he joined the drum corps at Admiral King High School and began playing professionally at age 13. After high school, he joined Cobra, a Latin rock band, before joining Orquesta Charambo and later, Impacto Nuevo. For the past decade, he has fronted his own band, Sammy DeLeon y Su Orquesta, opening for acts including El Gran Combo, Tito Rojas and Tony Vega. Sammy regularly mentors student percussionists in Latin rhythms and his band has become known as Sammy Salsa College. Cleveland loves Sammy for the joy he brings through his irresistible dance music.JACKIE WARRENA native of Colorado, pianist Jackie Warren originally came to Ohio upon the recommendations of her teachers Patricia Warren, Myra Boitos, Charles Day, and Steve Barta to study classical piano at Oberlin Conservatory with Sedmara Zakarian Rutstein, where she graduated with a B.M. in performance. While at Oberlin, she also studied jazz arranging, composition, and theory with Wendell Logan, who became a mentor to her, and encouraged her to study jazz piano with Neal Creque and jazz improvisation with Kenny Davis. Jackie received a M.M. from Cleveland State University in classical piano performance, studying with Andrius Kuprevicius and Daniel Barber, but continued her lessons with Creque, and has been based in Cleveland ever since.Jackie performs regularly as a soloist, but has her own jazz trio, which includes bassist Peter Dominguez and drummer Ron Godale. She also arranges and plays salsa and Latin jazz with percussionist Sammy Deleon y Su Orquesta. In addition to these groups, Jackie has performed locally and nationally with such artists and groups as David Fathead Newman, Benny Bailey, Clark Terry, Frank Morgan, Bobby Watson, Frank Foster, Jane Bunnett and the Spirits of Havana, Los Munequitos de Matanzas, Othello Molineaux, Donald Harrison, Gerald Wilson, Jimmy Heath, Impacto Nuevo, Humberto Ramirez, Cano Estremera, Tommy Olivencia, Tony Vega, Tito Rojas, Tito Puente, Jr., Hector Tricoche, Percy Sledge, King Solomon, the Tuscarawas Philharmonic, the Jazz Heritage Orchestra, the Cleveland Jazz Orchestra, and the Afro Cleveland Orchestra.",
+    "pleaseNote": "This event is 21 and over. Any ticket holder unable to present valid identification indicating that they are at least 21 years of age will not be admitted to this event, and will not be eligible for a refund.",
+    "priceRanges": [
+     {
+      "type": "standard",
+      "currency": "USD",
+      "min": 12.59,
+      "max": 12.59
+     }
+    ],
+    "nameOrigin": "custom",
+    "_embedded": {
+     "venues": [
+      {
+       "name": "B Side Lounge",
+       "type": "venue",
+       "id": "rZ7HnEZ17f674",
+       "test": false,
+       "url": "https://www.ticketweb.com/venue/b-side-lounge-cleveland-heights-oh/507115",
+       "locale": "en-us",
+       "distance": 5.93,
+       "units": "MILES",
+       "postalCode": "44106",
+       "timezone": "America/New_York",
+       "city": {
+        "name": "Cleveland Heights"
+       },
+       "state": {
+        "name": "Ohio",
+        "stateCode": "OH"
+       },
+       "country": {
+        "name": "United States Of America",
+        "countryCode": "US"
+       },
+       "address": {
+        "line1": "2785 Euclid Heights Blvd"
+       },
+       "location": {
+        "longitude": "-81.5803633",
+        "latitude": "41.5082658"
+       }
+      }
+     ]
+    }
+   },
+   {
+    "name": "Carnage The Executioner - Live Beatbox Experience",
+    "type": "event",
+    "id": "rZ7HnEZ1A4ZO-N",
+    "test": false,
+    "url": "https://www.ticketweb.com/event/carnage-the-executioner-grog-shop-tickets/15020863",
+    "locale": "en-us",
+    "images": [
+     {
+      "ratio": "16_9",
+      "url": "https://s1.ticketm.net/dam/c/80b/f3cd8d24-c3ae-4fa0-b4bc-1ba99f9b380b_106091_RETINA_LANDSCAPE_16_9.jpg",
+      "width": 1136,
+      "height": 639,
+      "fallback": true
+     }
+    ],
+    "distance": 5.94,
+    "units": "MILES",
+    "dates": {
+     "access": {
+      "startDateTime": "2026-09-06T22:00:00Z",
+      "startApproximate": false,
+      "endApproximate": false
+     },
+     "start": {
+      "localDate": "2026-09-06",
+      "localTime": "19:00:00",
+      "dateTime": "2026-09-06T23:00:00Z",
+      "dateTBD": false,
+      "dateTBA": false,
+      "timeTBA": false,
+      "noSpecificTime": false
+     },
+     "end": {
+      "approximate": false,
+      "noSpecificTime": false
+     },
+     "timezone": "America/New_York",
+     "status": {
+      "code": "onsale"
+     },
+     "spanMultipleDays": false
+    },
+    "classifications": [
+     {
+      "primary": true,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkeA",
+       "name": "East Coast Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAee",
+       "name": "R&B"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vktE",
+       "name": "Funk"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkvl",
+       "name": "Hip-Hop/Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     },
+     {
+      "primary": false,
+      "segment": {
+       "id": "KZFzniwnSyZfZ7v7nJ",
+       "name": "Music"
+      },
+      "genre": {
+       "id": "KnvZfZ7vAv1",
+       "name": "Hip-Hop/Rap"
+      },
+      "subGenre": {
+       "id": "KZazBEonSMnZfZ7vkeA",
+       "name": "East Coast Rap"
+      },
+      "type": {
+       "id": "KZAyXgnZfZ7v7nI",
+       "name": "Undefined"
+      },
+      "subType": {
+       "id": "KZFzBErXgnZfZ7v7lJ",
+       "name": "Undefined"
+      },
+      "family": false
+     }
+    ],
+    "info": "Sunday September 6Carnage The Executioner - Live Beatbox ExperienceDoors 6:00 PM l Show 7:00 PMAll Ages$15+3 at door if under 21",
+    "pleaseNote": "+ $3 AT DOOR IF UNDER 21",
+    "priceRanges": [
+     {
+      "type": "standard",
+      "currency": "USD",
+      "min": 19.51,
+      "max": 19.51
+     }
+    ],
+    "nameOrigin": "custom",
+    "_embedded": {
+     "venues": [
+      {
+       "name": "Grog Shop",
+       "type": "venue",
+       "id": "rZ7HnEZadFR",
+       "test": false,
+       "url": "https://www.ticketweb.com/venue/grog-shop-cleveland-heights-oh/12847",
+       "locale": "en-us",
+       "distance": 5.94,
+       "units": "MILES",
+       "postalCode": "44106",
+       "timezone": "America/New_York",
+       "city": {
+        "name": "Cleveland Heights"
+       },
+       "state": {
+        "name": "Ohio",
+        "stateCode": "OH"
+       },
+       "country": {
+        "name": "United States Of America",
+        "countryCode": "US"
+       },
+       "address": {
+        "line1": "2785 Euclid Heights Boulevard"
+       },
+       "location": {
+        "longitude": "-81.580335",
+        "latitude": "41.508513"
+       }
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "page": {
+  "size": 5,
+  "totalElements": 990,
+  "totalPages": 198,
+  "number": 0
+ }
+}

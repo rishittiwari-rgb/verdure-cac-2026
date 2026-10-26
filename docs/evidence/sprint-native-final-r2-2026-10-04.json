@@ -1,0 +1,56 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName": "iPhone 16 Plus",
+        "modelName": "iPhone 16 Plus",
+        "osBuildNumber": "22E238",
+        "osVersion": "18.4",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 1,
+      "passedTests": 175,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "Verdure \u00b7 Built with macOS 15.6.1",
+  "expectedFailures": 0,
+  "failedTests": 1,
+  "finishTime": 1791139090.244,
+  "passedTests": 175,
+  "result": "Failed",
+  "skippedTests": 0,
+  "startTime": 1791138037.289,
+  "statistics": [],
+  "testFailures": [
+    {
+      "failureText": "failed: caught error: \"Error Domain=com.apple.xcode.xctest.accessibilityAudit Code=-56 \"Audit failed to complete in time\" UserInfo={NSLocalizedDescription=Audit failed to complete in time}\"",
+      "targetName": "VerdureUITests",
+      "testIdentifier": 148,
+      "testIdentifierString": "JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail()",
+      "testIdentifierURL": "test://com.apple.xcode/Verdure/VerdureUITests/JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail",
+      "testName": "testCuratedProgramActualSignInChipAndOfficialListingDetail()"
+    }
+  ],
+  "title": "Test - Verdure",
+  "topInsights": [
+    {
+      "category": "Longest Test Runs",
+      "impact": "17% of duration",
+      "text": "1 longest test run with outlier durations exceeding 101.29s (three standard deviations)"
+    },
+    {
+      "category": "Longest Test Runs",
+      "impact": "59% of duration",
+      "text": "2 longest test runs with outlier durations exceeding 5.80s (three standard deviations)"
+    }
+  ],
+  "totalTestCount": 176
+}

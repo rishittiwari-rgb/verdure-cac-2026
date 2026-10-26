@@ -1,0 +1,16 @@
+{
+  "scope": "read-only live Firebase iOS application registration; no configuration writes or deployment",
+  "command": "npx firebase-tools@13 apps:list IOS --project connectify-19dd8 --json",
+  "project": "connectify-19dd8",
+  "builtAppBundleID": "com.verdure-app.verdure",
+  "bundledFirebaseAppID": "1:350584206981:ios:9d15745ec1b2c14ed29bec",
+  "bundledFirebaseBundleID": "com.verdure-app.verdure",
+  "registeredApp": {
+    "appId": "1:350584206981:ios:9d15745ec1b2c14ed29bec",
+    "displayName": "Verdure",
+    "bundleId": "com.verdure-app.verdure",
+    "platform": "IOS"
+  },
+  "registrationMatches": true,
+  "crashDelivery": "UNTESTED"
+}

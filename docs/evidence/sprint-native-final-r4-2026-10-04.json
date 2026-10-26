@@ -1,0 +1,47 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName": "iPhone 16 Plus",
+        "modelName": "iPhone 16 Plus",
+        "osBuildNumber": "22E238",
+        "osVersion": "18.4",
+        "platform": "iOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "passedTests": 181,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "Verdure \u00b7 Built with macOS 15.6.1",
+  "expectedFailures": 0,
+  "failedTests": 0,
+  "finishTime": 1791143503.489,
+  "passedTests": 181,
+  "result": "Passed",
+  "skippedTests": 0,
+  "startTime": 1791142507.306,
+  "statistics": [],
+  "testFailures": [],
+  "title": "Test - Verdure",
+  "topInsights": [
+    {
+      "category": "Longest Test Runs",
+      "impact": "29% of duration",
+      "text": "2 longest test runs with outlier durations exceeding 102.71s (three standard deviations)"
+    },
+    {
+      "category": "Longest Test Runs",
+      "impact": "70% of duration",
+      "text": "2 longest test runs with outlier durations exceeding 4.34s (three standard deviations)"
+    }
+  ],
+  "totalTestCount": 181
+}

@@ -1,0 +1,42 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+build/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# XcodeGen
+# Keep project.yml, ignore generated xcodeproj internals managed by user
+
+# Secrets — API keys injected via xcconfig. Never committed: copy
+# Verdure/Secrets.xcconfig.template to Verdure/Secrets.xcconfig and fill it in.
+Verdure/Secrets.xcconfig
+Verdure/Verdure/GoogleService-Info.plist
+functions/.env
+functions/.secret.local
+.secret.local
+Connectify/Secrets.xcconfig
+Connectify/Connectify/GoogleService-Info.plist
+Connectify/Connectify/Info.plist
+
+# Cloud Functions build artifacts
+functions/node_modules/
+functions/lib/
+
+# Firebase emulator artifacts
+*-debug.log
+firebase-export-*/
+.firebase/
+/.sprint-firebase.json
+
+.sprint-regression-firebase.json
+functions/.env.local
+*.p8

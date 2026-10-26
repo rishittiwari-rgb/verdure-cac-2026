@@ -1,0 +1,49 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName" : "iPhone 16 Plus",
+        "modelName" : "iPhone 16 Plus",
+        "osBuildNumber" : "22E238",
+        "osVersion" : "18.4",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 0,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "Verdure · Built with macOS 15.6.1",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1791131157.71,
+  "passedTests" : 0,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1791131075.329,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "Failed to failed to scroll to visible (by AX action) Button, {{190.0, 539.7}, {50.0, 50.0}}, identifier: 'partner-pin:qa-rewards-native-map-ui', label: 'Partner Fictional Native Map Business, Fictional Open Map Offer, 500 points', error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 72614, elementOrHash.elementID: 105553170248032.70. (Underlying Error: Error kAXErrorCannotComplete performing AXAction kAXScrollToVisibleAction on element AX element pid: 72614, elementOrHash.elementID: 105553170248032.70)",
+      "targetName" : "VerdureUITests",
+      "testIdentifier" : 1,
+      "testIdentifierString" : "PartnerSurfaceTests/testLiveStaffWithdrawalDismissesOpenMapOffer()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureUITests/PartnerSurfaceTests/testLiveStaffWithdrawalDismissesOpenMapOffer",
+      "testName" : "testLiveStaffWithdrawalDismissesOpenMapOffer()"
+    }
+  ],
+  "title" : "Test - Verdure",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 1
+}

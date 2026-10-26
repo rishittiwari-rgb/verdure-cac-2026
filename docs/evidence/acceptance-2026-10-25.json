@@ -1,0 +1,1895 @@
+{
+  "ranAt": "2026-10-25T03:11:47.482Z",
+  "emulator": "127.0.0.1:8899",
+  "fixtures": {
+    "discovery": "live-2026-10-25",
+    "now": "2026-10-25T00:50:04.282Z",
+    "corpus": "test-fixtures/corpus/san-jose-ca-2026-10-25.json.gz",
+    "corpusSha256": "87977b881927d7eef3cb2312df1e0df093682c2e5e1018ca57e97dadae6559d1",
+    "corpusRecordedAt": "2026-10-25T03:02:20.566Z"
+  },
+  "passed": 64,
+  "failed": 0,
+  "steps": [
+    {
+      "name": "seed: /sources registry + recorded corpus through the real write path",
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "runs": {
+          "libcal": {
+            "fetched": 62,
+            "created": 60,
+            "updated": 0,
+            "merged": 0,
+            "rejected": 2,
+            "errors": []
+          },
+          "bibliocommons": {
+            "fetched": 10867,
+            "created": 7386,
+            "updated": 0,
+            "merged": 180,
+            "rejected": 0,
+            "errors": []
+          },
+          "localist": {
+            "fetched": 200,
+            "created": 177,
+            "updated": 0,
+            "merged": 1,
+            "rejected": 22,
+            "errors": []
+          },
+          "livewhale": {
+            "fetched": 371,
+            "created": 354,
+            "updated": 0,
+            "merged": 13,
+            "rejected": 4,
+            "errors": []
+          },
+          "legistar": {
+            "fetched": 9,
+            "created": 9,
+            "updated": 0,
+            "merged": 0,
+            "rejected": 0,
+            "errors": []
+          },
+          "midpen": {
+            "fetched": 116,
+            "created": 112,
+            "updated": 0,
+            "merged": 0,
+            "rejected": 1,
+            "errors": []
+          }
+        },
+        "activeUpcoming": 8092
+      }
+    },
+    {
+      "name": "discover: one runDiscovery cycle (corpus links + OpenStreetMap fixture + model list)",
+      "passed": 5,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "origins": {
+          "corpus-link": 13,
+          "osm": 1119,
+          "organizer": 0,
+          "model-url": 27
+        },
+        "queued": {
+          "added": 1134,
+          "known": 20,
+          "skipped": 5
+        },
+        "inspected": 110,
+        "activated": [
+          "san-jose-ca_wordpress-tec_savesfbay.org",
+          "san-jose-ca_rss-ics_careercenter.sjsu.edu",
+          "san-jose-ca_ics_abilitypath.org",
+          "san-jose-ca_wordpress-tec_allcove.org",
+          "san-jose-ca_wordpress-tec_bayvp.org"
+        ],
+        "unknown": [],
+        "skipped": 10,
+        "osm": {
+          "count": 1520,
+          "cached": false,
+          "fetchedAt": "2026-10-25T00:50:04.282Z"
+        },
+        "osmError": null,
+        "budget": {
+          "perDay": 300,
+          "usedToday": 110
+        }
+      }
+    },
+    {
+      "name": "decide: every active source passes all six rules",
+      "passed": 4,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "recheck": {
+          "checked": 19,
+          "paused": [],
+          "resumed": [],
+          "errors": []
+        },
+        "activeSources": [
+          {
+            "id": "san-jose-ca_bibliocommons_aclibrary",
+            "type": "bibliocommons",
+            "host": "aclibrary.bibliocommons.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_bibliocommons_paloalto",
+            "type": "bibliocommons",
+            "host": "paloalto.bibliocommons.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_bibliocommons_sccl",
+            "type": "bibliocommons",
+            "host": "sccl.bibliocommons.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_bibliocommons_sjpl",
+            "type": "bibliocommons",
+            "host": "sjpl.bibliocommons.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_bibliocommons_smcl",
+            "type": "bibliocommons",
+            "host": "smcl.bibliocommons.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_ics_abilitypath.org",
+            "type": "ics",
+            "host": "abilitypath.org",
+            "origin": "osm",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_legistar_sanjose",
+            "type": "legistar",
+            "host": "webapi.legistar.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_libcal_mountainview-8800",
+            "type": "libcal",
+            "host": "mountainview.libcal.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_livewhale_events.scu.edu",
+            "type": "livewhale",
+            "host": "events.scu.edu",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_localist_events.sjsu.edu",
+            "type": "localist",
+            "host": "events.sjsu.edu",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_localist_events.stanford.edu",
+            "type": "localist",
+            "host": "events.stanford.edu",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_midpen",
+            "type": "midpen",
+            "host": "www.openspace.org",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_nps",
+            "type": "nps",
+            "host": "developer.nps.gov",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_rss-ics_careercenter.sjsu.edu",
+            "type": "rss-ics",
+            "host": "careercenter.sjsu.edu",
+            "origin": "model-url",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_serpapi",
+            "type": "serpapi",
+            "host": "serpapi.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_ticketmaster",
+            "type": "ticketmaster",
+            "host": "app.ticketmaster.com",
+            "origin": "config",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_wordpress-tec_allcove.org",
+            "type": "wordpress-tec",
+            "host": "allcove.org",
+            "origin": "osm",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_wordpress-tec_bayvp.org",
+            "type": "wordpress-tec",
+            "host": "bayvp.org",
+            "origin": "osm",
+            "verdict": "active",
+            "failing": []
+          },
+          {
+            "id": "san-jose-ca_wordpress-tec_savesfbay.org",
+            "type": "wordpress-tec",
+            "host": "savesfbay.org",
+            "origin": "model-url",
+            "verdict": "active",
+            "failing": []
+          }
+        ],
+        "rejected": [
+          {
+            "host": "sanjoseparks.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "happyhollow.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "ourcityforest.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "achievekids.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "keepcoyotecreekbeautiful.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "acgov.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "slate.scu.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "adelanteselby.rcsdk8.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "aaci.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "yosemite.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "a3c.stanford.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "ab.mpesd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "actiondayschools.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "scvas.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "valleywater.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "adjoin.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "abodeservices.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "acecharter.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "sanjose.legistar.com",
+            "failed": [
+              "realEvents"
+            ],
+            "evidence": {
+              "realEvents": "9 upcoming but none inside the radius (0 with coordinates)"
+            }
+          },
+          {
+            "host": "almaden.sjusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "almadenhillsumc.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alisal.pleasantonusd.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alcf.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "adulteducation.esuhsd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "allen.sjusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alhilaal.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "albaschoolhouse.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "adultschool.mhusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "almadencountrydayschool.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "adventgm.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "aikidomv.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "amador.pleasantonusd.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alumrock.cc",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "anderson.stanford.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "aofund.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "anderson.ogsd.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alpinehills.us",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "americanswimacademy.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "altavista.unionsd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "anderson.moreland.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "apple.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "apostles-lutheran.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "animalassistedhappiness.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "appleseedalmaden.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alphapublicschools.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "aptoshistory.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "apps.dmv.ca.gov",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "alumrockcc.org",
+            "failed": [
+              "realEvents"
+            ],
+            "evidence": {
+              "realEvents": "no upcoming event in 0 sampled; re-inspected monthly"
+            }
+          },
+          {
+            "host": "aptosjr.pvusd.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "ardenwoodforge.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "atriaseniorliving.com",
+            "failed": [
+              "machineReadable",
+              "termsAllow",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "termsAllow": "restrictive clause on https://www.atriaseniorliving.com/terms-of-use: \"You may not, however, distribute, modify, transmit, reuse, report, or develop derivative ",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "artschoolsfbay.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "balajitemple.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "arthub.academy",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "athenaacademy.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "art.stanford.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "arkbaptistchurch.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "ayso108.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "arttimestudios.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "arts4all.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bachrodt.sjusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "artgallerymenlopark.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "artobjectgallery.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "axe-men.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "arusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "ashtalakshmikrupa.org",
+            "failed": [
+              "realEvents"
+            ],
+            "evidence": {
+              "realEvents": "no upcoming event in 0 sampled; re-inspected monthly"
+            }
+          },
+          {
+            "host": "awakeningchurch.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "aviationmaintenance.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "barronparkdonkeys.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "barrett.mhusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bamboogiant.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "baldwin.ogsd.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "asrc.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "baptistesv.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "avcounseling.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bayarea.northeastern.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "axeventures-axethrowing.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bayareacollege.edu",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bayareacs.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "avhs.mvla.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bayaerials.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bayclubs.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "baymonte.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bcca.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "beyondpotentiallearning.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "belmontvillage.com",
+            "failed": [
+              "machineReadable",
+              "termsAllow",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "termsAllow": "restrictive clause on https://www.belmontvillage.com/terms-of-use/: \"These Terms of Use permit you to use the Website for your personal, non-commercial use only",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "belmont.gov",
+            "failed": [
+              "robotsAllow",
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "robotsAllow": "robots.txt returned 403; a 403 is not a licence to try harder",
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bernal.ogsd.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bcp.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bgclub.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "berthataylorschool.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bethemek.org",
+            "failed": [
+              "robotsAllow",
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "robotsAllow": "Disallow: / (group: *)",
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bbcenglish.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bhuarchers.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "blackmountainbowmen.net",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bikesiliconvalley.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "blachschool.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "blackford.campbellusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bhsd.sccgov.org",
+            "failed": [
+              "robotsAllow",
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "robotsAllow": "robots.txt returned 403; a 403 is not a licence to try harder",
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bgcofmarion.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bigfootdiscoveryproject.com",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bh.lgusd.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "no feed, API or schema.org Event data found",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "birthrightsanjose.org",
+            "failed": [
+              "machineReadable",
+              "realEvents"
+            ],
+            "evidence": {
+              "machineReadable": "rss detected (RSS /feed) but it publishes no feed this sprint can read",
+              "realEvents": "no adapter, so no events could be sampled"
+            }
+          },
+          {
+            "host": "bjwrr.org",
+            "failed": [
+              "realEvents"
+            ],
+            "evidence": {
+              "realEvents": "no upcoming event in 0 sampled; re-inspected monthly"
+            }
+          },
+          {
+            "host": "biblewaycc.org",
+            "failed": [
+              "realEvents"
+            ],
+            "evidence": {
+              "realEvents": "no upcoming event in 0 sampled; re-inspected monthly"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "ingest: active sources + newly activated hosts through the ordinary path (replay fixtures)",
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "unchangedRun": {
+          "libcal": {
+            "unchanged": 60,
+            "updated": 0,
+            "created": 0,
+            "errors": []
+          },
+          "bibliocommons": {
+            "unchanged": 7566,
+            "updated": 0,
+            "created": 0,
+            "errors": []
+          },
+          "localist": {
+            "unchanged": 178,
+            "updated": 0,
+            "created": 0,
+            "errors": []
+          },
+          "livewhale": {
+            "unchanged": 367,
+            "updated": 0,
+            "created": 0,
+            "errors": []
+          },
+          "legistar": {
+            "unchanged": 9,
+            "updated": 0,
+            "created": 0,
+            "errors": []
+          },
+          "midpen": {
+            "unchanged": 112,
+            "updated": 0,
+            "created": 0,
+            "errors": []
+          }
+        },
+        "newSources": [
+          {
+            "id": "san-jose-ca_wordpress-tec_savesfbay.org",
+            "type": "wordpress-tec",
+            "host": "savesfbay.org",
+            "fetched": 6,
+            "created": 6,
+            "rejected": 0,
+            "failures": []
+          },
+          {
+            "id": "san-jose-ca_rss-ics_careercenter.sjsu.edu",
+            "type": "rss-ics",
+            "host": "careercenter.sjsu.edu",
+            "fetched": 23,
+            "created": 23,
+            "rejected": 0,
+            "failures": []
+          },
+          {
+            "id": "san-jose-ca_ics_abilitypath.org",
+            "type": "ics",
+            "host": "abilitypath.org",
+            "fetched": 1,
+            "created": 0,
+            "rejected": 0,
+            "failures": []
+          },
+          {
+            "id": "san-jose-ca_wordpress-tec_allcove.org",
+            "type": "wordpress-tec",
+            "host": "allcove.org",
+            "fetched": 127,
+            "created": 127,
+            "rejected": 0,
+            "failures": []
+          },
+          {
+            "id": "san-jose-ca_wordpress-tec_bayvp.org",
+            "type": "wordpress-tec",
+            "host": "bayvp.org",
+            "fetched": 1,
+            "created": 1,
+            "rejected": 0,
+            "failures": []
+          }
+        ],
+        "activeBefore": 8092,
+        "activeAfter": 8249,
+        "createdByNewSources": 157
+      }
+    },
+    {
+      "name": "dedupe: duplicate rate under John's rule is below 5 %",
+      "passed": 2,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "method": "store.ts auditFuzzyDuplicates = dedupe.py is_duplicate(): title-token Jaccard ≥ 0.7 after stop-words, start within 30 min, same venue (token Jaccard ≥ 0.5) or within 0.25 mi",
+        "active": 8249,
+        "duplicates": 0,
+        "rate": 0,
+        "sample": []
+      }
+    },
+    {
+      "name": "rank: v1 and v2 for a synthetic adult and a synthetic 15-year-old (recommendEligibleFor)",
+      "passed": 16,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "adult/v1": {
+          "ranked": 100,
+          "topFive": [
+            {
+              "id": "localist-events-sjsu-edu-54074282952218-2026-10-25T00-00-00-07-00",
+              "score": 0.6672,
+              "reasons": [
+                "Because you like arts",
+                "Close by (0.2 mi)",
+                "Complete listing"
+              ]
+            },
+            {
+              "id": "bibliocommons-sjpl-69fb8818703c33630025ded5",
+              "score": 0.757,
+              "reasons": [
+                "Because you like family activities",
+                "Close by (0.2 mi)",
+                "Happening today or tomorrow"
+              ]
+            },
+            {
+              "id": "bibliocommons-sjpl-6931d4246f92613600093954",
+              "score": 0.7224,
+              "reasons": [
+                "Because you like family activities",
+                "Coming up this week",
+                "Free"
+              ]
+            },
+            {
+              "id": "localist-events-sjsu-edu-54322223436179-2026-11-12T12-00-00-08-00",
+              "score": 0.6988,
+              "reasons": [
+                "Because you like arts",
+                "Close by (0.4 mi)",
+                "Complete listing"
+              ]
+            },
+            {
+              "id": "localist-events-sjsu-edu-54160330062050-2026-11-03T17-00-00-08-00",
+              "score": 0.6875,
+              "reasons": [
+                "Because you like arts",
+                "Close by (0.3 mi)",
+                "Free"
+              ]
+            }
+          ]
+        },
+        "adult/v2": {
+          "ranked": 97,
+          "topFive": [
+            {
+              "id": "localist-events-sjsu-edu-54004066683531-2026-10-24T19-30-00-07-00",
+              "score": 0.8263,
+              "reasons": [
+                "Matches your interest in arts",
+                "Close by (0.2 mi)",
+                "Happening today"
+              ]
+            },
+            {
+              "id": "bibliocommons-sjpl-6a4d32df6db61d28009a808c",
+              "score": 0.8193,
+              "reasons": [
+                "Matches your interest in family activities",
+                "Close by (0.2 mi)",
+                "Happening today"
+              ]
+            },
+            {
+              "id": "bibliocommons-sccl-6ab57463a5dbde002aa6f661",
+              "score": 0.725,
+              "reasons": [
+                "Matches your interest in arts",
+                "Near your selected area (4.7 mi)",
+                "Happening today"
+              ]
+            },
+            {
+              "id": "wordpress-tec-10005859",
+              "score": 0.6803,
+              "reasons": [
+                "Matches your interest in the outdoors",
+                "New for you",
+                "Repeats — 1 more date"
+              ]
+            },
+            {
+              "id": "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+              "score": 0.6617,
+              "reasons": [
+                "Matches your interest in arts",
+                "Close by (0.2 mi)",
+                "New for you"
+              ]
+            }
+          ]
+        },
+        "minor/v1": {
+          "ranked": 100,
+          "topFive": [
+            {
+              "id": "localist-events-sjsu-edu-54074282952218-2026-10-25T00-00-00-07-00",
+              "score": 0.6672,
+              "reasons": [
+                "Because you like arts",
+                "Close by (0.2 mi)",
+                "Complete listing"
+              ]
+            },
+            {
+              "id": "bibliocommons-sjpl-69fb8818703c33630025ded5",
+              "score": 0.757,
+              "reasons": [
+                "Because you like family activities",
+                "Close by (0.2 mi)",
+                "Happening today or tomorrow"
+              ]
+            },
+            {
+              "id": "bibliocommons-sjpl-6931d4246f92613600093954",
+              "score": 0.7224,
+              "reasons": [
+                "Because you like family activities",
+                "Coming up this week",
+                "Free"
+              ]
+            },
+            {
+              "id": "localist-events-sjsu-edu-54322223436179-2026-11-12T12-00-00-08-00",
+              "score": 0.6988,
+              "reasons": [
+                "Because you like arts",
+                "Close by (0.4 mi)",
+                "Complete listing"
+              ]
+            },
+            {
+              "id": "localist-events-sjsu-edu-54160330062050-2026-11-03T17-00-00-08-00",
+              "score": 0.6875,
+              "reasons": [
+                "Because you like arts",
+                "Close by (0.3 mi)",
+                "Free"
+              ]
+            }
+          ]
+        },
+        "minor/v2": {
+          "ranked": 97,
+          "topFive": [
+            {
+              "id": "localist-events-sjsu-edu-54004066683531-2026-10-24T19-30-00-07-00",
+              "score": 0.8263,
+              "reasons": [
+                "Matches your interest in arts",
+                "Close by (0.2 mi)",
+                "Happening today"
+              ]
+            },
+            {
+              "id": "bibliocommons-sjpl-6a4d32df6db61d28009a808c",
+              "score": 0.8193,
+              "reasons": [
+                "Matches your interest in family activities",
+                "Close by (0.2 mi)",
+                "Happening today"
+              ]
+            },
+            {
+              "id": "bibliocommons-sccl-6ab57463a5dbde002aa6f661",
+              "score": 0.725,
+              "reasons": [
+                "Matches your interest in arts",
+                "Near your selected area (4.7 mi)",
+                "Happening today"
+              ]
+            },
+            {
+              "id": "wordpress-tec-10005859",
+              "score": 0.6803,
+              "reasons": [
+                "Matches your interest in the outdoors",
+                "New for you",
+                "Repeats — 1 more date"
+              ]
+            },
+            {
+              "id": "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+              "score": 0.6617,
+              "reasons": [
+                "Matches your interest in arts",
+                "Close by (0.2 mi)",
+                "New for you"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "reasons: every ranked event has 1–3 reasons, each backed by a component above threshold",
+      "passed": 12,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "adult/v1": {
+          "rows": 100,
+          "reasonCounts": {
+            "1": 1,
+            "2": 2,
+            "3": 97
+          },
+          "sample": [
+            [
+              "Because you like arts",
+              "Close by (0.2 mi)",
+              "Complete listing"
+            ],
+            [
+              "Because you like family activities",
+              "Close by (0.2 mi)",
+              "Happening today or tomorrow"
+            ],
+            [
+              "Because you like family activities",
+              "Coming up this week",
+              "Free"
+            ]
+          ]
+        },
+        "adult/v2": {
+          "rows": 97,
+          "reasonCounts": {
+            "1": 2,
+            "2": 15,
+            "3": 80
+          },
+          "sample": [
+            [
+              "Matches your interest in arts",
+              "Close by (0.2 mi)",
+              "Happening today"
+            ],
+            [
+              "Matches your interest in family activities",
+              "Close by (0.2 mi)",
+              "Happening today"
+            ],
+            [
+              "Matches your interest in arts",
+              "Near your selected area (4.7 mi)",
+              "Happening today"
+            ]
+          ]
+        },
+        "minor/v1": {
+          "rows": 100,
+          "reasonCounts": {
+            "1": 1,
+            "2": 4,
+            "3": 95
+          },
+          "sample": [
+            [
+              "Because you like arts",
+              "Close by (0.2 mi)",
+              "Complete listing"
+            ],
+            [
+              "Because you like family activities",
+              "Close by (0.2 mi)",
+              "Happening today or tomorrow"
+            ],
+            [
+              "Because you like family activities",
+              "Coming up this week",
+              "Free"
+            ]
+          ]
+        },
+        "minor/v2": {
+          "rows": 97,
+          "reasonCounts": {
+            "1": 1,
+            "2": 15,
+            "3": 81
+          },
+          "sample": [
+            [
+              "Matches your interest in arts",
+              "Close by (0.2 mi)",
+              "Happening today"
+            ],
+            [
+              "Matches your interest in family activities",
+              "Close by (0.2 mi)",
+              "Happening today"
+            ],
+            [
+              "Matches your interest in arts",
+              "Near your selected area (4.7 mi)",
+              "Happening today"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "name": "minors: zero adultOnly events reach the 15-year-old on any server surface",
+      "passed": 10,
+      "failed": 0,
+      "failures": [],
+      "detail": {
+        "corpusAdultOnly": 2941,
+        "corpusActiveUpcoming": 8250,
+        "v1": {
+          "minorRanked": 100,
+          "adultOnlyInMinor": 0,
+          "adultRanked": 100,
+          "adultOnlyInAdult": 13
+        },
+        "v2": {
+          "minorRanked": 97,
+          "adultOnlyInMinor": 0,
+          "adultRanked": 97,
+          "adultOnlyInAdult": 4
+        },
+        "plannerMinor": 25,
+        "digest": {
+          "minorQualifying": 3,
+          "adultQualifying": 3,
+          "minorDecision": {
+            "send": false,
+            "reason": "below_floor",
+            "eventIds": []
+          }
+        }
+      }
+    }
+  ]
+}

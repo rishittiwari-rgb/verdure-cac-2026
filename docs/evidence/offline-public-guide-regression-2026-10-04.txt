@@ -1,0 +1,30 @@
+PASS compact index includes every source park
+PASS open source park has confirmed toddler/restroom/water/dog facts
+PASS closed source park passes no available-amenity filter
+PASS signed-out free browsing returns first complete page
+PASS second page completes all parks without duplicates
+PASS coordinate match includes differently named overlapping sources
+PASS polygon hole excludes a place despite overlapping boxes
+PASS coordinates outside boundary cannot join by the same name
+PASS nearbyParkGuides rejects malformed input
+PASS nearbyParkGuides rejects malformed input
+PASS parksAtCoordinate rejects malformed input
+PASS parkGuide rejects malformed input
+PASS cursor cannot cross a catalog generation
+PASS unknown park is an explicit not-found
+PASS guest sees all-ages event after >500 nonmatching events
+PASS children's activities remain discoverable while Programs require known eligibility
+PASS event coordinates exclude same-name locations and polygon holes
+PASS private/hidden/virtual/expired/out-of-week/age-ineligible events stay absent
+PASS guide supplies lossless boundary
+PASS guide supplies confirmed playground ages and connected trail
+PASS guide credits all four contributing datasets, excluding unrelated parent
+PASS source-absent hours and story remain unknown
+PASS every trail includes required notice and official HTTPS site
+PASS minor guide respects age and personal block list
+PASS free signed-in minor can see an eligible teen Program
+PASS guest public guide can include public organizer before a personal block
+PASS failed refresh retains closed status and exposes no private diagnostic
+PASS compact index refuses corrupted storage
+PASS authenticated public browsing enforces its server request budget
+29 park guide callable checks passed

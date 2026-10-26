@@ -1,0 +1,7 @@
+{
+  "_note": "Fallback coordinates for venues whose feeds give a name/address but no lat/lon. Keys are lowercase text matched against the event's venue name and address. Values are approximate; verify and extend this list using the 'not_geocoded' count and rejected.json in output/.",
+  "willow glen branch library": {"lat": 37.3046, "lon": -121.8982},
+  "dr. martin luther king jr. library": {"lat": 37.3355, "lon": -121.8849},
+  "sap center": {"lat": 37.3328, "lon": -121.9011},
+  "san jose state university": {"lat": 37.3352, "lon": -121.8811}
+}

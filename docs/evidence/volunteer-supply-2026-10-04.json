@@ -1,0 +1,2306 @@
+{
+  "checkedAt": "2026-10-04T14:48:01.971Z",
+  "emulator": "127.0.0.1:8899",
+  "areaId": "san-jose-ca",
+  "center": {
+    "lat": 37.3382,
+    "lng": -121.8863
+  },
+  "radiusMiles": 25,
+  "totalVolunteerDocuments": 156,
+  "currentPublicInRadiusBeforeAuditDedupe": 137,
+  "currentPublicInRadius": 137,
+  "withinNext30Days": 53,
+  "threshold": 30,
+  "thresholdMet": true,
+  "bySource": {
+    "livewhale": 1,
+    "bibliocommons": 121,
+    "localist": 3,
+    "midpen": 12
+  },
+  "duplicates": [],
+  "dedupeRule": "Same normalized title; starts within 120 minutes; locations within 300 metres. Different dated occurrences remain separate listings.",
+  "rows": [
+    {
+      "id": "livewhale-events-scu-edu-517355-2026-10-06T14-30-00-07-00",
+      "title": "Forge Volunteer Hours",
+      "description": "Drop in to help garden at the Forge. Only requirements are closed-toed shoes and enthusiasm!",
+      "source": "livewhale",
+      "start": "2026-10-06T21:30:00.000Z",
+      "locationName": "The Forge Garden",
+      "latitude": 37.352454,
+      "longitude": -121.939355,
+      "website": "https://events.scu.edu/sustainability/event/517355-forge-volunteer-hours",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "livewhale:events.scu.edu:517355:2026-10-06T14:30:00-07:00"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83768e57c264087ad1c869",
+      "title": "Teens Reach at Hillview",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Develop your leadership skills by providing ideas for programming, events, displays, etc., and actively helping to bring these ideas to life. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage or more information and be sure to create your online volunteer account. ADA Ac",
+      "source": "bibliocommons",
+      "start": "2026-10-07T00:30:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6a83768e57c264087ad1c869",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83768e57c264087ad1c869"
+      ]
+    },
+    {
+      "id": "localist-events-stanford-edu-51888083181057-2026-10-07T09-00-00-07-00",
+      "title": "Volunteering at Stanford Educational Farm - Weekday",
+      "description": "Volunteers help keep the farm running. Volunteer tasks vary from week to week. Farm tasks may include keeping our fields free of weeds and rocks, planting new crop rotations, deadheading flowers, teaming up on irrigation, composting, mulching, and having a great time getting dirty. We ask that volunteers come prepared with close-toed shoes and clothes you don't mind getting dirty! We have gloves and tools for all. We welcome volunteers 10 years old and older. Those between 10 and 14 years old are required to have a guardian actively volunteering alongside them for the duration of the volunteer",
+      "source": "localist",
+      "start": "2026-10-07T16:00:00.000Z",
+      "locationName": "O'Donohue Educational Farm",
+      "latitude": 37.426059,
+      "longitude": -122.183261,
+      "website": "https://events.stanford.edu/event/volunteering-at-stanford-educational-farm-weekday",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "localist:events.stanford.edu:51888083181057:2026-10-07T09:00:00-07:00"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cb",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help beautify your Pearl Avenue Branch Library! Register to take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work, or just giving back to the community. This event will be happening at the Pearl Avenue Branch Library only. Details and Requirements: Must arrive promptly to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) Anyone under the age of 1",
+      "source": "bibliocommons",
+      "start": "2026-10-07T22:30:00.000Z",
+      "locationName": "Pearl Avenue",
+      "latitude": 37.2678857,
+      "longitude": -121.86631219999998,
+      "website": "https://sjpl.bibliocommons.com/events/69fb8a1af56bd86e00adf8cb",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69fb8a1af56bd86e00adf8cb"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3da568c52cdc3600ece7e9",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help your Cambrian Branch Library. Take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work or just wants to volunteer. This event will be limited to the first five participants only. Details and Requirements: Must arrive by 4:45 p.m. to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) Must be able to commit to the full session (5:00 p.m. to 6:00 p",
+      "source": "bibliocommons",
+      "start": "2026-10-07T23:45:00.000Z",
+      "locationName": "Cambrian",
+      "latitude": 37.2644099,
+      "longitude": -121.91504309999999,
+      "website": "https://sjpl.bibliocommons.com/events/6a3da568c52cdc3600ece7e9",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a3da568c52cdc3600ece7e9"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6946e842c967cb41207dc53d",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Volunteer Away Your Fines at $20 per hour and earn community service hours while helping the library maintain a clean and welcoming environment. Volunteers may be asked to assist with: Cleaning materials, bookshelves, furniture, and computers Children's toys cleanup Details and Requirements: Must be able to commit to the 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary The library will provide supplies Space is limited. Drop ins permitted but priority is given to those who register in advance. To register, please",
+      "source": "bibliocommons",
+      "start": "2026-10-08T00:00:00.000Z",
+      "locationName": "Educational Park",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6946e842c967cb41207dc53d",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6946e842c967cb41207dc53d"
+      ]
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-153",
+      "title": "Habitat Restoration: French broom Removal",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-08T16:30:00.000Z",
+      "locationName": "Bear Creek Redwoods Preserve",
+      "latitude": 37.1749,
+      "longitude": -122.0164,
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-153",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:habitat-restoration-french-broom-removal-153"
+      ]
+    },
+    {
+      "id": "midpen-trail-maintenance-new-trails",
+      "title": "Trail Maintenance: New Trails",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-08T16:30:00.000Z",
+      "locationName": "Bear Creek Redwoods Preserve",
+      "latitude": 37.1749,
+      "longitude": -122.0164,
+      "website": "https://www.openspace.org/events/volunteer-projects/trail-maintenance-new-trails",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:trail-maintenance-new-trails"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c84",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will help with: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc",
+      "source": "bibliocommons",
+      "start": "2026-10-08T23:00:00.000Z",
+      "locationName": "Berryessa",
+      "latitude": 37.3939433,
+      "longitude": -121.84073769999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c84",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a56e11efa641fe01af37c84"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d28999",
+      "title": "Drop-in Teens Reach Volunteering",
+      "description": "Perfect for young teens just starting out their volunteering journey - come to Rose Garden to get some in-person volunteering experience! Teens of all ages are welcome to join our Drop-In Volunteer Hour every second Friday afternoon from 4PM-5PM to help with a variety of library tasks, such as creating and building book displays, tidying up spaces, decorating for holidays, maintaining craft materials and supplies, etc. No previous experience is needed, just a desire to help! Signing up for Teens Reach is encouraged, although not required. This event is a Volunteer Away Your Fines event. This i",
+      "source": "bibliocommons",
+      "start": "2026-10-09T23:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d28999",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c3468915946f2800d28999"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-698fb6994a9fd98b7f7df314",
+      "title": "Almaden Teens Reach Meeting",
+      "description": "Join our teen service group and earn community service credit, supporting the community by assisting with book displays, presenting children's programs, running book sales and more. Learn about teen volunteer opportunities by attending our monthly meetings - every SECOND Friday of each month. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. If you are new to volunteering with San Jose Public Library, pl",
+      "source": "bibliocommons",
+      "start": "2026-10-09T23:30:00.000Z",
+      "locationName": "Almaden · Program Room",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/698fb6994a9fd98b7f7df314",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-698fb6994a9fd98b7f7df314"
+      ]
+    },
+    {
+      "id": "localist-events-sjsu-edu-53950463556720-2026-10-10T09-00-00-07-00",
+      "title": "Alumni Garden Volunteer Day",
+      "description": "Join us in the garden for a special volunteer session! Connect with fellow SJSU alumns, learn about the work of the garden, and give back to our campus community through service work! No gardening experience necessary. Just bring yourself, closed-toed shoes, and water!",
+      "source": "localist",
+      "start": "2026-10-10T16:00:00.000Z",
+      "locationName": "SJSU Community Garden",
+      "latitude": 37.333582,
+      "longitude": -121.877838,
+      "website": "https://events.sjsu.edu/event/alumni-garden-volunteer-day-3113",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "localist:events.sjsu.edu:53950463556720:2026-10-10T09:00:00-07:00"
+      ]
+    },
+    {
+      "id": "midpen-trail-maintenance-south-leaf-trail-pt-5",
+      "title": "Trail Maintenance: South Leaf Trail (Pt. 5)",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-10T16:30:00.000Z",
+      "locationName": "El Corte de Madera Creek Preserve",
+      "latitude": 37.3996,
+      "longitude": -122.3147,
+      "website": "https://www.openspace.org/events/volunteer-projects/trail-maintenance-south-leaf-trail-pt-5",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:trail-maintenance-south-leaf-trail-pt-5"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86a",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Book cover cleaning - Use disinfecting wipes to reinvigorate dingy books Children's toys cleanup - Use disinfecting wipes to disinfect children's toys Material inspection - Check books for torn pages, pen marks, etc. Tabletop/windows/grounds cleanup - Help reinvigorate our branch by wiping down tabletops, cleaning dusty windows, and picking up litter a",
+      "source": "bibliocommons",
+      "start": "2026-10-10T18:00:00.000Z",
+      "locationName": "Willow Glen · Group Study Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693c85ea8b29ea2800c3f86a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a6265aae9de6536001dc48d",
+      "title": "Teens Reach Meeting & Activity",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets on the first [or 2nd if lands on closure] Wednesday of each month at 4:00 PM. Get involved, earn volunteer hours, and be a leader in the library. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, be reliable and communicative, and be willing to learn new skills. Membership requires regular attendance at meetings, participation, and support of library activities and events. A sense of fun and adventure is also appreciated. As a bonus",
+      "source": "bibliocommons",
+      "start": "2026-10-10T19:30:00.000Z",
+      "locationName": "Educational Park · Community Room",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6a6265aae9de6536001dc48d",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a6265aae9de6536001dc48d"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c345b1ce3cf62f00efa39d",
+      "title": "Rose Garden Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Rose Garden's Teens Reach group meets monthly on the second Tuesday with socializing and fun at 4:00 pm. Our in-person meet up plans for this school year include: Teen Volunteer Opportunities Election for Advisory Board Community Youth Engagement Games & Activities Snacks Guest Speakers Bring a friend, and learn more about what to expect wi",
+      "source": "bibliocommons",
+      "start": "2026-10-13T23:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c345b1ce3cf62f00efa39d",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c345b1ce3cf62f00efa39d"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb69",
+      "title": "Volunteer Away Your Fines",
+      "description": "Come volunteer away your library fines at a rate of $20 per hour by helping us tidy and clean the library as a Branch Buddy! This is a perfect opportunity for anyone interested in volunteering away their library fines or gaining service hours for school/work. You do not need to have fines to participate! Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-14T00:00:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb69",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6984cee5d34a4e759284bb69"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48bc55a2d780f42c4c4e9",
+      "title": "Joyce Ellington Teens Reach Orientation",
+      "description": "This program is for teens, ages 13-18, who are new to volunteering for Teens Reach at the Joyce Ellington Branch Library. Attend the orientation and stay afterwards, 5:00-6:30 PM, to attend your first Joyce Ellington Teens Reach Meeting where you'll meet other teen volunteers and start earning volunteer service hours. Teens Reach Orientation: 4:00-5:00 PM Teens Reach Meeting: 5:00-6:30 PM Our in-person meeting plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this",
+      "source": "bibliocommons",
+      "start": "2026-10-14T23:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69c48bc55a2d780f42c4c4e9",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48bc55a2d780f42c4c4e9"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48b8e23b45fff20f32399",
+      "title": "Joyce Ellington Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-18. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage: https",
+      "source": "bibliocommons",
+      "start": "2026-10-15T00:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69c48b8e23b45fff20f32399",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48b8e23b45fff20f32399"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6aa4267388820d0031703bb5",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Register to volunteer away your library fines at a rate of $20 per hour by helping us tidy and clean the Evergreen library as a Branch Buddy. This is a perfect opportunity for anyone interested in volunteering away their library fines or gaining service hours for school or work. You do not need to have fines to participate. Details and Requirements Must be able to commit to the full session Anyone under the age of 15 must volunteer with a parent/guardian No experience or special skills are necessary Trainin",
+      "source": "bibliocommons",
+      "start": "2026-10-15T00:00:00.000Z",
+      "locationName": "Evergreen",
+      "latitude": 37.31417433052127,
+      "longitude": -121.79582893757322,
+      "website": "https://sjpl.bibliocommons.com/events/6aa4267388820d0031703bb5",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6aa4267388820d0031703bb5"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69f11341defec6489cc0d926",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books Other s",
+      "source": "bibliocommons",
+      "start": "2026-10-15T01:00:00.000Z",
+      "locationName": "King Library · Access Services- 1st Floor",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/69f11341defec6489cc0d926",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69f11341defec6489cc0d926"
+      ]
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-154",
+      "title": "Habitat Restoration: French Broom Removal",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-15T16:30:00.000Z",
+      "locationName": "Sierra Azul Preserve",
+      "latitude": 37.1571,
+      "longitude": -121.8723,
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-154",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:habitat-restoration-french-broom-removal-154"
+      ]
+    },
+    {
+      "id": "midpen-pulgas-ridge-preserve-bench-maintenance-blue-oak-trail",
+      "title": "Pulgas Ridge Preserve - Bench Maintenance: Blue Oak Trail",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-15T16:30:00.000Z",
+      "locationName": "Pulgas Ridge Preserve",
+      "latitude": 37.4794,
+      "longitude": -122.293,
+      "website": "https://www.openspace.org/events/volunteer-projects/pulgas-ridge-preserve-bench-maintenance-blue-oak-trail",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:pulgas-ridge-preserve-bench-maintenance-blue-oak-trail"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6887e9ef639e1e9694a38291",
+      "title": "Pearl Avenue Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-18. Pearl Avenue's Teens Reach group meets monthly on the third Thursday with socializing and fun at 4:00 pm. Our in-person meet up plans include: Teen Volunteer Opportunities Election for Advisory Board Community Youth Engagement Games & Activities Snacks Guest Speakers Bring a friend, and learn more about what to expect with volunteering thi",
+      "source": "bibliocommons",
+      "start": "2026-10-16T00:00:00.000Z",
+      "locationName": "Pearl Avenue",
+      "latitude": 37.2678857,
+      "longitude": -121.86631219999998,
+      "website": "https://sjpl.bibliocommons.com/events/6887e9ef639e1e9694a38291",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6887e9ef639e1e9694a38291"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-691e381d06078d360078c462",
+      "title": "Volunteer Away Your Fines - Vineland",
+      "description": "Do you have library fines, need volunteer hours, or just want to help beautify your local library branch? Join us at the Vineland Branch Library! Fines are forgiven at the rate of $20/hr Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided Space is limited. Registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-16T00:00:00.000Z",
+      "locationName": "Vineland · Check in at the Information Desk",
+      "latitude": 37.2401849,
+      "longitude": -121.89248800000001,
+      "website": "https://sjpl.bibliocommons.com/events/691e381d06078d360078c462",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-691e381d06078d360078c462"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6985134b707481383708fcd7",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Tables and Chairs Cleaning – Wipe down crucial furniture used for library events Book Cover Cleaning – Use disinfecting wipes to reinvigorate dingy books Material Inspection – Check books for torn pages, pen marks, etc. Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a par",
+      "source": "bibliocommons",
+      "start": "2026-10-16T00:00:00.000Z",
+      "locationName": "Joyce Ellington",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/6985134b707481383708fcd7",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6985134b707481383708fcd7"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a88dfedb20478002994967c",
+      "title": "Talk about College Admissions and Requirements with UC Scout",
+      "description": "This month, as part of College Month, we will be hearing from UC Scout on the topic of college admission requirements and preparation. The agenda for this program will include an overview of UC Scout which will cover student resources and our scholarship program, a discussion on the A-G Requirements, AP courses, interactive polls and surveys as well as a live Q&A. It can be presented as a standalone information session or in collaboration with another program (such as a local university or organization). This program will be formatted as an informative presentation conducted in-person. In this",
+      "source": "bibliocommons",
+      "start": "2026-10-16T00:00:00.000Z",
+      "locationName": "Pearl Avenue",
+      "latitude": 37.2678857,
+      "longitude": -121.86631219999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a88dfedb20478002994967c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a88dfedb20478002994967c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-690e61a19b8793410094ae65",
+      "title": "Santa Teresa Teens Reach Meeting",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets in person on the third Friday of each month from 4-5pm in the Community Room. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Our monthly meetings include Snacks Teen volunteer opportunities Updates on upcoming library teen programs and new materials Games and activities. Join us and represent the teen community at your local librar",
+      "source": "bibliocommons",
+      "start": "2026-10-16T23:00:00.000Z",
+      "locationName": "Santa Teresa · Community Room",
+      "latitude": 37.2375026,
+      "longitude": -121.79976169999998,
+      "website": "https://sjpl.bibliocommons.com/events/690e61a19b8793410094ae65",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-690e61a19b8793410094ae65"
+      ]
+    },
+    {
+      "id": "localist-events-sjsu-edu-54003959259112-2026-10-16T17-30-00-07-00",
+      "title": "The City of San Jose Office of Cultural Affairs and the Arts Commission presents the Cornerstone of the Arts Award",
+      "description": "Join the San José Office of Cultural Affairs and the Arts Commission for a special celebration honoring an extraordinary individual, organization, or artist who have made a lasting impact on our city’s arts and cultural landscape. Presented annually, this distinguished award celebrates enduring leadership and a commitment to demonstrating the powerful role the arts play in creating a more connected, dynamic, and thriving community. Come celebrate this year’s inspiring honorees and the incredible impact of arts and culture in San José!",
+      "source": "localist",
+      "start": "2026-10-17T00:30:00.000Z",
+      "locationName": "Hammer Theater Center · Sobrato Auditorium",
+      "latitude": 37.333717,
+      "longitude": -121.886459,
+      "website": "https://events.sjsu.edu/event/the-city-of-san-jose-office-of-cultural-affairs-and-the-arts-commission-presents-the-cornerstone-of-the-arts-award",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "localist:events.sjsu.edu:54003959259112:2026-10-16T17:30:00-07:00"
+      ]
+    },
+    {
+      "id": "midpen-volunteer-program-showcase-french-broom-removal-and-interpretive-hike",
+      "title": "Volunteer Program Showcase: French Broom Removal and Interpretive Hike!",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-17T16:00:00.000Z",
+      "locationName": "Saratoga Gap Preserve",
+      "latitude": 37.2615,
+      "longitude": -122.1101,
+      "website": "https://www.openspace.org/events/volunteer-projects/volunteer-program-showcase-french-broom-removal-and-interpretive-hike",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:volunteer-program-showcase-french-broom-removal-and-interpretive-hike"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69a39b59db89981d9df83ae3",
+      "title": "Branch Buddy Volunteering for Families",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-10-17T18:00:00.000Z",
+      "locationName": "King Library · Children's Room - 1st Floor",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/69a39b59db89981d9df83ae3",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69a39b59db89981d9df83ae3"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69556c831e64afd01e51af59",
+      "title": "Volunteer Away Your Fines",
+      "description": "Volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Requirements: Must be able to commit to the 60-minute session. Anyone under the age of 13 must volunteer alongside a parent/guardian. No experience or special skills necessary. The library will provide supplies. Registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-17T19:00:00.000Z",
+      "locationName": "Alum Rock",
+      "latitude": 37.3653857,
+      "longitude": -121.8280595,
+      "website": "https://sjpl.bibliocommons.com/events/69556c831e64afd01e51af59",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69556c831e64afd01e51af59"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-690cebe99b879341009479c2",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Pre-registration required. This is a perfect opportunity for anyone interested in volunteering away their library fines. Details and Requirements: Must be able to commit to a 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Supplies will be provided. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-17T20:00:00.000Z",
+      "locationName": "West Valley · Participants check in at the Information Desk",
+      "latitude": 37.3023684,
+      "longitude": -121.97939180000003,
+      "website": "https://sjpl.bibliocommons.com/events/690cebe99b879341009479c2",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-690cebe99b879341009479c2"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69a5ee398d5e2d093362a015",
+      "title": "Volunteer Away Your Fines as a Branch Buddy!",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Cleaning toys and furniture in the children's area. Other activities may include any of the following: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compres",
+      "source": "bibliocommons",
+      "start": "2026-10-17T22:00:00.000Z",
+      "locationName": "Bascom",
+      "latitude": 37.3076292,
+      "longitude": -121.9314005,
+      "website": "https://sjpl.bibliocommons.com/events/69a5ee398d5e2d093362a015",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69a5ee398d5e2d093362a015"
+      ]
+    },
+    {
+      "id": "midpen-siding-maintenance-deer-hollow-farm",
+      "title": "Siding Maintenance: Deer Hollow Farm",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-19T16:30:00.000Z",
+      "locationName": "Rancho San Antonio Preserve",
+      "latitude": 37.3353,
+      "longitude": -122.1189,
+      "website": "https://www.openspace.org/events/volunteer-projects/siding-maintenance-deer-hollow-farm",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:siding-maintenance-deer-hollow-farm"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6aad756e129d8e0031f34f97",
+      "title": "Teens Reach",
+      "description": "Calling all teens between the ages of 13 and 18 looking for simple volunteer opportunities. TeenHQ Theater is putting on its 18th production, MAUL OF THE DEAD, on Saturday, November 14! Please help us set our stage. We need to transform our space into a department store. We’ll be assembling clothing racks, preparing shelves and creating a storefront. Building, painting, papering, folding, hanging, foam sculpting, and creativity needed! Please email Eboni at eboni.harris@sjlibrary.org if you think you can come! Free program. High and Middle Students welcome. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-20T23:00:00.000Z",
+      "locationName": "King Library · TeenHQ/First Floor Mezzanine",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/6aad756e129d8e0031f34f97",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6aad756e129d8e0031f34f97"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83703f69166f088b92df1b",
+      "title": "Bascom Teens Reach Meeting",
+      "description": "Teens are invited to join Bascom Library Teens Reach in-person every 3rd Tuesday of the month! This program features fun volunteer opportunities, craft activities, games, and chances to hang out with your peers and learn new skills and information. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, and be willing to learn new skills. Membership requires regular attendance at meetings, participation in and support of library activities and events, and a sense of fun and adventure. As a bonus, Teens Reach",
+      "source": "bibliocommons",
+      "start": "2026-10-21T00:00:00.000Z",
+      "locationName": "Bascom · Study Room 2",
+      "latitude": 37.3076292,
+      "longitude": -121.9314005,
+      "website": "https://sjpl.bibliocommons.com/events/6a83703f69166f088b92df1b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83703f69166f088b92df1b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68f2e0b2831f063d00527964",
+      "title": "Evergreen Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-17. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage for mor",
+      "source": "bibliocommons",
+      "start": "2026-10-21T00:30:00.000Z",
+      "locationName": "Evergreen · Community Room",
+      "latitude": 37.31417433052127,
+      "longitude": -121.79582893757322,
+      "website": "https://sjpl.bibliocommons.com/events/68f2e0b2831f063d00527964",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68f2e0b2831f063d00527964"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-694989a66f926136000c337a",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-10-21T23:00:00.000Z",
+      "locationName": "Seven Trees",
+      "latitude": 37.2849667,
+      "longitude": -121.83326440000002,
+      "website": "https://sjpl.bibliocommons.com/events/694989a66f926136000c337a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-694989a66f926136000c337a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48c77b2f5bfe57aba4566",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help beautify your Edenvale Branch Library. Take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work or just wants to volunteer. This event will be happening at the Edenvale Branch Library and will be limited to the first five participants only. Details and Requirements: Must arrive by 4:45 p.m. to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) M",
+      "source": "bibliocommons",
+      "start": "2026-10-22T00:00:00.000Z",
+      "locationName": "Edenvale",
+      "latitude": 37.2677138,
+      "longitude": -121.8211192,
+      "website": "https://sjpl.bibliocommons.com/events/69c48c77b2f5bfe57aba4566",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48c77b2f5bfe57aba4566"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69d9863bad384e40edba35c3",
+      "title": "Willow Glen Teens Reach Meeting",
+      "description": "Be part of a fun volunteering opportunity for teens between the ages of 13-18. Earn community service credit while supporting the library by assisting with library programs, promotion, and representing the library's teen point-of-view. Learn about teen volunteer opportunities and more by attending our monthly meetings - every THIRD Wednesday of each month - and have your say! Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library ad",
+      "source": "bibliocommons",
+      "start": "2026-10-22T00:00:00.000Z",
+      "locationName": "Willow Glen · Teen Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/69d9863bad384e40edba35c3",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69d9863bad384e40edba35c3"
+      ]
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-155",
+      "title": "Habitat Restoration: French Broom Removal",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-22T16:30:00.000Z",
+      "locationName": "Long Ridge Preserve",
+      "latitude": 37.2702,
+      "longitude": -122.162,
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-155",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:habitat-restoration-french-broom-removal-155"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-696572bd2c65973d00176eac",
+      "title": "Volunteer Away Your Fines",
+      "description": "Register to volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Tables and chairs cleaning – Wipe down crucial furniture used for library events. Tabletop/windows – Help reinvigorate our branch by wiping down tabletops and cleaning dusty windows. Tabletop/windows/grounds cleanup – Help reinvigorate our branch by wiping down tabletops, cleaning dusty windows, and picking up litter outside the library. Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongsi",
+      "source": "bibliocommons",
+      "start": "2026-10-23T22:00:00.000Z",
+      "locationName": "Village Square · See information desk",
+      "latitude": 37.3134119,
+      "longitude": -121.77448349999997,
+      "website": "https://sjpl.bibliocommons.com/events/696572bd2c65973d00176eac",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-696572bd2c65973d00176eac"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-682fbb0e2b0fb15d9fb65717",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-10-24T22:00:00.000Z",
+      "locationName": "Alviso · 5050 N. 1st Street San Jose, CA 95002",
+      "latitude": 37.42462140000001,
+      "longitude": -121.96916494603272,
+      "website": "https://sjpl.bibliocommons.com/events/682fbb0e2b0fb15d9fb65717",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-682fbb0e2b0fb15d9fb65717"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3d7bfbed35742f00fe48cf",
+      "title": "Calabazas Teens Reach Meeting",
+      "description": "Come join us the first Thursday of the month for our monthly Calabazas Teens Reach meeting. This is a great way to meet other teens volunteering with the library, earn volunteer hours, work on projects, and just have fun. You don't need to be a member to join the meeting, but you will need to be enrolled as a volunteer to log your hours. Interested in becoming a volunteer at the library? Start here: https://www.sjpl.org/volunteer-how-to/ No registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-24T23:00:00.000Z",
+      "locationName": "Calabazas",
+      "latitude": 37.30262159999999,
+      "longitude": -122.02345409999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a3d7bfbed35742f00fe48cf",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a3d7bfbed35742f00fe48cf"
+      ]
+    },
+    {
+      "id": "midpen-siding-maintenance-deer-hollow-farm-pt-2",
+      "title": "Siding Maintenance: Deer Hollow Farm (Pt. 2)",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-26T16:30:00.000Z",
+      "locationName": "Rancho San Antonio Preserve",
+      "latitude": 37.3353,
+      "longitude": -122.1189,
+      "website": "https://www.openspace.org/events/volunteer-projects/siding-maintenance-deer-hollow-farm-pt-2",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:siding-maintenance-deer-hollow-farm-pt-2"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-67fef6890453817cac29c85f",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-10-28T19:00:00.000Z",
+      "locationName": "Calabazas · group study room",
+      "latitude": 37.30262159999999,
+      "longitude": -122.02345409999998,
+      "website": "https://sjpl.bibliocommons.com/events/67fef6890453817cac29c85f",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-67fef6890453817cac29c85f"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a02132143b41b3d0065b3d9",
+      "title": "Edenvale Teens Reach Meeting",
+      "description": "Edenvale will be hosting in-person Teens Reach meetings and will meet every fourth Wednesday of the month from 4-5pm in the Teen Room . Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. This is a leadership and volunteer service group for teens ages 13-18. Join us and represent the teen community at your local library, meet other teens, take part in decorating the teen room, and learn of other volunteer",
+      "source": "bibliocommons",
+      "start": "2026-10-28T23:00:00.000Z",
+      "locationName": "Edenvale · Teen Room",
+      "latitude": 37.2677138,
+      "longitude": -121.8211192,
+      "website": "https://sjpl.bibliocommons.com/events/6a02132143b41b3d0065b3d9",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a02132143b41b3d0065b3d9"
+      ]
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-156",
+      "title": "Habitat Restoration: French Broom Removal",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-29T16:30:00.000Z",
+      "locationName": "Teague Hill Preserve",
+      "latitude": 37.4229,
+      "longitude": -122.2904,
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-156",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:habitat-restoration-french-broom-removal-156"
+      ]
+    },
+    {
+      "id": "midpen-trail-maintenance-virginia-mill-trail",
+      "title": "Trail Maintenance: Virginia Mill Trail",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-29T16:30:00.000Z",
+      "locationName": "El Corte de Madera Creek Preserve",
+      "latitude": 37.3996,
+      "longitude": -122.3147,
+      "website": "https://www.openspace.org/events/volunteer-projects/trail-maintenance-virginia-mill-trail",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:trail-maintenance-virginia-mill-trail"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a6bd1c1c7e02e3d006cd3e8",
+      "title": "Teens Reach at Seven Trees Library",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13 to 18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Seven Tree's Teens Reach group meets monthly on the last Friday with socializing and fun from 4 to 5 p.m. August: In Person September : Virtual October : In Person Bring a friend, and learn more about what to expect with volunteering this year ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-10-30T23:00:00.000Z",
+      "locationName": "Seven Trees",
+      "latitude": 37.2849667,
+      "longitude": -121.83326440000002,
+      "website": "https://sjpl.bibliocommons.com/events/6a6bd1c1c7e02e3d006cd3e8",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a6bd1c1c7e02e3d006cd3e8"
+      ]
+    },
+    {
+      "id": "midpen-habitat-restoration-french-broom-removal-157",
+      "title": "Habitat Restoration: French Broom Removal",
+      "description": "",
+      "source": "midpen",
+      "start": "2026-10-31T16:30:00.000Z",
+      "locationName": "Bear Creek Redwoods Preserve",
+      "latitude": 37.1749,
+      "longitude": -122.0164,
+      "website": "https://www.openspace.org/events/volunteer-projects/habitat-restoration-french-broom-removal-157",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "midpen:habitat-restoration-french-broom-removal-157"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693df98794297d36009fd506",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Cleaning toys and furniture in the children's area. Other activities may include any of the following: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compres",
+      "source": "bibliocommons",
+      "start": "2026-10-31T18:00:00.000Z",
+      "locationName": "Tully · Children's Area",
+      "latitude": 37.3114172,
+      "longitude": -121.84091569999998,
+      "website": "https://sjpl.bibliocommons.com/events/693df98794297d36009fd506",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693df98794297d36009fd506"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83768e57c264087ad1c86a",
+      "title": "Teens Reach at Hillview",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Develop your leadership skills by providing ideas for programming, events, displays, etc., and actively helping to bring these ideas to life. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage or more information and be sure to create your online volunteer account. ADA Ac",
+      "source": "bibliocommons",
+      "start": "2026-11-04T01:30:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6a83768e57c264087ad1c86a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83768e57c264087ad1c86a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cc",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help beautify your Pearl Avenue Branch Library! Register to take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work, or just giving back to the community. This event will be happening at the Pearl Avenue Branch Library only. Details and Requirements: Must arrive promptly to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) Anyone under the age of 1",
+      "source": "bibliocommons",
+      "start": "2026-11-04T23:30:00.000Z",
+      "locationName": "Pearl Avenue",
+      "latitude": 37.2678857,
+      "longitude": -121.86631219999998,
+      "website": "https://sjpl.bibliocommons.com/events/69fb8a1af56bd86e00adf8cc",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69fb8a1af56bd86e00adf8cc"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48bc55a2d780f42c4c4ea",
+      "title": "Joyce Ellington Teens Reach Orientation",
+      "description": "This program is for teens, ages 13-18, who are new to volunteering for Teens Reach at the Joyce Ellington Branch Library. Attend the orientation and stay afterwards, 5:00-6:30 PM, to attend your first Joyce Ellington Teens Reach Meeting where you'll meet other teen volunteers and start earning volunteer service hours. Teens Reach Orientation: 4:00-5:00 PM Teens Reach Meeting: 5:00-6:30 PM Our in-person meeting plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this",
+      "source": "bibliocommons",
+      "start": "2026-11-05T00:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69c48bc55a2d780f42c4c4ea",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48bc55a2d780f42c4c4ea"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a6265aae9de6536001dc48e",
+      "title": "Teens Reach Meeting & Activity",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets on the first [or 2nd if lands on closure] Wednesday of each month at 4:00 PM. Get involved, earn volunteer hours, and be a leader in the library. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, be reliable and communicative, and be willing to learn new skills. Membership requires regular attendance at meetings, participation, and support of library activities and events. A sense of fun and adventure is also appreciated. As a bonus",
+      "source": "bibliocommons",
+      "start": "2026-11-05T00:00:00.000Z",
+      "locationName": "Educational Park · Teen Area",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6a6265aae9de6536001dc48e",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a6265aae9de6536001dc48e"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3da568c52cdc3600ece7ea",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help your Cambrian Branch Library. Take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work or just wants to volunteer. This event will be limited to the first five participants only. Details and Requirements: Must arrive by 4:45 p.m. to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) Must be able to commit to the full session (5:00 p.m. to 6:00 p",
+      "source": "bibliocommons",
+      "start": "2026-11-05T00:45:00.000Z",
+      "locationName": "Cambrian",
+      "latitude": 37.2644099,
+      "longitude": -121.91504309999999,
+      "website": "https://sjpl.bibliocommons.com/events/6a3da568c52cdc3600ece7ea",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a3da568c52cdc3600ece7ea"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48b8e23b45fff20f3239a",
+      "title": "Joyce Ellington Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-18. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage: https",
+      "source": "bibliocommons",
+      "start": "2026-11-05T01:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69c48b8e23b45fff20f3239a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48b8e23b45fff20f3239a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48cb6274a65e67a90bd31",
+      "title": "West Valley Branch Teens Reach Meeting",
+      "description": "Do you want to volunteer at West Valley Branch Library? Teens ages 13-18 can apply to join our Teens Reach chapter, become library volunteers, and attend monthly meetings to earn service hours for their school/club. (Note: San Jose Public Library is not a certifying organization for the Presidential Service Award.) Those who are 18 or turn 18 while volunteering with us will need to be fingerprinted by the City of San Jose no cost to them. Learn more about Teens Reach . At West Valley Branch Library, we meet in-person one Thursday a month from 4:30-5:30pm. (Meeting dates will vary due to room a",
+      "source": "bibliocommons",
+      "start": "2026-11-06T00:30:00.000Z",
+      "locationName": "West Valley · Community Room",
+      "latitude": 37.3023684,
+      "longitude": -121.97939180000003,
+      "website": "https://sjpl.bibliocommons.com/events/69c48cb6274a65e67a90bd31",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48cb6274a65e67a90bd31"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68a62c34ee7045528b83e42f",
+      "title": "Volunteer Away Your Fines as a Drop-in Do Gooder",
+      "description": "Drop-in the first Saturday of the month to volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Details and Requirements: • Must be able to commit to the full session • Anyone under the age of 15 must volunteer alongside a parent/guardian • No experience or special skills necessary To register, please call 408-808-3075 or email sarah.kishler@sjlibrary.org ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-11-07T18:30:00.000Z",
+      "locationName": "East SJ Carnegie",
+      "latitude": 37.3464738,
+      "longitude": -121.8682245,
+      "website": "https://sjpl.bibliocommons.com/events/68a62c34ee7045528b83e42f",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68a62c34ee7045528b83e42f"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a73821c74e3b8b75db7ccb3",
+      "title": "Mindfulness Meditation",
+      "description": "We are living in a world that feels increasingly unpredictable and unstable, where our daily lives are shifting faster than ever before. Knowing how to tap into our inner resources to navigate stress and uncertainty is crucial. Join our volunteer Snow for a mindfulness program offering practical, evidence-based mindfulness tools that will help you enhance your attention and focus, regulate your emotions and cultivate calm and resilience in your daily life. Snow Bai has a Master's in Psychology and Neuroscience in Mental Health at King's College London and has professional training in Mindfulne",
+      "source": "bibliocommons",
+      "start": "2026-11-07T18:30:00.000Z",
+      "locationName": "Willow Glen · Community Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/6a73821c74e3b8b75db7ccb3",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a73821c74e3b8b75db7ccb3"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a7f958360ccaf01c01e54bb",
+      "title": "Volunteer Away Your Fines",
+      "description": "Volunteer Away Your Fines at $20 per hour and earn community service hours while helping the library maintain a clean and welcoming environment. Volunteers may be asked to assist with: Cleaning materials, bookshelves, furniture, and computers Children's toys cleanup Details and Requirements: Must be able to commit to the 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary The library will provide supplies Space is limited. Drop ins permitted but priority is given to those who register in advance. To register, please",
+      "source": "bibliocommons",
+      "start": "2026-11-07T20:00:00.000Z",
+      "locationName": "Almaden · Program Rppm",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/6a7f958360ccaf01c01e54bb",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a7f958360ccaf01c01e54bb"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c345b1ce3cf62f00efa39e",
+      "title": "Rose Garden Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Rose Garden's Teens Reach group meets monthly on the second Tuesday with socializing and fun at 4:00 pm. Our in-person meet up plans for this school year include: Teen Volunteer Opportunities Election for Advisory Board Community Youth Engagement Games & Activities Snacks Guest Speakers Bring a friend, and learn more about what to expect wi",
+      "source": "bibliocommons",
+      "start": "2026-11-11T00:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c345b1ce3cf62f00efa39e",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c345b1ce3cf62f00efa39e"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb6a",
+      "title": "Volunteer Away Your Fines",
+      "description": "Come volunteer away your library fines at a rate of $20 per hour by helping us tidy and clean the library as a Branch Buddy! This is a perfect opportunity for anyone interested in volunteering away their library fines or gaining service hours for school/work. You do not need to have fines to participate! Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-11-11T01:00:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb6a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6984cee5d34a4e759284bb6a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68f2e0b2831f063d00527965",
+      "title": "Evergreen Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-17. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage for mor",
+      "source": "bibliocommons",
+      "start": "2026-11-11T01:30:00.000Z",
+      "locationName": "Evergreen · Community Room",
+      "latitude": 37.31417433052127,
+      "longitude": -121.79582893757322,
+      "website": "https://sjpl.bibliocommons.com/events/68f2e0b2831f063d00527965",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68f2e0b2831f063d00527965"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c85",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will help with: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc",
+      "source": "bibliocommons",
+      "start": "2026-11-13T00:00:00.000Z",
+      "locationName": "Berryessa",
+      "latitude": 37.3939433,
+      "longitude": -121.84073769999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c85",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a56e11efa641fe01af37c85"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69851348d34a4e759284c818",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Tables and Chairs Cleaning – Wipe down crucial furniture used for library events Book Cover Cleaning – Use disinfecting wipes to reinvigorate dingy books Material Inspection – Check books for torn pages, pen marks, etc. Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a par",
+      "source": "bibliocommons",
+      "start": "2026-11-13T01:00:00.000Z",
+      "locationName": "Joyce Ellington",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69851348d34a4e759284c818",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69851348d34a4e759284c818"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d2899a",
+      "title": "Drop-in Teens Reach Volunteering",
+      "description": "Perfect for young teens just starting out their volunteering journey - come to Rose Garden to get some in-person volunteering experience! Teens of all ages are welcome to join our Drop-In Volunteer Hour every second Friday afternoon from 4PM-5PM to help with a variety of library tasks, such as creating and building book displays, tidying up spaces, decorating for holidays, maintaining craft materials and supplies, etc. No previous experience is needed, just a desire to help! Signing up for Teens Reach is encouraged, although not required. This event is a Volunteer Away Your Fines event. This i",
+      "source": "bibliocommons",
+      "start": "2026-11-14T00:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d2899a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c3468915946f2800d2899a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-698fb6994a9fd98b7f7df315",
+      "title": "Almaden Teens Reach Meeting",
+      "description": "Join our teen service group and earn community service credit, supporting the community by assisting with book displays, presenting children's programs, running book sales and more. Learn about teen volunteer opportunities by attending our monthly meetings - every SECOND Friday of each month. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. If you are new to volunteering with San Jose Public Library, pl",
+      "source": "bibliocommons",
+      "start": "2026-11-14T00:30:00.000Z",
+      "locationName": "Almaden · Program Room",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/698fb6994a9fd98b7f7df315",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-698fb6994a9fd98b7f7df315"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86b",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Book cover cleaning - Use disinfecting wipes to reinvigorate dingy books Children's toys cleanup - Use disinfecting wipes to disinfect children's toys Material inspection - Check books for torn pages, pen marks, etc. Tabletop/windows/grounds cleanup - Help reinvigorate our branch by wiping down tabletops, cleaning dusty windows, and picking up litter a",
+      "source": "bibliocommons",
+      "start": "2026-11-14T19:00:00.000Z",
+      "locationName": "Willow Glen · Group Study Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693c85ea8b29ea2800c3f86b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69f11341defec6489cc0d927",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books Other s",
+      "source": "bibliocommons",
+      "start": "2026-11-14T19:00:00.000Z",
+      "locationName": "King Library · Access Services- 1st Floor",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/69f11341defec6489cc0d927",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69f11341defec6489cc0d927"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83703f69166f088b92df1c",
+      "title": "Bascom Teens Reach Meeting",
+      "description": "Teens are invited to join Bascom Library Teens Reach in-person every 3rd Tuesday of the month! This program features fun volunteer opportunities, craft activities, games, and chances to hang out with your peers and learn new skills and information. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, and be willing to learn new skills. Membership requires regular attendance at meetings, participation in and support of library activities and events, and a sense of fun and adventure. As a bonus, Teens Reach",
+      "source": "bibliocommons",
+      "start": "2026-11-18T01:00:00.000Z",
+      "locationName": "Bascom · Study Room 2",
+      "latitude": 37.3076292,
+      "longitude": -121.9314005,
+      "website": "https://sjpl.bibliocommons.com/events/6a83703f69166f088b92df1c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83703f69166f088b92df1c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-694989a66f926136000c337b",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-11-19T00:00:00.000Z",
+      "locationName": "Seven Trees",
+      "latitude": 37.2849667,
+      "longitude": -121.83326440000002,
+      "website": "https://sjpl.bibliocommons.com/events/694989a66f926136000c337b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-694989a66f926136000c337b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a021224e8af4a2f0071b56f",
+      "title": "Edenvale Teens Reach Meeting",
+      "description": "Edenvale will be hosting in-person Teens Reach meetings and will meet every fourth Wednesday of the month from 4-5pm in the Teen Room . Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. This is a leadership and volunteer service group for teens ages 13-18. Join us and represent the teen community at your local library, meet other teens, take part in decorating the teen room, and learn of other volunteer",
+      "source": "bibliocommons",
+      "start": "2026-11-19T00:00:00.000Z",
+      "locationName": "Edenvale · Teen Room",
+      "latitude": 37.2677138,
+      "longitude": -121.8211192,
+      "website": "https://sjpl.bibliocommons.com/events/6a021224e8af4a2f0071b56f",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a021224e8af4a2f0071b56f"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6946e842c967cb41207dc53e",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Volunteer Away Your Fines at $20 per hour and earn community service hours while helping the library maintain a clean and welcoming environment. Volunteers may be asked to assist with: Cleaning materials, bookshelves, furniture, and computers Children's toys cleanup Details and Requirements: Must be able to commit to the 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary The library will provide supplies Space is limited. Drop ins permitted but priority is given to those who register in advance. To register, please",
+      "source": "bibliocommons",
+      "start": "2026-11-19T01:00:00.000Z",
+      "locationName": "Educational Park",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6946e842c967cb41207dc53e",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6946e842c967cb41207dc53e"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48c77b2f5bfe57aba4567",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help beautify your Edenvale Branch Library. Take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work or just wants to volunteer. This event will be happening at the Edenvale Branch Library and will be limited to the first five participants only. Details and Requirements: Must arrive by 4:45 p.m. to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) M",
+      "source": "bibliocommons",
+      "start": "2026-11-19T01:00:00.000Z",
+      "locationName": "Edenvale",
+      "latitude": 37.2677138,
+      "longitude": -121.8211192,
+      "website": "https://sjpl.bibliocommons.com/events/69c48c77b2f5bfe57aba4567",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48c77b2f5bfe57aba4567"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69d9863bad384e40edba35c4",
+      "title": "Willow Glen Teens Reach Meeting",
+      "description": "Be part of a fun volunteering opportunity for teens between the ages of 13-18. Earn community service credit while supporting the library by assisting with library programs, promotion, and representing the library's teen point-of-view. Learn about teen volunteer opportunities and more by attending our monthly meetings - every THIRD Wednesday of each month - and have your say! Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library ad",
+      "source": "bibliocommons",
+      "start": "2026-11-19T01:00:00.000Z",
+      "locationName": "Willow Glen · Teen Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/69d9863bad384e40edba35c4",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69d9863bad384e40edba35c4"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6887e9ef639e1e9694a38292",
+      "title": "Pearl Avenue Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-18. Pearl Avenue's Teens Reach group meets monthly on the third Thursday with socializing and fun at 4:00 pm. Our in-person meet up plans include: Teen Volunteer Opportunities Election for Advisory Board Community Youth Engagement Games & Activities Snacks Guest Speakers Bring a friend, and learn more about what to expect with volunteering thi",
+      "source": "bibliocommons",
+      "start": "2026-11-20T01:00:00.000Z",
+      "locationName": "Pearl Avenue",
+      "latitude": 37.2678857,
+      "longitude": -121.86631219999998,
+      "website": "https://sjpl.bibliocommons.com/events/6887e9ef639e1e9694a38292",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6887e9ef639e1e9694a38292"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-691e381d06078d360078c463",
+      "title": "Volunteer Away Your Fines - Vineland",
+      "description": "Do you have library fines, need volunteer hours, or just want to help beautify your local library branch? Join us at the Vineland Branch Library! Fines are forgiven at the rate of $20/hr Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided Space is limited. Registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-11-20T01:00:00.000Z",
+      "locationName": "Vineland · Check in at the Information Desk",
+      "latitude": 37.2401849,
+      "longitude": -121.89248800000001,
+      "website": "https://sjpl.bibliocommons.com/events/691e381d06078d360078c463",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-691e381d06078d360078c463"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-690e61a19b8793410094ae66",
+      "title": "Santa Teresa Teens Reach Meeting",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets in person on the third Friday of each month from 4-5pm in the Community Room. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Our monthly meetings include Snacks Teen volunteer opportunities Updates on upcoming library teen programs and new materials Games and activities. Join us and represent the teen community at your local librar",
+      "source": "bibliocommons",
+      "start": "2026-11-21T00:00:00.000Z",
+      "locationName": "Santa Teresa · Community Room",
+      "latitude": 37.2375026,
+      "longitude": -121.79976169999998,
+      "website": "https://sjpl.bibliocommons.com/events/690e61a19b8793410094ae66",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-690e61a19b8793410094ae66"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69a39b59db89981d9df83ae4",
+      "title": "Branch Buddy Volunteering for Families",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-11-21T19:00:00.000Z",
+      "locationName": "King Library · Children's Room - 1st Floor",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/69a39b59db89981d9df83ae4",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69a39b59db89981d9df83ae4"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69556c831e64afd01e51af5a",
+      "title": "Volunteer Away Your Fines",
+      "description": "Volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Requirements: Must be able to commit to the 60-minute session. Anyone under the age of 13 must volunteer alongside a parent/guardian. No experience or special skills necessary. The library will provide supplies. Registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-11-21T20:00:00.000Z",
+      "locationName": "Alum Rock",
+      "latitude": 37.3653857,
+      "longitude": -121.8280595,
+      "website": "https://sjpl.bibliocommons.com/events/69556c831e64afd01e51af5a",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69556c831e64afd01e51af5a"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-690cebe99b879341009479c3",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Pre-registration required. This is a perfect opportunity for anyone interested in volunteering away their library fines. Details and Requirements: Must be able to commit to a 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Supplies will be provided. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-11-21T21:00:00.000Z",
+      "locationName": "West Valley · Participants check in at the Information Desk",
+      "latitude": 37.3023684,
+      "longitude": -121.97939180000003,
+      "website": "https://sjpl.bibliocommons.com/events/690cebe99b879341009479c3",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-690cebe99b879341009479c3"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3d7bfbed35742f00fe48d0",
+      "title": "Calabazas Teens Reach Meeting",
+      "description": "Come join us the first Thursday of the month for our monthly Calabazas Teens Reach meeting. This is a great way to meet other teens volunteering with the library, earn volunteer hours, work on projects, and just have fun. You don't need to be a member to join the meeting, but you will need to be enrolled as a volunteer to log your hours. Interested in becoming a volunteer at the library? Start here: https://www.sjpl.org/volunteer-how-to/ No registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-11-22T00:00:00.000Z",
+      "locationName": "Calabazas",
+      "latitude": 37.30262159999999,
+      "longitude": -122.02345409999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a3d7bfbed35742f00fe48d0",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a3d7bfbed35742f00fe48d0"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693df98794297d36009fd507",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Cleaning toys and furniture in the children's area. Other activities may include any of the following: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compres",
+      "source": "bibliocommons",
+      "start": "2026-11-28T19:00:00.000Z",
+      "locationName": "Tully · Children's Area",
+      "latitude": 37.3114172,
+      "longitude": -121.84091569999998,
+      "website": "https://sjpl.bibliocommons.com/events/693df98794297d36009fd507",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693df98794297d36009fd507"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee8cbf6405d35666d14",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-11-28T23:00:00.000Z",
+      "locationName": "Alviso · 5050 N. 1st Street San Jose, CA 95002",
+      "latitude": 37.42462140000001,
+      "longitude": -121.96916494603272,
+      "website": "https://sjpl.bibliocommons.com/events/6984cee8cbf6405d35666d14",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6984cee8cbf6405d35666d14"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83768e57c264087ad1c86b",
+      "title": "Teens Reach at Hillview",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Develop your leadership skills by providing ideas for programming, events, displays, etc., and actively helping to bring these ideas to life. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage or more information and be sure to create your online volunteer account. ADA Ac",
+      "source": "bibliocommons",
+      "start": "2026-12-02T01:30:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6a83768e57c264087ad1c86b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83768e57c264087ad1c86b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cd",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help beautify your Pearl Avenue Branch Library! Register to take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work, or just giving back to the community. This event will be happening at the Pearl Avenue Branch Library only. Details and Requirements: Must arrive promptly to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) Anyone under the age of 1",
+      "source": "bibliocommons",
+      "start": "2026-12-02T23:30:00.000Z",
+      "locationName": "Pearl Avenue",
+      "latitude": 37.2678857,
+      "longitude": -121.86631219999998,
+      "website": "https://sjpl.bibliocommons.com/events/69fb8a1af56bd86e00adf8cd",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69fb8a1af56bd86e00adf8cd"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a6265aae9de6536001dc48f",
+      "title": "Teens Reach Meeting & Activity",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets on the first [or 2nd if lands on closure] Wednesday of each month at 4:00 PM. Get involved, earn volunteer hours, and be a leader in the library. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, be reliable and communicative, and be willing to learn new skills. Membership requires regular attendance at meetings, participation, and support of library activities and events. A sense of fun and adventure is also appreciated. As a bonus",
+      "source": "bibliocommons",
+      "start": "2026-12-03T00:00:00.000Z",
+      "locationName": "Educational Park · Teen Area",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6a6265aae9de6536001dc48f",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a6265aae9de6536001dc48f"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3da568c52cdc3600ece7eb",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help your Cambrian Branch Library. Take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work or just wants to volunteer. This event will be limited to the first five participants only. Details and Requirements: Must arrive by 4:45 p.m. to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) Must be able to commit to the full session (5:00 p.m. to 6:00 p",
+      "source": "bibliocommons",
+      "start": "2026-12-03T00:45:00.000Z",
+      "locationName": "Cambrian",
+      "latitude": 37.2644099,
+      "longitude": -121.91504309999999,
+      "website": "https://sjpl.bibliocommons.com/events/6a3da568c52cdc3600ece7eb",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a3da568c52cdc3600ece7eb"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6946e842c967cb41207dc53f",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Volunteer Away Your Fines at $20 per hour and earn community service hours while helping the library maintain a clean and welcoming environment. Volunteers may be asked to assist with: Cleaning materials, bookshelves, furniture, and computers Children's toys cleanup Details and Requirements: Must be able to commit to the 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary The library will provide supplies Space is limited. Drop ins permitted but priority is given to those who register in advance. To register, please",
+      "source": "bibliocommons",
+      "start": "2026-12-03T01:00:00.000Z",
+      "locationName": "Educational Park",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6946e842c967cb41207dc53f",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6946e842c967cb41207dc53f"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48cb6274a65e67a90bd32",
+      "title": "West Valley Branch Teens Reach Meeting",
+      "description": "Do you want to volunteer at West Valley Branch Library? Teens ages 13-18 can apply to join our Teens Reach chapter, become library volunteers, and attend monthly meetings to earn service hours for their school/club. (Note: San Jose Public Library is not a certifying organization for the Presidential Service Award.) Those who are 18 or turn 18 while volunteering with us will need to be fingerprinted by the City of San Jose no cost to them. Learn more about Teens Reach . At West Valley Branch Library, we meet in-person one Thursday a month from 4:30-5:30pm. (Meeting dates will vary due to room a",
+      "source": "bibliocommons",
+      "start": "2026-12-04T00:30:00.000Z",
+      "locationName": "West Valley · Community Room",
+      "latitude": 37.3023684,
+      "longitude": -121.97939180000003,
+      "website": "https://sjpl.bibliocommons.com/events/69c48cb6274a65e67a90bd32",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48cb6274a65e67a90bd32"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6aa33e794ea230006f339cd8",
+      "title": "Cambrian Branch Teens Reach Meeting",
+      "description": "Teens ages 13 to 18 can apply to join our Teens Reach chapter, become library volunteers, and attend monthly meetings to earn service hours for their school/club. (Library volunteer hours are not eligible for the Presidential Service Award.) Those who are 18 or turn 18 while volunteering with us will need to be fingerprinted by the City of San José no cost to them. Teens Reach at Cambrian Branch Library meets on the first Thursday of every month from 5:30 to 6:30pm. Most of our meetings are online over Zoom with in-person meetings once per quarter. Free. Snacks provided by the Friends of the C",
+      "source": "bibliocommons",
+      "start": "2026-12-04T01:30:00.000Z",
+      "locationName": "Cambrian · 1st Floor Community Room",
+      "latitude": 37.2644099,
+      "longitude": -121.91504309999999,
+      "website": "https://sjpl.bibliocommons.com/events/6aa33e794ea230006f339cd8",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6aa33e794ea230006f339cd8"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68a62c34ee7045528b83e430",
+      "title": "Volunteer Away Your Fines as a Drop-in Do Gooder",
+      "description": "Drop-in the first Saturday of the month to volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Details and Requirements: • Must be able to commit to the full session • Anyone under the age of 15 must volunteer alongside a parent/guardian • No experience or special skills necessary To register, please call 408-808-3075 or email sarah.kishler@sjlibrary.org ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-12-05T18:30:00.000Z",
+      "locationName": "East SJ Carnegie",
+      "latitude": 37.3464738,
+      "longitude": -121.8682245,
+      "website": "https://sjpl.bibliocommons.com/events/68a62c34ee7045528b83e430",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68a62c34ee7045528b83e430"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a7f958360ccaf01c01e54bc",
+      "title": "Volunteer Away Your Fines",
+      "description": "Volunteer Away Your Fines at $20 per hour and earn community service hours while helping the library maintain a clean and welcoming environment. Volunteers may be asked to assist with: Cleaning materials, bookshelves, furniture, and computers Children's toys cleanup Details and Requirements: Must be able to commit to the 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary The library will provide supplies Space is limited. Drop ins permitted but priority is given to those who register in advance. To register, please",
+      "source": "bibliocommons",
+      "start": "2026-12-05T20:00:00.000Z",
+      "locationName": "Almaden · Program Rppm",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/6a7f958360ccaf01c01e54bc",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a7f958360ccaf01c01e54bc"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c345b1ce3cf62f00efa39f",
+      "title": "Rose Garden Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Rose Garden's Teens Reach group meets monthly on the second Tuesday with socializing and fun at 4:00 pm. Our in-person meet up plans for this school year include: Teen Volunteer Opportunities Election for Advisory Board Community Youth Engagement Games & Activities Snacks Guest Speakers Bring a friend, and learn more about what to expect wi",
+      "source": "bibliocommons",
+      "start": "2026-12-09T00:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c345b1ce3cf62f00efa39f",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c345b1ce3cf62f00efa39f"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb6b",
+      "title": "Volunteer Away Your Fines",
+      "description": "Come volunteer away your library fines at a rate of $20 per hour by helping us tidy and clean the library as a Branch Buddy! This is a perfect opportunity for anyone interested in volunteering away their library fines or gaining service hours for school/work. You do not need to have fines to participate! Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-12-09T01:00:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb6b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6984cee5d34a4e759284bb6b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48bc55a2d780f42c4c4eb",
+      "title": "Joyce Ellington Teens Reach Orientation",
+      "description": "This program is for teens, ages 13-18, who are new to volunteering for Teens Reach at the Joyce Ellington Branch Library. Attend the orientation and stay afterwards, 5:00-6:30 PM, to attend your first Joyce Ellington Teens Reach Meeting where you'll meet other teen volunteers and start earning volunteer service hours. Teens Reach Orientation: 4:00-5:00 PM Teens Reach Meeting: 5:00-6:30 PM Our in-person meeting plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this",
+      "source": "bibliocommons",
+      "start": "2026-12-10T00:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69c48bc55a2d780f42c4c4eb",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48bc55a2d780f42c4c4eb"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48b8e23b45fff20f3239b",
+      "title": "Joyce Ellington Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-18. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage: https",
+      "source": "bibliocommons",
+      "start": "2026-12-10T01:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69c48b8e23b45fff20f3239b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48b8e23b45fff20f3239b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69f11341defec6489cc0d928",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books Other s",
+      "source": "bibliocommons",
+      "start": "2026-12-10T02:00:00.000Z",
+      "locationName": "King Library · Access Services- 1st Floor",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/69f11341defec6489cc0d928",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69f11341defec6489cc0d928"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c86",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will help with: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc",
+      "source": "bibliocommons",
+      "start": "2026-12-11T00:00:00.000Z",
+      "locationName": "Berryessa",
+      "latitude": 37.3939433,
+      "longitude": -121.84073769999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c86",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a56e11efa641fe01af37c86"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69851339cbf1533ca53634b4",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Tables and Chairs Cleaning – Wipe down crucial furniture used for library events Book Cover Cleaning – Use disinfecting wipes to reinvigorate dingy books Material Inspection – Check books for torn pages, pen marks, etc. Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a par",
+      "source": "bibliocommons",
+      "start": "2026-12-11T01:00:00.000Z",
+      "locationName": "Joyce Ellington",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/69851339cbf1533ca53634b4",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69851339cbf1533ca53634b4"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d2899b",
+      "title": "Drop-in Teens Reach Volunteering",
+      "description": "Perfect for young teens just starting out their volunteering journey - come to Rose Garden to get some in-person volunteering experience! Teens of all ages are welcome to join our Drop-In Volunteer Hour every second Friday afternoon from 4PM-5PM to help with a variety of library tasks, such as creating and building book displays, tidying up spaces, decorating for holidays, maintaining craft materials and supplies, etc. No previous experience is needed, just a desire to help! Signing up for Teens Reach is encouraged, although not required. This event is a Volunteer Away Your Fines event. This i",
+      "source": "bibliocommons",
+      "start": "2026-12-12T00:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d2899b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c3468915946f2800d2899b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-690e61a19b8793410094ae67",
+      "title": "Santa Teresa Teens Reach Meeting",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets in person on the third Friday of each month from 4-5pm in the Community Room. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Our monthly meetings include Snacks Teen volunteer opportunities Updates on upcoming library teen programs and new materials Games and activities. Join us and represent the teen community at your local librar",
+      "source": "bibliocommons",
+      "start": "2026-12-12T00:00:00.000Z",
+      "locationName": "Santa Teresa · Community Room",
+      "latitude": 37.2375026,
+      "longitude": -121.79976169999998,
+      "website": "https://sjpl.bibliocommons.com/events/690e61a19b8793410094ae67",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-690e61a19b8793410094ae67"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-698fb6994a9fd98b7f7df316",
+      "title": "Almaden Teens Reach Meeting",
+      "description": "Join our teen service group and earn community service credit, supporting the community by assisting with book displays, presenting children's programs, running book sales and more. Learn about teen volunteer opportunities by attending our monthly meetings - every SECOND Friday of each month. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. If you are new to volunteering with San Jose Public Library, pl",
+      "source": "bibliocommons",
+      "start": "2026-12-12T00:30:00.000Z",
+      "locationName": "Almaden · Program Room",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/698fb6994a9fd98b7f7df316",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-698fb6994a9fd98b7f7df316"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86c",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Book cover cleaning - Use disinfecting wipes to reinvigorate dingy books Children's toys cleanup - Use disinfecting wipes to disinfect children's toys Material inspection - Check books for torn pages, pen marks, etc. Tabletop/windows/grounds cleanup - Help reinvigorate our branch by wiping down tabletops, cleaning dusty windows, and picking up litter a",
+      "source": "bibliocommons",
+      "start": "2026-12-12T19:00:00.000Z",
+      "locationName": "Willow Glen · Group Study Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693c85ea8b29ea2800c3f86c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69b49a5db6c4ac1fedc59feb",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Pre-registration required. This is a perfect opportunity for anyone interested in volunteering away their library fines. Details and Requirements: Must be able to commit to a 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Supplies will be provided. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-12-12T21:00:00.000Z",
+      "locationName": "West Valley · Participants check in at the Information Desk",
+      "latitude": 37.3023684,
+      "longitude": -121.97939180000003,
+      "website": "https://sjpl.bibliocommons.com/events/69b49a5db6c4ac1fedc59feb",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69b49a5db6c4ac1fedc59feb"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83703f69166f088b92df1d",
+      "title": "Bascom Teens Reach Meeting",
+      "description": "Teens are invited to join Bascom Library Teens Reach in-person every 3rd Tuesday of the month! This program features fun volunteer opportunities, craft activities, games, and chances to hang out with your peers and learn new skills and information. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, and be willing to learn new skills. Membership requires regular attendance at meetings, participation in and support of library activities and events, and a sense of fun and adventure. As a bonus, Teens Reach",
+      "source": "bibliocommons",
+      "start": "2026-12-16T01:00:00.000Z",
+      "locationName": "Bascom · Study Room 2",
+      "latitude": 37.3076292,
+      "longitude": -121.9314005,
+      "website": "https://sjpl.bibliocommons.com/events/6a83703f69166f088b92df1d",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83703f69166f088b92df1d"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68f2e0b2831f063d00527966",
+      "title": "Evergreen Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-17. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage for mor",
+      "source": "bibliocommons",
+      "start": "2026-12-16T01:30:00.000Z",
+      "locationName": "Evergreen · Community Room",
+      "latitude": 37.31417433052127,
+      "longitude": -121.79582893757322,
+      "website": "https://sjpl.bibliocommons.com/events/68f2e0b2831f063d00527966",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68f2e0b2831f063d00527966"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-694989a66f926136000c337c",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-12-17T00:00:00.000Z",
+      "locationName": "Seven Trees",
+      "latitude": 37.2849667,
+      "longitude": -121.83326440000002,
+      "website": "https://sjpl.bibliocommons.com/events/694989a66f926136000c337c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-694989a66f926136000c337c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69c48c77b2f5bfe57aba4568",
+      "title": "Volunteer Away Your Fines",
+      "description": "Join your community to help beautify your Edenvale Branch Library. Take part in this opportunity to Volunteer Away Your Fines at a rate of $20 per hour. This is a perfect opportunity for anyone interested in volunteering away their library fines, gaining service hours for school/work or just wants to volunteer. This event will be happening at the Edenvale Branch Library and will be limited to the first five participants only. Details and Requirements: Must arrive by 4:45 p.m. to sign-in at the Information Desk Must sign a waiver form provided (parents must sign for those under the age of 18) M",
+      "source": "bibliocommons",
+      "start": "2026-12-17T01:00:00.000Z",
+      "locationName": "Edenvale",
+      "latitude": 37.2677138,
+      "longitude": -121.8211192,
+      "website": "https://sjpl.bibliocommons.com/events/69c48c77b2f5bfe57aba4568",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69c48c77b2f5bfe57aba4568"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69d9863bad384e40edba35c5",
+      "title": "Willow Glen Teens Reach Meeting",
+      "description": "Be part of a fun volunteering opportunity for teens between the ages of 13-18. Earn community service credit while supporting the library by assisting with library programs, promotion, and representing the library's teen point-of-view. Learn about teen volunteer opportunities and more by attending our monthly meetings - every THIRD Wednesday of each month - and have your say! Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library ad",
+      "source": "bibliocommons",
+      "start": "2026-12-17T01:00:00.000Z",
+      "locationName": "Willow Glen · Teen Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/69d9863bad384e40edba35c5",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69d9863bad384e40edba35c5"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6aa33c4888820d0031702abb",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Register to volunteer away your library fines at a rate of $20 per hour by helping us tidy and clean the Evergreen library as a Branch Buddy. This is a perfect opportunity for anyone interested in volunteering away their library fines or gaining service hours for school or work. You do not need to have fines to participate. Details and Requirements Must be able to commit to the full session Anyone under the age of 15 must volunteer with a parent/guardian No experience or special skills are necessary Trainin",
+      "source": "bibliocommons",
+      "start": "2026-12-17T01:00:00.000Z",
+      "locationName": "Evergreen",
+      "latitude": 37.31417433052127,
+      "longitude": -121.79582893757322,
+      "website": "https://sjpl.bibliocommons.com/events/6aa33c4888820d0031702abb",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6aa33c4888820d0031702abb"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-691e381d06078d360078c464",
+      "title": "Volunteer Away Your Fines - Vineland",
+      "description": "Do you have library fines, need volunteer hours, or just want to help beautify your local library branch? Join us at the Vineland Branch Library! Fines are forgiven at the rate of $20/hr Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided Space is limited. Registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-12-18T01:00:00.000Z",
+      "locationName": "Vineland · Check in at the Information Desk",
+      "latitude": 37.2401849,
+      "longitude": -121.89248800000001,
+      "website": "https://sjpl.bibliocommons.com/events/691e381d06078d360078c464",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-691e381d06078d360078c464"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69a39b59db89981d9df83ae5",
+      "title": "Branch Buddy Volunteering for Families",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-12-19T19:00:00.000Z",
+      "locationName": "King Library · Children's Room - 1st Floor",
+      "latitude": 37.3356906,
+      "longitude": -121.88525579999998,
+      "website": "https://sjpl.bibliocommons.com/events/69a39b59db89981d9df83ae5",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69a39b59db89981d9df83ae5"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69556c831e64afd01e51af5b",
+      "title": "Volunteer Away Your Fines",
+      "description": "Volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Requirements: Must be able to commit to the 60-minute session. Anyone under the age of 13 must volunteer alongside a parent/guardian. No experience or special skills necessary. The library will provide supplies. Registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-12-19T20:00:00.000Z",
+      "locationName": "Alum Rock",
+      "latitude": 37.3653857,
+      "longitude": -121.8280595,
+      "website": "https://sjpl.bibliocommons.com/events/69556c831e64afd01e51af5b",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69556c831e64afd01e51af5b"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a3d7bfbed35742f00fe48d1",
+      "title": "Calabazas Teens Reach Meeting",
+      "description": "Come join us the first Thursday of the month for our monthly Calabazas Teens Reach meeting. This is a great way to meet other teens volunteering with the library, earn volunteer hours, work on projects, and just have fun. You don't need to be a member to join the meeting, but you will need to be enrolled as a volunteer to log your hours. Interested in becoming a volunteer at the library? Start here: https://www.sjpl.org/volunteer-how-to/ No registration required. ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2026-12-20T00:00:00.000Z",
+      "locationName": "Calabazas",
+      "latitude": 37.30262159999999,
+      "longitude": -122.02345409999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a3d7bfbed35742f00fe48d1",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a3d7bfbed35742f00fe48d1"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693df98794297d36009fd508",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Cleaning toys and furniture in the children's area. Other activities may include any of the following: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compres",
+      "source": "bibliocommons",
+      "start": "2026-12-26T19:00:00.000Z",
+      "locationName": "Tully · Children's Area",
+      "latitude": 37.3114172,
+      "longitude": -121.84091569999998,
+      "website": "https://sjpl.bibliocommons.com/events/693df98794297d36009fd508",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693df98794297d36009fd508"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-67fef6890453817cac29c861",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will be responsible for: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen m",
+      "source": "bibliocommons",
+      "start": "2026-12-30T20:00:00.000Z",
+      "locationName": "Calabazas · group study room",
+      "latitude": 37.30262159999999,
+      "longitude": -122.02345409999998,
+      "website": "https://sjpl.bibliocommons.com/events/67fef6890453817cac29c861",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-67fef6890453817cac29c861"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a73821c74e3b8b75db7ccb4",
+      "title": "Mindfulness Meditation",
+      "description": "We are living in a world that feels increasingly unpredictable and unstable, where our daily lives are shifting faster than ever before. Knowing how to tap into our inner resources to navigate stress and uncertainty is crucial. Join our volunteer Snow for a mindfulness program offering practical, evidence-based mindfulness tools that will help you enhance your attention and focus, regulate your emotions and cultivate calm and resilience in your daily life. Snow Bai has a Master's in Psychology and Neuroscience in Mental Health at King's College London and has professional training in Mindfulne",
+      "source": "bibliocommons",
+      "start": "2027-01-02T18:30:00.000Z",
+      "locationName": "Willow Glen · Community Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/6a73821c74e3b8b75db7ccb4",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a73821c74e3b8b75db7ccb4"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a7f958360ccaf01c01e54bd",
+      "title": "Volunteer Away Your Fines",
+      "description": "Volunteer Away Your Fines at $20 per hour and earn community service hours while helping the library maintain a clean and welcoming environment. Volunteers may be asked to assist with: Cleaning materials, bookshelves, furniture, and computers Children's toys cleanup Details and Requirements: Must be able to commit to the 60-minute session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary The library will provide supplies Space is limited. Drop ins permitted but priority is given to those who register in advance. To register, please",
+      "source": "bibliocommons",
+      "start": "2027-01-02T20:00:00.000Z",
+      "locationName": "Almaden · Program Rppm",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/6a7f958360ccaf01c01e54bd",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a7f958360ccaf01c01e54bd"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a83768e57c264087ad1c86c",
+      "title": "Teens Reach at Hillview",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Develop your leadership skills by providing ideas for programming, events, displays, etc., and actively helping to bring these ideas to life. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage or more information and be sure to create your online volunteer account. ADA Ac",
+      "source": "bibliocommons",
+      "start": "2027-01-06T01:30:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6a83768e57c264087ad1c86c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a83768e57c264087ad1c86c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a6265aae9de6536001dc490",
+      "title": "Teens Reach Meeting & Activity",
+      "description": "This leadership and volunteer service group for teens ages 13-18 meets on the first [or 2nd if lands on closure] Wednesday of each month at 4:00 PM. Get involved, earn volunteer hours, and be a leader in the library. To join Teens Reach you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, be reliable and communicative, and be willing to learn new skills. Membership requires regular attendance at meetings, participation, and support of library activities and events. A sense of fun and adventure is also appreciated. As a bonus",
+      "source": "bibliocommons",
+      "start": "2027-01-07T00:00:00.000Z",
+      "locationName": "Educational Park · Teen Area",
+      "latitude": 37.3656547,
+      "longitude": -121.8577732,
+      "website": "https://sjpl.bibliocommons.com/events/6a6265aae9de6536001dc490",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a6265aae9de6536001dc490"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6ac02387e06996003a80e776",
+      "title": "West Valley Branch Teens Reach Meeting",
+      "description": "Do you want to volunteer at West Valley Branch Library? Teens ages 13-18 can apply to join our Teens Reach chapter, become library volunteers, and attend monthly meetings to earn service hours for their school/club. (Note: San Jose Public Library is not a certifying organization for the Presidential Service Award.) Those who are 18 or turn 18 while volunteering with us will need to be fingerprinted by the City of San Jose no cost to them. Learn more about Teens Reach . At West Valley Branch Library, we meet in-person one Thursday a month from 4:30-5:30pm. (Meeting dates will vary due to room a",
+      "source": "bibliocommons",
+      "start": "2027-01-08T00:30:00.000Z",
+      "locationName": "West Valley · Community Room",
+      "latitude": 37.3023684,
+      "longitude": -121.97939180000003,
+      "website": "https://sjpl.bibliocommons.com/events/6ac02387e06996003a80e776",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6ac02387e06996003a80e776"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c3468915946f2800d2899c",
+      "title": "Drop-in Teens Reach Volunteering",
+      "description": "Perfect for young teens just starting out their volunteering journey - come to Rose Garden to get some in-person volunteering experience! Teens of all ages are welcome to join our Drop-In Volunteer Hour every second Friday afternoon from 4PM-5PM to help with a variety of library tasks, such as creating and building book displays, tidying up spaces, decorating for holidays, maintaining craft materials and supplies, etc. No previous experience is needed, just a desire to help! Signing up for Teens Reach is encouraged, although not required. This event is a Volunteer Away Your Fines event. This i",
+      "source": "bibliocommons",
+      "start": "2027-01-09T00:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c3468915946f2800d2899c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c3468915946f2800d2899c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-698fb6994a9fd98b7f7df317",
+      "title": "Almaden Teens Reach Meeting",
+      "description": "Join our teen service group and earn community service credit, supporting the community by assisting with book displays, presenting children's programs, running book sales and more. Learn about teen volunteer opportunities by attending our monthly meetings - every SECOND Friday of each month. Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. If you are new to volunteering with San Jose Public Library, pl",
+      "source": "bibliocommons",
+      "start": "2027-01-09T00:30:00.000Z",
+      "locationName": "Almaden · Program Room",
+      "latitude": 37.2214972,
+      "longitude": -121.86901510000001,
+      "website": "https://sjpl.bibliocommons.com/events/698fb6994a9fd98b7f7df317",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-698fb6994a9fd98b7f7df317"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-693c85ea8b29ea2800c3f86d",
+      "title": "Volunteer Away Your Fines as a Branch Buddy",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. Volunteer away your fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers are needed to help with: Book cover cleaning - Use disinfecting wipes to reinvigorate dingy books Children's toys cleanup - Use disinfecting wipes to disinfect children's toys Material inspection - Check books for torn pages, pen marks, etc. Tabletop/windows/grounds cleanup - Help reinvigorate our branch by wiping down tabletops, cleaning dusty windows, and picking up litter a",
+      "source": "bibliocommons",
+      "start": "2027-01-09T19:00:00.000Z",
+      "locationName": "Willow Glen · Group Study Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/693c85ea8b29ea2800c3f86d",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-693c85ea8b29ea2800c3f86d"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68c345b1ce3cf62f00efa3a0",
+      "title": "Rose Garden Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13-18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Rose Garden's Teens Reach group meets monthly on the second Tuesday with socializing and fun at 4:00 pm. Our in-person meet up plans for this school year include: Teen Volunteer Opportunities Election for Advisory Board Community Youth Engagement Games & Activities Snacks Guest Speakers Bring a friend, and learn more about what to expect wi",
+      "source": "bibliocommons",
+      "start": "2027-01-13T00:00:00.000Z",
+      "locationName": "Rose Garden",
+      "latitude": 37.3318911,
+      "longitude": -121.92626689999997,
+      "website": "https://sjpl.bibliocommons.com/events/68c345b1ce3cf62f00efa3a0",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68c345b1ce3cf62f00efa3a0"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6984cee5d34a4e759284bb6c",
+      "title": "Volunteer Away Your Fines",
+      "description": "Come volunteer away your library fines at a rate of $20 per hour by helping us tidy and clean the library as a Branch Buddy! This is a perfect opportunity for anyone interested in volunteering away their library fines or gaining service hours for school/work. You do not need to have fines to participate! Details and Requirements: Must be able to commit to the full session Anyone under the age of 15 must volunteer alongside a parent/guardian No experience or special skills necessary Training and supplies will be provided ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2027-01-13T01:00:00.000Z",
+      "locationName": "Hillview",
+      "latitude": 37.3378638,
+      "longitude": -121.8310846,
+      "website": "https://sjpl.bibliocommons.com/events/6984cee5d34a4e759284bb6c",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6984cee5d34a4e759284bb6c"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a8c92523b6c71003e5b05d3",
+      "title": "Joyce Ellington Teens Reach Orientation",
+      "description": "This program is for teens, ages 13-18, who are new to volunteering for Teens Reach at the Joyce Ellington Branch Library. Attend the orientation and stay afterwards, 5:00-6:30 PM, to attend your first Joyce Ellington Teens Reach Meeting where you'll meet other teen volunteers and start earning volunteer service hours. Teens Reach Orientation: 4:00-5:00 PM Teens Reach Meeting: 5:00-6:30 PM Our in-person meeting plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this",
+      "source": "bibliocommons",
+      "start": "2027-01-14T00:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/6a8c92523b6c71003e5b05d3",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a8c92523b6c71003e5b05d3"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a8c92252dac6e0037215557",
+      "title": "Joyce Ellington Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-18. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend, and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage: https",
+      "source": "bibliocommons",
+      "start": "2027-01-14T01:00:00.000Z",
+      "locationName": "Joyce Ellington · Community Room",
+      "latitude": 37.3498412,
+      "longitude": -121.88694550000002,
+      "website": "https://sjpl.bibliocommons.com/events/6a8c92252dac6e0037215557",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a8c92252dac6e0037215557"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a56e11efa641fe01af37c87",
+      "title": "Volunteer Away Your Fines",
+      "description": "Every now and then, libraries need a little extra love from the communities they serve. You can volunteer away your library fines at a rate of $20 per hour while helping the library maintain a clean and welcoming environment. Volunteers will help with: Book cover cleaning – Use disinfecting wipes to reinvigorate dingy books. Bookshelves – Dust shelves and organize library materials. Deep cleaning computers – Use disinfecting wipes to disinfect computer mice and mouse pads and compressed air to remove any dust particles or debris. Material inspection – Check books for torn pages, pen marks, etc",
+      "source": "bibliocommons",
+      "start": "2027-01-15T00:00:00.000Z",
+      "locationName": "Berryessa",
+      "latitude": 37.3939433,
+      "longitude": -121.84073769999998,
+      "website": "https://sjpl.bibliocommons.com/events/6a56e11efa641fe01af37c87",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a56e11efa641fe01af37c87"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-68f2e0b2831f063d00527967",
+      "title": "Evergreen Teens Reach Meeting",
+      "description": "Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. For ages 13-17. Our in-person meet up plans: Teen Volunteer Opportunities SJPL Teen Programs Games & Activities Snacks Guest Speakers (occasionally) Bring a friend and learn more about what to expect with volunteering this year. If you are new to volunteering with the San Jose Public Library, please visit the Teens Reach: Community Service webpage for mor",
+      "source": "bibliocommons",
+      "start": "2027-01-20T01:30:00.000Z",
+      "locationName": "Evergreen · Community Room",
+      "latitude": 37.31417433052127,
+      "longitude": -121.79582893757322,
+      "website": "https://sjpl.bibliocommons.com/events/68f2e0b2831f063d00527967",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-68f2e0b2831f063d00527967"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-69d9863bad384e40edba35c6",
+      "title": "Willow Glen Teens Reach Meeting",
+      "description": "Be part of a fun volunteering opportunity for teens between the ages of 13-18. Earn community service credit while supporting the library by assisting with library programs, promotion, and representing the library's teen point-of-view. Learn about teen volunteer opportunities and more by attending our monthly meetings - every THIRD Wednesday of each month - and have your say! Teens Reach is the youth council for the San José Public Library, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library ad",
+      "source": "bibliocommons",
+      "start": "2027-01-21T01:00:00.000Z",
+      "locationName": "Willow Glen · Teen Room",
+      "latitude": 37.3029407,
+      "longitude": -121.90006160000002,
+      "website": "https://sjpl.bibliocommons.com/events/69d9863bad384e40edba35c6",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-69d9863bad384e40edba35c6"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6ac026e4e06996003a80e836",
+      "title": "Village Square Branch Monthly Teens Reach Meeting",
+      "description": "Learn about volunteering at the library! This leadership and volunteer service group for teens ages 13-18 meets the third Thursday of each month. Get involved, earn volunteer hours, and be a leader in the library. To become a member of Village Square's Teens Reach to volunteer, you must be 13-18 years of age, have a strong interest in the library, enjoy working with people of all ages and cultures, be reliable and communicative, and be willing to learn new skills. Membership requires regular attendance at meetings, participation in and support of library activities and events, and a sense of f",
+      "source": "bibliocommons",
+      "start": "2027-01-23T00:30:00.000Z",
+      "locationName": "Village Square · Community Room",
+      "latitude": 37.3134119,
+      "longitude": -121.77448349999997,
+      "website": "https://sjpl.bibliocommons.com/events/6ac026e4e06996003a80e836",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6ac026e4e06996003a80e836"
+      ]
+    },
+    {
+      "id": "bibliocommons-sjpl-6a6bd1c1c7e02e3d006cd3e9",
+      "title": "Teens Reach at Seven Trees Library",
+      "description": "Teens Reach is the youth council for the San José Public Library for ages 13 to 18, providing a key way for young adults to build their leadership skills by developing and participating in library activities, as well as becoming library advisors and advocates. Seven Tree's Teens Reach group meets monthly on the last Friday with socializing and fun from 4 to 5 p.m. August: In Person September : Virtual October : In Person Bring a friend, and learn more about what to expect with volunteering this year ADA Accommodation Requests",
+      "source": "bibliocommons",
+      "start": "2027-01-30T00:00:00.000Z",
+      "locationName": "Seven Trees",
+      "latitude": 37.2849667,
+      "longitude": -121.83326440000002,
+      "website": "https://sjpl.bibliocommons.com/events/6a6bd1c1c7e02e3d006cd3e9",
+      "minimumAge": null,
+      "maximumAge": null,
+      "sourceKeys": [
+        "bibliocommons:sjpl-6a6bd1c1c7e02e3d006cd3e9"
+      ]
+    }
+  ],
+  "invitationReview": {
+    "path": "docs/evidence/volunteer-invitation-review-2026-10-04.json",
+    "confirmedCurrentInRadius": 80,
+    "confirmedWithin30Days": 36,
+    "confirmedIds": [
+      "livewhale-events-scu-edu-517355-2026-10-06T14-30-00-07-00",
+      "localist-events-stanford-edu-51888083181057-2026-10-07T09-00-00-07-00",
+      "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cb",
+      "bibliocommons-sjpl-6a3da568c52cdc3600ece7e9",
+      "bibliocommons-sjpl-6946e842c967cb41207dc53d",
+      "midpen-habitat-restoration-french-broom-removal-153",
+      "midpen-trail-maintenance-new-trails",
+      "bibliocommons-sjpl-6a56e11efa641fe01af37c84",
+      "bibliocommons-sjpl-68c3468915946f2800d28999",
+      "localist-events-sjsu-edu-53950463556720-2026-10-10T09-00-00-07-00",
+      "midpen-trail-maintenance-south-leaf-trail-pt-5",
+      "bibliocommons-sjpl-693c85ea8b29ea2800c3f86a",
+      "bibliocommons-sjpl-6984cee5d34a4e759284bb69",
+      "bibliocommons-sjpl-6aa4267388820d0031703bb5",
+      "bibliocommons-sjpl-69f11341defec6489cc0d926",
+      "midpen-habitat-restoration-french-broom-removal-154",
+      "midpen-pulgas-ridge-preserve-bench-maintenance-blue-oak-trail",
+      "bibliocommons-sjpl-691e381d06078d360078c462",
+      "bibliocommons-sjpl-6985134b707481383708fcd7",
+      "midpen-volunteer-program-showcase-french-broom-removal-and-interpretive-hike",
+      "bibliocommons-sjpl-69a39b59db89981d9df83ae3",
+      "bibliocommons-sjpl-69556c831e64afd01e51af59",
+      "bibliocommons-sjpl-690cebe99b879341009479c2",
+      "bibliocommons-sjpl-69a5ee398d5e2d093362a015",
+      "midpen-siding-maintenance-deer-hollow-farm",
+      "bibliocommons-sjpl-694989a66f926136000c337a",
+      "bibliocommons-sjpl-69c48c77b2f5bfe57aba4566",
+      "midpen-habitat-restoration-french-broom-removal-155",
+      "bibliocommons-sjpl-696572bd2c65973d00176eac",
+      "bibliocommons-sjpl-682fbb0e2b0fb15d9fb65717",
+      "midpen-siding-maintenance-deer-hollow-farm-pt-2",
+      "bibliocommons-sjpl-67fef6890453817cac29c85f",
+      "midpen-habitat-restoration-french-broom-removal-156",
+      "midpen-trail-maintenance-virginia-mill-trail",
+      "midpen-habitat-restoration-french-broom-removal-157",
+      "bibliocommons-sjpl-693df98794297d36009fd506",
+      "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cc",
+      "bibliocommons-sjpl-6a3da568c52cdc3600ece7ea",
+      "bibliocommons-sjpl-68a62c34ee7045528b83e42f",
+      "bibliocommons-sjpl-6a7f958360ccaf01c01e54bb",
+      "bibliocommons-sjpl-6984cee5d34a4e759284bb6a",
+      "bibliocommons-sjpl-6a56e11efa641fe01af37c85",
+      "bibliocommons-sjpl-69851348d34a4e759284c818",
+      "bibliocommons-sjpl-68c3468915946f2800d2899a",
+      "bibliocommons-sjpl-693c85ea8b29ea2800c3f86b",
+      "bibliocommons-sjpl-69f11341defec6489cc0d927",
+      "bibliocommons-sjpl-694989a66f926136000c337b",
+      "bibliocommons-sjpl-6946e842c967cb41207dc53e",
+      "bibliocommons-sjpl-69c48c77b2f5bfe57aba4567",
+      "bibliocommons-sjpl-691e381d06078d360078c463",
+      "bibliocommons-sjpl-69a39b59db89981d9df83ae4",
+      "bibliocommons-sjpl-69556c831e64afd01e51af5a",
+      "bibliocommons-sjpl-690cebe99b879341009479c3",
+      "bibliocommons-sjpl-693df98794297d36009fd507",
+      "bibliocommons-sjpl-6984cee8cbf6405d35666d14",
+      "bibliocommons-sjpl-69fb8a1af56bd86e00adf8cd",
+      "bibliocommons-sjpl-6a3da568c52cdc3600ece7eb",
+      "bibliocommons-sjpl-6946e842c967cb41207dc53f",
+      "bibliocommons-sjpl-68a62c34ee7045528b83e430",
+      "bibliocommons-sjpl-6a7f958360ccaf01c01e54bc",
+      "bibliocommons-sjpl-6984cee5d34a4e759284bb6b",
+      "bibliocommons-sjpl-69f11341defec6489cc0d928",
+      "bibliocommons-sjpl-6a56e11efa641fe01af37c86",
+      "bibliocommons-sjpl-69851339cbf1533ca53634b4",
+      "bibliocommons-sjpl-68c3468915946f2800d2899b",
+      "bibliocommons-sjpl-693c85ea8b29ea2800c3f86c",
+      "bibliocommons-sjpl-69b49a5db6c4ac1fedc59feb",
+      "bibliocommons-sjpl-694989a66f926136000c337c",
+      "bibliocommons-sjpl-69c48c77b2f5bfe57aba4568",
+      "bibliocommons-sjpl-6aa33c4888820d0031702abb",
+      "bibliocommons-sjpl-691e381d06078d360078c464",
+      "bibliocommons-sjpl-69a39b59db89981d9df83ae5",
+      "bibliocommons-sjpl-69556c831e64afd01e51af5b",
+      "bibliocommons-sjpl-693df98794297d36009fd508",
+      "bibliocommons-sjpl-67fef6890453817cac29c861",
+      "bibliocommons-sjpl-6a7f958360ccaf01c01e54bd",
+      "bibliocommons-sjpl-68c3468915946f2800d2899c",
+      "bibliocommons-sjpl-693c85ea8b29ea2800c3f86d",
+      "bibliocommons-sjpl-6984cee5d34a4e759284bb6c",
+      "bibliocommons-sjpl-6a56e11efa641fe01af37c87"
+    ],
+    "thresholdMet": true
+  }
+}

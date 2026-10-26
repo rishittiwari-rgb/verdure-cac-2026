@@ -1,0 +1,48 @@
+{
+  "name": "verdure-functions",
+  "description": "Server-authoritative game logic + notifications for Verdure",
+  "type": "module",
+  "engines": {
+    "node": "20"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node scripts/ensure-env.mjs && tsc",
+    "e2e": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only auth,functions,firestore,storage \"node functions/scripts/e2e-backend.mjs\"",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "redteam": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only auth,functions,firestore,storage \"node functions/scripts/redteam.mjs\"",
+    "test:units": "npm run check:classifier && npm run check:secrets && npm run check:indexes && npm run build && node scripts/fulfillment-unit.mjs && node scripts/subscription-unit.mjs && node scripts/ingest-unit.mjs && node scripts/ranking-unit.mjs && node scripts/ranking-v2-unit.mjs && node scripts/notifications-unit.mjs && node scripts/partners-unit.mjs && node scripts/event-planner-unit.mjs && node scripts/adventure-engine-unit.mjs && node scripts/parks-unit.mjs && node scripts/offline-unit.mjs && node scripts/programs-unit.mjs && node scripts/place-stories-unit.mjs && node scripts/rank-eval-unit.mjs && node scripts/discovery-unit.mjs && node scripts/run-all-unit.mjs",
+    "test:discovery": "npm run build && node scripts/discovery-unit.mjs",
+    "e2e:discovery": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/discovery-e2e.mjs\"",
+    "e2e:discovery:record": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/discovery-e2e.mjs --record\"",
+    "check:classifier": "node scripts/check-classifier-freeze.mjs",
+    "check:secrets": "node scripts/check-no-secrets.mjs",
+    "check:indexes": "node scripts/check-firestore-indexes.mjs && node scripts/firestore-indexes-unit.mjs",
+    "ingest:smoke": "npm run build && node scripts/ingest-smoke.mjs",
+    "seed:partners": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore \"node functions/scripts/seed-partners.mjs\"",
+    "coverage": "npm run build && node scripts/coverage-check.mjs",
+    "coverage:emulator": "cd .. && npx firebase-tools@13 emulators:exec --only firestore \"node functions/scripts/coverage-check.mjs\"",
+    "corpus:local": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore \"node functions/scripts/local-corpus-gate.mjs\"",
+    "public-feed:check": "node scripts/check-public-feed.mjs",
+    "backfill:emulator-test": "cd .. && npx firebase-tools@13 emulators:exec --only firestore \"node functions/scripts/backfill-migration-test.mjs\"",
+    "seed:review": "node scripts/seed-review-account.mjs",
+    "e2e:ingest": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/ingest-write-path-e2e.mjs\"",
+    "baseline": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/baseline.mjs --label run\"",
+    "e2e:sources": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/sources-e2e.mjs\"",
+    "migrate:sources:emulator": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/migrate-sources.mjs\"",
+    "acceptance": "npm run build && cd .. && npx firebase-tools@13 emulators:exec --only firestore --project connectify-19dd8 \"node functions/scripts/sprint-acceptance.mjs\""
+  },
+  "dependencies": {
+    "@apple/app-store-server-library": "^3.1.0",
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.1.0",
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "firebase": "^12.16.0",
+    "typescript": "^5.5.0"
+  },
+  "private": true
+}

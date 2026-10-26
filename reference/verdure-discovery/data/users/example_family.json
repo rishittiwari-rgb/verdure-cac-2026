@@ -1,0 +1,17 @@
+{
+  "user_id": "example_family",
+  "area": "willow glen",
+  "lat": null,
+  "lon": null,
+  "max_distance_miles": 8,
+  "interests": ["kids", "family", "outdoors", "arts"],
+  "date_range_days": 14,
+  "max_price": 25,
+  "formats": ["in_person", "hybrid"],
+  "child_ages": [4],
+  "indoor_only": false,
+  "interactions": [
+    {"uid": "replace-with-a-real-uid", "action": "save", "categories": ["outdoors"], "at": "2026-10-01T18:00:00Z"},
+    {"uid": "another-uid", "action": "dismiss", "categories": ["sports"], "at": "2026-10-02T03:00:00Z"}
+  ]
+}

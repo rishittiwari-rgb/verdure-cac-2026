@@ -1,0 +1,11 @@
+{
+  "commit": "d4b71507ac6f3e78fe048293e0095555e7b19bd3",
+  "files": {
+    "functions/src/ingest/classify.ts": "5d1125411c818ce13856871adc25e6e6a7142b84d43211ffe781de166cf29443",
+    "functions/src/ingest/normalize.ts": "198d92d24148521901446af61ca4f20eb1bc84bfeff79937854ed8417dcd3c3e",
+    "functions/src/ingest/sources/bibliocommons.ts": "d4b39defd386e618282acae8becff4c559a5a08a55f9f76dafec7824d0780700",
+    "functions/src/ingest/sources/localist.ts": "aa329d368afeb95f3cd003b7ad7bad02986a99dc97a2dbdbceb426f50483a109",
+    "functions/src/ingest/sources/livewhale.ts": "744bf7801cf92e90d9069caf11fb24c6b560630f1476af3b101dd87224c6db68",
+    "functions/src/ingest/sources/libcal.ts": "9a1393900c80fabce28fb5b98d356f667cd95860c4ff0dcc32932de75490ff1d"
+  }
+}

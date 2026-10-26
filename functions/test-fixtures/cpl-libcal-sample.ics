@@ -1,0 +1,209 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Springshare//LibCal//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Public calendar
+X-WR-CALDESC:
+X-WR-TIMEZONE:America/New_York
+X-PUBLISHED-TTL:PT15M
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+DTSTAMP:20260806T000000Z
+SUMMARY:AsiaTown Passport
+DESCRIPTION:Explore Cleveland's AsiaTown while supporting local businesses 
+ through the AsiaTown Taste   Care Passport Challenge! Pick up a passport at 
+ participating locations\, including the ArtBox\, and collect stamps as you 
+ visit neighborhood businesses. Participants who collect six stamps and 
+ submit their passport online will be entered for a chance to win exciting 
+ prizes\, including tickets to Cleveland sports games\, local experiences\, 
+ and more. Discover new favorites while helping strengthen and celebrate the 
+ AsiaTown community.
+LOCATION:ArtBoxEvent\, Offsite
+ORGANIZER;CN="Tai-Renee King":MAILTO:tai-renee.king@cpl.org
+CATEGORIES:School of Arts & Culture
+UID:LibCal-8758-17093140
+URL:https://cpl.libcal.com/event/17093140
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+DTSTAMP:20260806T000000Z
+SUMMARY:International Language Art Exhibit
+DESCRIPTION:Local Artist will exhibit their works at the International 
+ Languages Galary
+LOCATION:Main 04 - 4th Floor - ForLit Gallery/Classroom\, Main Library - Downtown
+ORGANIZER;CN="Deman Deng":MAILTO:deman.deng@cpl.org
+CATEGORIES:
+UID:LibCal-8758-15381581
+URL:https://cpl.libcal.com/event/15381581
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T140000Z
+DTEND:20260806T170000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:FamilySpace
+DESCRIPTION:Who?\n\n\n	Families with children from birth to 5 
+ years\n	old\n\n\nWhat?\n\n\n	A fun playdate with other caregivers 
+ and\n	children from your community\n	A fun\, safe place for caregivers to 
+ foster\n	early literacy skills\n\n\nWhy?\n\n\n	We have a great selection of 
+ activities\, toys and\n	games that promote kindergarten readiness\n	We have 
+ a dedicated staff that can connect you\n	with community resources that meet 
+ your needs\n
+LOCATION:Carnegie West - Children's Room - FamilySpace\, Carnegie West
+ORGANIZER;CN="Keely Schulz":MAILTO:keely.schulz@cpl.org
+CATEGORIES:School of Family & Education
+UID:LibCal-8758-15470723
+URL:https://cpl.libcal.com/event/15470723
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T140000Z
+DTEND:20260806T180000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:Career Services
+DESCRIPTION:Looking to enter or re-enter the workforce? Meet one-on-one 
+ with career development specialists as they guide you through the 
+ vocational and career exploration process\, gain skills and training\, and 
+ receive job coaching including resume help and interview prep. Staff can 
+ also provide assistance navigating social and other services and referrals 
+ to community-based programs.\n\nThis programming is made possible through a 
+ partnership with Goodwill Industries of Greater Cleveland.
+LOCATION:Glenville - Meeting Place C (St Clair Conference Room)\, Glenville
+ORGANIZER;CN="Emily Szymanski":MAILTO:emily.szymanski@cpl.org
+CATEGORIES:School of Health & Wellbeing
+UID:LibCal-8758-15512282
+URL:https://cpl.libcal.com/event/15512282
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T143000Z
+DTEND:20260806T150000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:Preschool Storytime (ages 3 - 5)
+DESCRIPTION:Story times for preschoolers ages 3 to 5 include stories\, 
+ songs\, activities\, and rhymes specially designed to support reading 
+ readiness and foster the social and emotional skills...
+LOCATION:Lorain - Community Space 1\, Lorain
+ORGANIZER;CN="Todd Fagan":MAILTO:todd.fagan@cpl.org
+CATEGORIES:School of Family & Education
+UID:LibCal-8758-15361492
+URL:https://cpl.libcal.com/event/15361492
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T143000Z
+DTEND:20260806T153000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:0 to 3 Read to Me
+DESCRIPTION:\n\nBuilding your child’s brain is as simple as reading\, 
+ singing\, playing\, and talking! Join us as we read engaging books and sing 
+ lively songs with plenty of time for playing and talking! For children ages 
+ 0 to 3 (36 months) and a caring adult. Siblings welcome.\n\nQuestions? Call 
+ 216-623-7114 or email education.programs@cpl.org\n\nTo browse a complete 
+ listing of upcoming 0 to 3: Read to Me programs\, visit cpl.org/0-to-3\n
+LOCATION:Woodland - Children's Space\, Woodland
+ORGANIZER;CN="Leslie Barrett":MAILTO:leslie.barrett@cpl.org
+CATEGORIES:School of Literature
+UID:LibCal-8758-15704595
+URL:https://cpl.libcal.com/event/15704595
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T143000Z
+DTEND:20260806T153000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:0 to 3 Read to Me
+DESCRIPTION:\n\nBuilding your child’s brain is as simple as reading\, 
+ singing\, playing\, and talking! Join us as we read engaging books and sing 
+ lively songs with plenty of time for playing and talking! For children ages 
+ 0 to 3 (36 months) and a caring adult. Siblings welcome.\n\nQuestions? Call 
+ 216-623-7114 or email education.programs@cpl.org\n\nTo browse a complete 
+ listing of upcoming 0 to 3: Read to Me programs\, visit cpl.org/0-to-3\n
+LOCATION:Rice - Learning Center\, Rice
+ORGANIZER;CN="Alison Guerin":MAILTO:alison.guerin@cpl.org
+CATEGORIES:School of Family & Education
+UID:LibCal-8758-15355244
+URL:https://cpl.libcal.com/event/15355244
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T143000Z
+DTEND:20260806T153000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:0 to 3 Read to Me
+DESCRIPTION:Building your child’s brain is as simple as reading\, 
+ singing\, playing\, and talking! Join us as we read engaging books and sing 
+ lively songs with plenty of time for playing and talking! For children ages 
+ 0 to 3 (36 months) and a caring adult. Siblings welcome.\n\nQuestions? Call 
+ 216-623-7114 or email education.programs@cpl.org\n\nTo browse a complete 
+ listing of upcoming 0 to 3: Read to Me programs\, visit cpl.org/0-to-3\n
+LOCATION:West Park - Children's - Main Floor\, West Park
+ORGANIZER;CN="Tracie Forfia":MAILTO:tracie.forfia@cpl.org
+CATEGORIES:School of Family & Education
+UID:LibCal-8758-15339161
+URL:https://cpl.libcal.com/event/15339161
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T150000Z
+DTEND:20260806T154500Z
+DTSTAMP:20260806T000000Z
+SUMMARY:0 to 3 Read to Me
+DESCRIPTION:\n\nBuilding your child’s brain is as simple as reading\, 
+ singing\, playing\, and talking! Join us as we read engaging books and sing 
+ lively songs with plenty of time for playing and talking! For children ages 
+ 0 to 3 (36 months) and a caring adult. Siblings welcome.\n\nQuestions? Call 
+ 216-623-7114 or email education.programs@cpl.org\n\nTo browse a complete 
+ listing of upcoming 0 to 3: Read to Me programs\, visit cpl.org/0-to-3\n
+LOCATION:Sterling - Children's Room\, Sterling
+ORGANIZER;CN="Monica Rudzinski":MAILTO:monica.rudzinski@cpl.org
+CATEGORIES:
+UID:LibCal-8758-15384100
+URL:https://cpl.libcal.com/event/15384100
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T150000Z
+DTEND:20260806T154500Z
+DTSTAMP:20260806T000000Z
+SUMMARY:0 to 3 Read to Me
+DESCRIPTION:Building your child’s brain is as simple as reading\, 
+ singing\, playing\, and talking! Join us as we read engaging books and sing 
+ lively songs with plenty of time for playing and talking! For children ages 
+ 0 to 3 (36 months) and a caring adult. Siblings welcome. Giveaway books!  
+ Questions? Call 216-623-7088. \n\nBrowse a complete listing of upcoming 0 
+ to 3: Read to Me programs at cpl.org/readtome
+LOCATION:Union - Meeting Room\, Union
+ORGANIZER;CN="Allison Monai":MAILTO:allison.monai@cpl.org
+CATEGORIES:School of Family & Education
+UID:LibCal-8758-15315713
+URL:https://cpl.libcal.com/event/15315713
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T150000Z
+DTEND:20260806T160000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:Caffeine and Creativity: Craft Circle
+DESCRIPTION:Do you need motivation to finish a craft project you've been 
+ working on for ages? Bring your supplies and work on your project and meet 
+ other crafters over a cup of coffee or tea.
+LOCATION:Martin L. King\, Jr - Teen Breakout Area\, Martin Luther King\, Jr.
+ORGANIZER;CN="Kimberly Hunter":MAILTO:kimberly.hunter@cpl.org
+CATEGORIES:School of Arts & Culture, School of Inclusion, Belonging & Accessibility
+UID:LibCal-8758-15376758
+URL:https://cpl.libcal.com/event/15376758
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260806T150000Z
+DTEND:20260806T170000Z
+DTSTAMP:20260806T000000Z
+SUMMARY:Aspire: Free GED Prep\, Tutoring\, Adult Literacy\, and Basic Skills Classes
+DESCRIPTION:This series of free Aspire adult education classes is presented 
+ by the Neighborhood Centers Association. NSA provides free education and 
+ tutoring for adults (and teens ages 16 and up). These classes are for 
+ beginning readers\, those seeking a GED or HiSET\, or high school grads who 
+ need to improve skills for college\, employment\, or career 
+ advancement.\n\n\nRegistration is required. Register here or call 
+ 216-727-3825.  For more information\, visit https://www.gcnca.org/aspire/.
+LOCATION:Woodland - Community Space\, Woodland
+ORGANIZER;CN="Sherri Jones":MAILTO:sherri.jones@cpl.org
+CATEGORIES:School of Social Services
+UID:LibCal-8758-16416730
+URL:https://cpl.libcal.com/event/16416730
+END:VEVENT
+END:VCALENDAR

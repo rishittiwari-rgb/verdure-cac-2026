@@ -1,0 +1,702 @@
+{
+  "label": "end",
+  "startedAt": "2026-10-23T05:36:08.240Z",
+  "finishedAt": "2026-10-23T05:36:25.729Z",
+  "gitHead": "80f93146e4932135f30511f4be5bad51e0991367",
+  "emulator": "127.0.0.1:8899",
+  "corpus": {
+    "path": "test-fixtures/corpus/san-jose-ca-2026-10-18.json.gz",
+    "recordedAt": "2026-10-18T23:09:56.984Z",
+    "sha256": "0e3d8efd763c3e00b09ba346980a19ccda61148bb01029e59c1b61b6f81fb310",
+    "records": {
+      "libcal": 56,
+      "bibliocommons": 10877,
+      "localist": 200,
+      "livewhale": 399,
+      "legistar": 16,
+      "midpen": 55
+    },
+    "skipped": [
+      {
+        "source": "ticketmaster",
+        "reason": "TICKETMASTER_KEY not set ($0 sprint; no key on this machine)"
+      },
+      {
+        "source": "serpapi",
+        "reason": "never recorded: every call spends monthly quota"
+      },
+      {
+        "source": "nps",
+        "reason": "no NPS unit inside the launch radius (areas.ts)"
+      }
+    ]
+  },
+  "events": {
+    "activeUpcoming": 7644,
+    "activeInRadius": 6239,
+    "activeWithoutCoordinates": 525,
+    "perSource": {
+      "bibliocommons": 6042,
+      "livewhale": 84,
+      "localist": 66,
+      "midpen": 47
+    },
+    "perSourceAll": {
+      "bibliocommons": 7193,
+      "legistar": 5,
+      "libcal": 44,
+      "livewhale": 285,
+      "localist": 66,
+      "midpen": 51
+    },
+    "perFeed": {
+      "Alameda County Library": 362,
+      "Arts & Sciences": 20,
+      "Bronco Athletics": 6,
+      "Career Center": 7,
+      "Center for Spirituality and Faith": 6,
+      "Ciocca Center": 1,
+      "Environmental Justice Initiative": 1,
+      "Global Engagement": 3,
+      "Graduate Business": 13,
+      "Human Resources": 6,
+      "Library": 4,
+      "Midpeninsula Regional Open Space District": 47,
+      "Mission and Ministry": 1,
+      "Palo Alto City Library": 209,
+      "San José Public Library": 3691,
+      "San José State University": 66,
+      "San Mateo County Libraries": 861,
+      "Santa Clara County Library District": 919,
+      "School of Law": 2,
+      "Sustainability": 5,
+      "Technology Training": 7,
+      "Undergraduate Admission": 1,
+      "de Saisset": 1
+    },
+    "perCategory": {
+      "Festival": 174,
+      "Market": 18,
+      "Meetup": 178,
+      "Program": 1,
+      "Social": 878,
+      "Sports": 149,
+      "Volunteer": 119,
+      "Workshop": 4722
+    },
+    "fieldShares": {
+      "withCoordinates": 0.9313,
+      "withCategory": 1,
+      "withImage": 0.8214,
+      "withPriceOrFree": 0.9528,
+      "withAdultOnlyFlag": 1,
+      "withTopicTags": 1,
+      "withContentHash": 1
+    }
+  },
+  "sources": {
+    "configuredFeeds": 11,
+    "feedsRecorded": [
+      {
+        "source": "libcal",
+        "name": "Mountain View Public Library",
+        "records": 56,
+        "error": null
+      },
+      {
+        "source": "bibliocommons",
+        "name": "San José Public Library",
+        "records": 5878,
+        "error": null
+      },
+      {
+        "source": "bibliocommons",
+        "name": "Santa Clara County Library District",
+        "records": 1653,
+        "error": null
+      },
+      {
+        "source": "bibliocommons",
+        "name": "Palo Alto City Library",
+        "records": 607,
+        "error": null
+      },
+      {
+        "source": "bibliocommons",
+        "name": "Alameda County Library",
+        "records": 1007,
+        "error": null
+      },
+      {
+        "source": "bibliocommons",
+        "name": "San Mateo County Libraries",
+        "records": 1732,
+        "error": null
+      },
+      {
+        "source": "localist",
+        "name": "San José State University",
+        "records": 100,
+        "error": null
+      },
+      {
+        "source": "localist",
+        "name": "Stanford University",
+        "records": 100,
+        "error": null
+      },
+      {
+        "source": "livewhale",
+        "name": "Santa Clara University",
+        "records": 399,
+        "error": null
+      },
+      {
+        "source": "legistar",
+        "name": "City of San José",
+        "records": 16,
+        "error": null
+      },
+      {
+        "source": "midpen",
+        "name": "Midpeninsula Regional Open Space District",
+        "records": 55,
+        "error": null
+      }
+    ],
+    "sourceDocuments": {
+      "total": 14,
+      "byStatus": {
+        "active": 14
+      },
+      "active": 14
+    }
+  },
+  "duplicates": {
+    "johnRule": {
+      "method": "dedupe.py is_duplicate(): title-token Jaccard ≥ 0.7 after stop-words, start within 30 min, same venue (token Jaccard ≥ 0.5) or within 0.25 mi; richest listing kept; report-only",
+      "active": 7644,
+      "duplicates": 0,
+      "rate": 0,
+      "sample": []
+    },
+    "legacyHeuristic": {
+      "method": "store.ts auditSuspectedDuplicates (title overlap ≥ 0.8, 2 h, same venue key or 300 m)",
+      "active": 7652,
+      "suspected": 7,
+      "rate": 0.0009
+    }
+  },
+  "rejectedListings": {
+    "count": 903,
+    "bySource": {
+      "bibliocommons": 640,
+      "legistar": 11,
+      "libcal": 12,
+      "livewhale": 104,
+      "localist": 132,
+      "midpen": 4
+    }
+  },
+  "ingest": {
+    "runA": {
+      "perSource": {
+        "libcal": {
+          "fetched": 56,
+          "created": 44,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 12,
+          "unchanged": 0,
+          "writes": 56,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 0.259
+        },
+        "bibliocommons": {
+          "fetched": 10877,
+          "created": 7199,
+          "updated": 0,
+          "merged": 181,
+          "skipped": 2857,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 640,
+          "unchanged": 0,
+          "writes": 8020,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 3.684
+        },
+        "localist": {
+          "fetched": 200,
+          "created": 68,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 132,
+          "unchanged": 0,
+          "writes": 200,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 1.151
+        },
+        "livewhale": {
+          "fetched": 399,
+          "created": 285,
+          "updated": 0,
+          "merged": 10,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 104,
+          "unchanged": 0,
+          "writes": 399,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 1.047
+        },
+        "legistar": {
+          "fetched": 16,
+          "created": 5,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 11,
+          "unchanged": 0,
+          "writes": 16,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 1.049
+        },
+        "midpen": {
+          "fetched": 55,
+          "created": 51,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 4,
+          "unchanged": 0,
+          "writes": 55,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 1.028
+        }
+      },
+      "totalWrites": 8764
+    },
+    "runB": {
+      "perSource": {
+        "libcal": {
+          "fetched": 56,
+          "created": 0,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 12,
+          "unchanged": 44,
+          "writes": 0,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 0.961
+        },
+        "bibliocommons": {
+          "fetched": 10877,
+          "created": 0,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 2857,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 640,
+          "unchanged": 7380,
+          "writes": 0,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 1.636
+        },
+        "localist": {
+          "fetched": 200,
+          "created": 0,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 132,
+          "unchanged": 68,
+          "writes": 0,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 0.971
+        },
+        "livewhale": {
+          "fetched": 399,
+          "created": 0,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 104,
+          "unchanged": 295,
+          "writes": 0,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 1.035
+        },
+        "legistar": {
+          "fetched": 16,
+          "created": 0,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 11,
+          "unchanged": 5,
+          "writes": 0,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 0.932
+        },
+        "midpen": {
+          "fetched": 55,
+          "created": 0,
+          "updated": 0,
+          "merged": 0,
+          "skipped": 0,
+          "markedStale": 0,
+          "deactivated": 0,
+          "rejected": 4,
+          "unchanged": 51,
+          "writes": 0,
+          "bookkeepingWrites": 3,
+          "errors": [],
+          "seconds": 0.969
+        }
+      },
+      "totalWrites": 18
+    },
+    "unchangedRunWrites": 18,
+    "populateRunWrites": 8764,
+    "note": "writes = document sets issued by upsertBatch + markStale (IngestResult.writes when present) plus 3 bookkeeping writes per source"
+  },
+  "reads": {
+    "rankingVersion": "v1",
+    "method": "Every document the Admin SDK returned while recommendFor ran, plus one minimum read per empty query (READ-BUDGET.md method). Client-side constant from READ-BUDGET: up to 80 feed + 10 ranked-by-id + 40 Everything page reads per open.",
+    "clientConstantPerOpen": {
+      "feed": 80,
+      "rankedById": 10,
+      "everythingPage": 40
+    },
+    "cachedCandidates": 292,
+    "perProfile": {
+      "cold": {
+        "version": "v1",
+        "coldCache": {
+          "queries": 15,
+          "queryDocs": 359,
+          "emptyQueries": 5,
+          "docGets": 3,
+          "getAll": 3,
+          "aggregates": 0,
+          "chargedReads": 370
+        },
+        "warmCache": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7
+        },
+        "ranked": 50,
+        "rankedWarm": 50,
+        "topFive": [
+          "localist-events-sjsu-edu-54004066683531-2026-10-24T19-30-00-07-00",
+          "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+          "localist-events-sjsu-edu-52454970387875-2026-10-29T12-00-00-07-00",
+          "bibliocommons-sjpl-6aa42fe556fe62004a2f6bb8",
+          "localist-events-sjsu-edu-53435958294797-2026-10-27T09-00-00-07-00"
+        ],
+        "warm_v1": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7,
+          "ranked": 50,
+          "topFive": [
+            "localist-events-sjsu-edu-54004066683531-2026-10-24T19-30-00-07-00",
+            "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+            "localist-events-sjsu-edu-52454970387875-2026-10-29T12-00-00-07-00",
+            "bibliocommons-sjpl-6aa42fe556fe62004a2f6bb8",
+            "localist-events-sjsu-edu-53435958294797-2026-10-27T09-00-00-07-00"
+          ],
+          "reasonsSample": [
+            [
+              "Close by (0.2 mi)",
+              "Coming up this week",
+              "Complete listing"
+            ],
+            [
+              "Close by (0.2 mi)",
+              "Coming up this week",
+              "Complete listing"
+            ],
+            [
+              "Close by (0.4 mi)",
+              "Coming up this week",
+              "Complete listing"
+            ]
+          ]
+        },
+        "warm_v2": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7,
+          "ranked": 50,
+          "topFive": [
+            "localist-events-sjsu-edu-53435958294797-2026-10-23T09-00-00-07-00",
+            "bibliocommons-sjpl-6ab59f1fda318a10e63690e2",
+            "livewhale-events-scu-edu-506372-2026-10-23T10-00-00-07-00",
+            "livewhale-events-scu-edu-511686-2026-10-23T16-00-00-07-00",
+            "livewhale-events-scu-edu-521231-2026-10-24T12-00-00-07-00"
+          ],
+          "reasonsSample": [
+            [
+              "Close by (0.2 mi)",
+              "Happening today",
+              "New for you"
+            ],
+            [
+              "Close by (0.2 mi)",
+              "This weekend",
+              "Free"
+            ],
+            [
+              "Online — join from anywhere",
+              "Happening today",
+              "New for you"
+            ]
+          ]
+        }
+      },
+      "family": {
+        "version": "v1",
+        "coldCache": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7
+        },
+        "warmCache": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7
+        },
+        "ranked": 50,
+        "rankedWarm": 50,
+        "topFive": [
+          "localist-events-sjsu-edu-54004066683531-2026-10-24T19-30-00-07-00",
+          "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+          "bibliocommons-sjpl-6aa42fe556fe62004a2f6bb8",
+          "localist-events-sjsu-edu-53435958294797-2026-10-27T09-00-00-07-00",
+          "localist-events-sjsu-edu-53826405629456-2026-10-24T19-30-00-07-00"
+        ],
+        "warm_v1": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7,
+          "ranked": 50,
+          "topFive": [
+            "localist-events-sjsu-edu-54004066683531-2026-10-24T19-30-00-07-00",
+            "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+            "bibliocommons-sjpl-6aa42fe556fe62004a2f6bb8",
+            "localist-events-sjsu-edu-53435958294797-2026-10-27T09-00-00-07-00",
+            "localist-events-sjsu-edu-53826405629456-2026-10-24T19-30-00-07-00"
+          ],
+          "reasonsSample": [
+            [
+              "Matches your interest in family activities",
+              "Close by (0.2 mi)",
+              "Coming up this week"
+            ],
+            [
+              "Matches your interest in family activities",
+              "Close by (0.2 mi)",
+              "Coming up this week"
+            ],
+            [
+              "Matches your interest in family activities",
+              "Close by (1.1 mi)",
+              "Coming up this week"
+            ]
+          ]
+        },
+        "warm_v2": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7,
+          "ranked": 50,
+          "topFive": [
+            "localist-events-sjsu-edu-53435958294797-2026-10-23T09-00-00-07-00",
+            "bibliocommons-sjpl-6ab59f1fda318a10e63690e2",
+            "livewhale-events-scu-edu-506372-2026-10-23T10-00-00-07-00",
+            "livewhale-events-scu-edu-511686-2026-10-23T16-00-00-07-00",
+            "livewhale-events-scu-edu-521231-2026-10-24T12-00-00-07-00"
+          ],
+          "reasonsSample": [
+            [
+              "Matches your interest in family activities",
+              "Close by (0.2 mi)",
+              "Happening today"
+            ],
+            [
+              "Matches your interest in family activities",
+              "Close by (0.2 mi)",
+              "This weekend"
+            ],
+            [
+              "Matches your interest in family activities",
+              "Online — join from anywhere",
+              "Happening today"
+            ]
+          ]
+        }
+      },
+      "student": {
+        "version": "v1",
+        "coldCache": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7
+        },
+        "warmCache": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7
+        },
+        "ranked": 50,
+        "rankedWarm": 50,
+        "topFive": [
+          "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+          "localist-events-sjsu-edu-52454970387875-2026-10-29T12-00-00-07-00",
+          "localist-events-sjsu-edu-54074282952218-2026-10-24T00-00-00-07-00",
+          "localist-events-sjsu-edu-53435958294797-2026-10-27T09-00-00-07-00",
+          "localist-events-sjsu-edu-53977506392743-2026-10-26T14-00-00-07-00"
+        ],
+        "warm_v1": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7,
+          "ranked": 50,
+          "topFive": [
+            "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+            "localist-events-sjsu-edu-52454970387875-2026-10-29T12-00-00-07-00",
+            "localist-events-sjsu-edu-54074282952218-2026-10-24T00-00-00-07-00",
+            "localist-events-sjsu-edu-53435958294797-2026-10-27T09-00-00-07-00",
+            "localist-events-sjsu-edu-53977506392743-2026-10-26T14-00-00-07-00"
+          ],
+          "reasonsSample": [
+            [
+              "Matches your interest in tech",
+              "Close by (0.2 mi)",
+              "Coming up this week"
+            ],
+            [
+              "Matches your interest in tech",
+              "Close by (0.4 mi)",
+              "Coming up this week"
+            ],
+            [
+              "Matches your interest in tech",
+              "Close by (0.2 mi)",
+              "Coming up this week"
+            ]
+          ]
+        },
+        "warm_v2": {
+          "queries": 3,
+          "queryDocs": 0,
+          "emptyQueries": 3,
+          "docGets": 2,
+          "getAll": 2,
+          "aggregates": 0,
+          "chargedReads": 7,
+          "ranked": 50,
+          "topFive": [
+            "localist-events-sjsu-edu-53435958294797-2026-10-23T09-00-00-07-00",
+            "bibliocommons-sjpl-6ab59f1fda318a10e63690e2",
+            "livewhale-events-scu-edu-506372-2026-10-23T10-00-00-07-00",
+            "livewhale-events-scu-edu-455017-2026-10-23T10-30-00-07-00",
+            "livewhale-events-scu-edu-521330-2026-10-26T11-30-00-07-00"
+          ],
+          "reasonsSample": [
+            [
+              "Matches your interest in tech",
+              "Close by (0.2 mi)",
+              "Happening today"
+            ],
+            [
+              "Matches your interest in learning",
+              "Close by (0.2 mi)",
+              "This weekend"
+            ],
+            [
+              "Matches your interest in learning",
+              "Online — join from anywhere",
+              "Happening today"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

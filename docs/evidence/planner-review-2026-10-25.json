@@ -1,0 +1,885 @@
+{
+  "ranAt": "2026-10-25T02:55:03.179Z",
+  "candidates": 28,
+  "scenarios": [
+    {
+      "scenario": 1,
+      "name": "Saturday morning, 2 h, Parks + Trails, 64°F clear",
+      "plan": {
+        "title": "Morning rounds",
+        "intro": "3 stops within about 120 minutes, 64°F and clear right now. Every stop leans toward parks and trails.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 25,
+            "why": "Wander for a while — Parks is one of your picks; it is right where you are; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792859580000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 25,
+            "why": "Find a spot to sit for a bit — it is a parks stop, your pick; 0.3 mi further along, roughly 6 min; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792861440000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_guadalupe-river-trail-gua12",
+            "name": "Guadalupe River Park and Trail - Reach (GUA12)",
+            "order": 3,
+            "minutes": 40,
+            "why": "Walk a stretch of it — you picked Trails; a 12-minute hop of 0.6 mi; its hours have it open then.",
+            "meta": {
+              "travelMinutes": 12,
+              "distanceMiles": 0.6,
+              "arriveMs": 1792863660000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [],
+        "skipped": []
+      },
+      "totalMinutes": 111,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 2,
+      "name": "Afternoon hour with kids, Playgrounds, 76°F",
+      "plan": {
+        "title": "The long afternoon",
+        "intro": "2 stops within about 60 minutes, 76°F and partly cloudy right now. Every stop leans toward playgrounds.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 30,
+            "why": "Find a spot to sit for a bit — it is the closest fit to your picks nearby; it is right where you are; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792875780000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_horace-mann-school",
+            "name": "Horace Mann School",
+            "order": 2,
+            "minutes": 20,
+            "why": "Burn off some energy — Playgrounds is one of your picks; about 3 min and 0.1 mi from stop 1; hours are not posted, so treat it as a maybe.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.14,
+              "arriveMs": 1792877760000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": false,
+              "openState": "unknown"
+            }
+          }
+        ],
+        "notes": [],
+        "skipped": [
+          {
+            "id": "city-parks_lowell-elementary-playground",
+            "name": "Lowell Elementary Playground",
+            "reason": "second stop with unposted hours"
+          },
+          {
+            "id": "city-parks_lowell-elementary-sportfields",
+            "name": "Lowell Elementary Sportfields",
+            "reason": "second stop with unposted hours"
+          }
+        ]
+      },
+      "totalMinutes": 56,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 3,
+      "name": "Hot afternoon, 3 h, Parks, 97°F",
+      "plan": {
+        "title": "An afternoon loop",
+        "intro": "A 180-minute loop of 4 places, planned for 97°F and clear. Built around your picks: parks.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 25,
+            "why": "Walk it end to end — Parks is one of your picks; it is right where you are; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792872180000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 25,
+            "why": "Wander for a while — it matches your Parks pick; 0.3 mi further along, roughly 6 min; its posted hours say it is open then.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792874040000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_guadalupe-river-trail-gua12",
+            "name": "Guadalupe River Park and Trail - Reach (GUA12)",
+            "order": 3,
+            "minutes": 30,
+            "why": "Walk a stretch of it — it is the closest fit to your picks nearby; a 12-minute hop of 0.6 mi; it is open when you get there.",
+            "meta": {
+              "travelMinutes": 12,
+              "distanceMiles": 0.6,
+              "arriveMs": 1792876260000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_jacinto-siquig-northside-community-center",
+            "name": "Jacinto Siquig Northside Community Center",
+            "order": 4,
+            "minutes": 35,
+            "why": "Drop in and look around — somewhere cooler in this weather; about 23 min and 1.1 mi from stop 3; its hours have it open then.",
+            "meta": {
+              "travelMinutes": 23,
+              "distanceMiles": 1.13,
+              "arriveMs": 1792879440000,
+              "onTopic": true,
+              "weatherPick": true,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [
+          "It is 97°F: outdoor stops are kept to 30 minutes, with shade or indoors last. Bring water."
+        ],
+        "skipped": []
+      },
+      "totalMinutes": 159,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 4,
+      "name": "Rainy midday, 2 h, Community + Parks, 54°F rain",
+      "plan": {
+        "title": "Noon in the open",
+        "intro": "3 stops within about 120 minutes, 54°F and rainy right now. Chosen for community and parks, the things you said you like.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 30,
+            "why": "Keep it to a quick turn around — it is a parks stop, your pick; it is right where you are; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792868580000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 30,
+            "why": "Walk through on the way — you picked Parks; about 6 min and 0.3 mi from stop 1; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792870740000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_jacinto-siquig-northside-community-center",
+            "name": "Jacinto Siquig Northside Community Center",
+            "order": 3,
+            "minutes": 30,
+            "why": "Step inside and dry off — it matches your Community pick; 0.6 mi further along, roughly 11 min; its posted hours say it is open then.",
+            "meta": {
+              "travelMinutes": 11,
+              "distanceMiles": 0.57,
+              "arriveMs": 1792873200000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [
+          "Rain is in the forecast: shorter hops, shelter where there is some."
+        ],
+        "skipped": []
+      },
+      "totalMinutes": 110,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 5,
+      "name": "Evening starting 90 min before sunset, 2.5 h, Scenic + Waterfront",
+      "plan": {
+        "title": "An evening out",
+        "intro": "About 150 minutes across 2 real places near you, with 68°F and partly cloudy outside. Built around your picks: scenic and waterfront.",
+        "stops": [
+          {
+            "placeId": "city-parks_guadalupe-river-park-veterans-memorial",
+            "name": "Guadalupe River Park - Veterans Memorial",
+            "order": 1,
+            "minutes": 50,
+            "why": "Take a slow look around — it matches your Scenic pick; 0.7 mi from where you are, about 14 min; its posted hours say it is open then.",
+            "meta": {
+              "travelMinutes": 14,
+              "distanceMiles": 0.72,
+              "arriveMs": 1792886700000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_peralta-adobe",
+            "name": "Peralta Adobe",
+            "order": 2,
+            "minutes": 15,
+            "why": "Take in the view — Scenic is one of your picks; a 9-minute hop of 0.5 mi; it closes at 6:21 pm, so this is a quick look.",
+            "meta": {
+              "travelMinutes": 9,
+              "distanceMiles": 0.47,
+              "arriveMs": 1792890240000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [
+          "Sunset is at 6:21 pm — the outdoor stops are timed to finish before it."
+        ],
+        "skipped": [
+          {
+            "id": "city-parks_fallon-house",
+            "name": "Fallon House",
+            "reason": "closed when you would arrive (6:30 pm; hours sunrise-sunset)"
+          }
+        ]
+      },
+      "totalMinutes": 88,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 6,
+      "name": "Night, 1 h, Community, after sunset",
+      "plan": {
+        "title": "Nothing open nearby right now",
+        "intro": "",
+        "stops": [],
+        "notes": [
+          "Everything nearby is closed at this hour. Try again in daylight."
+        ],
+        "skipped": [
+          {
+            "id": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_horace-mann-school",
+            "name": "Horace Mann School",
+            "reason": "outdoor place with unposted hours after dark"
+          },
+          {
+            "id": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_plaza-de-cesar-chavez",
+            "name": "Plaza de Cesar Chavez",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_fallon-house",
+            "name": "Fallon House",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_peralta-adobe",
+            "name": "Peralta Adobe",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_pellier-park",
+            "name": "Pellier Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_elizabeth-p-boyer-park",
+            "name": "Elizabeth P. Boyer Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_city-gardens-park",
+            "name": "City Gardens Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_o-donnell-s-gardens-park",
+            "name": "O'Donnell's Gardens Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_ryland-park",
+            "name": "Ryland Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_jacinto-siquig-northside-community-center",
+            "name": "Jacinto Siquig Northside Community Center",
+            "reason": "closed for the whole outing (Mo-Fr 09:00-21:00; Sa 09:00-17:00)"
+          },
+          {
+            "id": "city-parks_john-p-mcenery-park",
+            "name": "John P. McEnery Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_ryland-dog-park",
+            "name": "Ryland Dog Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_parque-de-los-pobladores",
+            "name": "Parque de los Pobladores",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_sofa-dog-park",
+            "name": "SoFA Dog Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_guadalupe-river-park-veterans-memorial",
+            "name": "Guadalupe River Park - Veterans Memorial",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_guadalupe-river-trail-gua12",
+            "name": "Guadalupe River Park and Trail - Reach (GUA12)",
+            "reason": "a trail after dark"
+          },
+          {
+            "id": "city-parks_guadalupe-river-park-arena-green-east-confluence",
+            "name": "Guadalupe River Park - Arena Green (East Confluence)",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_guadalupe-river-trail-gua13",
+            "name": "Guadalupe River Park and Trail - Reach (GUA13)",
+            "reason": "a trail after dark"
+          },
+          {
+            "id": "city-parks_lowell-elementary-playground",
+            "name": "Lowell Elementary Playground",
+            "reason": "outdoor place with unposted hours after dark"
+          },
+          {
+            "id": "city-parks_guadalupe-river-park-arena-green",
+            "name": "Guadalupe River Park - Arena Green",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_guadalupe-river-trail-gua14",
+            "name": "Guadalupe River Park and Trail - Reach (GUA14)",
+            "reason": "a trail after dark"
+          },
+          {
+            "id": "city-parks_guadalupe-river-park-discovery-meadow",
+            "name": "Guadalupe River Park - Discovery Meadow",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_lowell-elementary-sportfields",
+            "name": "Lowell Elementary Sportfields",
+            "reason": "outdoor place with unposted hours after dark"
+          },
+          {
+            "id": "city-parks_guadalupe-river-trail-gua10",
+            "name": "Guadalupe River Park and Trail - Reach C3b (GUA10)",
+            "reason": "a trail after dark"
+          },
+          {
+            "id": "city-parks_guadalupe-river-park-childrens-discovery-museum",
+            "name": "Guadalupe River Park - Childrens' Discovery Museum",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          },
+          {
+            "id": "city-parks_discovery-dog-park",
+            "name": "Discovery Dog Park",
+            "reason": "closed for the whole outing (sunrise-sunset)"
+          }
+        ]
+      },
+      "totalMinutes": 0,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 7,
+      "name": "Sparse area: two candidates, 2 h",
+      "plan": {
+        "title": "A morning outside",
+        "intro": "A 120-minute loop of 2 places, planned for 66°F and clear. Built around your picks: parks.",
+        "stops": [
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 1,
+            "minutes": 40,
+            "why": "Take a slow lap — it is a parks stop, your pick; it is right where you are; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 5,
+              "distanceMiles": 0.27,
+              "arriveMs": 1792861500000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_guadalupe-river-trail-gua13",
+            "name": "Guadalupe River Park and Trail - Reach (GUA13)",
+            "order": 2,
+            "minutes": 60,
+            "why": "Go out and back at an easy pace — it sits close to your picks; about 14 min and 0.7 mi from stop 1; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 14,
+              "distanceMiles": 0.68,
+              "arriveMs": 1792864740000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [],
+        "skipped": []
+      },
+      "totalMinutes": 119,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 8,
+      "name": "Member-only organisations mixed in, Community, 2 h",
+      "plan": {
+        "title": "Afternoon outside",
+        "intro": "A 120-minute loop of 3 places, planned for 70°F and clear. Chosen for community, the things you said you like.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 30,
+            "why": "Find a spot to sit for a bit — it is the closest fit to your picks nearby; it is right where you are; its posted hours say it is open then.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792875780000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 30,
+            "why": "Take a slow lap — it fits with what you like; about 6 min and 0.3 mi from stop 1; it is open when you get there.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792877940000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_jacinto-siquig-northside-community-center",
+            "name": "Jacinto Siquig Northside Community Center",
+            "order": 3,
+            "minutes": 30,
+            "why": "See what is on today — Community is one of your picks; 0.6 mi on from the last stop, about 11 min; its hours have it open then.",
+            "meta": {
+              "travelMinutes": 11,
+              "distanceMiles": 0.57,
+              "arriveMs": 1792880400000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [],
+        "skipped": [
+          {
+            "id": "fx-lodge",
+            "name": "Fictional Lodge No. 7",
+            "reason": "member-only organisation"
+          },
+          {
+            "id": "fx-church",
+            "name": "Fictional Chapel Hall",
+            "reason": "member-only organisation"
+          }
+        ]
+      },
+      "totalMinutes": 110,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 9,
+      "name": "Weekday-only hours on a Saturday, Parks, 2 h",
+      "plan": {
+        "title": "An afternoon loop",
+        "intro": "About 120 minutes across 3 real places near you, with 72°F and clear outside. Built around your picks: parks.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 30,
+            "why": "Wander for a while — Parks is one of your picks; it is right where you are; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792879380000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 30,
+            "why": "Walk it end to end — it matches your Parks pick; 0.3 mi further along, roughly 6 min; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792881540000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_plaza-de-cesar-chavez",
+            "name": "Plaza de Cesar Chavez",
+            "order": 3,
+            "minutes": 30,
+            "why": "Take a slow lap — it is a parks stop, your pick; about 10 min and 0.5 mi from stop 2; it is open when you get there.",
+            "meta": {
+              "travelMinutes": 10,
+              "distanceMiles": 0.48,
+              "arriveMs": 1792883940000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [],
+        "skipped": [
+          {
+            "id": "city-parks_jacinto-siquig-northside-community-center",
+            "name": "Jacinto Siquig Northside Community Center",
+            "reason": "closed for the whole outing (Mo-Fr 09:00-17:00)"
+          }
+        ]
+      },
+      "totalMinutes": 109,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 10,
+      "name": "No picks (cold start), 4 h, 70°F",
+      "plan": {
+        "title": "Noon in the open",
+        "intro": "A 240-minute loop of 4 places, planned for 70°F and clear. Nothing here is invented: these are places the app found around you.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 55,
+            "why": "Wander for a while — it is right where you are; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792864980000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 55,
+            "why": "Walk it end to end — 0.3 mi on from the last stop, about 6 min; its posted hours say it is open then.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792868640000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_fallon-house",
+            "name": "Fallon House",
+            "order": 3,
+            "minutes": 45,
+            "why": "Pause and look around — a 5-minute hop of 0.2 mi; its hours have it open then.",
+            "meta": {
+              "travelMinutes": 5,
+              "distanceMiles": 0.24,
+              "arriveMs": 1792872240000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_plaza-de-cesar-chavez",
+            "name": "Plaza de Cesar Chavez",
+            "order": 4,
+            "minutes": 55,
+            "why": "Find a spot to sit for a bit — 0.4 mi further along, roughly 9 min; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 9,
+              "distanceMiles": 0.44,
+              "arriveMs": 1792875480000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [],
+        "skipped": []
+      },
+      "totalMinutes": 233,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    },
+    {
+      "scenario": 11,
+      "name": "Sports pick, 90 min, 88°F",
+      "plan": {
+        "title": "Afternoon outside",
+        "intro": "About 90 minutes across 3 real places near you, with 88°F and clear outside. Nothing nearby is listed under sports, so these are the closest fits the app has found.",
+        "stops": [
+          {
+            "placeId": "city-parks_city-hall-plaza",
+            "name": "City Hall Plaza",
+            "order": 1,
+            "minutes": 20,
+            "why": "Take a slow lap — it is the closest fit to your picks nearby; it is right where you are; open then, per its hours.",
+            "meta": {
+              "travelMinutes": 3,
+              "distanceMiles": 0.04,
+              "arriveMs": 1792879380000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_st-james-park",
+            "name": "St. James Park",
+            "order": 2,
+            "minutes": 20,
+            "why": "Wander for a while — it is near enough to your picks; about 6 min and 0.3 mi from stop 1; open at that hour by its posted hours.",
+            "meta": {
+              "travelMinutes": 6,
+              "distanceMiles": 0.3,
+              "arriveMs": 1792880940000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          },
+          {
+            "placeId": "city-parks_plaza-de-cesar-chavez",
+            "name": "Plaza de Cesar Chavez",
+            "order": 3,
+            "minutes": 20,
+            "why": "Walk it end to end — it sits close to your picks; 0.5 mi on from the last stop, about 10 min; its hours have it open then.",
+            "meta": {
+              "travelMinutes": 10,
+              "distanceMiles": 0.48,
+              "arriveMs": 1792882740000,
+              "onTopic": true,
+              "weatherPick": false,
+              "hoursKnown": true,
+              "openState": "open"
+            }
+          }
+        ],
+        "notes": [
+          "It is 88°F: outdoor stops are kept to 45 minutes. Bring water."
+        ],
+        "skipped": []
+      },
+      "totalMinutes": 79,
+      "checks": {
+        "fitsBudget": true,
+        "allOpenOrOneUnposted": true,
+        "noRepeats": true,
+        "onTopic": true,
+        "outdoorBeforeSunset": true
+      },
+      "repeats": []
+    }
+  ]
+}

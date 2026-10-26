@@ -1,0 +1,23 @@
+{
+  "id": "willow-glen-storytime-2026-10-17",
+  "title": "Saturday Bilingual Storytime",
+  "description": "Songs, rhymes and picture books in English and Spanish for kids ages 2-6 and their grown-ups. No registration needed; arrive a few minutes early.",
+  "start": "2026-10-17T10:30:00-07:00",
+  "end": "2026-10-17T11:15:00-07:00",
+  "venue_name": "Willow Glen Branch Library",
+  "address": "1157 Minnesota Ave, San Jose, CA 95125",
+  "city": "San Jose",
+  "lat": 37.3046,
+  "lon": -121.8982,
+  "categories": ["kids", "family", "education"],
+  "is_free": true,
+  "organizer": "Willow Glen Branch Library",
+  "organizer_contact": "events@example.org",
+  "url": "https://www.sjpl.org/",
+  "format": "in_person",
+  "age_min": 2,
+  "age_max": 6,
+  "indoor": true,
+  "accessibility": "Wheelchair accessible; stroller parking inside.",
+  "status": "scheduled"
+}

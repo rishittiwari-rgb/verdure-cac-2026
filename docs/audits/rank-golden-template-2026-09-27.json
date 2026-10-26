@@ -1,0 +1,256 @@
+{
+  "corpusHash": "9f7abe3e872afefd4a049ebe202e1f087b5767c2680b785694e3e9a1226111e2",
+  "reviewerName": "John",
+  "reviewedAt": "",
+  "profiles": [
+    {
+      "id": "cold-start-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "outdoors-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "outdoors"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "volunteering-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "volunteering"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "fitness-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "fitness"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "arts-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "arts"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "music-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "music"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "food-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "food"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "tech-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "tech"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "learning-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "learning"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "community-san-jose",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "community"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "family-five-year-old",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "family"
+        ],
+        "householdYoungestAge": 5
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "family-ten-year-old",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "family",
+          "outdoors"
+        ],
+        "householdYoungestAge": 10
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "student-sjsu",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "tech"
+        ],
+        "studentStatus": true,
+        "school": "San José State University"
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "student-scu",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "learning"
+        ],
+        "studentStatus": true,
+        "school": "Santa Clara University"
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "close-to-home",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "outdoors"
+        ],
+        "distancePreset": "close"
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "worth-the-drive",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "outdoors"
+        ],
+        "distancePreset": "drive"
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "walkable-only",
+      "context": {
+        "lat": 37.3382,
+        "lng": -121.8863,
+        "interests": [
+          "community"
+        ],
+        "transportMode": "walk"
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "palo-alto-arts",
+      "context": {
+        "lat": 37.4419,
+        "lng": -122.143,
+        "interests": [
+          "arts",
+          "music"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "palo-alto-family",
+      "context": {
+        "lat": 37.4419,
+        "lng": -122.143,
+        "interests": [
+          "family"
+        ],
+        "householdYoungestAge": 7
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    },
+    {
+      "id": "mountain-view-learning",
+      "context": {
+        "lat": 37.3861,
+        "lng": -122.0839,
+        "interests": [
+          "learning"
+        ]
+      },
+      "relevantEventIDs": [],
+      "reviewerNotes": ""
+    }
+  ]
+}

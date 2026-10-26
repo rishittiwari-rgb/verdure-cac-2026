@@ -1,0 +1,49 @@
+{
+  "devicesAndConfigurations" : [
+    {
+      "device" : {
+        "architecture" : "arm64",
+        "deviceId" : "D55D802A-6C43-4FD0-8E2F-65952BF28EB7",
+        "deviceName" : "iPhone 16 Plus",
+        "modelName" : "iPhone 16 Plus",
+        "osBuildNumber" : "22E238",
+        "osVersion" : "18.4",
+        "platform" : "iOS Simulator"
+      },
+      "expectedFailures" : 0,
+      "failedTests" : 1,
+      "passedTests" : 8,
+      "skippedTests" : 0,
+      "testPlanConfiguration" : {
+        "configurationId" : "1",
+        "configurationName" : "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription" : "Verdure · Built with macOS 15.6.1",
+  "expectedFailures" : 0,
+  "failedTests" : 1,
+  "finishTime" : 1791128228.491,
+  "passedTests" : 8,
+  "result" : "Failed",
+  "skippedTests" : 0,
+  "startTime" : 1791128147.597,
+  "statistics" : [
+
+  ],
+  "testFailures" : [
+    {
+      "failureText" : "XCTAssertTrue failed - Actual partner service did not receive its live invalidation.",
+      "targetName" : "VerdureTests",
+      "testIdentifier" : 1,
+      "testIdentifierString" : "PartnerDiscoveryTests/testLiveStationaryOfferInvalidationAndExpiry()",
+      "testIdentifierURL" : "test://com.apple.xcode/Verdure/VerdureTests/PartnerDiscoveryTests/testLiveStationaryOfferInvalidationAndExpiry",
+      "testName" : "testLiveStationaryOfferInvalidationAndExpiry()"
+    }
+  ],
+  "title" : "Test - Verdure",
+  "topInsights" : [
+
+  ],
+  "totalTestCount" : 9
+}

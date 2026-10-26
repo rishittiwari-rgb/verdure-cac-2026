@@ -1,0 +1,19 @@
+PASS cold production support page hydrates
+PASS unhydrated fallback uses POST with a fixed destination
+PASS /terms resolves locally
+PASS /terms has linked contents and support
+PASS /terms mobile has no horizontal overflow
+PASS /privacy resolves locally
+PASS /privacy has linked contents and support
+PASS /privacy mobile has no horizontal overflow
+PASS privacy explains forms, independent retention and provider requests
+PASS legacy shipping and payment-provider claims removed
+PASS production partnership forms hydrate
+PASS terms and support are in sitemap
+PASS privacySections app and website copy match exactly
+PASS termsSections app and website copy match exactly
+PASS pricing includes the working offline-pack benefit
+PASS pricing explains seven-day packs without selling base imagery
+PASS native paywall and listing match the offline-pack pricing benefit
+PASS no page JavaScript errors
+18 legal and production-page checks passed

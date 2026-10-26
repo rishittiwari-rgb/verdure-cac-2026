@@ -1,0 +1,970 @@
+rules_version = '2';
+
+// Connectify Firestore Security Rules
+// Deploy via: firebase deploy --only firestore:rules
+//
+// Threat model:
+//   - Users must be authenticated to read/write anything
+//   - Users can ONLY access their own document (no cross-user reads)
+//   - All fields are type-checked and size-limited
+//   - Points are clamped to sane ranges to prevent client-side manipulation
+//   - Array fields (IDs) are capped to prevent storage abuse
+//   - No wildcard collection access — only explicitly defined paths
+//
+// PRODUCTION LOCKDOWN — ACTIVE:
+//   pointsBalance / lifetimePoints / checkedInEventIDs / redeemedRewardIDs are
+//   SERVER-OWNED. Clients cannot change them on update (diff check below) and must
+//   create documents with them absent or zero/empty. Only the Cloud Functions
+//   callables (checkInToEvent / collectPlace / redeemReward — Admin SDK, which
+//   bypasses these rules) can write them. collectedPlaceIDs stays client-writable
+//   for offline merge, but direct writes to it award NO points.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ──────────────────────────────────────────────
+    // DEFAULT: deny everything not explicitly allowed
+    // ──────────────────────────────────────────────
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // ──────────────────────────────────────────────
+    // SERVER-ONLY COLLECTIONS — never client-accessible
+    // ──────────────────────────────────────────────
+    // These hold the most sensitive data in the system and are written purely
+    // by Cloud Functions via the Admin SDK (which bypasses these rules):
+    //   /attendance   — GPS coordinates + proof-photo paths per check-in
+    //   /fulfillments — gift-card orders incl. delivery email + points spent
+    // The catch-all above already denies them; stating it explicitly means a
+    // future edit can't widen access to them by accident.
+    match /attendance/{docId} {
+      allow read, write: if false;
+    }
+    match /fulfillments/{docId} {
+      allow read, write: if false;
+    }
+    // Rate-limit counters. A client that could write its own counter could
+    // reset it and remove its own limit, so this must stay server-only.
+    match /rateLimits/{docId} {
+      allow read, write: if false;
+    }
+    // Moderation. Reports name their reporter and the queue carries staff
+    // decisions; both are written only by the reportContent / moderateContent
+    // callables. A client that could read /reports could learn who reported it;
+    // one that could write /moderationQueue could dismiss its own report.
+    match /reports/{docId} {
+      allow read, write: if false;
+    }
+    match /moderationQueue/{docId} {
+      allow read, write: if false;
+    }
+    // Staff roster. Set out-of-band with the Admin SDK — nothing a client sends
+    // can put a uid here.
+    match /admins/{docId} {
+      allow read, write: if false;
+    }
+    // Append-only through trusted server code. Admin reads go through the
+    // same claim gate as the console; clients, including admins, cannot write.
+    match /staffAudit/{auditId} {
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow write: if false;
+    }
+    match /staffJobs/{jobId} {
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow write: if false;
+    }
+    match /sourceHealth/{sourceId} {
+      allow read, write: if false;
+    }
+    // W4.1 — sources are data. Staff can read the registry (status, decision,
+    // inspection evidence); only server code (migration, discovery, removal,
+    // self-healing) writes it. The deny-list is enforced in code, not here.
+    match /sources/{sourceId} {
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow write: if false;
+    }
+    // W4 — automatic discovery. Candidates, removal requests, the never-discover
+    // list, daily budgets, the OSM cache and calendar-URL submissions are all
+    // server-owned. Staff may read candidates and removal requests (evidence);
+    // nothing here is ever a client surface, and only server code writes.
+    match /sourceCandidates/{candidateId} {
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow write: if false;
+    }
+    match /removalRequests/{requestId} {
+      allow read: if request.auth != null && request.auth.token.admin == true;
+      allow write: if false;
+    }
+    match /removedHosts/{host} { allow read, write: if false; }
+    match /discoveryRuns/{docId}/{document=**} { allow read, write: if false; }
+    match /discoveryCache/{docId} { allow read, write: if false; }
+    match /sourceSubmissions/{docId} { allow read, write: if false; }
+    // Server configuration (config/ranking: the v1/v2 switch and W6 thresholds).
+    // Written by the blind-judge script and the live comparison, read by the
+    // functions; never a client surface.
+    match /config/{docId} {
+      allow read, write: if false;
+    }
+    // Listings that failed a blocking rule (W1.2), with their reasons and a
+    // 30-day expiry. Operational data for staff; never a client surface.
+    match /rejectedListings/{listingId} {
+      allow read, write: if false;
+    }
+    // Official place data is published atomically and served through the park
+    // API. Clients cannot select an incomplete generation or mutate sources.
+    match /placeSourceHealth/{sourceId} { allow read, write: if false; }
+    match /placeIngestRuns/{runId} { allow read, write: if false; }
+    match /parkCatalog/{docId} { allow read, write: if false; }
+    match /parkGenerations/{generation}/{document=**} { allow read, write: if false; }
+    match /placeStories/{storyId} { allow read, write: if false; }
+    match /placeStoryOwnership/{placeId} { allow read, write: if false; }
+    // Minimal revisions and eligibility only. Public guests can listen to known
+    // IDs, but cannot enumerate content/publishers or change moderation state.
+    match /placeStoryStatus/{placeId} { allow get: if true; allow list, write: if false; }
+    match /organizerStoryStatus/{organizerId} { allow get: if true; allow list, write: if false; }
+    match /storyAuthorStatus/{uid} { allow get: if true; allow list, write: if false; }
+    // Ingestion telemetry. Run logs and coverage reports are operational data
+    // written by the scheduled jobs; the treasury holds spend + quota counters.
+    match /ingestRuns/{docId} {
+      allow read, write: if false;
+    }
+    match /supplyReports/{docId} {
+      allow read, write: if false;
+    }
+    match /treasury/{docId} {
+      allow read, write: if false;
+    }
+    // Username lookup is callable-only so a client cannot browse handles or
+    // sidestep the minor exclusion in findFriendByUsername.
+    match /usernames/{handle} {
+      allow read, write: if false;
+    }
+    // Partner perks + their code pools are served through listRewardsCatalog /
+    // redeemReward so Verdure+ early-access visibility is decided server-side.
+    // The code pool must never be readable: it IS the reward.
+    match /partnerPerks/{perkId} {
+      // Clients never read this directly — listRewardsCatalog and
+      // sponsoredPlacement decide what a given account may SEE, and reading the
+      // raw collection would leak early-access perks to free members before
+      // their window opens, which is the benefit Verdure+ is sold on.
+      allow read, write: if false;
+      match /codes/{codeId} {
+        allow read, write: if false;
+      }
+    }
+    // Minimal live invalidation metadata for already-displayed offers. No
+    // agreement, business contact, offer text or code values are copied here.
+    // Clients can listen to known IDs, but cannot enumerate or mutate them.
+    match /partnerStatus/{partnerId} {
+      allow get: if request.auth != null;
+      allow list, write: if false;
+    }
+    match /perkStatus/{perkId} {
+      allow get: if request.auth != null;
+      allow list, write: if false;
+    }
+
+    // ──────────────────────────────────────────────
+    // ANALYTICS: /analytics/{yyyy-mm-dd}/events/{id}
+    // ──────────────────────────────────────────────
+    // Append-only, and only ever by a signed-in client writing a row that
+    // claims its own uid (or no uid at all). Nobody can READ it back: these
+    // rows are behavioural data about real people, and a client that could
+    // query the collection could reconstruct another account's session.
+    //
+    // No update and no delete, deliberately. An analytics row that can be
+    // rewritten after the fact is not evidence of anything.
+    match /analytics/{day} {
+      allow read, write: if false;
+      match /events/{eventId} {
+        allow read: if false;
+        allow create: if request.auth != null
+                      && request.resource.data.keys().hasAll(['event', 'installID', 'ts'])
+                      && request.resource.data.event is string
+                      && request.resource.data.event.size() <= 60
+                      && request.resource.data.installID is string
+                      && request.resource.data.installID.size() <= 64
+                      // A row may be anonymous, but it may not impersonate.
+                      && (request.resource.data.uid == null
+                          || request.resource.data.uid == request.auth.uid)
+                      && request.resource.data.ts == request.time;
+        allow update, delete: if false;
+      }
+    }
+
+    // Partner attribution counters (impressions, taps, dismissals per surface).
+    // Server-only in both directions: a client that could write these could
+    // invoice a partner for traffic that never happened.
+    match /partnerAttribution/{perkId} {
+      allow read, write: if false;
+    }
+
+    // ──────────────────────────────────────────────
+    // LIKE LEDGER: /postLikes/{postId}_{uid}
+    // ──────────────────────────────────────────────
+    // One row per (post, user). The document ID is derived, not chosen, so a
+    // user can only ever write the row that represents their own like on that
+    // post — which is what makes the "+1" on the post provably one-per-person.
+    match /postLikes/{likeId} {
+      allow read: if request.auth != null;
+
+      allow create: if request.auth != null
+                    // The ID must be exactly "<postId>_<callerUid>", so nobody
+                    // can register a like on someone else's behalf.
+                    && likeId == request.resource.data.postId + '_' + request.auth.uid
+                    && request.resource.data.uid == request.auth.uid
+                    && request.resource.data.postId is string
+                    && request.resource.data.postId.size() > 0
+                    && request.resource.data.keys().hasOnly(['postId', 'uid', 'createdAt']);
+
+      // Immutable. Allowing delete would permit unlike → relike → +1 again,
+      // which reopens the inflation this ledger exists to prevent.
+      allow update, delete: if false;
+    }
+
+    // ──────────────────────────────────────────────
+    // USER DOCUMENTS: /users/{userId}
+    // ──────────────────────────────────────────────
+    match /users/{userId} {
+
+      // Only the authenticated owner can read their own document
+      allow read: if isOwner(userId);
+
+      // Only the authenticated owner can create their document.
+      // Server-owned fields must start absent or zero/empty — the Functions award them.
+      allow create: if isOwner(userId)
+                    && validUserDocument(request.resource.data)
+                    && serverOwnedFieldsAtZero(request.resource.data);
+
+      // Only the authenticated owner can update their document — and never the
+      // server-owned game fields (points / check-ins / redemptions).
+      allow update: if isOwner(userId)
+                    && validUserDocument(request.resource.data)
+                    && noForbiddenFieldChanges()
+                    && noLivePartnerConsentChanges()
+                    && noServerOwnedFieldChanges();
+
+      // Users cannot delete their own document directly — account deletion goes
+      // through the deleteAccount callable, which removes EVERYTHING the account
+      // owns (posts, events, attendance, photos, queued fulfilments), not just
+      // this document.
+      allow delete: if false;
+
+      // Generated pack bytes are callable-only, even for their owner. Direct
+      // SDK/cache reads must never bypass server entitlement or staging expiry.
+      match /offlinePacks/{document=**} { allow read, write: if false; }
+      match /adventurePlans/{planId} { allow read: if isOwner(userId); allow write: if false; }
+
+      // ── Blocks: /users/{userId}/blocks/{blockedUid} ──
+      // Owner-only. The document id IS the blocked uid, and the `uid` field must
+      // repeat it so collection-group queries (used server-side to compute the
+      // reverse direction) cannot be pointed at someone else. Every social
+      // surface treats a block as symmetric; the server enforces that, the client
+      // merely hides.
+      match /blocks/{blockedUid} {
+        allow read: if isOwner(userId);
+        allow create: if isOwner(userId)
+                      && blockedUid != userId
+                      && request.resource.data.uid == blockedUid
+                      && (!('displayName' in request.resource.data)
+                          || (request.resource.data.displayName is string
+                              && request.resource.data.displayName.size() <= 100))
+                      && request.resource.data.keys().hasOnly(['uid', 'createdAt', 'displayName']);
+        allow update: if false;
+        allow delete: if isOwner(userId);
+      }
+
+      // ── Follows: /users/{userId}/following/{targetId} ──
+      // Written ONLY by the followUser callable (block check + counts happen
+      // server-side). Owner may read their own list; the rules functions below
+      // also consult it (event visibility, attendee visibility).
+      match /following/{targetId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // Two-sided friendship and request mirrors. Each participant reads only
+      // their own copy; callable transactions write both copies together.
+      match /friends/{friendUid} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+      match /friendRequests/{peerUid} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // ── Invites: /users/{userId}/invites/{eventId}_{fromUid} ──
+      // Created by inviteToEvent; status changes go through rsvpToEvent /
+      // respondToInvite so the sender is told the outcome. Owner-readable.
+      match /invites/{inviteId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // ── Perk codes: /users/{userId}/perkCodes/{perkId} ──
+      // The member's copy of a redeemed partner code. Written by redeemReward.
+      match /perkCodes/{perkId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // ── Partner dismissals: /users/{userId}/dismissedPerks/{perkId} ──
+      // "Don't show me this again", remembered server-side. Readable by the
+      // owner, written only by dismissPerk — a client that could DELETE a row
+      // here could un-dismiss a perk the user rejected, which is the one thing
+      // the dismissal is for.
+      match /dismissedPerks/{perkId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // ── Per-session placement counter: /users/{userId}/adSessions/{sessionId} ──
+      // Enforces "at most one sponsored placement per session". Client-writable
+      // would make the cap advisory.
+      match /adSessions/{sessionId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // ── Suggestion ledger: /users/{userId}/suggestedEvents/{eventId} ──
+      // What the digest has already pushed, and what the user dismissed. The
+      // owner may READ it (so the UI can grey out a dismissed suggestion) but
+      // never write: a client that could delete these rows could make the
+      // digest re-notify about the same event every run, which is precisely
+      // the behaviour the ledger exists to prevent. Dismissal goes through the
+      // dismissSuggestion callable.
+      match /suggestedEvents/{eventId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+
+      // ── Notifications: /users/{userId}/notifications/{id} ──
+      // Server-created. The owner may mark them read and delete them.
+      match /notifications/{notificationId} {
+        allow read: if isOwner(userId);
+        allow create: if false;
+        allow update: if isOwner(userId)
+                      && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['read']);
+        allow delete: if isOwner(userId);
+      }
+    }
+
+    // ──────────────────────────────────────────────
+    // COMMUNITY EVENTS: /events/{eventId}
+    // ──────────────────────────────────────────────
+    match /events/{eventId} {
+
+      // VISIBILITY MODEL.
+      //   hidden     — server-owned moderation flag; hidden events are served
+      //                only to their creator (so they can see it was hidden).
+      //   broadcast  — server-owned. Ingested listings and events from APPROVED
+      //                organizers are broadcast: public listings, readable even
+      //                signed out (guests browse). An unverified organizer's
+      //                events are NOT broadcast and are visible only to the
+      //                creator and to people who follow that organizer.
+      // "Rules are not filters": a LIST must constrain these fields itself, which
+      // is exactly what the two client queries do (broadcast == true for the
+      // feed; organizerId == X for a followed organizer's calendar).
+      //
+      // ADULT-ONLY (W2). An adultOnly document is served only to a signed-in
+      // account whose server-written ageBand is "adult" (or to its creator).
+      // Rules are not filters: a minor, unknown-age or signed-out LIST must
+      // itself constrain adultOnly == false — every client query does — or the
+      // whole query is denied. Ranking alone is not enough because Everything,
+      // the map and search read /events directly.
+      allow get: if resource.data.hidden == false
+                 && adultOnlyAllowed(resource.data)
+                 && (resource.data.broadcast == true
+                     || (request.auth != null && resource.data.creatorID == request.auth.uid)
+                     || (request.auth != null && followsOrganizer(resource.data)));
+      allow list: if resource.data.hidden == false
+                  && adultOnlyAllowed(resource.data)
+                  && (resource.data.broadcast == true
+                      || (request.auth != null && resource.data.creatorID == request.auth.uid)
+                      || (request.auth != null && followsOrganizer(resource.data)));
+
+      // Any authenticated user can create an event (must include their UID as
+      // creatorID). It must be born visible-but-not-broadcast: a client can set
+      // neither moderation state nor its own broadcast flag — approval state is
+      // enforced server-side (approveOrganizer flips broadcast for a verified
+      // organizer's events).
+      allow create: if request.auth != null
+                    && request.resource.data.creatorID == request.auth.uid
+                    && request.resource.data.category != "Program"
+                    && !("opportunitySubtype" in request.resource.data && request.resource.data.opportunitySubtype == "program")
+                    && validEventDocument(request.resource.data)
+                    && moderationFlagsAtCreate(request.resource.data)
+                    && storeFlagsAtCreate(request.resource.data)
+                    && !isSuspended(request.auth.uid);
+
+      // Only the creator can update their event — and never its moderation or
+      // store flags (hidden/removed/active/broadcast/source/provenance).
+      allow update: if request.auth != null
+                    && resource.data.creatorID == request.auth.uid
+                    && request.resource.data.creatorID == request.auth.uid
+                    && request.resource.data.category != "Program"
+                    && !("opportunitySubtype" in request.resource.data && request.resource.data.opportunitySubtype == "program")
+                    && validEventDocument(request.resource.data)
+                    && noModerationFlagChanges()
+                    && noStoreFlagChanges();
+
+      // Only the creator can delete their event
+      allow delete: if request.auth != null
+                    && resource.data.creatorID == request.auth.uid;
+
+      // ── Going / RSVP: /events/{eventId}/attendees/{attendeeUid} ──
+      // Written ONLY by rsvpToEvent (so the count stays honest and blocks are
+      // checked server-side) — a client cannot write its own attendee document,
+      // let alone anyone else's. A single record is readable by its owner, or
+      // by an accepted friend; an old public flag or one-way follow cannot
+      // disclose a person's whereabouts. Never across a block in
+      // either direction. Listing is denied — the friendsGoing callable is the
+      // only way to see who is going, and it applies the same rules.
+      match /attendees/{attendeeUid} {
+        allow get: if request.auth != null
+                   && (request.auth.uid == attendeeUid
+                       || (attendeeVisibleToCaller(attendeeUid, resource.data) && !blockedEitherWay(attendeeUid)));
+        allow list: if false;
+        allow write: if false;
+      }
+    }
+
+    // ──────────────────────────────────────────────
+    // ORGANIZERS: /organizers/{organizerId}
+    // ──────────────────────────────────────────────
+    // Created by the createOrganizer callable (status starts `pending`);
+    // `status` and the counts are staff/server-owned. An approved organizer is
+    // publicly readable (signed in); a pending one is readable by its owner and
+    // by people who chose to follow it. Moderation flags apply like any UGC.
+    match /organizers/{organizerId} {
+      allow get: if request.auth != null
+                 && resource.data.get('hidden', false) == false
+                 && (resource.data.status == 'approved'
+                     || resource.data.ownerUid == request.auth.uid
+                     || exists(/databases/$(database)/documents/users/$(request.auth.uid)/following/$(organizerId)));
+      allow list: if request.auth != null
+                  && resource.data.get('hidden', false) == false
+                  && (resource.data.status == 'approved' || resource.data.ownerUid == request.auth.uid);
+      allow create: if false;
+      // The owner edits their own copy; never status, counts, billing or moderation state.
+      allow update: if request.auth != null
+                    && resource.data.ownerUid == request.auth.uid
+                    && request.resource.data.diff(resource.data).affectedKeys()
+                        .hasOnly(['displayName', 'category', 'description', 'website', 'calendarUrl', 'updatedAt'])
+                    // W4.4: an optional public calendar URL — a URL to inspect automatically, never an event to ingest.
+                    && (!('calendarUrl' in request.resource.data)
+                        || request.resource.data.calendarUrl == null
+                        || (request.resource.data.calendarUrl is string
+                            && request.resource.data.calendarUrl.size() <= 1000
+                            && request.resource.data.calendarUrl.matches('https?://.*')))
+                    && request.resource.data.displayName is string
+                    && request.resource.data.displayName.size() >= 2
+                    && request.resource.data.displayName.size() <= 80
+                    && request.resource.data.description is string
+                    && request.resource.data.description.size() <= 600;
+      allow delete: if false;
+    }
+
+    // ──────────────────────────────────────────────
+    // COMMUNITY POSTS: /posts/{postId}
+    // ──────────────────────────────────────────────
+    match /posts/{postId} {
+      // Any authenticated user can read the feed — minus hidden posts, which only
+      // their author may still see (see /events for the visibility model).
+      allow get: if request.auth != null
+                 && (resource.data.hidden == false
+                     || resource.data.authorID == request.auth.uid);
+      allow list: if request.auth != null
+                  && resource.data.hidden == false;
+
+      // Authors can create their own posts (must stamp their UID), born visible.
+      // A suspended account (moderation outcome) may read but not post.
+      allow create: if request.auth != null
+                    && request.resource.data.authorID == request.auth.uid
+                    && validPostDocument(request.resource.data)
+                    && moderationFlagsAtCreate(request.resource.data)
+                    && !isSuspended(request.auth.uid);
+
+      // Posts are immutable EXCEPT likes, and a like must be ACCOUNTED FOR.
+      //
+      // "+1 per write" alone is not a limit: nothing stopped one account from
+      // sending that write in a loop and inflating a post without bound (the
+      // red team landed 6/6). The count is now backed by a per-user ledger
+      // entry, and the two writes must land together in one batch:
+      //   !exists(...)     → this user has not already liked this post
+      //   existsAfter(...) → the ledger row is created by this same batch
+      // Ledger rows can never be deleted (see /postLikes), so unlike-and-relike
+      // can't be used to replay the increment either.
+      allow update: if request.auth != null
+                    && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['likeCount'])
+                    && request.resource.data.likeCount == resource.data.likeCount + 1
+                    && !exists(/databases/$(database)/documents/postLikes/$(postId + '_' + request.auth.uid))
+                    && existsAfter(/databases/$(database)/documents/postLikes/$(postId + '_' + request.auth.uid));
+      allow delete: if request.auth != null
+                    && resource.data.authorID == request.auth.uid;
+    }
+
+    // ──────────────────────────────────────────────
+    // HELPER FUNCTIONS
+    // ──────────────────────────────────────────────
+
+    // Validate a community post.
+    function validPostDocument(data) {
+      let validContent = data.content is string && data.content.size() >= 1 && data.content.size() <= 1000;
+      let validAuthor = data.authorName is string && data.authorName.size() >= 1 && data.authorName.size() <= 100;
+      let validPlace = !('placeName' in data) || (data.placeName is string && data.placeName.size() <= 200);
+      let allowed = ['authorID', 'authorName', 'authorInitials', 'placeName', 'content', 'createdAt', 'likeCount',
+                     // Server-owned moderation state (see moderationFlagsAtCreate / noModerationFlagChanges)
+                     'hidden', 'hiddenAt', 'removed', 'removedAt'];
+      return validContent && validAuthor && validPlace && data.keys().hasOnly(allowed);
+    }
+
+    // ── Moderation flags ──
+    // Content must be created visible and un-removed; only the Admin SDK
+    // (reportContent's auto-hide, moderateContent, the 24h sweep) changes these.
+    function moderationFlagsAtCreate(data) {
+      return data.hidden == false
+          && !('hiddenAt' in data)
+          && !('removed' in data)
+          && !('removedAt' in data);
+    }
+
+    function noModerationFlagChanges() {
+      return !request.resource.data.diff(resource.data).affectedKeys()
+          .hasAny(['hidden', 'hiddenAt', 'removed', 'removedAt']);
+    }
+
+    // ── Event store flags (ingest-and-own + organizer visibility) ──
+    // A client-created event is a community event that is active and NOT
+    // broadcast; the server owns everything else about provenance.
+    function storeFlagsAtCreate(data) {
+      return data.active == true
+          && data.source == 'community'
+          // Every event carries adultOnly (never missing). A client may create
+          // only a non-broadcast community event, so it cannot smuggle a
+          // false flag onto a public listing; topicTags/contentHash are server-written.
+          && data.adultOnly is bool
+          && !('adultOnlyReason' in data) && !('topicTags' in data) && !('contentHash' in data)
+          && (!('broadcast' in data) || data.broadcast == false)
+          // Only createEvent (server) attaches an event to an organizer; a client
+          // that could set organizerId would reach that organizer's followers.
+          && !('organizerId' in data)
+          && !('sources' in data) && !('sourceKeys' in data) && !('areaId' in data)
+          && !('organizerOwnerUid' in data) && !('lastSeenAt' in data) && !('missedCycles' in data)
+          && !('categories' in data) && !('classificationConfidence' in data)
+          && !('qualityScore' in data) && !('inferredCost' in data)
+          && !('endInferred' in data);
+    }
+
+    function noStoreFlagChanges() {
+      return !request.resource.data.diff(resource.data).affectedKeys()
+          .hasAny(['active', 'broadcast', 'source', 'sourceEventId', 'sources', 'sourceKeys',
+                   'areaId', 'organizerId', 'organizerOwnerUid', 'ingestedAt', 'lastSeenAt',
+                   'missedCycles', 'inactiveAt', 'attendeeCount', 'categories',
+                   'classificationConfidence', 'qualityScore', 'inferredCost', 'endInferred',
+                   'adultOnly', 'adultOnlyReason', 'topicTags', 'contentHash']);
+    }
+
+    // Only a server-owned accepted friendship grants activity visibility.
+    function attendeeVisibleToCaller(attendeeUid, data) {
+      return exists(/databases/$(database)/documents/users/$(request.auth.uid)/friends/$(attendeeUid));
+    }
+
+    // Blocks are symmetric: a block in either direction hides both parties from each other.
+    function blockedEitherWay(otherUid) {
+      return exists(/databases/$(database)/documents/users/$(request.auth.uid)/blocks/$(otherUid))
+          || exists(/databases/$(database)/documents/users/$(otherUid)/blocks/$(request.auth.uid));
+    }
+
+    // Signed in AND recorded as an adult by registerAgeBand (ageBand is
+    // server-owned; see noServerOwnedFieldChanges). A missing profile or an
+    // unknown age is treated as a minor: the gate fails closed.
+    function isAdultViewer() {
+      return request.auth != null
+          && exists(/databases/$(database)/documents/users/$(request.auth.uid))
+          && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('ageBand', '') == 'adult';
+    }
+
+    // adultOnly == false is the only branch a signed-out or minor reader can
+    // satisfy, which is why their list queries must carry that filter. The
+    // creator may always see their own listing (so a hidden flag is visible).
+    function adultOnlyAllowed(data) {
+      // A missing flag is treated as adult-only (fail closed), never as an error that denies everyone.
+      return data.get('adultOnly', true) == false
+          || (request.auth != null && data.creatorID == request.auth.uid)
+          || isAdultViewer();
+    }
+
+    // Does the caller follow the organizer that published this event?
+    // Follow rows live at users/{uid}/following/{organizerId}; only evaluable
+    // for a LIST when the query pins organizerId with an equality filter.
+    function followsOrganizer(data) {
+      return 'organizerId' in data && data.organizerId is string
+          && exists(/databases/$(database)/documents/users/$(request.auth.uid)/following/$(data.organizerId));
+    }
+
+    // A suspended account (server-set by moderateContent) keeps read access but
+    // may not publish. Missing profile doc → not suspended.
+    function isSuspended(uid) {
+      let path = /databases/$(database)/documents/users/$(uid);
+      return exists(path) && get(path).data.get('suspended', false) == true;
+    }
+
+
+    // Verify the request comes from the document owner
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // Validate the full user document schema and value ranges
+    function validUserDocument(data) {
+      return validProfileFields(data) && validGameStateFields(data);
+    }
+
+    // Validate profile fields, timestamps, and field allowlist
+    function validProfileFields(data) {
+      let validDisplayName = !('displayName' in data) ||
+        (data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 100);
+
+      let validEmail = !('email' in data) ||
+        (data.email is string && data.email.size() >= 5 && data.email.size() <= 320);
+
+      let validInterests = !('interests' in data) ||
+        (data.interests is list && data.interests.size() <= 20);
+      let validStudent = !('studentStatus' in data) || data.studentStatus is bool;
+      let validSchool = !('school' in data) ||
+        (data.school is string && data.school.size() <= 100);
+      let validLastUpdated = !('lastUpdated' in data) ||
+        (data.lastUpdated is timestamp);
+
+      // Push tokens. Client-writable by necessity — the device is the only
+      // thing that knows its own FCM token — but bounded, because this list is
+      // read by onPostCreated and fanned out to. Unbounded, one account could
+      // grow it until the fan-out is a spam amplifier pointed at the whole user
+      // base, and the document itself approaches Firestore's 1 MB ceiling.
+      // Nobody legitimately has more than a handful of devices.
+      let validFcmTokens = !('fcmTokens' in data) ||
+        (data.fcmTokens is list && data.fcmTokens.size() <= 10);
+
+      let validCreatedAt = !('createdAt' in data) ||
+        (data.createdAt is timestamp);
+
+      // NOTE: this list governs which keys may EXIST on the document, which is
+      // a different question from who may CHANGE them — that's
+      // noServerOwnedFieldChanges(). Server-written fields must appear here or
+      // the allowlist locks the user out of their own document: once the server
+      // stamps a field the list doesn't know, every later client update fails
+      // hasOnly() and offline sync breaks permanently for that account. That is
+      // exactly what happened when plusExpiresAt and the daily-earn counters
+      // were added without updating this list.
+      let allowedFields = [
+        'displayName', 'email', 'interests', 'studentStatus', 'school', 'householdYoungestAge',
+        'householdChildAges', 'householdTransportMode', 'householdRadiusMiles', 'householdAccessibilityNeeds',
+        'collectedPlaceIDs', 'checkedInEventIDs', 'redeemedRewardIDs',
+        'pointsBalance', 'lifetimePoints',
+        'lastUpdated', 'createdAt',
+        // Server-owned (writable only by the Admin SDK, see noServerOwnedFieldChanges)
+        'plusExpiresAt', 'dailyEarnDay', 'dailyEarnPoints', 'fcmTokens',
+        // Verdure+ bookkeeping written by subscriptions.ts after Apple verifies
+        // the purchase. Listed here for the reason spelled out above: the moment
+        // the server stamps a key this list doesn't know, hasOnly() starts
+        // failing and the user can never write their own document again.
+        'plusProductId', 'plusOriginalTransactionId', 'plusStatus', 'plusUpdatedAt',
+        // Moderation outcome (server-owned): a suspended account may read, not act.
+        'suspended', 'suspendedAt',
+        // Social. savedEventIDs + activityPrivacy are the user's own choices
+        // (client-writable, validated in validSocialFields); rsvpEventIDs and the
+        // follow counts are written by the callables only.
+        'savedEventIDs', 'activityPrivacy', 'rsvpEventIDs', 'followerCount', 'followingCount',
+        'username', 'birthYear', 'ageBand', 'friendInviteToken', 'eventFeedback',
+        'interestProfiles', 'activeProfileId', 'savedFilterSets',
+        // Set by createOrganizer; points at the profile this account owns.
+        'organizerId',
+        // Economy ledgers written only by redeemReward / the earn callables.
+        'redemptionBudget', 'lastEarnMonth', 'monthlyEarnPoints',
+        // Adventure-planner monthly quota, written only by planAdventure. A map
+        // keyed yyyy-mm. Listed here for the reason spelled out above — the
+        // moment the server stamps a key this list doesn't know, hasOnly()
+        // starts failing and the user can never write their own doc again.
+        'plannerUsage', 'recentPlanEventIDs',
+        // Notification settings (client-writable via the callable, and readable
+        // here) and the server-owned weekly push budget. Same allowlist hazard
+        // as every line above it.
+        'notificationPrefs', 'notifyBudget',
+        // Last known coarse location + area, used by the digest to rank without
+        // asking the device while it is asleep.
+        'areaId', 'lastLat', 'lastLng',
+        // W3.6 ranking state, written only by recordEventFeedback / recordFeedEvent:
+        // a precomputed category-affinity map, the bounded "first shown" map that
+        // drives novelty, and the events this user hid or reported.
+        'affinity', 'firstShown', 'hiddenEventIDs'
+      ];
+      let noExtraFields = data.keys().hasOnly(allowedFields);
+
+      return validDisplayName && validEmail && validInterests && validStudent && validSchool
+          && validHouseholdFields(data)
+          && validLastUpdated && validCreatedAt && validFcmTokens && noExtraFields
+          && validSocialFields(data) && validNotificationPrefs(data);
+    }
+
+    function validHouseholdFields(data) {
+      return (!('householdYoungestAge' in data) ||
+          (data.householdYoungestAge is int && data.householdYoungestAge >= 0 && data.householdYoungestAge <= 17))
+        && (!('householdChildAges' in data) ||
+          (data.householdChildAges is list && data.householdChildAges.size() <= 10 &&
+            data.householdChildAges.hasOnly([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17])))
+        && (!('householdTransportMode' in data) ||
+          (data.householdTransportMode is string && data.householdTransportMode in ['walk', 'transit', 'drive']))
+        && (!('householdRadiusMiles' in data) ||
+          (data.householdRadiusMiles is int && data.householdRadiusMiles >= 1 && data.householdRadiusMiles <= 50))
+        && (!('householdAccessibilityNeeds' in data) ||
+          (data.householdAccessibilityNeeds is list && data.householdAccessibilityNeeds.size() <= 6 &&
+            data.householdAccessibilityNeeds.hasOnly(
+              ['stepFree', 'accessibleRestroom', 'seating', 'quietSpace', 'asl', 'captions'])));
+    }
+
+    // Notification settings are the user's own choice, so the client may write
+    // them directly as well as through setNotificationPrefs — but only in a
+    // shape the digest can actually read. An out-of-range quiet hour would make
+    // inQuietHours() behave unpredictably for that account.
+    function validNotificationPrefs(data) {
+      return !('notificationPrefs' in data) || (
+        data.notificationPrefs is map
+        && data.notificationPrefs.keys().hasOnly(
+             ['eventSuggestions', 'friendActivity', 'rsvpPartnerOffers', 'quietStart', 'quietEnd', 'timeZone',
+              'livePartnerAlerts', 'livePartnerConsentVersion', 'livePartnerConsentAt'])
+        && (!('livePartnerAlerts' in data.notificationPrefs) || data.notificationPrefs.livePartnerAlerts is bool)
+        && (!('livePartnerConsentVersion' in data.notificationPrefs) ||
+            data.notificationPrefs.livePartnerConsentVersion == null || data.notificationPrefs.livePartnerConsentVersion == 'live-deals-v1')
+        && (!('livePartnerConsentAt' in data.notificationPrefs) || data.notificationPrefs.livePartnerConsentAt is timestamp)
+        && (!('eventSuggestions' in data.notificationPrefs) || data.notificationPrefs.eventSuggestions is bool)
+        && (!('friendActivity' in data.notificationPrefs) || data.notificationPrefs.friendActivity is bool)
+        && (!('rsvpPartnerOffers' in data.notificationPrefs) || data.notificationPrefs.rsvpPartnerOffers is bool)
+        && (!('quietStart' in data.notificationPrefs) ||
+            (data.notificationPrefs.quietStart is int
+             && data.notificationPrefs.quietStart >= 0 && data.notificationPrefs.quietStart <= 23))
+        && (!('quietEnd' in data.notificationPrefs) ||
+            (data.notificationPrefs.quietEnd is int
+             && data.notificationPrefs.quietEnd >= 0 && data.notificationPrefs.quietEnd <= 23))
+        && (!('timeZone' in data.notificationPrefs) ||
+            (data.notificationPrefs.timeZone is string && data.notificationPrefs.timeZone.size() <= 64))
+      );
+    }
+
+    function validSocialFields(data) {
+      let validSaved = !('savedEventIDs' in data) ||
+        (data.savedEventIDs is list && data.savedEventIDs.size() <= 500);
+      let validPrivacy = !('activityPrivacy' in data) ||
+        data.activityPrivacy in ['friends', 'public'];
+      let validRsvps = !('rsvpEventIDs' in data) ||
+        (data.rsvpEventIDs is list && data.rsvpEventIDs.size() <= 500);
+      let validCounts = (!('followerCount' in data) || (data.followerCount is int && data.followerCount >= 0))
+        && (!('followingCount' in data) || (data.followingCount is int && data.followingCount >= 0));
+      return validSaved && validPrivacy && validRsvps && validCounts;
+    }
+
+    // Validate game state fields (collections, points)
+    function validGameStateFields(data) {
+      let validCollectedPlaces = !('collectedPlaceIDs' in data) ||
+        (data.collectedPlaceIDs is list && data.collectedPlaceIDs.size() <= 500);
+
+      let validCheckedInEvents = !('checkedInEventIDs' in data) ||
+        (data.checkedInEventIDs is list && data.checkedInEventIDs.size() <= 500);
+
+      let validRedeemedRewards = !('redeemedRewardIDs' in data) ||
+        (data.redeemedRewardIDs is list && data.redeemedRewardIDs.size() <= 200);
+
+      let validPointsBalance = !('pointsBalance' in data) ||
+        (data.pointsBalance is int && data.pointsBalance >= 0 && data.pointsBalance <= 1000000);
+
+      let validLifetimePoints = !('lifetimePoints' in data) ||
+        (data.lifetimePoints is int && data.lifetimePoints >= 0 && data.lifetimePoints <= 10000000);
+
+      return validCollectedPlaces && validCheckedInEvents && validRedeemedRewards
+          && validPointsBalance && validLifetimePoints;
+    }
+
+    // Validate event document schema (split into two helpers — the rules
+    // compiler allows at most 10 let-bindings per function).
+    function validEventDocument(data) {
+      return validEventCoreFields(data) && validEventMetaFields(data) && validEventDetails(data);
+    }
+
+    function validEventCoreFields(data) {
+      let validTitle = data.title is string && data.title.size() >= 1 && data.title.size() <= 200;
+      let validDescription = !('description' in data) ||
+        (data.description is string && data.description.size() <= 2000);
+      let validOrganizer = data.organizer is string && data.organizer.size() >= 1 && data.organizer.size() <= 200;
+      let validDate = data.date is timestamp;
+      let validTime = data.time is string && data.time.size() >= 1 && data.time.size() <= 50;
+      let validLocation = data.locationName is string && data.locationName.size() >= 1 && data.locationName.size() <= 300;
+
+      return validTitle && validDescription && validOrganizer && validDate
+          && validTime && validLocation;
+    }
+
+    function validEventMetaFields(data) {
+      let validAttendees = data.attendeeCount is int && data.attendeeCount >= 0 && data.attendeeCount <= 100000;
+      let validMaxAttendees = !('maxAttendees' in data) || data.maxAttendees == null ||
+        (data.maxAttendees is int && data.maxAttendees >= 1 && data.maxAttendees <= 100000);
+      let validCategory = data.category is string && data.category.size() <= 50;
+      let validPoints = data.pointValue is int && data.pointValue >= 0 && data.pointValue <= 1000;
+      let validCreator = data.creatorID is string && data.creatorID.size() >= 1;
+
+      // Optional venue coordinates — used by checkInToEvent's proximity check.
+      let validLatitude = !('latitude' in data) ||
+        (data.latitude is number && data.latitude >= -90 && data.latitude <= 90);
+      let validLongitude = !('longitude' in data) ||
+        (data.longitude is number && data.longitude >= -180 && data.longitude <= 180);
+
+      let allowedFields = [
+        'title', 'description', 'organizer', 'date', 'time',
+        'locationName', 'attendeeCount', 'maxAttendees',
+        'category', 'imagePlaceholder', 'pointValue',
+        'creatorID', 'createdAt', 'latitude', 'longitude',
+        // Server-owned moderation state
+        'hidden', 'hiddenAt', 'removed', 'removedAt',
+        // Normalized-store fields (ingest-and-own). Client creates may set only
+        // active/source (see storeFlagsAtCreate); the rest is written by the
+        // server and must be listed so a later client edit doesn't trip hasOnly().
+        'active', 'broadcast', 'source', 'sourceEventId', 'sources', 'sourceKeys',
+        'areaId', 'organizerId', 'organizerOwnerUid', 'titleKey', 'venueKey', 'startBucket',
+        'isFree', 'priceMin', 'website', 'imageURL', 'tags', 'endDate',
+        'ingestedAt', 'lastSeenAt', 'missedCycles', 'inactiveAt',
+        'categories', 'classificationConfidence', 'qualityScore', 'inferredCost',
+        'ageSuitability', 'endInferred', 'expectedSize', 'indoorOutdoor',
+        'accessibilityFeatures', 'publicVenue', 'minimumAge', 'maximumAge',
+        'applicationDeadline', 'recurring', 'virtual', 'opportunitySubtype',
+        // Written by annotate.ts at ingest (W1): adultOnly is required on every
+        // document so the minor/signed-out filter can match it; topicTags and
+        // contentHash are server-owned.
+        'adultOnly', 'adultOnlyReason', 'topicTags', 'contentHash'
+      ];
+      let noExtraFields = data.keys().hasOnly(allowedFields);
+
+      return validAttendees && validMaxAttendees && validCategory
+          && validPoints && validCreator && validLatitude && validLongitude
+          && noExtraFields;
+    }
+
+    function validEventDetails(data) {
+      let validAge = !('ageSuitability' in data) || data.ageSuitability in ['all', 'children', 'teens', 'adults', 'unknown'];
+      let validSize = !('expectedSize' in data) || (data.expectedSize is int && data.expectedSize >= 1 && data.expectedSize <= 100000);
+      let validSpace = !('indoorOutdoor' in data) || data.indoorOutdoor in ['indoor', 'outdoor', 'mixed', 'unknown'];
+      let validAccess = !('accessibilityFeatures' in data) ||
+        (data.accessibilityFeatures is list && data.accessibilityFeatures.size() <= 8 &&
+         data.accessibilityFeatures.hasOnly(['stepFree', 'accessibleRestroom', 'seating', 'quietSpace', 'asl', 'captions', 'other']));
+      let validVenue = !('publicVenue' in data) || data.publicVenue is bool;
+      let validMinimum = !('minimumAge' in data) || (data.minimumAge is int && data.minimumAge >= 0 && data.minimumAge <= 100);
+      let validMaximum = !('maximumAge' in data) || (data.maximumAge is int && data.maximumAge >= 0 && data.maximumAge <= 100);
+      let validDeadline = !('applicationDeadline' in data) || data.applicationDeadline is timestamp;
+      let validRecurring = !('recurring' in data) || data.recurring is bool;
+      let validVirtual = !('virtual' in data) || data.virtual is bool;
+      let validAdultReason = !('adultOnlyReason' in data) || data.adultOnlyReason == null
+          || data.adultOnlyReason in ['structured-age-limit', 'age-limit', 'alcohol', 'alcohol-venue', 'alcohol-brand'];
+      return validAge && validSize && validSpace && validAccess && validVenue && validMinimum && validMaximum
+          && validDeadline && validRecurring && validVirtual && validAdultReason
+          && (!('opportunitySubtype' in data) || data.opportunitySubtype in ['volunteer', 'workshop', 'program']);
+    }
+
+    // SERVER-OWNED game fields: only Cloud Functions (Admin SDK) may change these.
+    // `plusExpiresAt` is the Verdure+ entitlement — written solely by verified
+    // App Store server notifications. A client that could set it would grant
+    // itself the earn multiplier and early reward access, so it is locked here.
+    function noServerOwnedFieldChanges() {
+      return !request.resource.data.diff(resource.data).affectedKeys()
+          .hasAny(['pointsBalance', 'lifetimePoints', 'checkedInEventIDs',
+                   'redeemedRewardIDs', 'plusExpiresAt',
+                   // Daily earning ledger — a client that could edit these
+                   // would reset its own economic cap.
+                   'dailyEarnDay', 'dailyEarnPoints',
+                   // Verdure+ provenance. plusExpiresAt above is what grants the
+                   // benefit, but these decide WHICH Apple subscription the
+                   // account is bound to — a client that could rewrite
+                   // plusOriginalTransactionId could point itself at someone
+                   // else's subscription and have refreshMySubscription
+                   // faithfully re-grant it.
+                   'plusProductId', 'plusOriginalTransactionId',
+                   'plusStatus', 'plusUpdatedAt',
+                   // Moderation outcome — a client must not be able to lift
+                   // its own suspension.
+                   'suspended', 'suspendedAt',
+                   // Social state owned by the callables: a client that could
+                   // write rsvpEventIDs could fake attendance; counts must add up.
+                   'rsvpEventIDs', 'followerCount', 'followingCount', 'organizerId',
+                   'username', 'birthYear', 'ageBand', 'friendInviteToken',
+                   'eventFeedback',
+                   'interestProfiles', 'activeProfileId', 'savedFilterSets',
+                   // The rolling 12-month cash ledger — a client that could edit
+                   // it could reset its own ceiling.
+                   'redemptionBudget', 'lastEarnMonth', 'monthlyEarnPoints',
+                   // Planner quota — a client that could edit this would hand
+                   // itself unlimited plans, which are billed per call to a
+                   // paid vendor. This is the whole gate.
+                   'plannerUsage', 'recentPlanEventIDs',
+                   // The weekly push budget. A client that could reset it could
+                   // un-cap its own notifications; more importantly a malicious
+                   // one could not, because the cap protects the USER from us.
+                   'notifyBudget',
+                   // W3.6 ranking state. A client that could write its own affinity
+                   // or un-hide an event it hid would make feedback meaningless.
+                   'affinity', 'firstShown', 'hiddenEventIDs']);
+    }
+
+    // On create, server-owned fields must be absent or zero/empty — a fresh client
+    // can't mint itself points or attendance history.
+    function serverOwnedFieldsAtZero(data) {
+      return !data.get('notificationPrefs', {}).keys().hasAny(['livePartnerAlerts', 'livePartnerConsentVersion', 'livePartnerConsentAt'])
+          && (!('pointsBalance' in data) || data.pointsBalance == 0)
+          && (!('lifetimePoints' in data) || data.lifetimePoints == 0)
+          && (!('checkedInEventIDs' in data) || (data.checkedInEventIDs is list && data.checkedInEventIDs.size() == 0))
+          && (!('redeemedRewardIDs' in data) || (data.redeemedRewardIDs is list && data.redeemedRewardIDs.size() == 0))
+          // A fresh client may never mint itself a Verdure+ entitlement, nor
+          // create itself already bound to an Apple subscription.
+          && !('plusExpiresAt' in data)
+          && !('plusOriginalTransactionId' in data)
+          && !('plusProductId' in data)
+          && !('plusStatus' in data)
+          && !('suspended' in data)
+          && (!('rsvpEventIDs' in data) || (data.rsvpEventIDs is list && data.rsvpEventIDs.size() == 0))
+          && (!('followerCount' in data) || data.followerCount == 0)
+          && (!('followingCount' in data) || data.followingCount == 0)
+          && !('username' in data)
+          && !('birthYear' in data)
+          && !('ageBand' in data)
+          && !('friendInviteToken' in data)
+          && !('eventFeedback' in data)
+          && !('interestProfiles' in data)
+          && !('activeProfileId' in data)
+          && !('savedFilterSets' in data)
+          && !('recentPlanEventIDs' in data)
+          && !('redemptionBudget' in data)
+          && !('affinity' in data) && !('firstShown' in data) && !('hiddenEventIDs' in data);
+    }
+
+    // Prevent changing fields that should be immutable after creation
+    // Live promotional consent is established only by the age-gated callable.
+    // Preserve server-added nested fields when a client edits ordinary profile
+    // data, without allowing a direct SDK write to forge or erase that consent.
+    function noLivePartnerConsentChanges() {
+      return !request.resource.data.get('notificationPrefs', {})
+        .diff(resource.data.get('notificationPrefs', {})).affectedKeys()
+        .hasAny(['livePartnerAlerts', 'livePartnerConsentVersion', 'livePartnerConsentAt']);
+    }
+
+    function noForbiddenFieldChanges() {
+      // email and createdAt cannot be changed after document creation
+      let emailUnchanged = !('email' in request.resource.data) ||
+        !('email' in resource.data) ||
+        request.resource.data.email == resource.data.email;
+
+      let createdAtUnchanged = !('createdAt' in request.resource.data) ||
+        !('createdAt' in resource.data) ||
+        request.resource.data.createdAt == resource.data.createdAt;
+
+      return emailUnchanged && createdAtUnchanged;
+    }
+  }
+}

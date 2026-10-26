@@ -1,0 +1,269 @@
+{
+ "pagesize": "3",
+ "pagenumber": "1",
+ "total": "39",
+ "errors": [],
+ "data": [
+  {
+   "categoryid": "1",
+   "category": "Regular Event",
+   "eventid": "127050",
+   "date": "2026-09-12",
+   "datestart": "2026-05-02",
+   "dateend": "2026-05-02",
+   "recurrencedatestart": "2026-05-02",
+   "recurrencedateend": "2026-10-31",
+   "latitude": "",
+   "longitude": "",
+   "isrecurring": "true",
+   "isallday": "false",
+   "isregresrequired": "false",
+   "isfree": "true",
+   "regresurl": "",
+   "regresinfo": "",
+   "infourl": "https://cvfm.org/summer-market/",
+   "feeinfo": "",
+   "timeinfo": "",
+   "title": "Cuyahoga Valley Farmers Market",
+   "contactname": "Cuyahoga Valley Farmers Market",
+   "contacttelephonenumber": "",
+   "contactemailaddress": "cuyahogavalleyfarmersmarket@gmail.com",
+   "description": "<p>Join Cuyahoga Valley Farmers Market to support your favorite vendors and meet all the new folks! They have an amazing lineup of local farms, food producers, artists, and makers this season - over 70 northeast Ohio businesses. There is also live music every week, cooking demonstrations, tastings of what\u2019s in season, and other activities for all ages.</p>\n<p>Be sure to plan ahead and be aware of ",
+   "location": "Howe Meadow: 4040 Riverview Road, Peninsula, OH 44264",
+   "tags": [
+    "partner event",
+    "farmers market",
+    "fresh produce",
+    "local",
+    "family frienldy"
+   ],
+   "types": [
+    "Partner Program"
+   ],
+   "recurrencerule": "DTSTART=20260502T040000Z;UNTIL=20261031T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SA;COUNT=0;INTERVAL=1",
+   "sitecode": "cuva",
+   "sitetype": "park",
+   "datetimecreated": "2026-02-11T15:01:02.917",
+   "datetimeupdated": "2026-06-03T12:56:53.09",
+   "risdpoiid": null,
+   "times": [
+    {
+     "timestart": "09:00 AM",
+     "timeend": "12:00 PM",
+     "sunrisestart": "false",
+     "sunsetend": "false"
+    }
+   ],
+   "dates": [
+    "2026-09-12",
+    "2026-09-19",
+    "2026-09-26",
+    "2026-10-03",
+    "2026-10-10",
+    "2026-10-17",
+    "2026-10-24",
+    "2026-10-31"
+   ],
+   "images": [
+    {
+     "imageid": "51428",
+     "path": "/common/uploads/event_calendar/901B0D69-9145-D394-7D4602EF0D1C8AB9.jpg",
+     "url": "/common/uploads/event_calendar/901B0D69-9145-D394-7D4602EF0D1C8AB9.jpg",
+     "title": "",
+     "altText": "A crowd of people walk around two rows of tents shopping at the Farmers Market.",
+     "caption": "This year-round Farmers Market is located in the Scenic Cuyahoga Valley National Park.",
+     "credit": "NPS / Rick Santich",
+     "id": "",
+     "ordinal": "1"
+    }
+   ],
+   "imageidlist": "51428,51429",
+   "subjectname": "",
+   "parkfullname": "Cuyahoga Valley National Park",
+   "portalname": "",
+   "organizationname": "",
+   "cancelleddatelist": [],
+   "id": "0EF8E964-0C1E-EEA2-FE48A5E220402F05"
+  },
+  {
+   "categoryid": "1",
+   "category": "Regular Event",
+   "eventid": "128903",
+   "date": "2026-09-06",
+   "datestart": "2026-06-17",
+   "dateend": "2026-06-17",
+   "recurrencedatestart": "2026-06-17",
+   "recurrencedateend": "2026-09-30",
+   "latitude": "",
+   "longitude": "",
+   "isrecurring": "true",
+   "isallday": "false",
+   "isregresrequired": "true",
+   "isfree": "false",
+   "regresurl": "https://www.cvsr.org/excursions/national-park-excursions/national-park-scenic",
+   "regresinfo": "Purchase tickets through Cuyahoga Valley Scenic Railroad.",
+   "infourl": "https://www.cvsr.org/excursions/national-park-excursions/national-park-scenic",
+   "feeinfo": "Ticket prices vary.",
+   "timeinfo": "Visit the Cuyahoga Valley Scenic Railroad website for the full train schedule.",
+   "title": "Cuyahoga Valley Scenic Railroad: National Park Scenic Excursion",
+   "contactname": "Cuyahoga Valley Scenic Railroad",
+   "contacttelephonenumber": "330-439-5708",
+   "contactemailaddress": "customerservice@cvsr.org",
+   "description": "<p>Take in the beauty and wonders of the Cuyahoga Valley National Park while meandering through miles of nature and cityscapes in a vintage rail car. Discover local history while making lasting memories with family and friends on this iconic excursion.</p>\n<p>Guests may choose from two ride options to best fit their schedule and interests. The Classic 24-mile, round-trip ride departs from either t",
+   "location": "Rockside Station: 7900 Old Rockside Rd., Independence, OH 44131 | Peninsula Depot: 1630 Mill St., Peninsula, OH 44264 | Akron Northside Station: 27 Ridge St., Akron, OH 44308",
+   "tags": [
+    "Cuyahoga Valley Scenic Railroad",
+    "CVSR",
+    "partner program",
+    "family friendly",
+    "train",
+    "train ride",
+    "scenic"
+   ],
+   "types": [
+    "Partner Program",
+    "Ride"
+   ],
+   "recurrencerule": "DTSTART=20260617T040000Z;UNTIL=20260930T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,WE,TH,FR,SA;COUNT=0;INTERVAL=1|EXDATE=2026-07-10,2026-07-24,2026-08-07,2026-08-21,2026-09-04,2026-09-18",
+   "sitecode": "cuva",
+   "sitetype": "park",
+   "datetimecreated": "2026-03-23T17:28:10.313",
+   "datetimeupdated": "2026-07-12T16:22:20.593",
+   "risdpoiid": null,
+   "times": [
+    {
+     "timestart": "09:00 AM",
+     "timeend": "06:00 PM",
+     "sunrisestart": "false",
+     "sunsetend": "false"
+    }
+   ],
+   "dates": [
+    "2026-09-06",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-30"
+   ],
+   "images": [
+    {
+     "imageid": "52790",
+     "path": "/common/uploads/event_calendar/6FA5BFC0-9A62-45C1-EFA4E89095C3C415.jpg",
+     "url": "/common/uploads/event_calendar/6FA5BFC0-9A62-45C1-EFA4E89095C3C415.jpg",
+     "title": "",
+     "altText": "A diesel-powered train engine, Alco 6773, sits parked on the tracks next to the Peninsula Depot.",
+     "caption": "Take in the beauty and wonders of the Cuyahoga Valley National Park while meandering through miles of nature and cityscapes in a vintage rail car.",
+     "credit": "NPS / Rick Santich",
+     "id": "",
+     "ordinal": "1"
+    }
+   ],
+   "imageidlist": "52790,52791",
+   "subjectname": "",
+   "parkfullname": "Cuyahoga Valley National Park",
+   "portalname": "",
+   "organizationname": "",
+   "cancelleddatelist": [],
+   "id": "1DFE55DE-B379-26D9-CD340251BCF97811"
+  },
+  {
+   "categoryid": "1",
+   "category": "Regular Event",
+   "eventid": "141022",
+   "date": "2026-09-06",
+   "datestart": "2026-08-30",
+   "dateend": "2026-08-30",
+   "recurrencedatestart": "2026-08-30",
+   "recurrencedateend": "2026-10-25",
+   "latitude": "",
+   "longitude": "",
+   "isrecurring": "true",
+   "isallday": "false",
+   "isregresrequired": "false",
+   "isfree": "true",
+   "regresurl": "",
+   "regresinfo": "",
+   "infourl": "https://www.conservancyforcvnp.org/experience/gallery/wildorder/",
+   "feeinfo": "",
+   "timeinfo": "",
+   "title": "The Boston Gallery: Wild Order: Studies in Natural Form",
+   "contactname": "Conservancy for CVNP",
+   "contacttelephonenumber": "330-657-2909",
+   "contactemailaddress": "info@forcvnp.org",
+   "description": "<p>The Boston Gallery is a flagship initiative of the Conservancy for Cuyahoga Valley National Park\u2019s Arts in the Park program, enriching visitor experiences and strengthening community connections through visual, cultural, and performing arts programming in partnership with artists across Northeast Ohio. Curated in partnership with the <a title=\"Museum of Creative Human Art (MoCHA)\" href=\"https:/",
+   "location": "The Boston Gallery: Parking is available at the Boston Trailhead (1508 Boston Mills Road, Peninsula, Ohio 44264). Once parked, head left toward the Boston Store and cross the street at the crosswalk.",
+   "tags": [
+    "Conservancy for CVNP",
+    "art in the park",
+    "art gallery"
+   ],
+   "types": [
+    "Exhibition/Show",
+    "Partner Program"
+   ],
+   "recurrencerule": "DTSTART=20260830T040000Z;UNTIL=20261025T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,SA;COUNT=0;INTERVAL=1",
+   "sitecode": "cuva",
+   "sitetype": "park",
+   "datetimecreated": "2026-08-19T11:48:15.327",
+   "datetimeupdated": "2026-08-19T11:51:36.143",
+   "risdpoiid": null,
+   "times": [
+    {
+     "timestart": "11:00 AM",
+     "timeend": "03:00 PM",
+     "sunrisestart": "false",
+     "sunsetend": "false"
+    }
+   ],
+   "dates": [
+    "2026-09-06",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-24",
+    "2026-10-25"
+   ],
+   "images": [
+    {
+     "imageid": "53770",
+     "path": "/common/uploads/event_calendar/0B334359-0BDF-8FE6-83863F8626319E28.jpg",
+     "url": "/common/uploads/event_calendar/0B334359-0BDF-8FE6-83863F8626319E28.jpg",
+     "title": "",
+     "altText": "A poster with the title Wild Order and an example of the exhibition art.",
+     "caption": "Wild Order looks beyond representation to explore the systems, rhythms, and material intelligence that shape the living world.",
+     "credit": "Conservancy for Cuyahoga Valley National Park",
+     "id": "",
+     "ordinal": "1"
+    }
+   ],
+   "imageidlist": "53770",
+   "subjectname": "",
+   "parkfullname": "Cuyahoga Valley National Park",
+   "portalname": "",
+   "organizationname": "",
+   "cancelleddatelist": [],
+   "id": "0B18B1FB-98F3-0D93-19F3DD08FBA312C3"
+  }
+ ]
+}

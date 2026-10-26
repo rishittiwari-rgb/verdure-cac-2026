@@ -1,0 +1,2344 @@
+{
+  "ranAt": "2026-10-25T02:54:29.066Z",
+  "emulator": "127.0.0.1:8899",
+  "corpus14d": 2110,
+  "passed": 50,
+  "failed": 0,
+  "summary": {
+    "qa-personalization-parks": {
+      "interests": [
+        "Parks"
+      ],
+      "corpusMatches14d": 30,
+      "poolBefore": 276,
+      "poolBeforeMatches": 11,
+      "poolAfter": 382,
+      "poolAfterMatches": 26,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-trails": {
+      "interests": [
+        "Trails"
+      ],
+      "corpusMatches14d": 30,
+      "poolBefore": 276,
+      "poolBeforeMatches": 11,
+      "poolAfter": 382,
+      "poolAfterMatches": 26,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-gardens": {
+      "interests": [
+        "Gardens"
+      ],
+      "corpusMatches14d": 54,
+      "poolBefore": 276,
+      "poolBeforeMatches": 12,
+      "poolAfter": 382,
+      "poolAfterMatches": 27,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-playgrounds": {
+      "interests": [
+        "Playgrounds"
+      ],
+      "corpusMatches14d": 967,
+      "poolBefore": 276,
+      "poolBeforeMatches": 96,
+      "poolAfter": 345,
+      "poolAfterMatches": 157,
+      "interestRetrieved": 150,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-waterfront": {
+      "interests": [
+        "Waterfront"
+      ],
+      "corpusMatches14d": 32,
+      "poolBefore": 276,
+      "poolBeforeMatches": 11,
+      "poolAfter": 382,
+      "poolAfterMatches": 26,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-sports": {
+      "interests": [
+        "Sports"
+      ],
+      "corpusMatches14d": 81,
+      "poolBefore": 276,
+      "poolBeforeMatches": 18,
+      "poolAfter": 434,
+      "poolAfterMatches": 68,
+      "interestRetrieved": 190,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-scenic": {
+      "interests": [
+        "Scenic"
+      ],
+      "corpusMatches14d": 33,
+      "poolBefore": 276,
+      "poolBeforeMatches": 12,
+      "poolAfter": 382,
+      "poolAfterMatches": 29,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-community": {
+      "interests": [
+        "Community"
+      ],
+      "corpusMatches14d": 351,
+      "poolBefore": 276,
+      "poolBeforeMatches": 97,
+      "poolAfter": 428,
+      "poolAfterMatches": 145,
+      "interestRetrieved": 243,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-student-parks-trails": {
+      "interests": [
+        "Parks",
+        "Trails"
+      ],
+      "corpusMatches14d": 30,
+      "poolBefore": 276,
+      "poolBeforeMatches": 11,
+      "poolAfter": 382,
+      "poolAfterMatches": 26,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-demo-outdoors": {
+      "interests": [
+        "Parks",
+        "Trails"
+      ],
+      "corpusMatches14d": 30,
+      "poolBefore": 276,
+      "poolBeforeMatches": 11,
+      "poolAfter": 382,
+      "poolAfterMatches": 26,
+      "interestRetrieved": 129,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    },
+    "qa-personalization-demo-community": {
+      "interests": [
+        "Community"
+      ],
+      "corpusMatches14d": 351,
+      "poolBefore": 276,
+      "poolBeforeMatches": 97,
+      "poolAfter": 428,
+      "poolAfterMatches": 145,
+      "interestRetrieved": 243,
+      "ranked": 50,
+      "matchesInTop10": 9,
+      "explorationSlot": 9
+    }
+  },
+  "overlap": {
+    "Parks vs Trails": 4,
+    "Parks vs Playgrounds": 0,
+    "Parks vs Waterfront": 10,
+    "Parks vs Sports": 1,
+    "Parks vs Scenic": 8,
+    "Parks vs Parks+Trails": 9,
+    "Trails vs Waterfront": 4,
+    "Gardens vs Parks": 10,
+    "Gardens vs Trails": 4,
+    "Gardens vs Playgrounds": 0,
+    "Gardens vs Waterfront": 10,
+    "Gardens vs Sports": 1,
+    "Gardens vs Scenic": 8,
+    "Gardens vs Parks+Trails": 9,
+    "Playgrounds vs Trails": 0,
+    "Playgrounds vs Waterfront": 0,
+    "Playgrounds vs Sports": 0,
+    "Playgrounds vs Scenic": 0,
+    "Playgrounds vs Parks+Trails": 0,
+    "Sports vs Trails": 1,
+    "Sports vs Waterfront": 1,
+    "Sports vs Parks+Trails": 0,
+    "Scenic vs Trails": 4,
+    "Scenic vs Waterfront": 8,
+    "Scenic vs Sports": 1,
+    "Scenic vs Parks+Trails": 7,
+    "Community vs Parks": 0,
+    "Community vs Trails": 0,
+    "Community vs Gardens": 0,
+    "Community vs Playgrounds": 1,
+    "Community vs Waterfront": 0,
+    "Community vs Sports": 0,
+    "Community vs Scenic": 0,
+    "Community vs Parks+Trails": 0,
+    "Community vs Community": 10,
+    "Parks+Trails vs Trails": 4,
+    "Parks+Trails vs Waterfront": 10,
+    "Parks+Trails vs Parks": 10,
+    "Parks+Trails vs Gardens": 10,
+    "Parks+Trails vs Playgrounds": 0,
+    "Parks+Trails vs Sports": 1,
+    "Parks+Trails vs Scenic": 8,
+    "Parks+Trails vs Parks+Trails": 9
+  },
+  "results": [
+    {
+      "name": "Parks: ≥ 10 matching events exist (30) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Parks: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Parks: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Parks: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Trails: ≥ 10 matching events exist (30) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Trails: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Trails: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Trails: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Gardens: ≥ 10 matching events exist (54) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Gardens: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Gardens: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Gardens: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Playgrounds: ≥ 10 matching events exist (967) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Playgrounds: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Playgrounds: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Playgrounds: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Waterfront: ≥ 10 matching events exist (32) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Waterfront: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Waterfront: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Waterfront: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Sports: ≥ 10 matching events exist (81) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Sports: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Sports: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Sports: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Scenic: ≥ 10 matching events exist (33) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Scenic: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Scenic: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Scenic: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Community: ≥ 10 matching events exist (351) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Community: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Community: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Community: no sports/fitness listing in the top 10 unless it is a genuine volunteer/community event",
+      "pass": true
+    },
+    {
+      "name": "Community: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: ≥ 10 matching events exist (30) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "student with Parks + Trails: top 10 holds at most 2 career/hackathon listings (0)",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: ≥ 10 matching events exist (30) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Parks+Trails: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "Community: ≥ 10 matching events exist (351) → at least 8 of the top 10 match (9)",
+      "pass": true
+    },
+    {
+      "name": "Community: the only off-interest card in the top 10 is the labelled exploration slot",
+      "pass": true
+    },
+    {
+      "name": "Community: every \"Because you like …\" names the account's own pick and that pick matched the listing",
+      "pass": true
+    },
+    {
+      "name": "Community: no sports/fitness listing in the top 10 unless it is a genuine volunteer/community event",
+      "pass": true
+    },
+    {
+      "name": "Community: no listing appears twice in the top 10 (series collapsed)",
+      "pass": true
+    },
+    {
+      "name": "the two demo accounts (Parks + Trails vs Community) share at most 3 of their top 10",
+      "pass": true
+    },
+    {
+      "name": "Sports vs Community share at most 3",
+      "pass": true
+    },
+    {
+      "name": "after switching Parks → Community the top 10 changes and the reasons name Community, never Parks",
+      "pass": true
+    }
+  ],
+  "review": [
+    {
+      "account": "qa-personalization-parks",
+      "interests": [
+        "Parks"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "libcal-8800-17142489",
+          "title": "Outdoor Storytime",
+          "category": "Workshop",
+          "source": "libcal",
+          "where": "Pioneer Park",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 2,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag"
+        },
+        {
+          "rank": 3,
+          "id": "midpen-siding-maintenance-deer-hollow-farm-pt-1",
+          "title": "Siding Maintenance: Deer Hollow Farm (Pt. 1)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-10-26T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-aclibrary-6a73c11288e9bf280035d1a3",
+          "title": "Lake Elizabeth Bird Walk",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 5,
+          "id": "wordpress-tec-1405772",
+          "title": "Native Planting at Mountain View A2W!",
+          "category": "Social",
+          "source": "wordpress-tec",
+          "where": "Save The Bay: Protecting and Restoring San Francisco Bay",
+          "when": "2026-11-07T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Something new from Save The Bay: Protecting and Restoring San Francisco Bay"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 6,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-habitat-restoration-french-broom-removal-157",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-31T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 8,
+          "id": "midpen-trail-trek-thursday-12",
+          "title": "Trail Trek Thursday",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-habitat-restoration-french-broom-removal-156",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Teague Hill Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-trails",
+      "interests": [
+        "Trails"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:tag, Trails:outdoors:tag"
+        },
+        {
+          "rank": 2,
+          "id": "midpen-trail-maintenance-virginia-mill-trail",
+          "title": "Trail Maintenance: Virginia Mill Trail",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "El Corte de Madera Creek Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:title, Trails:outdoors:title"
+        },
+        {
+          "rank": 3,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:tag, Trails:outdoors:tag"
+        },
+        {
+          "rank": 4,
+          "id": "midpen-rancho-san-antonio-preserve-trail-maintenance-wildcat-loop-trail-south-0",
+          "title": "Rancho San Antonio Preserve - Trail Maintenance: Wildcat Loop Trail (South Leg Pt. 3)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-11-05T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:title, Trails:outdoors:title"
+        },
+        {
+          "rank": 5,
+          "id": "midpen-trail-trek-thursday-12",
+          "title": "Trail Trek Thursday",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:title, Trails:outdoors:title"
+        },
+        {
+          "rank": 6,
+          "id": "midpen-halloween-hiking-hounds",
+          "title": "Halloween & Hiking Hounds",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Pulgas Ridge Preserve",
+          "when": "2026-10-31T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:title, Trails:outdoors:title"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-signs-fall-9",
+          "title": "Signs of Fall",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Pulgas Ridge Preserve",
+          "when": "2026-10-30T16:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:tag, Trails:outdoors:tag"
+        },
+        {
+          "rank": 8,
+          "id": "midpen-full-moon-black-mountain-3",
+          "title": "Full Moon on Black Mountain",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Monte Bello Preserve",
+          "when": "2026-10-25T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Happening today or tomorrow",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:tag, Trails:outdoors:tag"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-redwoods-heroes-forest-5",
+          "title": "Redwoods: Heroes of the Forest",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-11-07T21:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Trails",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Trails:hiking:tag, Trails:outdoors:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-gardens",
+      "interests": [
+        "Gardens"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "wordpress-tec-1405772",
+          "title": "Native Planting at Mountain View A2W!",
+          "category": "Social",
+          "source": "wordpress-tec",
+          "where": "Save The Bay: Protecting and Restoring San Francisco Bay",
+          "when": "2026-11-07T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Something new from Save The Bay: Protecting and Restoring San Francisco Bay"
+          ],
+          "via": "Gardens:gardening:title, Gardens:outdoors:title"
+        },
+        {
+          "rank": 2,
+          "id": "libcal-8800-17142489",
+          "title": "Outdoor Storytime",
+          "category": "Workshop",
+          "source": "libcal",
+          "where": "Pioneer Park",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Gardens:outdoors:title"
+        },
+        {
+          "rank": 3,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Gardens:outdoors:tag"
+        },
+        {
+          "rank": 4,
+          "id": "midpen-siding-maintenance-deer-hollow-farm-pt-1",
+          "title": "Siding Maintenance: Deer Hollow Farm (Pt. 1)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-10-26T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Gardens:outdoors:tag"
+        },
+        {
+          "rank": 5,
+          "id": "bibliocommons-aclibrary-6a73c11288e9bf280035d1a3",
+          "title": "Lake Elizabeth Bird Walk",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Gardens:outdoors:title"
+        },
+        {
+          "rank": 6,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Gardens:outdoors:tag"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-habitat-restoration-french-broom-removal-157",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-31T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Gardens:outdoors:title"
+        },
+        {
+          "rank": 8,
+          "id": "midpen-trail-trek-thursday-12",
+          "title": "Trail Trek Thursday",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Gardens:outdoors:title"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-habitat-restoration-french-broom-removal-156",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Teague Hill Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Gardens",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Gardens:outdoors:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-playgrounds",
+      "interests": [
+        "Playgrounds"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "bibliocommons-sjpl-69aa02ed6724c63d00f7020c",
+          "title": "Music & Movement",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Joyce Ellington · Community Room",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Close by (0.8 mi)",
+            "Coming up this week"
+          ],
+          "via": "Playgrounds:family:tag"
+        },
+        {
+          "rank": 2,
+          "id": "bibliocommons-sjpl-6931d4246f92613600093954",
+          "title": "Chess Club for Kids",
+          "category": "Social",
+          "source": "bibliocommons",
+          "where": "Willow Glen · Community Room",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Playgrounds:family:title"
+        },
+        {
+          "rank": 3,
+          "id": "bibliocommons-sjpl-69fb8818703c33630025ded5",
+          "title": "Indoor Family Storytime + Stay & Play",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "King Library · Children's Room, 1st Floor",
+          "when": "2026-10-25T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Close by (0.2 mi)",
+            "Happening today or tomorrow"
+          ],
+          "via": "Playgrounds:family:title"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-sjpl-69389c8c94297d36009f1648",
+          "title": "Family Games: Cards & Board Games",
+          "category": "Social",
+          "source": "bibliocommons",
+          "where": "Tully",
+          "when": "2026-10-25T20:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Playgrounds:family:title"
+        },
+        {
+          "rank": 5,
+          "id": "bibliocommons-aclibrary-6aa049864995480655edf319",
+          "title": "Toddler & Me Dance Fitness Class",
+          "category": "Sports",
+          "source": "bibliocommons",
+          "where": "Castro Valley · Chabot/Canyon room",
+          "when": "2026-10-28T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Playgrounds:family:title"
+        },
+        {
+          "rank": 6,
+          "id": "bibliocommons-sjpl-6941d6d57ed7c62f00aaca5d",
+          "title": "Lego® Club!",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Educational Park",
+          "when": "2026-10-25T20:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Playgrounds:family:title"
+        },
+        {
+          "rank": 7,
+          "id": "bibliocommons-sjpl-6a590b9b0e562e28009a4b7b",
+          "title": "Halloween Storytime",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Seven Trees",
+          "when": "2026-10-27T00:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Playgrounds:family:title"
+        },
+        {
+          "rank": 8,
+          "id": "libcal-8800-16916949",
+          "title": "Smart Start Babytime",
+          "category": "Social",
+          "source": "libcal",
+          "where": "1st Floor Program Room",
+          "when": "2026-10-27T01:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Playgrounds:family:tag"
+        },
+        {
+          "rank": 9,
+          "id": "bibliocommons-sjpl-6aa1bad556fe62004a2f2bb8",
+          "title": "Music and Movement",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Mt. Pleasant",
+          "when": "2026-10-26T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Playgrounds",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Playgrounds:family:tag"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54234987195381-2026-11-01T15-00-00-08-00",
+          "title": "SJSU CommUniverCity Community Event: Día de los Muertos Celebration",
+          "category": "Meetup",
+          "source": "localist",
+          "where": "Student Union Theater",
+          "when": "2026-11-01T23:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": "Playgrounds:family:tag"
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-waterfront",
+      "interests": [
+        "Waterfront"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "bibliocommons-aclibrary-6a73c11288e9bf280035d1a3",
+          "title": "Lake Elizabeth Bird Walk",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Waterfront:waterfront:title, Waterfront:outdoors:title"
+        },
+        {
+          "rank": 2,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Waterfront:outdoors:tag"
+        },
+        {
+          "rank": 3,
+          "id": "libcal-8800-17142489",
+          "title": "Outdoor Storytime",
+          "category": "Workshop",
+          "source": "libcal",
+          "where": "Pioneer Park",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Waterfront:outdoors:title"
+        },
+        {
+          "rank": 4,
+          "id": "midpen-siding-maintenance-deer-hollow-farm-pt-1",
+          "title": "Siding Maintenance: Deer Hollow Farm (Pt. 1)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-10-26T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Waterfront:outdoors:tag"
+        },
+        {
+          "rank": 5,
+          "id": "wordpress-tec-1405772",
+          "title": "Native Planting at Mountain View A2W!",
+          "category": "Social",
+          "source": "wordpress-tec",
+          "where": "Save The Bay: Protecting and Restoring San Francisco Bay",
+          "when": "2026-11-07T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Something new from Save The Bay: Protecting and Restoring San Francisco Bay"
+          ],
+          "via": "Waterfront:outdoors:title, Waterfront:waterfront:description"
+        },
+        {
+          "rank": 6,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Waterfront:outdoors:tag"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-habitat-restoration-french-broom-removal-157",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-31T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Waterfront:outdoors:title"
+        },
+        {
+          "rank": 8,
+          "id": "midpen-trail-trek-thursday-12",
+          "title": "Trail Trek Thursday",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Waterfront:outdoors:title"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-habitat-restoration-french-broom-removal-156",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Teague Hill Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Waterfront",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Waterfront:outdoors:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-sports",
+      "interests": [
+        "Sports"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "bibliocommons-sjpl-69e177a7fca21471b7ef70c6",
+          "title": "Gentle Yoga / Yoga Relajante",
+          "category": "Sports",
+          "source": "bibliocommons",
+          "where": "Hillview · Community Room",
+          "when": "2026-10-27T00:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Sports:fitness:category"
+        },
+        {
+          "rank": 2,
+          "id": "bibliocommons-sjpl-69b49bc4b6c4ac1fedc5a07f",
+          "title": "Tai Chi for Seniors",
+          "category": "Social",
+          "source": "bibliocommons",
+          "where": "Tully",
+          "when": "2026-10-29T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Sports:fitness:title"
+        },
+        {
+          "rank": 3,
+          "id": "livewhale-events-scu-edu-482880-2026-10-31T19-00-00-07-00",
+          "title": "Santa Clara University Men’s Soccer vs Denver - Senior Night",
+          "category": "Sports",
+          "source": "livewhale",
+          "where": "Stevens Stadium",
+          "when": "2026-11-01T02:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Something new from Bronco Athletics"
+          ],
+          "via": "Sports:fitness:category"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-aclibrary-692f3db0dfc16d3415e44682",
+          "title": "Adult Tai Chi",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont · fukaya a and B",
+          "when": "2026-10-26T21:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Sports:fitness:title"
+        },
+        {
+          "rank": 5,
+          "id": "bibliocommons-sjpl-69f53d6c24bd39b0b5e92c33",
+          "title": "Community Yoga and Heartfulness Meditation",
+          "category": "Sports",
+          "source": "bibliocommons",
+          "where": "Cambrian · Community Room",
+          "when": "2026-10-31T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Sports:fitness:category"
+        },
+        {
+          "rank": 6,
+          "id": "bibliocommons-smcl-69fb66c0c7d3cd5800576784",
+          "title": "Tai Chi",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Belmont · Taube Room",
+          "when": "2026-10-26T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Something new from San Mateo County Libraries"
+          ],
+          "via": "Sports:fitness:title"
+        },
+        {
+          "rank": 7,
+          "id": "bibliocommons-sjpl-69332ed176261f28005da2b8",
+          "title": "Art of Living Meditation",
+          "category": "Sports",
+          "source": "bibliocommons",
+          "where": "West Valley · Group Study Room B",
+          "when": "2026-10-31T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Sports:fitness:category"
+        },
+        {
+          "rank": 8,
+          "id": "bibliocommons-sccl-6a862aad69166f088b9362f7",
+          "title": "Zumba at Morgan Hill Library",
+          "category": "Social",
+          "source": "bibliocommons",
+          "where": "Morgan Hill Library · Community Room",
+          "when": "2026-10-27T01:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Sports:fitness:title"
+        },
+        {
+          "rank": 9,
+          "id": "bibliocommons-paloalto-6948560c1e64afd01e50328e",
+          "title": "Tai Chi with Nelson Ng",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Rinconada Library · Embarcadero Room",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Sports",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Sports:fitness:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-scenic",
+      "interests": [
+        "Scenic"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "bibliocommons-sccl-6aa97ca786d8450031164ecb",
+          "title": "Student-Led Astronomy Workshop for Tweens",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Morgan Hill Library · Program Room",
+          "when": "2026-10-25T20:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Scenic:scenic:title"
+        },
+        {
+          "rank": 2,
+          "id": "midpen-full-moon-black-mountain-3",
+          "title": "Full Moon on Black Mountain",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Monte Bello Preserve",
+          "when": "2026-10-25T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Happening today or tomorrow",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Scenic:scenic:title, Scenic:outdoors:tag"
+        },
+        {
+          "rank": 3,
+          "id": "libcal-8800-17142489",
+          "title": "Outdoor Storytime",
+          "category": "Workshop",
+          "source": "libcal",
+          "where": "Pioneer Park",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Scenic:outdoors:title"
+        },
+        {
+          "rank": 4,
+          "id": "midpen-siding-maintenance-deer-hollow-farm-pt-1",
+          "title": "Siding Maintenance: Deer Hollow Farm (Pt. 1)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-10-26T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Scenic:outdoors:tag"
+        },
+        {
+          "rank": 5,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Scenic:outdoors:tag"
+        },
+        {
+          "rank": 6,
+          "id": "wordpress-tec-1405772",
+          "title": "Native Planting at Mountain View A2W!",
+          "category": "Social",
+          "source": "wordpress-tec",
+          "where": "Save The Bay: Protecting and Restoring San Francisco Bay",
+          "when": "2026-11-07T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Something new from Save The Bay: Protecting and Restoring San Francisco Bay"
+          ],
+          "via": "Scenic:outdoors:title"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-habitat-restoration-french-broom-removal-157",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-31T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Scenic:outdoors:title"
+        },
+        {
+          "rank": 8,
+          "id": "bibliocommons-aclibrary-6a73c11288e9bf280035d1a3",
+          "title": "Lake Elizabeth Bird Walk",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Scenic:outdoors:title"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Scenic",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Scenic:outdoors:tag"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-community",
+      "interests": [
+        "Community"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "bibliocommons-sjpl-68c9b4e89b6a35582f71b19f",
+          "title": "Halloween Program & Costume Parade",
+          "category": "Festival",
+          "source": "bibliocommons",
+          "where": "King Library · Campus Entrance for performance and parade start, parade is",
+          "when": "2026-10-28T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.2 mi)",
+            "Coming up this week"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 2,
+          "id": "localist-events-sjsu-edu-54234987195381-2026-11-01T15-00-00-08-00",
+          "title": "SJSU CommUniverCity Community Event: Día de los Muertos Celebration",
+          "category": "Meetup",
+          "source": "localist",
+          "where": "Student Union Theater",
+          "when": "2026-11-01T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.3 mi)",
+            "Complete listing"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 3,
+          "id": "bibliocommons-sjpl-69c48bc55a2d780f42c4c4ea",
+          "title": "Joyce Ellington Teens Reach Orientation",
+          "category": "Volunteer",
+          "source": "bibliocommons",
+          "where": "Joyce Ellington · Community Room",
+          "when": "2026-11-05T00:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.8 mi)",
+            "Free"
+          ],
+          "via": "Community:community:category, Community:volunteering:category"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-sjpl-6a8735b846e4c80031cbd15c",
+          "title": "Friends of the Seven Trees Library Book Sale",
+          "category": "Market",
+          "source": "bibliocommons",
+          "where": "Seven Trees",
+          "when": "2026-10-27T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Community:community:category"
+        },
+        {
+          "rank": 5,
+          "id": "bibliocommons-sjpl-6ad7b5e3ebad22004546a9f9",
+          "title": "Halloween Week Scavenger Hunt",
+          "category": "Social",
+          "source": "bibliocommons",
+          "where": "Pearl Avenue · Children's Area",
+          "when": "2026-10-26T07:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Community:community:tag"
+        },
+        {
+          "rank": 6,
+          "id": "livewhale-events-scu-edu-517358-2026-10-27T14-30-00-07-00",
+          "title": "Forge Volunteer Hours",
+          "category": "Volunteer",
+          "source": "livewhale",
+          "where": "The Forge Garden",
+          "when": "2026-10-27T21:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Complete listing"
+          ],
+          "via": "Community:community:category, Community:volunteering:category"
+        },
+        {
+          "rank": 7,
+          "id": "localist-events-sjsu-edu-54313547416591-2026-11-09T14-00-00-08-00",
+          "title": "Global Connections: DIY Diyas for Diwali",
+          "category": "Meetup",
+          "source": "localist",
+          "where": "Student Union · Meeting Room 2B",
+          "when": "2026-11-09T22:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.4 mi)",
+            "Complete listing"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 8,
+          "id": "bibliocommons-sjpl-6944435f2c65973d00134d6c",
+          "title": "Friday Fun: Halloween Festival",
+          "category": "Festival",
+          "source": "bibliocommons",
+          "where": "Pearl Avenue",
+          "when": "2026-10-30T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 9,
+          "id": "bibliocommons-sjpl-6a8e1f8e4cb69d003e2361ae",
+          "title": "Friends of Joyce Ellington Branch Library Book Sale",
+          "category": "Market",
+          "source": "bibliocommons",
+          "where": "Joyce Ellington · Community Room",
+          "when": "2026-11-14T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.8 mi)",
+            "Free"
+          ],
+          "via": "Community:community:category"
+        },
+        {
+          "rank": 10,
+          "id": "bibliocommons-sjpl-6ad39fc229c3d60033309963",
+          "title": "Make & Decorate Sugar Skulls",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Biblioteca Latinoamericana · Community Room",
+          "when": "2026-10-25T18:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": "Community:community:tag"
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-student-parks-trails",
+      "interests": [
+        "Parks",
+        "Trails"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "libcal-8800-17142489",
+          "title": "Outdoor Storytime",
+          "category": "Workshop",
+          "source": "libcal",
+          "where": "Pioneer Park",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 2,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag, Trails:hiking:tag"
+        },
+        {
+          "rank": 3,
+          "id": "midpen-siding-maintenance-deer-hollow-farm-pt-1",
+          "title": "Siding Maintenance: Deer Hollow Farm (Pt. 1)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-10-26T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-aclibrary-6a73c11288e9bf280035d1a3",
+          "title": "Lake Elizabeth Bird Walk",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 5,
+          "id": "wordpress-tec-1405772",
+          "title": "Native Planting at Mountain View A2W!",
+          "category": "Social",
+          "source": "wordpress-tec",
+          "where": "Save The Bay: Protecting and Restoring San Francisco Bay",
+          "when": "2026-11-07T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Something new from Save The Bay: Protecting and Restoring San Francisco Bay"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 6,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag, Trails:hiking:tag"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-habitat-restoration-french-broom-removal-157",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-31T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 8,
+          "id": "midpen-trail-trek-thursday-12",
+          "title": "Trail Trek Thursday",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title, Trails:hiking:title"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-habitat-restoration-french-broom-removal-156",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Teague Hill Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-53435958294797-2026-10-26T09-00-00-07-00",
+          "title": "Open Lab Hours at AI Center for Civic and Social Good",
+          "category": "Workshop",
+          "source": "localist",
+          "where": "King Library · Room 125, AI Center for Civic and Social Good",
+          "when": "2026-10-26T16:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-demo-outdoors",
+      "interests": [
+        "Parks",
+        "Trails"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "libcal-8800-17142489",
+          "title": "Outdoor Storytime",
+          "category": "Workshop",
+          "source": "libcal",
+          "where": "Pioneer Park",
+          "when": "2026-10-27T17:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Mountain View Public Library"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 2,
+          "id": "midpen-trees-friends-0",
+          "title": "Trees & Friends",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-27T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag, Trails:hiking:tag"
+        },
+        {
+          "rank": 3,
+          "id": "midpen-siding-maintenance-deer-hollow-farm-pt-1",
+          "title": "Siding Maintenance: Deer Hollow Farm (Pt. 1)",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Rancho San Antonio Preserve",
+          "when": "2026-10-26T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-aclibrary-6a73c11288e9bf280035d1a3",
+          "title": "Lake Elizabeth Bird Walk",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Fremont",
+          "when": "2026-10-25T17:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Happening today or tomorrow",
+            "Free"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 5,
+          "id": "wordpress-tec-1405772",
+          "title": "Native Planting at Mountain View A2W!",
+          "category": "Social",
+          "source": "wordpress-tec",
+          "where": "Save The Bay: Protecting and Restoring San Francisco Bay",
+          "when": "2026-11-07T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Something new from Save The Bay: Protecting and Restoring San Francisco Bay"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 6,
+          "id": "midpen-full-moonrise-borel-hill-0",
+          "title": "Full Moonrise from Borel Hill",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-26T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:tag, Trails:hiking:tag"
+        },
+        {
+          "rank": 7,
+          "id": "midpen-habitat-restoration-french-broom-removal-157",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Bear Creek Redwoods Preserve",
+          "when": "2026-10-31T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 8,
+          "id": "midpen-trail-trek-thursday-12",
+          "title": "Trail Trek Thursday",
+          "category": "Sports",
+          "source": "midpen",
+          "where": "Russian Ridge Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title, Trails:hiking:title"
+        },
+        {
+          "rank": 9,
+          "id": "midpen-habitat-restoration-french-broom-removal-156",
+          "title": "Habitat Restoration: French Broom Removal",
+          "category": "Volunteer",
+          "source": "midpen",
+          "where": "Teague Hill Preserve",
+          "when": "2026-10-29T16:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Parks",
+            "Coming up this week",
+            "Something new from Midpeninsula Regional Open Space District"
+          ],
+          "via": "Parks:outdoors:title"
+        },
+        {
+          "rank": 10,
+          "id": "localist-events-sjsu-edu-54109834981852-2026-10-29T19-00-00-07-00",
+          "title": "CLA Presents: JJJJJerome Ellis & heidi andrea restrepo rhodes",
+          "category": "Festival",
+          "source": "localist",
+          "where": "Student Union Theater · Student Union Theatre",
+          "when": "2026-10-30T02:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": ""
+        }
+      ]
+    },
+    {
+      "account": "qa-personalization-demo-community",
+      "interests": [
+        "Community"
+      ],
+      "rows": [
+        {
+          "rank": 1,
+          "id": "bibliocommons-sjpl-68c9b4e89b6a35582f71b19f",
+          "title": "Halloween Program & Costume Parade",
+          "category": "Festival",
+          "source": "bibliocommons",
+          "where": "King Library · Campus Entrance for performance and parade start, parade is",
+          "when": "2026-10-28T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.2 mi)",
+            "Coming up this week"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 2,
+          "id": "localist-events-sjsu-edu-54234987195381-2026-11-01T15-00-00-08-00",
+          "title": "SJSU CommUniverCity Community Event: Día de los Muertos Celebration",
+          "category": "Meetup",
+          "source": "localist",
+          "where": "Student Union Theater",
+          "when": "2026-11-01T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.3 mi)",
+            "Complete listing"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 3,
+          "id": "bibliocommons-sjpl-69c48bc55a2d780f42c4c4ea",
+          "title": "Joyce Ellington Teens Reach Orientation",
+          "category": "Volunteer",
+          "source": "bibliocommons",
+          "where": "Joyce Ellington · Community Room",
+          "when": "2026-11-05T00:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.8 mi)",
+            "Free"
+          ],
+          "via": "Community:community:category, Community:volunteering:category"
+        },
+        {
+          "rank": 4,
+          "id": "bibliocommons-sjpl-6a8735b846e4c80031cbd15c",
+          "title": "Friends of the Seven Trees Library Book Sale",
+          "category": "Market",
+          "source": "bibliocommons",
+          "where": "Seven Trees",
+          "when": "2026-10-27T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Community:community:category"
+        },
+        {
+          "rank": 5,
+          "id": "bibliocommons-sjpl-6ad7b5e3ebad22004546a9f9",
+          "title": "Halloween Week Scavenger Hunt",
+          "category": "Social",
+          "source": "bibliocommons",
+          "where": "Pearl Avenue · Children's Area",
+          "when": "2026-10-26T07:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Community:community:tag"
+        },
+        {
+          "rank": 6,
+          "id": "livewhale-events-scu-edu-517358-2026-10-27T14-30-00-07-00",
+          "title": "Forge Volunteer Hours",
+          "category": "Volunteer",
+          "source": "livewhale",
+          "where": "The Forge Garden",
+          "when": "2026-10-27T21:30",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Complete listing"
+          ],
+          "via": "Community:community:category, Community:volunteering:category"
+        },
+        {
+          "rank": 7,
+          "id": "localist-events-sjsu-edu-54313547416591-2026-11-09T14-00-00-08-00",
+          "title": "Global Connections: DIY Diyas for Diwali",
+          "category": "Meetup",
+          "source": "localist",
+          "where": "Student Union · Meeting Room 2B",
+          "when": "2026-11-09T22:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.4 mi)",
+            "Complete listing"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 8,
+          "id": "bibliocommons-sjpl-6944435f2c65973d00134d6c",
+          "title": "Friday Fun: Halloween Festival",
+          "category": "Festival",
+          "source": "bibliocommons",
+          "where": "Pearl Avenue",
+          "when": "2026-10-30T23:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Coming up this week",
+            "Free"
+          ],
+          "via": "Community:community:title"
+        },
+        {
+          "rank": 9,
+          "id": "bibliocommons-sjpl-6a8e1f8e4cb69d003e2361ae",
+          "title": "Friends of Joyce Ellington Branch Library Book Sale",
+          "category": "Market",
+          "source": "bibliocommons",
+          "where": "Joyce Ellington · Community Room",
+          "when": "2026-11-14T18:00",
+          "match": true,
+          "exploration": false,
+          "reasons": [
+            "Because you like Community",
+            "Close by (0.8 mi)",
+            "Free"
+          ],
+          "via": "Community:community:category"
+        },
+        {
+          "rank": 10,
+          "id": "bibliocommons-sjpl-6ad39fc229c3d60033309963",
+          "title": "Make & Decorate Sugar Skulls",
+          "category": "Workshop",
+          "source": "bibliocommons",
+          "where": "Biblioteca Latinoamericana · Community Room",
+          "when": "2026-10-25T18:00",
+          "match": false,
+          "exploration": true,
+          "reasons": [
+            "Something different — outside your picks"
+          ],
+          "via": "Community:community:tag"
+        }
+      ]
+    }
+  ]
+}

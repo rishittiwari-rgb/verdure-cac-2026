@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-10-04T15:24:25.483Z",
+  "scope": "H1 local source/configuration audit",
+  "baselineCommit": "71d75cbcb364f3173f484a3a0d10a26cc35e24bb",
+  "inventory": {
+    "queries": 109,
+    "compoundMappings": 37,
+    "queryShapes": 92,
+    "compositeDefinitions": 31,
+    "fieldOverrides": 12
+  },
+  "definitionsBefore": {
+    "composites": 22,
+    "fieldOverrides": 8
+  },
+  "missingBefore": [
+    {
+      "definition": "composite index COLLECTION/events/active:ASCENDING,hidden:ASCENDING,organizerId:ASCENDING,date:ASCENDING",
+      "queryLocations": [
+        "Verdure/Verdure/Models/EventsAPIService.swift:476"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/events/classificationConfidence:ASCENDING,__name__:ASCENDING",
+      "queryLocations": [
+        "functions/scripts/list-low-confidence.mjs:38"
+      ]
+    },
+    {
+      "definition": "single-field override COLLECTION_GROUP/friends/uid:ASCENDING",
+      "queryLocations": [
+        "functions/src/account.ts:116"
+      ]
+    },
+    {
+      "definition": "single-field override COLLECTION_GROUP/friendRequests/fromUid:ASCENDING",
+      "queryLocations": [
+        "functions/src/account.ts:118"
+      ]
+    },
+    {
+      "definition": "single-field override COLLECTION_GROUP/friendRequests/toUid:ASCENDING",
+      "queryLocations": [
+        "functions/src/account.ts:120"
+      ]
+    },
+    {
+      "definition": "single-field override COLLECTION_GROUP/events/uid:ASCENDING",
+      "queryLocations": [
+        "functions/src/account.ts:144"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/moderationQueue/targetId:ASCENDING,targetType:ASCENDING",
+      "queryLocations": [
+        "functions/src/account.ts:190"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/ingestRuns/areaId:ASCENDING,source:ASCENDING",
+      "queryLocations": [
+        "functions/src/ingest/health.ts:32"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/moderationQueue/status:ASCENDING,targetType:ASCENDING",
+      "queryLocations": [
+        "functions/src/moderation.ts:318",
+        "functions/src/moderation.ts:318"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/eventPlanSessions/uid:ASCENDING,__name__:ASCENDING",
+      "queryLocations": [
+        "functions/src/offline/packs.ts:47"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/groupPlans/memberUIDs:CONTAINS,__name__:ASCENDING",
+      "queryLocations": [
+        "functions/src/offline/packs.ts:47"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/partnerPerks/active:ASCENDING,__name__:ASCENDING",
+      "queryLocations": [
+        "functions/src/partners.ts:187"
+      ]
+    },
+    {
+      "definition": "composite index COLLECTION/invites/eventId:ASCENDING,status:ASCENDING",
+      "queryLocations": [
+        "functions/src/social.ts:222"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "command": "cd functions && npm run test:units",
+      "exitCode": 0,
+      "backendChecks": 424,
+      "indexGuardChecks": 49,
+      "build": "Fresh tsc in this command",
+      "classifierFreeze": "d4b71507ac6f3e78fe048293e0095555e7b19bd3; 6 files verified",
+      "logSha256": "01a806eb7d12d9202016c38509229fc118e0fc63daeab1303df78f78098375f6"
+    },
+    {
+      "command": "cd functions && npm run check:indexes",
+      "exitCode": 0,
+      "indexGuardChecks": 49,
+      "logSha256": "2bb73c75be8cfcf25bd403e146af881f8da68dcc34749f5021751910db8e295c"
+    }
+  ],
+  "sourceSha256": {
+    "firestore.indexes.json": "543600c3bc7d77e6e3d22d864b235bb2f1472cdecf4b472cdaa5db914df3a112",
+    "docs/FIRESTORE-INDEXES.md": "e4d61255cc785a2ca534cdfc9c77077142a0094bc4c03a8a3e1deb87d7de1fd4",
+    "functions/scripts/firestore-query-inventory.mjs": "ecc5239bc875e170d6839b8eda8e6997951ecd59748cb2df4651c8c0fa7bbf95",
+    "functions/scripts/check-firestore-indexes.mjs": "d527de00160d9fb25388b58972dbd373f5c9458961d25c7dafe915601ad89f4c",
+    "functions/scripts/firestore-indexes-unit.mjs": "0ac0725dd609cc0c9c4a4403b74a6a10f8131cae9e343f90b3636850af6ea348",
+    "functions/package.json": "3e90eef5b25536ece027a856c5fc4eab189f2f9874d60bd793e479249b8fdb56",
+    ".github/workflows/ci.yml": "d156163adde22ba6fb5cc5c580bb760f6faaf868bfe0027eb37744978854e72c"
+  },
+  "limitations": [
+    "No deployment or production query execution.",
+    "Emulator passes are not live composite-index proof.",
+    "CI gate configured locally; a remote CI run is not claimed.",
+    "Full sprint and physical-device gates remain incomplete."
+  ]
+}

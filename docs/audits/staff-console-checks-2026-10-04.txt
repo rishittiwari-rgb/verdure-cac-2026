@@ -1,0 +1,130 @@
+Local-only observed checks, October 4 2026. See STAFF-CONSOLE-2026-10-04.md for commands and boundaries.
+
+verdure-staff-console-e2e.log
+PASS website refuses a call without a staff session
+PASS website refuses cross-origin sign-in
+PASS valid non-admin credentials cannot open staff console
+PASS browser reaches reports beyond the first 100
+PASS browser signs in to the real staff queue
+PASS session token is inaccessible to browser scripts
+PASS report content details count and overdue age render
+PASS browser removal changes authoritative post and audit
+PASS resolved history supports real restore
+PASS browser reaches applications beyond the first 100
+PASS organizer review displays manual cap used and remaining
+PASS browser approval changes authoritative organizer
+PASS browser cannot activate without agreement
+PASS browser saves agreed geocoded partner
+PASS browser creates perk under agreed business
+PASS browser CSV upload loads actual codes and shows low stock
+PASS console-created offer reaches map endpoint
+PASS browser deactivation removes actual map offer
+PASS browser surfaces actual adapter failure and last-success column
+PASS browser shows queues duplicate metric and spend against cap
+PASS staff layout fits mobile viewport
+PASS no browser page errors
+PASS browser sign-out clears access
+23 staff console browser/server checks passed
+
+verdure-staff-pagination-e2e.log
+PASS listModerationQueue refuses non-admin pagination
+PASS listModerationQueue reaches every row past 100 without duplicates at equal timestamps
+PASS listModerationQueue rejects deleted cursor
+PASS listModerationQueue rejects excessive page size
+PASS listOrganizerApplications refuses non-admin pagination
+PASS listOrganizerApplications reaches every row past 100 without duplicates at equal timestamps
+PASS listOrganizerApplications rejects deleted cursor
+PASS listOrganizerApplications rejects excessive page size
+PASS remove succeeds with more than 500 reports
+PASS remove reconciles all 601 reports in bounded batches
+PASS restore succeeds with more than 500 reports
+PASS restore reconciles all 601 reports in bounded batches
+PASS every derived-report batch is audited
+PASS queue/application reads record actor filters IDs time
+14 staff pagination/volume checks passed
+
+verdure-staff-operations-e2e.log
+PASS non-admin cannot read operations
+PASS unknown launch area is refused
+PASS successful empty response is persisted as zero returned
+PASS actual throwing adapter produces a persisted failure
+PASS overview exposes latest source error and preceding successful run
+PASS current counts include newly added visible upcoming events
+PASS duplicate metric uses venue title time and records denominator
+PASS pending queue counts and oldest age come from current state
+PASS reward commitments/fulfilled spend are distinct against 200 cap
+PASS planner cents convert to dollars and all call types show
+PASS SerpApi free-quota cost/call cap are explicit
+PASS an older concurrent success cannot erase a newer failure
+PASS pre-summary history still exposes last success and latest failure
+PASS operations reads are immutable actor/time/context audits
+14 operations emulator checks passed
+
+verdure-staff-jobs-e2e.log
+PASS backfill works beyond one Firestore write batch
+PASS backfill retry is idempotent
+PASS treasury reset callable clears switch
+PASS reconcile completes through durable staff job
+PASS sent fulfilment cannot be reopened for approval
+PASS terminal fulfilment retry is an audited no-op
+PASS failed jobs retain intent, error and terminal state
+PASS backfill batches have exact before/after flags
+PASS treasury reset audits before/after atomically
+PASS treasury:reconcile has requested plus terminal audit
+PASS fulfilment:run has requested plus terminal audit
+PASS fixture:failure has requested plus terminal audit
+12 staff job checks passed
+
+verdure-staff-access-e2e.log
+PASS legacy roster cannot confer admin access
+PASS non-admin refused: staffSession
+PASS non-admin refused: staffOperations
+PASS non-admin refused: moderateContent
+PASS non-admin refused: runModerationSweep
+PASS non-admin refused: listModerationQueue
+PASS non-admin refused: backfillModerationFlags
+PASS non-admin refused: approveOrganizer
+PASS non-admin refused: listOrganizerApplications
+PASS non-admin refused: savePartner
+PASS non-admin refused: importPartnerCodes
+PASS non-admin refused: deactivatePartnerOffer
+PASS non-admin refused: listStaffPartners
+PASS non-admin refused: upsertPartnerPerk
+PASS non-admin refused: seedPartnerPerks
+PASS non-admin refused: reconcileTreasury
+PASS non-admin refused: resetTreasuryKillSwitch
+PASS non-admin refused: runIngest
+PASS non-admin refused: getSupplyReport
+PASS non-admin refused: runFulfilment
+PASS CLI grants the canonical Auth claim
+PASS fresh staff token reaches the server-gated queue
+PASS mutation and before/after audit commit together
+PASS non-admin cannot read audit records
+PASS admin can read audit records
+PASS even admins cannot create audit rows
+PASS even admins cannot edit audit rows
+PASS even admins cannot delete audit rows
+PASS revoked claim is refused even with a stale admin token
+29 staff-access emulator checks passed; console/actions still pending
+
+verdure-staff-moderation-e2e.log
+PASS actual report enters staff queue
+PASS queue exposes full context, reasons and report count
+PASS queue exposes prominent age and 20-hour flag
+PASS queue is oldest first
+PASS non-admin cannot remove
+PASS remove requires a reason
+PASS non-admin cannot restore
+PASS restore requires a reason
+PASS non-admin cannot warn
+PASS warn requires a reason
+PASS non-admin cannot suspend
+PASS suspend requires a reason
+PASS remove hides and redacts content
+PASS restore recovers original prose and visibility
+PASS warn records the staff reason in an author notice
+PASS suspend removes content and suspends its author
+PASS every action has an immutable actor/time/before/after/reason record
+PASS audit preserves exact original and resulting redaction
+PASS resolved history retains the decision and reason
+19 moderation server emulator checks passed; browser proof is in staff-console-e2e.mjs

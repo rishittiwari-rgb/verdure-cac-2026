@@ -1,0 +1,33 @@
+PASS guest cannot generate a pack
+PASS free account refused by server despite client Plus claim
+PASS bad selection rejected before generation
+PASS member receives exact size/counts before any bytes
+PASS seven-day expiry is server-set
+PASS other paid account cannot download owner's pack
+PASS free account cannot bypass generation via chunk API
+PASS invalid part refused
+PASS all delivered bytes match preview size and checksum
+PASS request uid cannot redirect private ownership
+PASS real guide retains lossless source geometry and attribution
+PASS public park events join by geometry; outside/private/hidden/blocked absent
+PASS own private and virtual saves included only for their member
+PASS plans omit unselected/private candidates, invites, votes and blocked owners
+PASS successful place itineraries are included
+PASS places preserve provider credit, saved flag and correct selection
+PASS perks are view-only with no redemption codes or business contact details
+PASS no offline check-in or base imagery is supplied
+PASS entitlement rechecked during download
+PASS expired staging refuses old bytes
+PASS oversized stored artifact refused by download API
+PASS set-of-parks preview includes both complete guides
+PASS area mode includes area events plus the member's saves/plans
+PASS per-account staging bound applies across concurrent pending previews
+PASS direct client SDK cannot bypass callable entitlement
+PASS direct client SDK cannot fabricate pack artifacts
+PASS assembly preserves all required snapshot collections
+PASS actual compressed thumbnail bytes are included and decodable
+PASS unavailable imagery preserves event details; blocked images never fetched
+PASS cancel deletes staged chunks and root
+PASS scheduled expiry removes private roots and staged chunks
+PASS scheduled expiry keeps unexpired previews intact
+32 offline pack emulator checks passed

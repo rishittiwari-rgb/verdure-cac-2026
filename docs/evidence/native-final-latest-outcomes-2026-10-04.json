@@ -1,0 +1,927 @@
+{
+  "scope": "Latest per-test outcomes across explicitly recorded fresh broad and focused runs; not one entirely passing full run",
+  "runs": [
+    {
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult",
+      "passed": 175,
+      "failed": 1,
+      "skipped": 0,
+      "finishTime": 1791139090.244
+    },
+    {
+      "bundle": "/tmp/verdure-final-native-followup-20261004.xcresult",
+      "passed": 4,
+      "failed": 2,
+      "skipped": 0,
+      "finishTime": 1791139446.155
+    },
+    {
+      "bundle": "/tmp/verdure-final-native-focused-20261004-r2.xcresult",
+      "passed": 1,
+      "failed": 1,
+      "skipped": 0,
+      "finishTime": 1791139914.933
+    },
+    {
+      "bundle": "/tmp/verdure-final-program-audit-split-20261004.xcresult",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "finishTime": 1791140099.177
+    },
+    {
+      "bundle": "/tmp/verdure-final-map-detail-20261004.xcresult",
+      "passed": 1,
+      "failed": 0,
+      "skipped": 0,
+      "finishTime": 1791140267.95
+    }
+  ],
+  "tests": [
+    {
+      "test": "AccessibilityAuditTests/testAuditAdventurePlanner()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditCollectTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditCommunityTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditEventsTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditExploreTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditFriendsTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditMyPerkCodes()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditNotificationSettings()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditOnboardingFirstPage()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-native-followup-20261004.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditPaywall()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditPlanTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditProfileTab()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AccessibilityAuditTests/testAuditRewardsStore()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testDayKeyIsUTCAndSortable()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testEveryEventNameIsSnakeCaseAndStable()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testInstallIDIsStableAcrossReads()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testOptOutRoundTrips()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testQ1EventsExist()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testQ2EventsExist()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testSanitizeBoundsKeyCountAndLength()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testSanitizeBoundsLongStrings()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testSanitizeDropsNonPrimitives()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "AnalyticsTests/testSanitizePreservesFalseAndZero()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testCloudBalanceStillWinsWhenHigher()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testConfirmedServerBalanceIsAuthoritative()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testLegacyOfflineAttendanceIsCancelledWithoutReplaying()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testMergeKeepsSupersetOfIdentifiers()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testOfflineAttendanceNeverAwardsOrQueues()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testQueuedWorkBlocksAdoptionOfLowerBalance()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CloudMergeTests/testUndeployedBackendDoesNotWipeLocalPoints()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testCommunityInterestCoversSocialEvents()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testEveryInterestMapsToAtLeastOneEventCategory()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testGemFactIsStableWithinADay()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testGemNeverRepeatsUntilPoolExhausts()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testGemSplashShowsExactlyOncePerDay()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testOfflinePackActualSDKDownloadPersistenceIsolationAndDeletion()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testOfflinePackFreeAccountRefusedByActualSDKAndActionsDoNotMutate()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testOfflinePackWiFiRefreshReplacesOnlyACompleteDownloadAndKeepsPlaces()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testOverlappingFeedDocumentsKeepOneCardAndFirstOrder()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-native-followup-20261004.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testParkAmenityFiltersPersistWithoutLosingExistingChoices()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testParkCatalogRequestSurvivesCallerNavigationCancellation()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testParkGeometryJoinsByBoundaryAndExcludesHoles()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testParkGeometryPreservesSeparateIslandsAndRejectsBadCoordinates()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testParkGuideLoadsRealCatalogThroughLocalCallableSDK()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testProgramActualSDKEligibilityFullSupplyAccountChangeAndDeepLinks()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testProgramThresholdUsesUniqueCurrentInRadiusListingsAndFiltersDeadlines()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testRestoredTermsLinkResolvesAgainstExplicitLocalWebsite()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testSanitizerBlocksDangerousURLs()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testSanitizerClampsCoordinates()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testSanitizerStripsMarkupAndControlCharacters()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testSavedProgramRechecksDeadlineAndAgeAsTimeAdvancesOffline()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testSignupAgeAllowsNeutralAnswersAndKeepsMinorBoundary()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testUnder13SignupEndsBeforeCredentialProcessingOrPersistence()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testVolunteerChipRequiresThirtyUniqueCurrentListingsInRadius()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "CoreLogicTests/testVolunteerSupplyReadsCompletePublicCorpusBeyondFirstDiscoveryPage()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testClaimIsIdempotentSoTwoListenersCannotBothNavigate()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testDestinationIsHeldUntilClaimed()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testEmptyPayloadRoutesNowhere()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testFallsBackToEventIdForOlderNotifications()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testFallsBackWhenDeepLinkIsUnparseable()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testLaterTapReplacesAnUnclaimedOne()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testParsesEventLink()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testParsesPerkAndStaticDestinations()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testPrefersExplicitDeepLinkOverEventId()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testRejectsForeignSchemes()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DeepLinkRouterTests/testRejectsMalformedAndEmptyInput()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testActiveFilterCounts()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testBrowseRadiusUsesLaunchAreaWhenGPSIsUnavailable()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testCategoryDateAndPriceFilters()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testCollectiblesFilterByRarityCategoryRadiusAndSortByRarity()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testDateWindows()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testFiltersSurviveRelaunch()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testLegacyFilterSnapshotKeepsExistingChoices()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testOrganizerDetailFiltersUseConfirmedMetadata()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testRadiusFilterKeepsUnlocatedEventsAndDropsFarOnes()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testRecentSearchesDedupeAndCapAtEight()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testSearchMatchesTitleOrganizerLocationCategoryAndTags()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "DiscoveryFiltersTests/testSortByPointsDistanceAndRecent()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "ExploreBetaUITests/testOptionalBetaCameraAndMapReturn()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "ExploreProjectionTests/testCardinalDirectionsAndAntimeridian()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "ExploreProjectionTests/testHeadingWrapChoosesShortArcAndRejectsUnknownHeading()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testCollectPlaceAwardsOnceAndQueuesOp()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testConfirmedAttendanceUsesServerAwardAndNeverQueues()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testConfirmedDoubleCheckInIsANoOp()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testFastDoubleRedeemDeductsNothingWhenSignedOut()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testLegacyAttendanceProofIsRemovedRatherThanUploadedLater()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testLegacyQueuePayloadStillDecodes()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testPendingOpsPersistAcrossManagerInstances()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testRedeemRejectsInsufficientPoints()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testRedeemSignedOutIsRefusedNotFaked()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testResetAllClearsEverything()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GameStateManagerTests/testSampleContentCanNeverEarn()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GamificationTests/testBadgeUnlockDatePersistsAcrossManagers()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GamificationTests/testBadgesUnlockFromRealActivity()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GamificationTests/testCommunityHeroCompletionAwardsBonusXPOnce()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GamificationTests/testEventRegularChallengeTracksMonthlyEvents()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GamificationTests/testExplorerBadgeNeedsFiveCategories()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "GamificationTests/testStreakCountsConsecutiveDaysAndResetsAfterGap()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testAllTabsRender()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testCommunityComposeSheetOpens()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testCuratedProgramActualSignInChipAndOfficialListingDetail()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-program-audit-split-20261004.xcresult"
+    },
+    {
+      "test": "JourneyTests/testDailyGemAutoShowsOnFirstOpenOfDay()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-native-followup-20261004.xcresult"
+    },
+    {
+      "test": "JourneyTests/testDailyGemRevealFromExplore()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testEligibleMinorReachesAccountFieldsOnlyAfterAgeScreen()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testEventDetailShowsProofRequirement()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testFiveTabNavigationAndDateChoice()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testInterestTuningFlow()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testOfflinePackSignInSizeDownloadRelaunchAndStoredTrailView()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testOnboardingWalkthroughToAuth()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-native-followup-20261004.xcresult"
+    },
+    {
+      "test": "JourneyTests/testParkTrailMapShowsOfficialNoticeWithoutRouteGuidance()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testPlanRendersVerifiedOfflineFixtureAsCard()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testRewardsGatesCashBehindPaywallAndSellsOnlyLiveFeatures()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testSourceBackedParkGuideRespectsClosedStatusAndAttribution()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "JourneyTests/testUnder13NeutralAnswerEndsSignupWithoutAccountFields()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testAfterCloseNobodyCanRedeem()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testAfterPublicOpenEveryoneCanRedeem()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testBeforeEarlyWindowNobodyCanRedeem()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testCloseBoundaryIsExclusive()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testEarlyWindowStartsExactlyOnBoundary()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testEvergreenRewardIsAlwaysOpen()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testInsideEarlyWindowOnlyPlusCanRedeem()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testNoInactiveLimitedDropsAreShipped()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LimitedTimeRewardTests/testWithoutEarlyAccessPlusGetsNoHeadStart()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "LivePartnerConsentUITests/testNearbyDealsRequireSeparatePromotionalConsent()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-native-focused-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testAnExplicitFalseIsNeverReadAsMissing()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testMissingKeysKeepDefaults()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testOutOfRangeHoursAreIgnoredRatherThanStored()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testParsesAServerResponse()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testQuietHoursDescriptionSaysOffWhenTheWindowIsEmpty()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testRSVPOfferConsentIsReadExactly()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "NotificationPreferencesTests/testWrongTypesDoNotCorruptState()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PartnerDiscoveryTests/testLiveStationaryOfferInvalidationAndExpiry()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PartnerDiscoveryTests/testNearbySortAndMissingLocationFallback()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PartnerDiscoveryTests/testNearbySortPreservesServerOrderForEqualOrInvalidDistances()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PartnerSurfaceTests/testActualStaffWithdrawalClosesPendingRewardsConfirmation()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PartnerSurfaceTests/testLiveStaffWithdrawalDismissesOpenMapOffer()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-final-map-detail-20261004.xcresult"
+    },
+    {
+      "test": "PartnerSurfaceTests/testRewardsOffersNearbyAndDefaultSort()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PartnerSurfaceTests/testSeparateMapLayerControlCanBeToggled()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testActiveDaysCountsDistinctDaysNotRecords()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testAverageIsPerActiveDayNotPerCalendarDay()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testBestDaySumsThatDaysEarns()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testCategoriesAreRankedByPointsNotCount()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testEmptyHistoryProducesEmptyStats()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testFutureDatedRecordsCannotManufactureABestDay()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testTotalsCountEventsAndPlacesSeparately()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testWindowsAreExclusiveOfOlderRecords()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PersonalStatsTests/testZeroPointRecordsDoNotCreatePhantomActiveDays()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PlaceStoryTests/testConnectedOwnerEditingGuestReadAndLiveWithdrawal()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "PlaceStoryUITests/testApprovedOwnerEditsVerifiedPlace()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "QAIsolationTests/testUnitHostUsesPlaintextLocalFirestore()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardCatalogParityTests/testClientCatalogMatchesTheServerActiveSet()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardCatalogParityTests/testClientCostsMatchTheServerCosts()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardCatalogParityTests/testEveryClientCostIsUsdTimesPointsPerDollar()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardCatalogParityTests/testFiveDollarCardCostsThirtyFiveThousand()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardCatalogParityTests/testInactiveRewardsAreAbsentFromTheClientCatalog()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardCatalogParityTests/testPointsPerDollarMatchesTheServer()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "RewardsLiveCatalogTests/testStaffChangesStockExpiryAndAccountClearCachedRewards()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testConsecutiveDaysBuildAStreak()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testEveryAccountGetsTheFreezeOnIdenticalTerms()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testInsuranceCannotBeUsedTwiceInTheWindow()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testInsuranceIsAvailableToABrandNewAccount()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testInsuranceRechargesAfterTheWindow()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testNoPaywallFeatureMentionsTheStreak()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testOneMissedDayIsForgiven()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testSameDayIsANoOp()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testTheAllowanceIsAFixedConstantWithNoTierDimension()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "StreakInsuranceTests/testTwoMissedDaysAreNotForgiven()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testAdventurePlannerAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testCommunityAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testExploreAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testExploreAtAccessibilityXLDark()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testExploreAtDefaultTextSize()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testFriendsAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testPaywallAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testPlanAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testProfileAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    },
+    {
+      "test": "TextSizeMatrixTests/testRewardsAtAccessibilityXL()",
+      "result": "Passed",
+      "bundle": "/tmp/verdure-sprint-native-final-20261004-r2.xcresult"
+    }
+  ]
+}

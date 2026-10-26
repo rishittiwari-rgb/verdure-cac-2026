@@ -1,0 +1,32 @@
+{
+  "_comment": "W4.4 origin 5 — URL lists from the team's web-search model. Only ever URLs to INSPECT (robots, terms, feed probe, automatic decision); never events to ingest. The 2026-10-14 sample's events had all already happened, carried no dates or places, and four of five were already in Verdure; the one new host it found is first. The 2026-10-25 additions (CAC 2026, 1.1 cause 5) are the South Bay outdoor, parks, land-trust, nature-centre and volunteer organisations the pipeline's existing adapters (wordpress-tec, jsonld, rss-ics, ics) could serve; each is inspected under the same six rules, and a host whose robots.txt or terms refuse automated access is rejected with the evidence recorded, never parsed. Deny-listed platforms (Meetup, Eventbrite, Facebook, Google) are refused before inspection. evols.org was inspected live on 2026-10-25 and came back unknown (its sitemap lists no event pages), so it is left for the monthly re-inspection rather than kept here.",
+  "san-jose-ca": [
+    "https://careercenter.sjsu.edu/events/",
+    "https://www.grassrootsecology.org/events",
+    "https://www.ourcityforest.org/events",
+    "https://www.grpg.org/events",
+    "https://www.openspaceauthority.org/visitors/events.html",
+    "https://www.cnps-scv.org/",
+    "https://scvas.org/events",
+    "https://www.hiddenvilla.org/events",
+    "https://www.savesfbay.org/events",
+    "https://www.ebparks.org/calendar",
+    "https://www.valleywater.org/events",
+    "https://www.keepcoyotecreekbeautiful.org/",
+    "https://www.sanjoseparks.org/events",
+    "https://www.fws.gov/refuge/don-edwards-san-francisco-bay/events",
+    "https://www.parks.ca.gov/",
+    "https://www.cityofpaloalto.org/Departments/Community-Services/Open-Space-Parks-Golf",
+    "https://www.cupertino.org/our-city/calendar",
+    "https://www.losgatosca.gov/calendar",
+    "https://www.mountainview.gov/our-city/calendar",
+    "https://www.sunnyvale.ca.gov/calendar",
+    "https://www.campbellca.gov/calendar",
+    "https://www.santaclaraca.gov/our-city/calendar",
+    "https://www.milpitas.gov/calendar",
+    "https://www.happyhollow.org/events",
+    "https://www.sanjosemade.com/",
+    "https://www.sjsu.edu/wellness/events/",
+    "https://www.yosemite.org/"
+  ]
+}

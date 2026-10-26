@@ -1,0 +1,93 @@
+{
+  "checkedAt": "2026-10-04T10:08:59.888502+00:00",
+  "scope": "Publisher metadata and terms only; no feature ingestion or park implementation yet.",
+  "sources": [
+    {
+      "id": "city-parks",
+      "title": "Park",
+      "publisher": "City of San José",
+      "metadataURL": "https://data.sanjoseca.gov/api/3/action/package_show?id=park",
+      "licenseId": "cc-by",
+      "licenseTitle": "Creative Commons Attribution",
+      "licenseURL": "http://www.opendefinition.org/licenses/cc-by",
+      "resources": [
+        {
+          "format": "ArcGIS GeoServices REST API",
+          "url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/188"
+        },
+        {
+          "format": "GeoJSON",
+          "url": "https://gisdata-csj.opendata.arcgis.com/api/download/v1/items/3fae68608779436a8410a2a05218c605/geojson?layers=188"
+        }
+      ],
+      "attribution": "Park data: City of San José, CC BY",
+      "sourceWeeklyPublication": "Monday, stated in publisher metadata"
+    },
+    {
+      "id": "city-amenities",
+      "title": "Park Amenities and Sports Fields",
+      "publisher": "City of San José",
+      "metadataURL": "https://data.sanjoseca.gov/api/3/action/package_show?id=park-amenities-and-sports-fields",
+      "licenseId": "cc-by",
+      "licenseTitle": "Creative Commons Attribution",
+      "licenseURL": "http://www.opendefinition.org/licenses/cc-by",
+      "resources": [
+        {
+          "format": "ArcGIS GeoServices REST API",
+          "url": "https://geo.sanjoseca.gov/server/rest/services/OPN/OPN_OpenDataService/MapServer/554"
+        },
+        {
+          "format": "GeoJSON",
+          "url": "https://gisdata-csj.opendata.arcgis.com/api/download/v1/items/aefd88aaedf5493cb30432519bee3034/geojson?layers=554"
+        }
+      ],
+      "attribution": "Park data: City of San José, CC BY",
+      "sourceWeeklyPublication": "Monday, stated in publisher metadata"
+    },
+    {
+      "id": "442bf544f0ca40248ec1e43ee5bdf963",
+      "title": "Santa Clara County Parks Trails",
+      "publisher": "Santa Clara County Parks and Recreation",
+      "owner": "sccprk",
+      "metadataURL": "https://www.arcgis.com/sharing/rest/content/items/442bf544f0ca40248ec1e43ee5bdf963?f=pjson",
+      "hubURL": "https://gisdata-sccparks.hub.arcgis.com/maps/442bf544f0ca40248ec1e43ee5bdf963",
+      "serviceURL": "https://services1.arcgis.com/4QPaqCJqF1UIaPbN/arcgis/rest/services/Santa_Clara_County_Parks_Trails/FeatureServer",
+      "itemLicenseInfo": null,
+      "termsURL": "https://www.santaclaracounty.gov/county-santa-clara-acceptable-use-policy",
+      "disclaimerURL": "https://www.santaclaracounty.gov/county-santa-clara-disclaimers-policy",
+      "permissionBasis": "County-created public GIS downloads under the County policy linked by the Parks GIS Hub; no Creative Commons license is asserted. Third-party material is excluded.",
+      "attribution": "Park and trail data: Santa Clara County Parks and Recreation",
+      "safetyNoticeRequired": true
+    },
+    {
+      "id": "96102dcf9b9448578801737170b451da",
+      "title": "Santa Clara County Parks Boundaries",
+      "publisher": "Santa Clara County Parks and Recreation",
+      "owner": "sccprk",
+      "metadataURL": "https://www.arcgis.com/sharing/rest/content/items/96102dcf9b9448578801737170b451da?f=pjson",
+      "hubURL": "https://gisdata-sccparks.hub.arcgis.com/maps/96102dcf9b9448578801737170b451da",
+      "serviceURL": "https://services1.arcgis.com/4QPaqCJqF1UIaPbN/arcgis/rest/services/SCCPRD_Park_Boundaries_view/FeatureServer",
+      "itemLicenseInfo": null,
+      "termsURL": "https://www.santaclaracounty.gov/county-santa-clara-acceptable-use-policy",
+      "disclaimerURL": "https://www.santaclaracounty.gov/county-santa-clara-disclaimers-policy",
+      "permissionBasis": "County-created public GIS downloads under the County policy linked by the Parks GIS Hub; no Creative Commons license is asserted. Third-party material is excluded.",
+      "attribution": "Park and trail data: Santa Clara County Parks and Recreation",
+      "safetyNoticeRequired": true
+    },
+    {
+      "id": "733bce6fc1c644f1adb9dd2a8b6efd97",
+      "title": "Santa Clara County Parks Points of Interest",
+      "publisher": "Santa Clara County Parks and Recreation",
+      "owner": "sccprk",
+      "metadataURL": "https://www.arcgis.com/sharing/rest/content/items/733bce6fc1c644f1adb9dd2a8b6efd97?f=pjson",
+      "hubURL": "https://gisdata-sccparks.hub.arcgis.com/maps/733bce6fc1c644f1adb9dd2a8b6efd97",
+      "serviceURL": "https://services1.arcgis.com/4QPaqCJqF1UIaPbN/arcgis/rest/services/Point_of_Interests/FeatureServer",
+      "itemLicenseInfo": null,
+      "termsURL": "https://www.santaclaracounty.gov/county-santa-clara-acceptable-use-policy",
+      "disclaimerURL": "https://www.santaclaracounty.gov/county-santa-clara-disclaimers-policy",
+      "permissionBasis": "County-created public GIS downloads under the County policy linked by the Parks GIS Hub; no Creative Commons license is asserted. Third-party material is excluded.",
+      "attribution": "Park and trail data: Santa Clara County Parks and Recreation",
+      "safetyNoticeRequired": true
+    }
+  ]
+}

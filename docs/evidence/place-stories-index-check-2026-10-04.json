@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "queries": 113,
+  "compoundMappings": 38,
+  "queryShapes": 96,
+  "compositeDefinitions": 32,
+  "fieldOverrides": 12
+}

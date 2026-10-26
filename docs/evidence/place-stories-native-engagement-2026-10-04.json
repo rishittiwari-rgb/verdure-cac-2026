@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "Actual native owner UI preview; one exposure, one of each stage; local emulator",
+  "fixture": "qa-stories-native-owner",
+  "events": [
+    {
+      "event": "story_expanded",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "CPdYyDFOWgDAwbvKtn27",
+        "version": 4
+      }
+    },
+    {
+      "event": "story_read_through",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "CPdYyDFOWgDAwbvKtn27",
+        "version": 4
+      }
+    },
+    {
+      "event": "story_shown",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "CPdYyDFOWgDAwbvKtn27",
+        "version": 4
+      }
+    }
+  ]
+}

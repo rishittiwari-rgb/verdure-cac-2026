@@ -1,0 +1,90 @@
+{
+  "identifier" : "8F3E2A10-9C4B-4E5D-A671-0B2D9E7F1C55",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21734001",
+      "localizations" : [
+
+      ],
+      "name" : "Verdure+",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6E1A4C2B-3D5F-4A80-9B16-2C7E8D9F0A31",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited adventure planning, early perk access, cash gift cards & more",
+              "displayName" : "Verdure+ Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.verdure-app.verdure.plus.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Verdure+ Monthly",
+          "subscriptionGroupID" : "21734001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "0D9C8B7A-6E5F-4321-8A90-1B2C3D4E5F60",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A full year of Verdure+ — two months free",
+              "displayName" : "Verdure+ Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.verdure-app.verdure.plus.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Verdure+ Yearly",
+          "subscriptionGroupID" : "21734001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

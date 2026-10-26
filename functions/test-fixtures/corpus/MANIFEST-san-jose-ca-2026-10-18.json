@@ -1,0 +1,109 @@
+{
+  "recordedAt": "2026-10-18T23:09:56.984Z",
+  "areaId": "san-jose-ca",
+  "file": "san-jose-ca-2026-10-18.json.gz",
+  "uncompressedBytes": 14405070,
+  "sha256": "0e3d8efd763c3e00b09ba346980a19ccda61148bb01029e59c1b61b6f81fb310",
+  "totalRecords": 11603,
+  "perSource": {
+    "libcal": 56,
+    "bibliocommons": 10877,
+    "localist": 200,
+    "livewhale": 399,
+    "legistar": 16,
+    "midpen": 55
+  },
+  "feeds": [
+    {
+      "source": "libcal",
+      "name": "Mountain View Public Library",
+      "records": 56,
+      "withCoordinates": 0,
+      "seconds": 0.738
+    },
+    {
+      "source": "bibliocommons",
+      "name": "San José Public Library",
+      "records": 5878,
+      "withCoordinates": 5567,
+      "seconds": 32.424
+    },
+    {
+      "source": "bibliocommons",
+      "name": "Santa Clara County Library District",
+      "records": 1653,
+      "withCoordinates": 1614,
+      "seconds": 10.611
+    },
+    {
+      "source": "bibliocommons",
+      "name": "Palo Alto City Library",
+      "records": 607,
+      "withCoordinates": 442,
+      "seconds": 4.025
+    },
+    {
+      "source": "bibliocommons",
+      "name": "Alameda County Library",
+      "records": 1007,
+      "withCoordinates": 1007,
+      "seconds": 4.796
+    },
+    {
+      "source": "bibliocommons",
+      "name": "San Mateo County Libraries",
+      "records": 1732,
+      "withCoordinates": 1732,
+      "seconds": 10.543
+    },
+    {
+      "source": "localist",
+      "name": "San José State University",
+      "records": 100,
+      "withCoordinates": 100,
+      "seconds": 2.285
+    },
+    {
+      "source": "localist",
+      "name": "Stanford University",
+      "records": 100,
+      "withCoordinates": 100,
+      "seconds": 4.365
+    },
+    {
+      "source": "livewhale",
+      "name": "Santa Clara University",
+      "records": 399,
+      "withCoordinates": 116,
+      "seconds": 5.139
+    },
+    {
+      "source": "legistar",
+      "name": "City of San José",
+      "records": 16,
+      "withCoordinates": 0,
+      "seconds": 0.904
+    },
+    {
+      "source": "midpen",
+      "name": "Midpeninsula Regional Open Space District",
+      "records": 55,
+      "withCoordinates": 53,
+      "seconds": 2.771
+    }
+  ],
+  "skipped": [
+    {
+      "source": "ticketmaster",
+      "reason": "TICKETMASTER_KEY not set ($0 sprint; no key on this machine)"
+    },
+    {
+      "source": "serpapi",
+      "reason": "never recorded: every call spends monthly quota"
+    },
+    {
+      "source": "nps",
+      "reason": "no NPS unit inside the launch radius (areas.ts)"
+    }
+  ]
+}

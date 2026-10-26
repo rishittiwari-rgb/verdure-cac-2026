@@ -1,0 +1,362 @@
+{
+ "events": [
+  {
+   "event": {
+    "id": 52514584013724,
+    "title": "Western Campus ALEKS Math Placement Test Prep Sessions",
+    "url": "https://www.tri-c.edu/testing-center/placement-testing/mathematics-placement-test.html",
+    "updated_at": "2026-09-04T12:33:06-04:00",
+    "created_at": "2026-04-02T10:55:34-04:00",
+    "facebook_id": null,
+    "first_date": "2026-06-08",
+    "last_date": "2026-12-23",
+    "hashtag": "",
+    "urlname": "western-campus-aleks-math-placement-test-prep-sessions",
+    "user_id": 47481459435061,
+    "directions": null,
+    "allows_reviews": true,
+    "allows_attendance": true,
+    "location": "",
+    "room_number": "GT107 - located next to the Math Lab in the TLC",
+    "location_name": "Western Campus",
+    "status": "live",
+    "experience": "inperson",
+    "stream_url": null,
+    "stream_info": null,
+    "stream_embed_code": null,
+    "created_by": 47481459435061,
+    "updated_by": 53853965681098,
+    "conference_event_id": null,
+    "kind": "standalone",
+    "address": "11000 Pleasant Valley Rd., Parma, OH 44130 ",
+    "city_id": null,
+    "neighborhood_id": null,
+    "school_id": 80,
+    "campus_id": null,
+    "recurring": true,
+    "free": false,
+    "private": false,
+    "verified": true,
+    "rejected": false,
+    "sponsored": false,
+    "venue_id": 104160,
+    "ticket_url": "",
+    "ticket_cost": "",
+    "has_register": false,
+    "keywords": [
+     "Test",
+     "tutoring",
+     "testing",
+     "placement"
+    ],
+    "tags": [],
+    "description": "<p>Join us from 10-11 a.m. Monday through Friday for one-on-one preparation sessions for ALEKS Math placement tests or re-tests.</p>\n",
+    "description_text": "Join us from 10-11 a.m. Monday through Friday for one-on-one preparation sessions for ALEKS Math placement tests or re-tests.",
+    "photo_id": 52524028929851,
+    "detail_views": 849,
+    "featured": false,
+    "publish_status": "published",
+    "geo": {
+     "latitude": "41.36684",
+     "longitude": "-81.76384",
+     "street": "11000 West Pleasant Valley Road",
+     "city": "Parma",
+     "state": "OH",
+     "country": "US",
+     "zip": "44130"
+    },
+    "filters": {
+     "event_target_audience": [
+      {
+       "name": "General Public",
+       "id": 30801
+      },
+      {
+       "name": "Students",
+       "id": 30804
+      }
+     ],
+     "event_types": [
+      {
+       "name": "Campus Events",
+       "id": 32441
+      },
+      {
+       "name": "Western",
+       "id": 32444
+      },
+      {
+       "name": "Academic",
+       "id": 30842
+      },
+      {
+       "name": "Student Success",
+       "id": 47985086023670
+      },
+      {
+       "name": "Student Engagement",
+       "id": 32849
+      },
+      {
+       "name": "Getting Started",
+       "id": 53248548081683
+      }
+     ]
+    },
+    "custom_fields": {
+     "contact_information": "peter.hoeman@tri-c.edu | 216-987-5485"
+    },
+    "event_instances": [
+     {
+      "event_instance": {
+       "id": 52514584257549,
+       "event_id": 52514584013724,
+       "start": "2026-09-07T10:00:00-04:00",
+       "end": "2026-09-07T11:00:00-04:00",
+       "ranking": 0.0,
+       "all_day": false,
+       "num_attending": 0
+      }
+     }
+    ],
+    "localist_url": "https://events.tri-c.edu/event/western-campus-aleks-math-placement-test-prep-sessions",
+    "localist_ics_url": "https://events.tri-c.edu/event/western-campus-aleks-math-placement-test-prep-sessions.ics",
+    "photo_url": "https://localist-images.azureedge.net/photos/52524028929851/huge/dbc69e107b64309595f01bb0b650e0b7fd7a9832.jpg",
+    "venue_url": "https://events.tri-c.edu/western_campus_265"
+   }
+  },
+  {
+   "event": {
+    "id": 53001717751906,
+    "title": "Bird Banding",
+    "url": "https://www.instagram.com/tric_ornithology/",
+    "updated_at": "2026-09-06T09:03:46-04:00",
+    "created_at": "2026-05-27T12:21:39-04:00",
+    "facebook_id": null,
+    "first_date": "2026-08-25",
+    "last_date": "2026-10-27",
+    "hashtag": null,
+    "urlname": "bird-banding-4123",
+    "user_id": 52675334095941,
+    "directions": null,
+    "allows_reviews": true,
+    "allows_attendance": true,
+    "location": "",
+    "room_number": "Coordinates: 41.4403, -81.5020",
+    "location_name": "Eastern Campus",
+    "status": "live",
+    "experience": "inperson",
+    "stream_url": null,
+    "stream_info": null,
+    "stream_embed_code": null,
+    "created_by": 38942721421242,
+    "updated_by": 53886652451567,
+    "conference_event_id": null,
+    "kind": "standalone",
+    "address": "4250 Richmond Rd., Highland Hills, OH 44122",
+    "city_id": null,
+    "neighborhood_id": null,
+    "school_id": 80,
+    "campus_id": null,
+    "recurring": true,
+    "free": true,
+    "private": false,
+    "verified": true,
+    "rejected": false,
+    "sponsored": false,
+    "venue_id": 104134,
+    "ticket_url": null,
+    "ticket_cost": null,
+    "has_register": true,
+    "keywords": [],
+    "tags": [],
+    "description": "<p class=\"desc_normal\"><b>Join Sean Williams, Ph.D., assistant professor of biology&nbsp;at the Eastern Campus, to learn what bird banding is&nbsp;and why it&rsquo;s done and help release the wild birds.&nbsp;</b>Bird banding is the placement of numbered, aluminum bands on their legs. The bands serv",
+    "description_text": "Join Sean Williams, Ph.D., assistant professor of biology at the Eastern Campus, to learn what bird banding is and why it\u2019s done and help release the wild birds. Bird banding is the placement of numbered, aluminum bands on their legs. The bands serve as the bird\u2019s ID, helping researchers collect dat",
+    "photo_id": 53106801540792,
+    "detail_views": 381,
+    "featured": false,
+    "publish_status": "published",
+    "geo": {
+     "latitude": "41.445442",
+     "longitude": "-81.501671",
+     "street": "4250 Richmond Road",
+     "city": "Highland Hills",
+     "state": "OH",
+     "country": "US",
+     "zip": "44122"
+    },
+    "filters": {
+     "event_target_audience": [
+      {
+       "name": "General Public",
+       "id": 30801
+      },
+      {
+       "name": "Faculty",
+       "id": 30802
+      },
+      {
+       "name": "Staff",
+       "id": 30803
+      }
+     ],
+     "event_types": [
+      {
+       "name": "Special Events",
+       "id": 29940
+      },
+      {
+       "name": "Campus Events",
+       "id": 32441
+      },
+      {
+       "name": "Eastern",
+       "id": 32442
+      },
+      {
+       "name": "Academic",
+       "id": 30842
+      },
+      {
+       "name": "School of Liberal Arts and Sciences",
+       "id": 49886641635103
+      }
+     ]
+    },
+    "custom_fields": {
+     "contact_information": "216-987-2097, sean.williams@tri-c.edu"
+    },
+    "event_instances": [
+     {
+      "event_instance": {
+       "id": 53001717753957,
+       "event_id": 53001717751906,
+       "start": "2026-09-08T07:00:00-04:00",
+       "end": "2026-09-08T10:00:00-04:00",
+       "ranking": 0.47,
+       "all_day": false,
+       "num_attending": 2
+      }
+     }
+    ],
+    "localist_url": "https://events.tri-c.edu/event/bird-banding-4123",
+    "localist_ics_url": "https://events.tri-c.edu/event/bird-banding-4123.ics",
+    "photo_url": "https://localist-images.azureedge.net/photos/53106801540792/huge/6a3f4d075eb61d1fc7ffd43aecf0889ae401b720.jpg",
+    "venue_url": "https://events.tri-c.edu/eastern_campus_72"
+   }
+  },
+  {
+   "event": {
+    "id": 53613582708821,
+    "title": "Sweet Start to Fall",
+    "url": "",
+    "updated_at": "2026-09-06T09:45:23-04:00",
+    "created_at": "2026-08-04T16:09:03-04:00",
+    "facebook_id": null,
+    "first_date": "2026-09-08",
+    "last_date": "2026-09-08",
+    "hashtag": "",
+    "urlname": "sweet-start-to-fall-7887",
+    "user_id": 50479788891737,
+    "directions": null,
+    "allows_reviews": true,
+    "allows_attendance": true,
+    "location": "",
+    "room_number": "SHCS Atrium",
+    "location_name": "Westshore Campus",
+    "status": "live",
+    "experience": "inperson",
+    "stream_url": null,
+    "stream_info": null,
+    "stream_embed_code": null,
+    "created_by": 50479788891737,
+    "updated_by": 53747041527941,
+    "conference_event_id": null,
+    "kind": "standalone",
+    "address": "31001 Clemens Rd., Westlake, OH 44145 ",
+    "city_id": null,
+    "neighborhood_id": null,
+    "school_id": 80,
+    "campus_id": null,
+    "recurring": false,
+    "free": false,
+    "private": false,
+    "verified": true,
+    "rejected": false,
+    "sponsored": false,
+    "venue_id": 104169,
+    "ticket_url": "",
+    "ticket_cost": "",
+    "has_register": false,
+    "keywords": [],
+    "tags": [],
+    "description": "<p><span style=\"font-size:12pt\"><span><span>Kick off the start of the 14 week fall term with free coffee, tea, donuts, and a warm Westshore welcome! </span></span></span></p>\r\n",
+    "description_text": "Kick off the start of the 14 week fall term with free coffee, tea, donuts, and a warm Westshore welcome!",
+    "photo_id": 53613582732379,
+    "detail_views": 67,
+    "featured": false,
+    "publish_status": "published",
+    "geo": {
+     "latitude": "41.469959",
+     "longitude": "-81.963852",
+     "street": "31001 Clemens Road",
+     "city": "Westlake",
+     "state": "OH",
+     "country": "US",
+     "zip": "44145"
+    },
+    "filters": {
+     "event_target_audience": [
+      {
+       "name": "Students",
+       "id": 30804
+      }
+     ],
+     "event_types": [
+      {
+       "name": "Student Engagement",
+       "id": 32849
+      },
+      {
+       "name": "Campus Events",
+       "id": 32441
+      },
+      {
+       "name": "Westshore",
+       "id": 32445
+      }
+     ]
+    },
+    "custom_fields": {
+     "contact_information": "camryn.leonard@tri-c.edu"
+    },
+    "event_instances": [
+     {
+      "event_instance": {
+       "id": 53613582708822,
+       "event_id": 53613582708821,
+       "start": "2026-09-08T08:30:00-04:00",
+       "end": "2026-09-08T10:00:00-04:00",
+       "ranking": 0.47,
+       "all_day": false,
+       "num_attending": 1
+      }
+     }
+    ],
+    "localist_url": "https://events.tri-c.edu/event/sweet-start-to-fall-7887",
+    "localist_ics_url": "https://events.tri-c.edu/event/sweet-start-to-fall-7887.ics",
+    "photo_url": "https://localist-images.azureedge.net/photos/53613582732379/huge/99ee2c3ce16af1a836abedca814f81ac8d4a471a.jpg",
+    "venue_url": "https://events.tri-c.edu/westshore_campus_588"
+   }
+  }
+ ],
+ "page": {
+  "current": 1,
+  "size": 3,
+  "total": 61
+ },
+ "date": {
+  "first": "2026-09-06",
+  "last": "2026-10-06"
+ }
+}

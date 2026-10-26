@@ -1,0 +1,39 @@
+{
+  "fixture": "fictional native owner",
+  "events": [
+    {
+      "event": "story_shown",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "VNtu1vgY15zDulMS6Gt2",
+        "version": 1
+      }
+    },
+    {
+      "event": "story_expanded",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "VNtu1vgY15zDulMS6Gt2",
+        "version": 1
+      }
+    },
+    {
+      "event": "story_shown",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "VNtu1vgY15zDulMS6Gt2",
+        "version": 1
+      }
+    },
+    {
+      "event": "story_read_through",
+      "params": {
+        "placeId": "osm-999999999999998",
+        "storyId": "VNtu1vgY15zDulMS6Gt2",
+        "version": 1
+      }
+    }
+  ],
+  "status": "initial-attempt-duplicate-shown",
+  "note": "Observed before exposure-allocation fix; not a passing deduplication receipt."
+}
